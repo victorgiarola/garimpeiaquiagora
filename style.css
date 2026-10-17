@@ -1209,3 +1209,61 @@ body.admin-mode .admin-only {
   opacity: 0.9;
 }
 
+/* ==========================================================================
+   CARREGAMENTO PROGRESSIVO DE OFERTAS (LOAD MORE / SHOW ALL)
+   ========================================================================== */
+.load-more-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  margin: 2.8rem 0 3.5rem 0;
+  flex-wrap: wrap;
+}
+
+.btn-load-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 1rem 2.2rem;
+  background: linear-gradient(135deg, var(--accent-gold), #ea580c);
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(245, 158, 11, 0.35);
+  transition: var(--transition);
+}
+
+.btn-load-more:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(245, 158, 11, 0.55);
+  filter: brightness(1.1);
+}
+
+.btn-show-all {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 1.8rem;
+  background: var(--bg-card);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  transition: var(--transition);
+  backdrop-filter: blur(8px);
+}
+
+.btn-show-all:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--accent-gold);
+  color: var(--accent-gold-light);
+  transform: translateY(-2px);
+}
+
+

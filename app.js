@@ -10,13 +10,15 @@ const state = {
   activeStore: "todas",
   searchQuery: "",
   sortBy: "recentes",
-  theme: "dark"
+  theme: "dark",
+  displayLimit: 36 // Exibe inicialmente 36 ofertas com carregamento progressivo
 };
 
 // Chaves do LocalStorage
-const STORAGE_KEY = "garimpo_ofertas_produtos_v1";
+const CUSTOM_OFFERS_KEY = "garimpei_custom_offers_v2";
 const THEME_KEY = "garimpo_tema_v1";
 const AFFILIATE_CONFIG_KEY = "garimpo_affiliate_config_v1";
+const OLD_STORAGE_KEY = "garimpo_ofertas_produtos_v1";
 
 // Inicialização
 document.addEventListener("DOMContentLoaded", () => {
@@ -41,11 +43,9 @@ function getAffiliateConfig() {
     console.error("Erro ao ler config de afiliados:", err);
   }
   return typeof AFFILIATE_CONFIG !== "undefined" ? AFFILIATE_CONFIG : {
-    amazon: { tag: "garimpeiaqui-20" },
     mercadolivre: { toolId: "", affiliateWord: "" },
     shopee: { affiliateId: "" },
-    magalu: { storeName: "magazinemaisofertas" },
-    aliexpress: { trackingId: "" }
+    magalu: { storeName: "magazinemaisofertas" }
   };
 }
 
@@ -66,42 +66,57 @@ function initAffiliateConfig() {
 }
 
 /**
- * Inicializa os produtos combinando os padrões com o que foi cadastrado localmente
- * e re-aplica as tags de afiliado ativas do usuário
+ * Inicializa os produtos carregando o catálogo oficial massivo (100+ ofertas)
+ * e mescla com quaisquer ofertas customizadas criadas pelo administrador.
+ * Remove caches defasados para garantir que todos os visitantes vejam o catálogo completo.
  */
 function initProducts() {
-  const config = getAffiliateConfig();
+  // Limpa cache antigo que limitava a 12 ofertas
   try {
-    const saved = localStorage.getItem(STORAGE_KEY);
-    if (saved) {
-      state.products = JSON.parse(saved);
-    } else {
-      state.products = typeof DEFAULT_PRODUCTS !== "undefined" ? [...DEFAULT_PRODUCTS] : [];
+    localStorage.removeItem(OLD_STORAGE_KEY);
+  } catch (e) {}
+
+  const config = getAffiliateConfig();
+
+  // 1. Carrega todas as ofertas oficiais de Mercado Livre, Shopee e Magalu
+  const baseProducts = (typeof DEFAULT_PRODUCTS !== "undefined" && Array.isArray(DEFAULT_PRODUCTS))
+    ? [...DEFAULT_PRODUCTS]
+    : [];
+
+  // 2. Carrega ofertas manuais cadastradas pelo administrador
+  let customOffers = [];
+  try {
+    const savedCustom = localStorage.getItem(CUSTOM_OFFERS_KEY);
+    if (savedCustom) {
+      customOffers = JSON.parse(savedCustom);
     }
   } catch (err) {
-    console.error("Erro ao carregar produtos:", err);
-    state.products = typeof DEFAULT_PRODUCTS !== "undefined" ? [...DEFAULT_PRODUCTS] : [];
+    console.error("Erro ao carregar ofertas manuais:", err);
   }
 
-  // Garante que todas as ofertas utilizem as tags do usuário ativo
+  // 3. Combina ofertas manuais no topo, sem duplicar IDs
+  const customIds = new Set(customOffers.map(o => o.id));
+  const combined = [
+    ...customOffers,
+    ...baseProducts.filter(p => !customIds.has(p.id))
+  ];
+
+  // 4. Aplica as credenciais do afiliado em todos os links
   if (typeof AutoMapper !== "undefined") {
-    state.products = state.products.map(p => {
+    state.products = combined.map(p => {
       const mapped = AutoMapper.mapUrl(p.affiliateUrl, config);
       return {
         ...p,
         affiliateUrl: mapped.affiliateUrl
       };
     });
+  } else {
+    state.products = combined;
   }
-  saveProducts();
 }
 
 function saveProducts() {
-  try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(state.products));
-  } catch (err) {
-    console.error("Erro ao salvar produtos:", err);
-  }
+  // Mantido para compatibilidade interna
 }
 
 /**
@@ -197,12 +212,37 @@ function getFilteredProducts() {
 function renderProducts() {
   const grid = document.getElementById("productsGrid");
   const stats = document.getElementById("feedStats");
+  const loadMoreContainer = document.getElementById("loadMoreContainer");
+  const loadMoreBtn = document.getElementById("loadMoreBtn");
+  const showAllBtn = document.getElementById("showAllBtn");
   if (!grid) return;
 
   const items = getFilteredProducts();
+  const visibleItems = items.slice(0, state.displayLimit);
 
   if (stats) {
-    stats.innerHTML = `Exibindo <strong>${items.length}</strong> ${items.length === 1 ? 'oferta garimpada' : 'ofertas garimpadas'}`;
+    if (visibleItems.length < items.length) {
+      stats.innerHTML = `Exibindo <strong>${visibleItems.length}</strong> de <strong>${items.length}</strong> super ofertas garimpadas`;
+    } else {
+      stats.innerHTML = `Exibindo <strong>${items.length}</strong> ${items.length === 1 ? 'oferta garimpada' : 'ofertas garimpadas'} com super descontos`;
+    }
+  }
+
+  // Gerencia visibilidade dos botões de carregar mais
+  if (loadMoreContainer) {
+    if (items.length > state.displayLimit) {
+      loadMoreContainer.style.display = "flex";
+      const remaining = items.length - visibleItems.length;
+      const nextBatch = Math.min(36, remaining);
+      if (loadMoreBtn) {
+        loadMoreBtn.innerHTML = `<span>⚡ Carregar Mais ${nextBatch} Ofertas</span> <small style="opacity:0.85; font-size:0.8rem;">(${remaining} restantes)</small>`;
+      }
+      if (showAllBtn) {
+        showAllBtn.innerHTML = `<span>👀 Mostrar Todas as ${items.length} Ofertas</span>`;
+      }
+    } else {
+      loadMoreContainer.style.display = "none";
+    }
   }
 
   if (items.length === 0) {
@@ -217,7 +257,7 @@ function renderProducts() {
     return;
   }
 
-  grid.innerHTML = items.map(product => {
+  grid.innerHTML = visibleItems.map(product => {
     const storeInfo = STORES[product.store] || STORES.outros;
     
     // Cálculo do Desconto %
@@ -328,6 +368,7 @@ function setupEventListeners() {
       const btn = e.target.closest(".cat-btn");
       if (!btn) return;
       state.activeCategory = btn.dataset.category;
+      state.displayLimit = 36;
       document.querySelectorAll(".cat-btn").forEach(b => b.classList.remove("active"));
       btn.classList.add("active");
       renderProducts();
@@ -341,6 +382,7 @@ function setupEventListeners() {
       const btn = e.target.closest(".store-filter-btn");
       if (!btn) return;
       state.activeStore = btn.dataset.store;
+      state.displayLimit = 36;
       document.querySelectorAll(".store-filter-btn").forEach(b => b.classList.remove("active"));
       btn.classList.add("active");
       renderProducts();
@@ -353,6 +395,7 @@ function setupEventListeners() {
   if (searchInput) {
     searchInput.addEventListener("input", (e) => {
       state.searchQuery = e.target.value;
+      state.displayLimit = 36;
       if (clearBtn) {
         clearBtn.style.display = state.searchQuery ? "block" : "none";
       }
@@ -364,6 +407,7 @@ function setupEventListeners() {
     clearBtn.addEventListener("click", () => {
       searchInput.value = "";
       state.searchQuery = "";
+      state.displayLimit = 36;
       clearBtn.style.display = "none";
       renderProducts();
     });
@@ -374,6 +418,24 @@ function setupEventListeners() {
   if (sortSelect) {
     sortSelect.addEventListener("change", (e) => {
       state.sortBy = e.target.value;
+      state.displayLimit = 36;
+      renderProducts();
+    });
+  }
+
+  // Controles de Carregamento Progressivo (Load More / Show All)
+  const loadMoreBtn = document.getElementById("loadMoreBtn");
+  if (loadMoreBtn) {
+    loadMoreBtn.addEventListener("click", () => {
+      state.displayLimit += 36;
+      renderProducts();
+    });
+  }
+
+  const showAllBtn = document.getElementById("showAllBtn");
+  if (showAllBtn) {
+    showAllBtn.addEventListener("click", () => {
+      state.displayLimit = 99999;
       renderProducts();
     });
   }
@@ -699,9 +761,19 @@ function handleAddProduct(e) {
     dateAdded: new Date().toISOString().split("T")[0]
   };
 
+  // Salva oferta no armazenamento persistente do administrador
+  try {
+    let customOffers = [];
+    const saved = localStorage.getItem(CUSTOM_OFFERS_KEY);
+    if (saved) customOffers = JSON.parse(saved);
+    customOffers.unshift(newProduct);
+    localStorage.setItem(CUSTOM_OFFERS_KEY, JSON.stringify(customOffers));
+  } catch (err) {
+    console.error("Erro ao salvar oferta customizada:", err);
+  }
+
   // Adiciona no topo da lista
   state.products.unshift(newProduct);
-  saveProducts();
   renderProducts();
 
   // Fecha o modal e limpa os campos
@@ -801,14 +873,18 @@ function exportProductsJson() {
 }
 
 /**
- * Restaura o catálogo para o padrão inicial
+ * Restaura o catálogo para o padrão inicial oficial (100+ ofertas)
  */
 function resetToDefaults() {
-  if (confirm("Deseja restaurar as ofertas de exemplo originais? Suas edições locais serão resetadas.")) {
-    state.products = [...DEFAULT_PRODUCTS];
-    saveProducts();
+  if (confirm("Deseja restaurar as ofertas oficiais? Todas as ofertas cadastradas manualmente serão removidas.")) {
+    try {
+      localStorage.removeItem(CUSTOM_OFFERS_KEY);
+      localStorage.removeItem(OLD_STORAGE_KEY);
+    } catch (e) {}
+    initProducts();
+    state.displayLimit = 36;
     renderProducts();
-    showToast("🔄 Catálogo restaurado para o padrão!");
+    showToast("🔄 Catálogo oficial restaurado com 100+ ofertas!");
   }
 }
 
