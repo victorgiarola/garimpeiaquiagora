@@ -31,8 +31,9 @@ const AutoMapper = {
     // 2. MERCADO LIVRE
     if (cleanUrl.includes("mercadolivre.com") || cleanUrl.includes("mercadolivre.com.br") || cleanUrl.includes("meli.la")) {
       const toolId = config.mercadolivre?.toolId || "";
+      const affiliateWord = config.mercadolivre?.affiliateWord || config.mercadolivre?.word || "";
       return {
-        affiliateUrl: this.formatMercadoLivre(cleanUrl, toolId),
+        affiliateUrl: this.formatMercadoLivre(cleanUrl, toolId, affiliateWord),
         store: "mercadolivre",
         storeName: "Mercado Livre"
       };
@@ -96,12 +97,22 @@ const AutoMapper = {
 
   /**
    * Converte URL do Mercado Livre
+   * Aplica as DUAS métricas obrigatórias:
+   * - matt_tool: ID da Ferramenta de Afiliado
+   * - matt_word: Palavra-chave / Canal de Rastreio
    */
-  formatMercadoLivre(url, toolId) {
+  formatMercadoLivre(url, toolId, affiliateWord) {
     try {
+      // Se já for link encurtado oficial do programa de afiliados (meli.la ou /sec/), mantém as credenciais
+      if (url.includes("meli.la") || url.includes("/sec/")) {
+        return url;
+      }
       const parsed = new URL(url);
       if (toolId) {
         parsed.searchParams.set("matt_tool", toolId);
+      }
+      if (affiliateWord) {
+        parsed.searchParams.set("matt_word", affiliateWord);
       }
       return parsed.toString();
     } catch {
@@ -114,9 +125,14 @@ const AutoMapper = {
    */
   formatShopee(url, affId) {
     try {
+      // Se for link já encurtado oficial da Shopee Afiliados (s.shopee.com.br ou shope.ee), mantém intacto
+      if (url.includes("s.shopee.com.br") || url.includes("shope.ee")) {
+        return url;
+      }
       const parsed = new URL(url);
       if (affId) {
-        parsed.searchParams.set("utm_source", "affiliate");
+        parsed.searchParams.set("utm_source", "an_" + affId.replace(/^an_/, ""));
+        parsed.searchParams.set("utm_medium", "affiliates");
         parsed.searchParams.set("af_siteid", affId);
       }
       return parsed.toString();

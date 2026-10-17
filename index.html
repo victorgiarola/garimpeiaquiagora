@@ -72,20 +72,26 @@
           ☀️
         </button>
 
-        <!-- Botão Configurar Tags de Afiliado -->
-        <button id="openConfigModalBtn" class="btn-config-affiliate"
-          title="Configurar minhas tags de afiliados (Amazon, Shopee, Magalu...)">
+        <!-- Indicador de Modo Admin (Aparece somente para o dono autenticado) -->
+        <div id="adminBadge" class="admin-badge admin-only" title="Você está navegando como Administrador">
+          <span>👑 Admin</span>
+          <button id="adminLogoutBtn" class="btn-admin-logout" title="Sair do Modo Admin">✕</button>
+        </div>
+
+        <!-- Botão Configurar Tags de Afiliado (Visível SOMENTE para o Administrador) -->
+        <button id="openConfigModalBtn" class="btn-config-affiliate admin-only"
+          title="Configurar minhas tags de afiliados (Amazon, Shopee, Mercado Livre, Magalu...)">
           <span>⚙️</span>
           <span>Minhas Tags</span>
         </button>
 
-        <!-- Botão Adicionar Oferta (Painel Rápido de Afiliado) -->
-        <button id="openAddModalBtn" class="btn-add-offer" title="Cadastrar nova oferta com seu link de afiliado">
+        <!-- Botão Adicionar Oferta (Visível SOMENTE para o Administrador) -->
+        <button id="openAddModalBtn" class="btn-add-offer admin-only" title="Cadastrar nova oferta no site">
           <span>➕</span>
           <span>Nova Oferta</span>
         </button>
 
-        <!-- Botão Grupo VIP no Cabeçalho -->
+        <!-- Botão Grupo VIP no Cabeçalho (Público) -->
         <a href="https://chat.whatsapp.com" target="_blank" rel="noopener noreferrer" class="btn-vip-header"
           title="Entrar no Grupo VIP do WhatsApp">
           <span>💬</span>
@@ -321,11 +327,23 @@
             subdomínio em magazinevoce.com.br/magazine...</small>
         </div>
 
-        <div class="form-group">
-          <label class="form-label" for="cfgMercadoLivreTool">🤝 Código de Afiliado Mercado Livre</label>
-          <input type="text" id="cfgMercadoLivreTool" class="form-input" placeholder="Ex: seu_tool_id" />
-          <small style="color: var(--text-muted); font-size: 0.75rem; display: block; margin-top: 0.2rem;">Código de
-            rastreamento do programa de afiliados do Mercado Livre.</small>
+        <!-- MERCADO LIVRE (DUAS MÉTRICAS OBRIGATÓRIAS) -->
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="cfgMercadoLivreTool">🤝 Mercado Livre - ID da Ferramenta (matt_tool) *</label>
+            <input type="text" id="cfgMercadoLivreTool" class="form-input" placeholder="Ex: 64738291" />
+            <small style="color: var(--text-muted); font-size: 0.73rem; display: block; margin-top: 0.2rem;">
+              Código numérico da ferramenta no painel do Mercado Livre Afiliados.
+            </small>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="cfgMercadoLivreWord">🤝 Mercado Livre - Palavra/Canal (matt_word) *</label>
+            <input type="text" id="cfgMercadoLivreWord" class="form-input" placeholder="Ex: garimpeiaquiagora ou canal1" />
+            <small style="color: var(--text-muted); font-size: 0.73rem; display: block; margin-top: 0.2rem;">
+              Identificador de canal ou sub-id de rastreamento do Mercado Livre.
+            </small>
+          </div>
         </div>
 
         <div class="form-group">
@@ -403,9 +421,39 @@
 
       <div class="footer-bottom">
         <p>&copy; 2026 Garimpei Aqui Agora • Todos os direitos reservados. Feito para alta conversão.</p>
+        <button id="secretAdminTrigger" class="secret-admin-trigger" title="Acesso do Gerente">🔒</button>
       </div>
     </div>
   </footer>
+
+  <!-- Modal de Autenticação do Administrador -->
+  <div class="modal-overlay" id="adminAuthModal" role="dialog" aria-modal="true" aria-labelledby="adminAuthTitle">
+    <div class="modal-card" style="max-width: 420px;">
+      <div class="modal-header">
+        <h3 id="adminAuthTitle">🔒 Acesso do Administrador</h3>
+        <button class="modal-close-btn" id="closeAdminAuthBtn" title="Fechar">&times;</button>
+      </div>
+      <form id="adminAuthForm" class="modal-body">
+        <p style="color: var(--text-secondary); font-size: 0.88rem; margin-bottom: 1.2rem;">
+          Este painel é exclusivo para o dono do site gerenciar credenciais de afiliados e novas ofertas.
+        </p>
+        <div class="form-group">
+          <label class="form-label" for="adminPinInput">Senha / PIN de Administrador</label>
+          <input type="password" id="adminPinInput" class="form-input" placeholder="Digite sua senha de admin" required autocomplete="current-password" />
+          <small style="color: var(--text-muted); font-size: 0.72rem; display: block; margin-top: 0.35rem;">
+            Dica inicial: a senha padrão é <strong>admin2026</strong> (você pode alterá-la nas configurações).
+          </small>
+        </div>
+        <div id="adminAuthError" style="display: none; color: #ef4444; font-size: 0.82rem; margin-bottom: 0.8rem; font-weight: 600;">
+          ❌ Senha incorreta. Tente novamente.
+        </div>
+        <div class="form-actions">
+          <button type="button" class="btn-secondary" id="cancelAdminAuthBtn">Cancelar</button>
+          <button type="submit" class="btn-primary">Entrar no Modo Admin 👑</button>
+        </div>
+      </form>
+    </div>
+  </div>
 
   <!-- Scripts -->
   <script src="affiliate-config.js"></script>

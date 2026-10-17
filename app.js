@@ -21,6 +21,7 @@ const AFFILIATE_CONFIG_KEY = "garimpo_affiliate_config_v1";
 // Inicialização
 document.addEventListener("DOMContentLoaded", () => {
   initTheme();
+  initAdminSecurity();
   initAffiliateConfig();
   initProducts();
   renderCategories();
@@ -40,11 +41,11 @@ function getAffiliateConfig() {
     console.error("Erro ao ler config de afiliados:", err);
   }
   return typeof AFFILIATE_CONFIG !== "undefined" ? AFFILIATE_CONFIG : {
-    amazon: { tag: "garimpo-20" },
-    mercadolivre: { toolId: "garimpo_ml" },
-    shopee: { affiliateId: "garimpo_shopee" },
+    amazon: { tag: "garimpeiaqui-20" },
+    mercadolivre: { toolId: "", affiliateWord: "" },
+    shopee: { affiliateId: "" },
     magalu: { storeName: "magazinemaisofertas" },
-    aliexpress: { trackingId: "garimpo_ali" }
+    aliexpress: { trackingId: "" }
   };
 }
 
@@ -56,13 +57,15 @@ function initAffiliateConfig() {
   const amazonInput = document.getElementById("cfgAmazonTag");
   const shopeeInput = document.getElementById("cfgShopeeId");
   const magaluInput = document.getElementById("cfgMagaluStore");
-  const mlInput = document.getElementById("cfgMercadoLivreTool");
+  const mlToolInput = document.getElementById("cfgMercadoLivreTool");
+  const mlWordInput = document.getElementById("cfgMercadoLivreWord");
   const aliInput = document.getElementById("cfgAliExpressTrack");
 
   if (amazonInput && config.amazon) amazonInput.value = config.amazon.tag || "";
   if (shopeeInput && config.shopee) shopeeInput.value = config.shopee.affiliateId || "";
   if (magaluInput && config.magalu) magaluInput.value = config.magalu.storeName || "";
-  if (mlInput && config.mercadolivre) mlInput.value = config.mercadolivre.toolId || "";
+  if (mlToolInput && config.mercadolivre) mlToolInput.value = config.mercadolivre.toolId || "";
+  if (mlWordInput && config.mercadolivre) mlWordInput.value = config.mercadolivre.affiliateWord || "";
   if (aliInput && config.aliexpress) aliInput.value = config.aliexpress.trackingId || "";
 }
 
@@ -486,11 +489,11 @@ function handleSaveAffiliateConfig(e) {
 
   const newConfig = {
     amazon: {
-      tag: document.getElementById("cfgAmazonTag").value.trim() || "garimpo-20",
+      tag: document.getElementById("cfgAmazonTag").value.trim() || "garimpeiaqui-20",
       enabled: true
     },
     shopee: {
-      affiliateId: document.getElementById("cfgShopeeId").value.trim() || "garimpo_shopee",
+      affiliateId: document.getElementById("cfgShopeeId").value.trim(),
       enabled: true
     },
     magalu: {
@@ -498,11 +501,12 @@ function handleSaveAffiliateConfig(e) {
       enabled: true
     },
     mercadolivre: {
-      toolId: document.getElementById("cfgMercadoLivreTool").value.trim() || "garimpo_ml",
+      toolId: document.getElementById("cfgMercadoLivreTool").value.trim(),
+      affiliateWord: document.getElementById("cfgMercadoLivreWord").value.trim(),
       enabled: true
     },
     aliexpress: {
-      trackingId: document.getElementById("cfgAliExpressTrack").value.trim() || "garimpo_ali",
+      trackingId: document.getElementById("cfgAliExpressTrack").value.trim(),
       enabled: true
     }
   };
@@ -525,7 +529,137 @@ function handleSaveAffiliateConfig(e) {
   const configModal = document.getElementById("configAffiliateModal");
   if (configModal) configModal.classList.remove("active");
 
-  showToast("✅ Tags salvas! Todos os links do site foram atualizados para seu código de afiliado!");
+  showToast("✅ Tags salvas! Links do Mercado Livre agora com toolId e matt_word aplicados!");
+}
+
+/**
+ * GERENCIADOR DE MODO ADMINISTRADOR (PAINEL PRIVADO)
+ * Mantém os botões "Minhas Tags" e "Nova Oferta" 100% invisíveis para os visitantes.
+ */
+function initAdminSecurity() {
+  const ADMIN_AUTH_KEY = "garimpei_admin_authenticated";
+  const ADMIN_PIN_KEY = "garimpei_admin_pin";
+  const DEFAULT_PIN = "admin2026";
+
+  const adminAuthModal = document.getElementById("adminAuthModal");
+  const adminAuthForm = document.getElementById("adminAuthForm");
+  const adminPinInput = document.getElementById("adminPinInput");
+  const adminAuthError = document.getElementById("adminAuthError");
+  const closeAdminAuthBtn = document.getElementById("closeAdminAuthBtn");
+  const cancelAdminAuthBtn = document.getElementById("cancelAdminAuthBtn");
+  const adminLogoutBtn = document.getElementById("adminLogoutBtn");
+  const secretTrigger = document.getElementById("secretAdminTrigger");
+
+  function setAdminMode(active) {
+    if (active) {
+      document.body.classList.add("admin-mode");
+      localStorage.setItem(ADMIN_AUTH_KEY, "true");
+    } else {
+      document.body.classList.remove("admin-mode");
+      localStorage.removeItem(ADMIN_AUTH_KEY);
+    }
+  }
+
+  function openAuthModal() {
+    if (adminAuthModal) {
+      if (adminAuthError) adminAuthError.style.display = "none";
+      if (adminPinInput) adminPinInput.value = "";
+      adminAuthModal.classList.add("active");
+      setTimeout(() => adminPinInput && adminPinInput.focus(), 100);
+    }
+  }
+
+  function closeAuthModal() {
+    if (adminAuthModal) adminAuthModal.classList.remove("active");
+  }
+
+  // Verifica se já estava logado como admin neste navegador
+  if (localStorage.getItem(ADMIN_AUTH_KEY) === "true") {
+    setAdminMode(true);
+  }
+
+  // Verifica se acessou com parâmetro ?admin=1 ou #admin
+  const urlParams = new URLSearchParams(window.location.search);
+  if (urlParams.has("admin") || window.location.hash === "#admin") {
+    if (localStorage.getItem(ADMIN_AUTH_KEY) !== "true") {
+      openAuthModal();
+    } else {
+      setAdminMode(true);
+    }
+  }
+
+  // Atalho de teclado secreto: Ctrl + Shift + A
+  window.addEventListener("keydown", (e) => {
+    if (e.ctrlKey && e.shiftKey && (e.key === "A" || e.key === "a")) {
+      e.preventDefault();
+      if (document.body.classList.contains("admin-mode")) {
+        setAdminMode(false);
+        showToast("🔒 Modo Administrador desativado.");
+      } else {
+        openAuthModal();
+      }
+    }
+  });
+
+  // Botão discreto no rodapé
+  if (secretTrigger) {
+    secretTrigger.addEventListener("click", () => {
+      if (document.body.classList.contains("admin-mode")) {
+        setAdminMode(false);
+        showToast("🔒 Modo Administrador desativado.");
+      } else {
+        openAuthModal();
+      }
+    });
+  }
+
+  // Clique triplo na marca
+  const logoWrapper = document.querySelector(".brand-logo");
+  if (logoWrapper) {
+    let clickCount = 0;
+    let clickTimer = null;
+    logoWrapper.addEventListener("click", () => {
+      clickCount++;
+      clearTimeout(clickTimer);
+      if (clickCount >= 3) {
+        clickCount = 0;
+        openAuthModal();
+      } else {
+        clickTimer = setTimeout(() => { clickCount = 0; }, 600);
+      }
+    });
+  }
+
+  // Formulário de autenticação
+  if (adminAuthForm) {
+    adminAuthForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const enteredPin = (adminPinInput ? adminPinInput.value : "").trim();
+      const currentPin = localStorage.getItem(ADMIN_PIN_KEY) || DEFAULT_PIN;
+
+      if (enteredPin === currentPin) {
+        setAdminMode(true);
+        closeAuthModal();
+        showToast("👑 Modo Administrador Ativado! Painel liberado.");
+      } else {
+        if (adminAuthError) adminAuthError.style.display = "block";
+        if (adminPinInput) {
+          adminPinInput.value = "";
+          adminPinInput.focus();
+        }
+      }
+    });
+  }
+
+  if (closeAdminAuthBtn) closeAdminAuthBtn.addEventListener("click", closeAuthModal);
+  if (cancelAdminAuthBtn) cancelAdminAuthBtn.addEventListener("click", closeAuthModal);
+
+  if (adminLogoutBtn) {
+    adminLogoutBtn.addEventListener("click", () => {
+      setAdminMode(false);
+      showToast("🔒 Modo Administrador encerrado.");
+    });
+  }
 }
 
 /**

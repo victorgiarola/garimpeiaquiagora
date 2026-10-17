@@ -1155,3 +1155,57 @@ body {
     font-size: 0.82rem;
   }
 }
+
+/* ==========================================================================
+   PAINEL DE ADMINISTRAÇÃO PRIVADO (VISÍVEL SOMENTE PARA O DONO)
+   ========================================================================== */
+.admin-only {
+  display: none !important;
+}
+
+body.admin-mode .admin-only {
+  display: inline-flex !important;
+}
+
+.admin-badge {
+  display: none;
+  align-items: center;
+  gap: 0.4rem;
+  background: rgba(245, 158, 11, 0.18);
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  color: #f59e0b;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0.35rem 0.65rem;
+  border-radius: var(--radius-full);
+}
+
+.btn-admin-logout {
+  background: none;
+  border: none;
+  color: #ef4444;
+  font-size: 0.8rem;
+  font-weight: 800;
+  cursor: pointer;
+  padding: 0 0.2rem;
+  line-height: 1;
+}
+
+.btn-admin-logout:hover {
+  transform: scale(1.2);
+}
+
+.secret-admin-trigger {
+  background: transparent;
+  border: none;
+  font-size: 0.75rem;
+  opacity: 0.25;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+  padding: 0.2rem;
+}
+
+.secret-admin-trigger:hover {
+  opacity: 0.9;
+}
+
