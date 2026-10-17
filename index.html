@@ -211,11 +211,9 @@
           <div class="form-group">
             <label class="form-label" for="formStore">Loja de Origem *</label>
             <select id="formStore" class="form-select" required>
-              <option value="amazon">Amazon</option>
               <option value="mercadolivre">Mercado Livre</option>
               <option value="shopee">Shopee</option>
               <option value="magalu">Magalu</option>
-              <option value="aliexpress">AliExpress</option>
               <option value="outros">Outra Loja</option>
             </select>
           </div>
@@ -302,29 +300,7 @@
 
       <form id="configAffiliateForm" class="modal-body">
         <div class="affiliate-tip-box">
-          💡 <strong>Mapeamento Automático Ativo:</strong> Ao salvar suas credenciais aqui, todos os links das lojas do
-          site serão atualizados instantaneamente para os <strong>seus códigos de afiliado</strong>!
-        </div>
-
-        <div class="form-group">
-          <label class="form-label" for="cfgAmazonTag">📦 Tag de Associado Amazon</label>
-          <input type="text" id="cfgAmazonTag" class="form-input" placeholder="Ex: seunome-20 ou garimpo-20" />
-          <small style="color: var(--text-muted); font-size: 0.75rem; display: block; margin-top: 0.2rem;">Obtida no
-            portal de Associados da Amazon Brasil.</small>
-        </div>
-
-        <div class="form-group">
-          <label class="form-label" for="cfgShopeeId">🛍️ ID de Afiliado Shopee</label>
-          <input type="text" id="cfgShopeeId" class="form-input" placeholder="Ex: 182390192 ou seu_id_shopee" />
-          <small style="color: var(--text-muted); font-size: 0.75rem; display: block; margin-top: 0.2rem;">Obtido no
-            painel de Afiliados da Shopee.</small>
-        </div>
-
-        <div class="form-group">
-          <label class="form-label" for="cfgMagaluStore">💙 Nome da Loja Magazine Você (Magalu)</label>
-          <input type="text" id="cfgMagaluStore" class="form-input" placeholder="Ex: magazineseunome" />
-          <small style="color: var(--text-muted); font-size: 0.75rem; display: block; margin-top: 0.2rem;">Seu
-            subdomínio em magazinevoce.com.br/magazine...</small>
+          💡 <strong>Mapeamento Automático Ativo:</strong> Ao salvar suas credenciais aqui, todas as ofertas do Mercado Livre, Shopee e Magalu serão comissionadas para os seus códigos!
         </div>
 
         <!-- MERCADO LIVRE (DUAS MÉTRICAS OBRIGATÓRIAS) -->
@@ -333,7 +309,7 @@
             <label class="form-label" for="cfgMercadoLivreTool">🤝 Mercado Livre - ID da Ferramenta (matt_tool) *</label>
             <input type="text" id="cfgMercadoLivreTool" class="form-input" placeholder="Ex: 64738291" />
             <small style="color: var(--text-muted); font-size: 0.73rem; display: block; margin-top: 0.2rem;">
-              Código numérico da ferramenta no painel do Mercado Livre Afiliados.
+              Código numérico da ferramenta no portal do Mercado Livre Afiliados.
             </small>
           </div>
 
@@ -346,11 +322,20 @@
           </div>
         </div>
 
+        <!-- SHOPEE -->
         <div class="form-group">
-          <label class="form-label" for="cfgAliExpressTrack">✈️ Tracking ID AliExpress</label>
-          <input type="text" id="cfgAliExpressTrack" class="form-input" placeholder="Ex: seu_tracking_id" />
+          <label class="form-label" for="cfgShopeeId">🛍️ ID de Afiliado Shopee</label>
+          <input type="text" id="cfgShopeeId" class="form-input" placeholder="Ex: 182390192 ou seu_id_shopee" />
           <small style="color: var(--text-muted); font-size: 0.75rem; display: block; margin-top: 0.2rem;">Obtido no
-            portal AliExpress Portals.</small>
+            painel de Afiliados da Shopee.</small>
+        </div>
+
+        <!-- MAGAZINE LUIZA -->
+        <div class="form-group">
+          <label class="form-label" for="cfgMagaluStore">💙 Nome da Loja Magazine Você (Magalu)</label>
+          <input type="text" id="cfgMagaluStore" class="form-input" placeholder="Ex: magazineseunome" />
+          <small style="color: var(--text-muted); font-size: 0.75rem; display: block; margin-top: 0.2rem;">Seu
+            subdomínio em magazinevoce.com.br/magazine...</small>
         </div>
 
         <div class="form-actions">
@@ -385,16 +370,9 @@
         <div class="footer-col">
           <h5>Lojas Monitoradas</h5>
           <ul class="footer-links">
-            <li><a href="#" onclick="state.activeStore='amazon'; renderProducts(); return false;">📦 Amazon Brasil</a>
-            </li>
-            <li><a href="#" onclick="state.activeStore='mercadolivre'; renderProducts(); return false;">🤝 Mercado
-                Livre</a></li>
-            <li><a href="#" onclick="state.activeStore='shopee'; renderProducts(); return false;">🛍️ Shopee Brasil</a>
-            </li>
-            <li><a href="#" onclick="state.activeStore='magalu'; renderProducts(); return false;">💙 Magazine Luiza</a>
-            </li>
-            <li><a href="#" onclick="state.activeStore='aliexpress'; renderProducts(); return false;">✈️ AliExpress</a>
-            </li>
+            <li><a href="#" onclick="state.activeStore='mercadolivre'; renderProducts(); return false;">🤝 Mercado Livre</a></li>
+            <li><a href="#" onclick="state.activeStore='shopee'; renderProducts(); return false;">🛍️ Shopee Brasil</a></li>
+            <li><a href="#" onclick="state.activeStore='magalu'; renderProducts(); return false;">💙 Magazine Luiza</a></li>
           </ul>
         </div>
 
@@ -440,9 +418,6 @@
         <div class="form-group">
           <label class="form-label" for="adminPinInput">Senha / PIN de Administrador</label>
           <input type="password" id="adminPinInput" class="form-input" placeholder="Digite sua senha de admin" required autocomplete="current-password" />
-          <small style="color: var(--text-muted); font-size: 0.72rem; display: block; margin-top: 0.35rem;">
-            Dica inicial: a senha padrão é <strong>admin2026</strong> (você pode alterá-la nas configurações).
-          </small>
         </div>
         <div id="adminAuthError" style="display: none; color: #ef4444; font-size: 0.82rem; margin-bottom: 0.8rem; font-weight: 600;">
           ❌ Senha incorreta. Tente novamente.

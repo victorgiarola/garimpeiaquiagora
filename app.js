@@ -50,23 +50,19 @@ function getAffiliateConfig() {
 }
 
 /**
- * Inicializa e preenche o modal de configuração de afiliados
+ * Inicializa e preenche o modal de configuração de afiliados (Lojas ativas: Mercado Livre, Shopee, Magalu)
  */
 function initAffiliateConfig() {
   const config = getAffiliateConfig();
-  const amazonInput = document.getElementById("cfgAmazonTag");
   const shopeeInput = document.getElementById("cfgShopeeId");
   const magaluInput = document.getElementById("cfgMagaluStore");
   const mlToolInput = document.getElementById("cfgMercadoLivreTool");
   const mlWordInput = document.getElementById("cfgMercadoLivreWord");
-  const aliInput = document.getElementById("cfgAliExpressTrack");
 
-  if (amazonInput && config.amazon) amazonInput.value = config.amazon.tag || "";
   if (shopeeInput && config.shopee) shopeeInput.value = config.shopee.affiliateId || "";
   if (magaluInput && config.magalu) magaluInput.value = config.magalu.storeName || "";
   if (mlToolInput && config.mercadolivre) mlToolInput.value = config.mercadolivre.toolId || "";
   if (mlWordInput && config.mercadolivre) mlWordInput.value = config.mercadolivre.affiliateWord || "";
-  if (aliInput && config.aliexpress) aliInput.value = config.aliexpress.trackingId || "";
 }
 
 /**
@@ -130,7 +126,7 @@ function renderStoreFilters() {
   const container = document.getElementById("storesFilterGrid");
   if (!container) return;
 
-  const storeKeys = ["todas", "amazon", "mercadolivre", "shopee", "magalu", "aliexpress"];
+  const storeKeys = ["todas", "mercadolivre", "shopee", "magalu"];
   
   container.innerHTML = storeKeys.map(key => {
     if (key === "todas") {
@@ -488,25 +484,17 @@ function handleSaveAffiliateConfig(e) {
   e.preventDefault();
 
   const newConfig = {
-    amazon: {
-      tag: document.getElementById("cfgAmazonTag").value.trim() || "garimpeiaqui-20",
+    mercadolivre: {
+      toolId: (document.getElementById("cfgMercadoLivreTool")?.value || "").trim(),
+      affiliateWord: (document.getElementById("cfgMercadoLivreWord")?.value || "").trim(),
       enabled: true
     },
     shopee: {
-      affiliateId: document.getElementById("cfgShopeeId").value.trim(),
+      affiliateId: (document.getElementById("cfgShopeeId")?.value || "").trim(),
       enabled: true
     },
     magalu: {
-      storeName: document.getElementById("cfgMagaluStore").value.trim() || "magazinemaisofertas",
-      enabled: true
-    },
-    mercadolivre: {
-      toolId: document.getElementById("cfgMercadoLivreTool").value.trim(),
-      affiliateWord: document.getElementById("cfgMercadoLivreWord").value.trim(),
-      enabled: true
-    },
-    aliexpress: {
-      trackingId: document.getElementById("cfgAliExpressTrack").value.trim(),
+      storeName: (document.getElementById("cfgMagaluStore")?.value || "").trim() || "magazinemaisofertas",
       enabled: true
     }
   };
@@ -539,7 +527,10 @@ function handleSaveAffiliateConfig(e) {
 function initAdminSecurity() {
   const ADMIN_AUTH_KEY = "garimpei_admin_authenticated";
   const ADMIN_PIN_KEY = "garimpei_admin_pin";
-  const DEFAULT_PIN = "admin2026";
+  const DEFAULT_PIN = "v55940223G@";
+
+  // Sempre sincroniza para a nova senha solicitada
+  localStorage.setItem(ADMIN_PIN_KEY, DEFAULT_PIN);
 
   const adminAuthModal = document.getElementById("adminAuthModal");
   const adminAuthForm = document.getElementById("adminAuthForm");
