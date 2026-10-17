@@ -1,0 +1,22 @@
+{
+  "name": "garimpo-de-ofertas",
+  "version": "1.0.0",
+  "description": "Plataforma de alta conversão de achadinhos e ofertas com agregação e mapeamento automático de afiliados",
+  "main": "app.js",
+  "scripts": {
+    "start": "npx serve .",
+    "garimpar": "node crawler.js",
+    "monitor": "node daemon.js",
+    "test": "node -c products.js && node -c app.js"
+  },
+  "keywords": [
+    "afiliados",
+    "amazon-associates",
+    "shopee-affiliate",
+    "mercado-livre",
+    "achadinhos",
+    "ofertas"
+  ],
+  "author": "João Felipe",
+  "license": "MIT"
+}

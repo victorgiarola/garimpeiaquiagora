@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO & Metatags -->
+  <title>Garimpo de Ofertas | Os Melhores Achadinhos e Promoções com Desconto Real</title>
+  <meta name="description"
+    content="Garimpe as melhores promoções da Amazon, Mercado Livre, Shopee, Magalu e AliExpress. Cupons testados, descontos reais e links 100% seguros." />
+  <meta name="keywords"
+    content="ofertas, promoções, achadinhos, cupons, descontos, amazon afiliados, shopee achadinhos, mercado livre desconto" />
+  <meta name="author" content="Garimpo de Ofertas" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph / Redes Sociais -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Garimpo de Ofertas | Achadinhos e Promoções Selecionadas" />
+  <meta property="og:description"
+    content="Descontos de até 70% garimpados em tempo real na Amazon, Shopee, Mercado Livre e mais." />
+  <meta property="og:image"
+    content="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=1200&auto=format&fit=crop&q=80" />
+
+  <!-- Fontes do Google (Plus Jakarta Sans & Outfit) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Ambient Glow Effect -->
+  <div class="ambient-glow" aria-hidden="true"></div>
+
+  <!-- Header Fixo -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-wrapper">
+
+      <!-- Marca / Logo -->
+      <a href="#" class="brand-logo" onclick="resetFilters(); return false;"
+        title="Garimpo de Ofertas - Página Inicial">
+        <div class="logo-icon-wrapper">
+          ⛏️
+        </div>
+        <div class="brand-text">
+          <h1>Garimpo de Ofertas</h1>
+          <span class="brand-tagline">Achadinhos & Cupons Verificados</span>
+        </div>
+      </a>
+
+      <!-- Barra de Busca -->
+      <div class="search-container">
+        <div class="search-input-wrapper">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="searchInput" class="search-input"
+            placeholder="Buscar por produto, marca, cupom ou loja..." autocomplete="off"
+            aria-label="Buscar produtos ou cupons" />
+          <button id="clearSearchBtn" class="clear-search-btn" title="Limpar busca" aria-label="Limpar busca">✕</button>
+        </div>
+      </div>
+
+      <!-- Ações do Cabeçalho -->
+      <div class="header-actions">
+        <!-- Botão Alternar Tema -->
+        <button id="themeToggleBtn" class="btn-icon" title="Alternar Modo de Cor" aria-label="Alternar tema de cor">
+          ☀️
+        </button>
+
+        <!-- Botão Configurar Tags de Afiliado -->
+        <button id="openConfigModalBtn" class="btn-config-affiliate"
+          title="Configurar minhas tags de afiliados (Amazon, Shopee, Magalu...)">
+          <span>⚙️</span>
+          <span>Minhas Tags</span>
+        </button>
+
+        <!-- Botão Adicionar Oferta (Painel Rápido de Afiliado) -->
+        <button id="openAddModalBtn" class="btn-add-offer" title="Cadastrar nova oferta com seu link de afiliado">
+          <span>➕</span>
+          <span>Nova Oferta</span>
+        </button>
+
+        <!-- Botão Grupo VIP no Cabeçalho -->
+        <a href="https://chat.whatsapp.com" target="_blank" rel="noopener noreferrer" class="btn-vip-header"
+          title="Entrar no Grupo VIP do WhatsApp">
+          <span>💬</span>
+          <span>Grupo VIP</span>
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <main class="container">
+
+    <!-- Hero Banner -->
+    <section class="hero-section">
+      <div class="hero-pill">
+        <span>⚡ Atualizado em Tempo Real</span> • Links Oficiais e Seguros
+      </div>
+      <h1 class="hero-title">
+        As Melhores Ofertas da Internet <span>Garimpadas a Dedo</span>
+      </h1>
+      <p class="hero-description">
+        Reunimos as melhores oportunidades da Amazon, Mercado Livre, Shopee, Magalu e AliExpress. Economize tempo e
+        dinheiro com descontos verificados.
+      </p>
+
+      <!-- Barra de Confiança / Benefícios -->
+      <div class="trust-bar">
+        <div class="trust-item">
+          <span>🛡️</span>
+          <span><strong>100% Seguro:</strong> Redirecionamento direto para lojas oficiais</span>
+        </div>
+        <div class="trust-item">
+          <span>🏷️</span>
+          <span><strong>Descontos Reais:</strong> Sem pegadinha de preço inflacionado</span>
+        </div>
+        <div class="trust-item">
+          <span>🎟️</span>
+          <span><strong>Cupons Exclusivos:</strong> Testados antes de publicar</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Filtro por Lojas Parceiras -->
+    <section class="stores-filter-section" aria-label="Filtro por loja parceira">
+      <span class="section-label">Filtrar por Loja Parceira:</span>
+      <div class="stores-grid" id="storesFilterGrid">
+        <!-- Renderizado dinamicamente via JS -->
+      </div>
+    </section>
+
+    <!-- Navegação de Categorias -->
+    <nav class="categories-nav" id="categoriesNav" aria-label="Filtro de categorias">
+      <!-- Renderizado dinamicamente via JS -->
+    </nav>
+
+    <!-- Controles do Feed e Ordenação -->
+    <div class="feed-controls">
+      <div class="feed-stats" id="feedStats">
+        Carregando ofertas...
+      </div>
+
+      <div class="sort-wrapper">
+        <label for="sortSelect">Ordenar por:</label>
+        <select id="sortSelect" class="sort-select">
+          <option value="recentes">Mais Recentes</option>
+          <option value="maior-desconto">Maior % Desconto</option>
+          <option value="menor-preco">Menor Preço</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Grid de Produtos / Ofertas de Afiliados -->
+    <section class="products-grid" id="productsGrid" aria-label="Lista de produtos garimpados">
+      <!-- Cards gerados via JS -->
+    </section>
+
+  </main>
+
+  <!-- Botão Flutuante Grupo VIP (WhatsApp) -->
+  <a href="https://chat.whatsapp.com" target="_blank" rel="noopener noreferrer" class="floating-vip" id="floatingVipBtn"
+    title="Entrar no Grupo VIP de Ofertas">
+    <span>💬</span>
+    <span>Grupo VIP de Ofertas</span>
+  </a>
+
+  <!-- Toast Notification -->
+  <div id="toastNotification" class="toast" role="alert" aria-live="polite"></div>
+
+  <!-- Modal de Cadastro / Gestão de Ofertas (Painel do Administrador) -->
+  <div class="modal-overlay" id="addOfferModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 id="modalTitle">⛏️ Cadastrar Nova Oferta Garimpada</h3>
+        <button class="modal-close-btn" id="closeModalBtn" title="Fechar modal">&times;</button>
+      </div>
+
+      <form id="addOfferForm" class="modal-body">
+        <div class="form-group">
+          <label class="form-label" for="formTitle">Título do Produto / Oferta *</label>
+          <input type="text" id="formTitle" class="form-input"
+            placeholder="Ex: Echo Dot 5ª Geração Smart Speaker com Alexa" required />
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="formCategory">Categoria *</label>
+            <select id="formCategory" class="form-select" required>
+              <option value="tecnologia">Tecnologia & Celulares</option>
+              <option value="casa-inteligente">Casa & Eletro</option>
+              <option value="gamer">Setup & Games</option>
+              <option value="audio">Fones & Som</option>
+              <option value="moda">Moda & Acessórios</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="formStore">Loja de Origem *</label>
+            <select id="formStore" class="form-select" required>
+              <option value="amazon">Amazon</option>
+              <option value="mercadolivre">Mercado Livre</option>
+              <option value="shopee">Shopee</option>
+              <option value="magalu">Magalu</option>
+              <option value="aliexpress">AliExpress</option>
+              <option value="outros">Outra Loja</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="formOriginalPrice">Preço Original (De) - R$</label>
+            <input type="number" id="formOriginalPrice" class="form-input" placeholder="Ex: 499.00" step="0.01" />
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="formCurrentPrice">Preço Promocional (Por) * - R$</label>
+            <input type="number" id="formCurrentPrice" class="form-input" placeholder="Ex: 289.00" step="0.01"
+              required />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="formInstallment">Condição de Parcelamento</label>
+            <input type="text" id="formInstallment" class="form-input"
+              placeholder="Ex: em até 10x de R$ 28,90 sem juros" />
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="formPix">Vantagem Pix / Frete</label>
+            <input type="text" id="formPix" class="form-input" placeholder="Ex: Frete Grátis Prime ou 5% no Pix" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="formAffiliateUrl">Seu Link de Afiliado Completo *</label>
+          <input type="url" id="formAffiliateUrl" class="form-input"
+            placeholder="Cole aqui seu link de afiliado da Amazon, Shopee, etc." required />
+          <small style="color: var(--text-muted); font-size: 0.75rem; margin-top: 0.25rem; display: block;">
+            💡 O visitante será redirecionado para este link ao clicar em "Pegar Oferta".
+          </small>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="formImage">URL da Imagem do Produto</label>
+          <input type="url" id="formImage" class="form-input"
+            placeholder="Cole o link da imagem (ou deixe em branco para imagem padrão)" />
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="formBadge">Selo Especial / Destaque</label>
+            <input type="text" id="formBadge" class="form-input"
+              placeholder="Ex: Mais Vendido, Menor Preço, Relâmpago" />
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="formCoupon">Cupom de Desconto (opcional)</label>
+            <input type="text" id="formCoupon" class="form-input" placeholder="Ex: TECH10, PROMO20" />
+          </div>
+        </div>
+
+        <div class="form-group" style="display: flex; align-items: center; gap: 0.6rem; margin-top: 0.5rem;">
+          <input type="checkbox" id="formFeatured"
+            style="width: 18px; height: 18px; accent-color: var(--accent-gold);" />
+          <label for="formFeatured" style="font-size: 0.88rem; cursor: pointer; color: var(--text-primary);">
+            Destacar este produto no topo da página
+          </label>
+        </div>
+
+        <div class="form-actions">
+          <button type="button" class="btn-secondary" id="cancelModalBtn">Cancelar</button>
+          <button type="submit" class="btn-primary">Adicionar ao Site 🚀</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Modal de Configuração de Tags de Afiliados -->
+  <div class="modal-overlay" id="configAffiliateModal" role="dialog" aria-modal="true"
+    aria-labelledby="configModalTitle">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 id="configModalTitle">⚙️ Minhas Tags & Credenciais de Afiliado</h3>
+        <button class="modal-close-btn" id="closeConfigModalBtn" title="Fechar">&times;</button>
+      </div>
+
+      <form id="configAffiliateForm" class="modal-body">
+        <div class="affiliate-tip-box">
+          💡 <strong>Mapeamento Automático Ativo:</strong> Ao salvar suas credenciais aqui, todos os links das lojas do
+          site serão atualizados instantaneamente para os <strong>seus códigos de afiliado</strong>!
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgAmazonTag">📦 Tag de Associado Amazon</label>
+          <input type="text" id="cfgAmazonTag" class="form-input" placeholder="Ex: seunome-20 ou garimpo-20" />
+          <small style="color: var(--text-muted); font-size: 0.75rem; display: block; margin-top: 0.2rem;">Obtida no
+            portal de Associados da Amazon Brasil.</small>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgShopeeId">🛍️ ID de Afiliado Shopee</label>
+          <input type="text" id="cfgShopeeId" class="form-input" placeholder="Ex: 182390192 ou seu_id_shopee" />
+          <small style="color: var(--text-muted); font-size: 0.75rem; display: block; margin-top: 0.2rem;">Obtido no
+            painel de Afiliados da Shopee.</small>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgMagaluStore">💙 Nome da Loja Magazine Você (Magalu)</label>
+          <input type="text" id="cfgMagaluStore" class="form-input" placeholder="Ex: magazineseunome" />
+          <small style="color: var(--text-muted); font-size: 0.75rem; display: block; margin-top: 0.2rem;">Seu
+            subdomínio em magazinevoce.com.br/magazine...</small>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgMercadoLivreTool">🤝 Código de Afiliado Mercado Livre</label>
+          <input type="text" id="cfgMercadoLivreTool" class="form-input" placeholder="Ex: seu_tool_id" />
+          <small style="color: var(--text-muted); font-size: 0.75rem; display: block; margin-top: 0.2rem;">Código de
+            rastreamento do programa de afiliados do Mercado Livre.</small>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgAliExpressTrack">✈️ Tracking ID AliExpress</label>
+          <input type="text" id="cfgAliExpressTrack" class="form-input" placeholder="Ex: seu_tracking_id" />
+          <small style="color: var(--text-muted); font-size: 0.75rem; display: block; margin-top: 0.2rem;">Obtido no
+            portal AliExpress Portals.</small>
+        </div>
+
+        <div class="form-actions">
+          <button type="button" class="btn-secondary" id="cancelConfigModalBtn">Cancelar</button>
+          <button type="submit" class="btn-primary">Salvar e Mapear Links 🚀</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <h4>⛏️ Garimpo de Ofertas</h4>
+          <p>O seu portal definitivo para encontrar achadinhos, cupons ativos e as maiores quedas de preço da internet
+            todos os dias.</p>
+          <div style="margin-top: 1.2rem; display: flex; gap: 0.8rem; flex-wrap: wrap;">
+            <button id="exportJsonBtn" class="btn-secondary" style="font-size: 0.8rem; padding: 0.45rem 0.85rem;"
+              title="Baixar catálogo atualizado em JSON para backup ou deploy permanente">
+              📥 Baixar Dados (JSON)
+            </button>
+            <button id="resetDefaultsBtn" class="btn-secondary" style="font-size: 0.8rem; padding: 0.45rem 0.85rem;"
+              title="Restaurar dados de demonstração originais">
+              🔄 Restaurar Padrão
+            </button>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h5>Lojas Monitoradas</h5>
+          <ul class="footer-links">
+            <li><a href="#" onclick="state.activeStore='amazon'; renderProducts(); return false;">📦 Amazon Brasil</a>
+            </li>
+            <li><a href="#" onclick="state.activeStore='mercadolivre'; renderProducts(); return false;">🤝 Mercado
+                Livre</a></li>
+            <li><a href="#" onclick="state.activeStore='shopee'; renderProducts(); return false;">🛍️ Shopee Brasil</a>
+            </li>
+            <li><a href="#" onclick="state.activeStore='magalu'; renderProducts(); return false;">💙 Magazine Luiza</a>
+            </li>
+            <li><a href="#" onclick="state.activeStore='aliexpress'; renderProducts(); return false;">✈️ AliExpress</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Comunidade</h5>
+          <ul class="footer-links">
+            <li><a href="https://chat.whatsapp.com" target="_blank" rel="noopener noreferrer">💬 Grupo de Ofertas no
+                WhatsApp</a></li>
+            <li><a href="https://t.me" target="_blank" rel="noopener noreferrer">📢 Canal no Telegram</a></li>
+            <li><a href="#" onclick="resetFilters(); return false;">🔥 Super Destaques</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Aviso Legal Obrigatório de Afiliados (Compliance Amazon / Mercado Livre / Procon) -->
+      <div class="affiliate-disclaimer">
+        <strong>Aviso de Transparência e Afiliados:</strong> O Garimpo de Ofertas é uma plataforma independente de
+        curadoria de promoções. Participamos de programas de afiliados da Amazon, Mercado Livre, Shopee, Magazine Luiza,
+        AliExpress e outros. Ao clicar em nossos links e realizar compras, podemos receber uma comissão pela indicação
+        sem nenhum custo extra para você. Os preços e condições promocionais estão sujeitos a alteração e
+        disponibilidade pelo anunciante a qualquer momento.
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Garimpo de Ofertas • Todos os direitos reservados. Feito para alta conversão.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="affiliate-config.js"></script>
+  <script src="auto-mapper.js"></script>
+  <script src="products.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

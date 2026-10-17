@@ -1,0 +1,32 @@
+name: Atualizar Ofertas e Mapear Afiliados 24/7
+
+on:
+  schedule:
+    # Executa automaticamente a cada 6 horas todos os dias
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Permite disparar manualmente pelo botão no GitHub
+
+jobs:
+  garimpar-ofertas:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Baixar Código do Repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Executar Robô Garimpador de Ofertas
+        run: node crawler.js
+
+      - name: Salvar Novas Ofertas no Repositório
+        run: |
+          git config --global user.name "Garimpo Bot"
+          git config --global user.email "bot@garimpodeofertas.local"
+          git add products.js products-auto.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 [Automação] Ofertas atualizadas com links de afiliados" && git push)
