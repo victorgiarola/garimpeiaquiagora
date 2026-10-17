@@ -1,6 +1,6 @@
-# ⛏️ Garimpo de Ofertas - Plataforma com Automação de Afiliados
+# ⛏️ Garimpei Aqui Agora - Plataforma com Automação de Afiliados
 
-O **Garimpo de Ofertas** agora conta com um **Robô de Automação & Mapeador de Afiliados** que busca as melhores ofertas da internet e anexa **automaticamente as suas tags e códigos de afiliado** em todos os produtos!
+O **Garimpei Aqui Agora** conta com um **Robô de Automação & Mapeador de Afiliados** que busca as melhores ofertas da internet e anexa **automaticamente as suas tags e códigos de afiliado** em todos os produtos!
 
 ---
 
