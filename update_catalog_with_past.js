@@ -8,12 +8,18 @@ const path = require("path");
 const AFFILIATE_CONFIG = require("./affiliate-config.js");
 const AutoMapper = require("./auto-mapper.js");
 
-// Carrega as ofertas atuais de products-auto.json
-let currentProducts = JSON.parse(fs.readFileSync(path.join(__dirname, "products-auto.json"), "utf-8"));
+// Carrega as ofertas atuais de products-auto.json e filtra para apenas as ativas
+let currentProducts = JSON.parse(fs.readFileSync(path.join(__dirname, "products-auto.json"), "utf-8"))
+  .filter(p => !p.expired && !p.id.startsWith("auto-prod-past-"));
 
-// Garante que todos os produtos existentes estejam marcados como ativos
-currentProducts.forEach(p => {
-  p.expired = false;
+// Garante que todas as ofertas ativas estejam mapeadas com as credenciais oficiais
+currentProducts = currentProducts.map(p => {
+  const mapping = AutoMapper.mapUrl(p.affiliateUrl, AFFILIATE_CONFIG);
+  return {
+    ...p,
+    affiliateUrl: mapping.affiliateUrl,
+    expired: false
+  };
 });
 
 // Lista das 25 maiores ofertas passadas (histórico de promoções memoráveis e esgotadas)

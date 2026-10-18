@@ -5,8 +5,8 @@ const AFFILIATE_CONFIG = {
   mercadolivre: {
     // 1. toolId (matt_tool): Código numérico da ferramenta no portal do Mercado Livre Afiliados
     // 2. affiliateWord (matt_word): Sua palavra-chave ou sub-id de rastreamento de canal
-    toolId: "", // Exemplo: "64738291"
-    affiliateWord: "", // Exemplo: "garimpeiaquiagora"
+    toolId: "23610538", // Sua métrica do Mercado Livre (Projeto 2)
+    affiliateWord: "givi713407", // Sua tag do Mercado Livre (Projeto 2)
     enabled: true
   },
   shopee: {

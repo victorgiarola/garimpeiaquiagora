@@ -43,7 +43,7 @@ function getAffiliateConfig() {
     console.error("Erro ao ler config de afiliados:", err);
   }
   return typeof AFFILIATE_CONFIG !== "undefined" ? AFFILIATE_CONFIG : {
-    mercadolivre: { toolId: "", affiliateWord: "" },
+    mercadolivre: { toolId: "23610538", affiliateWord: "givi713407" },
     shopee: { affiliateId: "" },
     magalu: { storeName: "magazinemaisofertas" }
   };
@@ -279,7 +279,7 @@ function renderProducts() {
           <p>Estas promoções já encerraram ou esgotaram seus estoques promocionais. Não quer perder as próximas? Entre no nosso Grupo VIP de WhatsApp!</p>
         </div>
       </div>
-      <a href="https://chat.whatsapp.com" target="_blank" rel="noopener noreferrer" class="btn-vip-alert">
+      <a href="https://chat.whatsapp.com/G36CRa6FpZS03Gq4NSi7da" target="_blank" rel="noopener noreferrer" class="btn-vip-alert">
         <span>💬 Entrar no Grupo VIP</span>
       </a>
     </div>
