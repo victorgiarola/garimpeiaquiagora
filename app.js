@@ -169,6 +169,8 @@ function getFilteredProducts() {
   // 1. Filtro por Categoria
   if (state.activeCategory === "destaques") {
     list = list.filter(p => p.featured);
+  } else if (state.activeCategory === "iphones") {
+    list = list.filter(p => p.category === "iphones" || p.title.toLowerCase().includes("iphone") || p.title.toLowerCase().includes("apple"));
   } else if (state.activeCategory !== "todas") {
     list = list.filter(p => p.category === state.activeCategory);
   }

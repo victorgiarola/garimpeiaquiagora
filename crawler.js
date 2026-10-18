@@ -1717,6 +1717,7 @@ const DEFAULT_PRODUCTS = ${JSON.stringify(processedProducts, null, 2)};
 const CATEGORIES = [
   { id: "todas", name: "Todas as Ofertas", icon: "💎" },
   { id: "destaques", name: "🔥 Super Destaques", icon: "🔥" },
+  { id: "iphones", name: "🍎 iPhones Garimpados", icon: "🍎" },
   { id: "tecnologia", name: "Tecnologia & Celulares", icon: "📱" },
   { id: "casa-inteligente", name: "Casa & Eletro", icon: "🏠" },
   { id: "gamer", name: "Setup & Games", icon: "🎮" },

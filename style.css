@@ -471,6 +471,22 @@ body {
   box-shadow: 0 4px 15px rgba(245, 158, 11, 0.15);
 }
 
+.cat-btn[data-category="iphones"] {
+  border-color: rgba(239, 68, 68, 0.35);
+}
+
+.cat-btn[data-category="iphones"]:hover {
+  border-color: rgba(239, 68, 68, 0.7);
+  background: rgba(239, 68, 68, 0.08);
+}
+
+.cat-btn[data-category="iphones"].active {
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.25), rgba(245, 158, 11, 0.2));
+  border-color: #ef4444;
+  color: #fca5a5;
+  box-shadow: 0 4px 18px rgba(239, 68, 68, 0.25);
+}
+
 /* ==========================================================================
    BARRA DE CONTROLE & ORDENAÇÃO
    ========================================================================== */
