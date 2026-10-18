@@ -45,7 +45,7 @@ function getAffiliateConfig() {
   return typeof AFFILIATE_CONFIG !== "undefined" ? AFFILIATE_CONFIG : {
     mercadolivre: { toolId: "23610538", affiliateWord: "givi713407" },
     shopee: { affiliateId: "" },
-    magalu: { storeName: "magazinemaisofertas" }
+    magalu: { storeName: "magazinelugarcerto01" }
   };
 }
 

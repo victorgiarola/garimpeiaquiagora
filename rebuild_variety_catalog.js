@@ -44,7 +44,7 @@ cleaned.forEach(p => {
     p.storeName = "Magalu";
     p.currentPrice = 899.00;
     p.originalPrice = 1499.00;
-    p.affiliateUrl = "https://www.magazinevoce.com.br/magazinemaisofertas/p/237293100/";
+    p.affiliateUrl = "https://www.magazinevoce.com.br/magazinelugarcerto01/p/237293100/";
     p.badge = "Espresso Profissional (-40%)";
     p.installment = "em até 10x de R$ 89,90 sem juros";
     p.pixDiscount = "10% no Pix Magalu";
@@ -72,7 +72,7 @@ cleaned.forEach(p => {
     p.storeName = "Magalu";
     p.currentPrice = 2499.00;
     p.originalPrice = 3499.00;
-    p.affiliateUrl = "https://www.magazinevoce.com.br/magazinemaisofertas/p/237293200/";
+    p.affiliateUrl = "https://www.magazinevoce.com.br/magazinelugarcerto01/p/237293200/";
     p.badge = "Super Lançamento Moto (-28%)";
     p.installment = "em até 10x de R$ 249,90 sem juros";
     p.pixDiscount = "10% no Pix pelo Magalu";
@@ -86,7 +86,7 @@ cleaned.forEach(p => {
     p.storeName = "Magalu";
     p.currentPrice = 599.00;
     p.originalPrice = 999.00;
-    p.affiliateUrl = "https://www.magazinevoce.com.br/magazinemaisofertas/p/237293300/";
+    p.affiliateUrl = "https://www.magazinevoce.com.br/magazinelugarcerto01/p/237293300/";
     p.badge = "Forno Air Fryer 12L (-40%)";
     p.installment = "em até 10x de R$ 59,90 sem juros";
     p.pixDiscount = "Desconto exclusivo no Pix";
@@ -142,7 +142,7 @@ const FRESH_DEALS = [
     rating: 4.9,
     reviewsCount: 4620,
     couponCode: "MAGALU50",
-    affiliateUrl: "https://www.magazinevoce.com.br/magazinemaisofertas/p/237293400/"
+    affiliateUrl: "https://www.magazinevoce.com.br/magazinelugarcerto01/p/237293400/"
   },
   {
     title: "Caixa de Som Portátil Bluetooth JBL Flip 6 À Prova D'água IP67 com Som Potente 30W RMS",
@@ -174,7 +174,7 @@ const FRESH_DEALS = [
     rating: 4.9,
     reviewsCount: 5200,
     couponCode: "MAGALU50",
-    affiliateUrl: "https://www.magazinevoce.com.br/magazinemaisofertas/p/237293500/"
+    affiliateUrl: "https://www.magazinevoce.com.br/magazinelugarcerto01/p/237293500/"
   },
   {
     title: "Tênis Adidas Ultraboost Light Masculino com Amortecimento Boost e Cabedal Primeknit",
@@ -190,7 +190,7 @@ const FRESH_DEALS = [
     rating: 4.9,
     reviewsCount: 3100,
     couponCode: "MAGALU100",
-    affiliateUrl: "https://www.magazinevoce.com.br/magazinemaisofertas/p/237293600/"
+    affiliateUrl: "https://www.magazinevoce.com.br/magazinelugarcerto01/p/237293600/"
   },
   {
     title: "Teclado Mecânico Sem Fio Keychron K2 RGB Hot-swappable Switch Red Bluetooth e USB-C",

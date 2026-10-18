@@ -15,9 +15,9 @@ const AFFILIATE_CONFIG = {
     enabled: true
   },
   magalu: {
-    // Nome da sua loja no Magazine Você (ex: "magazinemaisofertas")
-    // Converte os produtos automaticamente para: magazinevoce.com.br/SEUNOME/p/...
-    storeName: "magazinemaisofertas",
+    // Nome da sua loja no Magazine Você
+    // Converte os produtos automaticamente para: magazinevoce.com.br/magazinelugarcerto01/p/...
+    storeName: "magazinelugarcerto01",
     enabled: true
   },
   // Pausados temporariamente até aprovação de afiliado:
