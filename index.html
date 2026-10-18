@@ -32,8 +32,52 @@
   <!-- Favicon com o Garimpeiro Oficial -->
   <link rel="icon" type="image/png" href="garimpeiro-logo.png" />
 
-  <!-- Estilos -->
-  <link rel="stylesheet" href="style.css" />
+  <!-- Estilos com Cache Buster e CSS Crítico Injetado -->
+  <link rel="stylesheet" href="style.css?v=20261018c" />
+  <style>
+    /* CSS Crítico Injetado para Prevenir Cache Antigo */
+    .categories-filter-section {
+      margin-bottom: 1.25rem !important;
+    }
+    .categories-nav {
+      display: flex !important;
+      flex-wrap: wrap !important;
+      align-items: center !important;
+      gap: 0.45rem 0.55rem !important;
+      width: 100% !important;
+      overflow-x: visible !important;
+    }
+    .cat-btn {
+      display: inline-flex !important;
+      align-items: center !important;
+      white-space: nowrap !important;
+      flex-shrink: 0 !important;
+    }
+    .stores-grid {
+      display: flex !important;
+      flex-wrap: wrap !important;
+      align-items: center !important;
+      gap: 0.5rem !important;
+      overflow-x: visible !important;
+    }
+    /* Previne 100% de sobreposição de selos no card */
+    .card-badges-top {
+      position: absolute !important;
+      top: 0.65rem !important;
+      left: 0.65rem !important;
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: flex-start !important;
+      gap: 0.35rem !important;
+      z-index: 2 !important;
+      pointer-events: none !important;
+      max-width: calc(100% - 1.3rem) !important;
+    }
+    .badge-discount, .badge-featured {
+      position: static !important;
+      display: inline-flex !important;
+    }
+  </style>
 </head>
 
 <body>
@@ -152,6 +196,10 @@
       <nav class="categories-nav" id="categoriesNav">
         <!-- Renderizado dinamicamente via JS -->
       </nav>
+      <!-- Subcategorias Específicas (Tênis, Óculos, Relógios, Geladeira, Airfryer, etc.) -->
+      <div class="subcategories-nav" id="subcategoriesNav" style="display: none;">
+        <!-- Renderizado dinamicamente via JS -->
+      </div>
     </section>
 
     <!-- Controles do Feed e Ordenação -->
@@ -449,11 +497,11 @@
     </div>
   </div>
 
-  <!-- Scripts -->
-  <script src="affiliate-config.js"></script>
-  <script src="auto-mapper.js"></script>
-  <script src="products.js"></script>
-  <script src="app.js"></script>
+  <!-- Scripts com Cache-Buster Oficial -->
+  <script src="affiliate-config.js?v=20261018c"></script>
+  <script src="auto-mapper.js?v=20261018c"></script>
+  <script src="products.js?v=20261018c"></script>
+  <script src="app.js?v=20261018c"></script>
 </body>
 
 </html>

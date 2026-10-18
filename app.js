@@ -7,11 +7,75 @@
 const state = {
   products: [],
   activeCategory: "todas",
+  activeSubcategory: "todos",
   activeStore: "todas",
   searchQuery: "",
   sortBy: "recentes",
   theme: "dark",
   displayLimit: 36 // Exibe inicialmente 36 ofertas com carregamento progressivo
+};
+
+// Subcategorias dinâmicas por categoria principal (Atende 100% dos itens solicitados pelo usuário)
+const SUBCATEGORIES = {
+  eletronicos: [
+    { id: "todos", name: "Todos os Eletrônicos", icon: "💻" },
+    { id: "computadores", name: "Computadores & PCs", icon: "🖥️", query: ["computador", "pc", "notebook", "dell", "macbook", "inspiron"] },
+    { id: "placas", name: "Placas de Vídeo", icon: "🎮", query: ["rtx", "geforce", "placa de vídeo", "placa de video"] },
+    { id: "monitores", name: "Monitores", icon: "📺", query: ["monitor", "ultragear", "144hz"] },
+    { id: "cadeiras", name: "Cadeiras Gamers", icon: "💺", query: ["cadeira", "gamer"] },
+    { id: "teclados", name: "Teclados", icon: "⌨️", query: ["teclado", "keychron"] },
+    { id: "mouses", name: "Mouses", icon: "🖱️", query: ["mouse", "logitech", "mx master"] },
+    { id: "fones", name: "Fones & Headsets", icon: "🎧", query: ["fone", "headset", "jbl", "sony", "hyperx", "havit"] },
+    { id: "mousepads", name: "Mousepads", icon: "⬛", query: ["mousepad", "speed"] }
+  ],
+  casa: [
+    { id: "todos", name: "Toda a Casa", icon: "🏠" },
+    { id: "geladeiras", name: "Geladeiras", icon: "❄️", query: ["geladeira", "frost free"] },
+    { id: "frigobar", name: "Frigobares", icon: "🧊", query: ["frigobar"] },
+    { id: "microondas", name: "Micro-ondas", icon: "🍲", query: ["micro-ondas", "microondas"] },
+    { id: "airfryer", name: "Airfryers", icon: "🍟", query: ["air fryer", "airfryer", "fritadeira"] },
+    { id: "tv", name: "Smart TVs", icon: "📺", query: ["tv", "oled", "crystal", "smart tv"] },
+    { id: "guarda-roupa", name: "Guarda-Roupas", icon: "🚪", query: ["guarda-roupa", "guarda roupa"] },
+    { id: "lavar", name: "Máquinas de Lavar", icon: "🧺", query: ["lava e seca", "máquina de lavar", "maquina de lavar"] },
+    { id: "aspirador", name: "Robôs & Aspiradores", icon: "🧹", query: ["aspirador", "robô", "robo"] }
+  ],
+  moda: [
+    { id: "todos", name: "Toda a Moda", icon: "👟" },
+    { id: "tenis", name: "Tênis", icon: "👟", query: ["tênis", "tenis", "nike", "adidas", "vans", "mizuno", "olympikus"] },
+    { id: "oculos", name: "Óculos", icon: "🕶️", query: ["óculos", "oculos", "aviador"] },
+    { id: "relogios", name: "Relógios", icon: "⌚", query: ["relógio", "relogio", "orient", "casio"] },
+    { id: "pulseiras", name: "Pulseiras", icon: "⛓️", query: ["pulseira", "grumet"] },
+    { id: "perfumes", name: "Perfumes", icon: "🧴", query: ["perfume", "sauvage", "212", "ferrari"] }
+  ],
+  feminino: [
+    { id: "todos", name: "Toda Beleza & Moda", icon: "💄" },
+    { id: "roupas", name: "Roupas", icon: "👗", query: ["vestido", "conjunto", "alfaiataria", "bolsa"] },
+    { id: "maquiagens", name: "Maquiagens", icon: "💋", query: ["maquiagem", "batom", "cílios", "cilios", "pincéis", "pinceis"] },
+    { id: "perfumes", name: "Perfumes Femininos", icon: "🌸", query: ["perfume", "lancôme", "good girl", "lily"] },
+    { id: "cremes", name: "Cremes & Skincare", icon: "🧴", query: ["creme", "cerave", "victoria's secret", "sérum", "serum", "anthelios", "protetor"] },
+    { id: "shampoos", name: "Shampoos & Kits", icon: "✨", query: ["shampoo", "condicionador", "wella", "truss", "lola", "cronograma", "óleo", "oleo"] },
+    { id: "escovas", name: "Escovas de Secar", icon: "💨", query: ["escova secadora", "secador", "taiff", "mondial"] }
+  ],
+  infantil: [
+    { id: "todos", name: "Todo Infantil", icon: "🧸" },
+    { id: "brinquedos", name: "Brinquedos", icon: "🎲", query: ["lego", "brinquedo", "boneca", "baby alive", "barbie", "massinha", "play-doh"] },
+    { id: "carrinhos", name: "Hot Wheels & Carrinhos", icon: "🏎️", query: ["hot wheels", "pista", "carrinho", "controle remoto"] },
+    { id: "roupas", name: "Roupas & Conjuntos", icon: "👕", query: ["conjunto", "body", "bodies", "camiseta", "shorts", "mochila"] },
+    { id: "jogos", name: "Jogos & Tabuleiro", icon: "🎯", query: ["banco imobiliário", "uno", "jogo"] },
+    { id: "tecnologia", name: "Tablets & Fones", icon: "📱", query: ["tablet", "jbl jr", "patinete"] }
+  ],
+  iphones: [
+    { id: "todos", name: "Todos iPhones & Apple", icon: "🍎" },
+    { id: "iphones", name: "iPhones", icon: "📱", query: ["iphone"] },
+    { id: "airpods", name: "AirPods", icon: "🎧", query: ["airpods"] },
+    { id: "watch", name: "Apple Watch", icon: "⌚", query: ["watch"] }
+  ],
+  esporte: [
+    { id: "todos", name: "Todo Esporte", icon: "⚡" },
+    { id: "suplementos", name: "Suplementos & Whey", icon: "💪", query: ["whey", "creatina", "shaker", "coqueteleira"] },
+    { id: "tenis", name: "Tênis de Corrida", icon: "🏃", query: ["corre 3", "tênis", "tenis"] },
+    { id: "treino", name: "Acessórios de Treino", icon: "🏋️", query: ["smartwatch", "elásticos", "corda", "tapete", "halteres", "mochila", "garrafa"] }
+  ]
 };
 
 // Chaves do LocalStorage
@@ -27,6 +91,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initAffiliateConfig();
   initProducts();
   renderCategories();
+  renderSubcategories();
   renderStoreFilters();
   setupEventListeners();
   renderProducts();
@@ -176,6 +241,35 @@ function renderCategories() {
 }
 
 /**
+ * Renderiza os botões de subcategorias de acordo com a categoria principal ativa
+ */
+function renderSubcategories() {
+  const container = document.getElementById("subcategoriesNav");
+  if (!container) return;
+
+  const currentCat = state.activeCategory;
+  const subs = SUBCATEGORIES[currentCat];
+
+  if (!subs || subs.length === 0) {
+    container.style.display = "none";
+    container.innerHTML = "";
+    return;
+  }
+
+  container.style.display = "flex";
+  const catObj = (typeof CATEGORIES !== "undefined" && CATEGORIES.find(c => c.id === currentCat)) || { name: "" };
+  container.innerHTML = `
+    <span class="subcat-label">⚡ Filtrar ${escapeHtml(catObj.name)}:</span>
+    ${subs.map(sub => `
+      <button class="subcat-btn ${sub.id === state.activeSubcategory ? 'active' : ''}" data-subcategory="${sub.id}">
+        <span>${sub.icon}</span>
+        <span>${escapeHtml(sub.name)}</span>
+      </button>
+    `).join("")}
+  `;
+}
+
+/**
  * Renderiza os botões de filtro por Loja Parceira
  */
 function renderStoreFilters() {
@@ -222,6 +316,17 @@ function getFilteredProducts() {
     } else if (state.activeCategory !== "todas") {
       list = list.filter(p => p.category === state.activeCategory);
     }
+
+    // 1.1 Filtro por Subcategoria (quando selecionado um item específico)
+    if (state.activeSubcategory && state.activeSubcategory !== "todos" && SUBCATEGORIES[state.activeCategory]) {
+      const sub = SUBCATEGORIES[state.activeCategory].find(s => s.id === state.activeSubcategory);
+      if (sub && sub.query && Array.isArray(sub.query)) {
+        list = list.filter(p => {
+          const titleLower = (p.title || "").toLowerCase();
+          return sub.query.some(term => titleLower.includes(term.toLowerCase()));
+        });
+      }
+    }
   }
 
   // 2. Filtro por Loja
@@ -255,6 +360,14 @@ function getFilteredProducts() {
   }
 
   return list;
+}
+
+/**
+ * Limpa o texto do selo para remover porcentagens redundantes
+ */
+function cleanBadgeText(badge) {
+  if (!badge) return "";
+  return String(badge).replace(/\s*\(-?\d+%(\s*off)?\)\s*/gi, "").trim();
 }
 
 /**
@@ -349,16 +462,17 @@ function renderProducts() {
            onclick="trackAffiliateClick('${escapeHtml(product.id)}', '${escapeHtml(product.store)}')"
            title="Pegar Oferta: ${escapeHtml(product.title)}">
           <img src="${escapeHtml(product.image)}" alt="${escapeHtml(product.title)}" class="card-img" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&auto=format&fit=crop&q=80'" />
-          
-          ${isExpired ? `
-            <div class="badge-discount badge-expired">⏰ OFERTA ENCERRADA</div>
-          ` : (discountPercent > 0 ? `
-            <div class="badge-discount">-${discountPercent}% OFF</div>
-          ` : '')}
+          <div class="card-badges-top">
+            ${isExpired ? `
+              <span class="badge-discount badge-expired">⏰ OFERTA ENCERRADA</span>
+            ` : (discountPercent > 0 ? `
+              <span class="badge-discount">-${discountPercent}% OFF</span>
+            ` : '')}
 
-          ${(!isExpired && product.badge) ? `
-            <div class="badge-featured">✨ ${escapeHtml(product.badge)}</div>
-          ` : ''}
+            ${(!isExpired && product.badge) ? `
+              <span class="badge-featured">✨ ${escapeHtml(cleanBadgeText(product.badge))}</span>
+            ` : ''}
+          </div>
 
           <div class="store-ribbon" style="background: ${storeInfo.color}; color: ${storeInfo.textColor};">
             <span>${storeInfo.logoEmoji}</span> ${escapeHtml(product.storeName || storeInfo.name)}
@@ -459,8 +573,24 @@ function setupEventListeners() {
       const btn = e.target.closest(".cat-btn");
       if (!btn) return;
       state.activeCategory = btn.dataset.category;
+      state.activeSubcategory = "todos";
       state.displayLimit = 36;
       document.querySelectorAll(".cat-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      renderSubcategories();
+      renderProducts();
+    });
+  }
+
+  // Subcategorias (Tênis, Relógios, Geladeiras, Airfryers, Brinquedos, Maquiagens, etc.)
+  const subcatNav = document.getElementById("subcategoriesNav");
+  if (subcatNav) {
+    subcatNav.addEventListener("click", (e) => {
+      const btn = e.target.closest(".subcat-btn");
+      if (!btn) return;
+      state.activeSubcategory = btn.dataset.subcategory;
+      state.displayLimit = 36;
+      document.querySelectorAll(".subcat-btn").forEach(b => b.classList.remove("active"));
       btn.classList.add("active");
       renderProducts();
     });
@@ -879,6 +1009,7 @@ function handleAddProduct(e) {
  */
 window.resetFilters = function() {
   state.activeCategory = "todas";
+  state.activeSubcategory = "todos";
   state.activeStore = "todas";
   state.searchQuery = "";
   
@@ -886,6 +1017,7 @@ window.resetFilters = function() {
   if (searchInput) searchInput.value = "";
   
   renderCategories();
+  renderSubcategories();
   renderStoreFilters();
   renderProducts();
 };
