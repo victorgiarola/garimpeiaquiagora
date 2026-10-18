@@ -10,8 +10,8 @@ const AFFILIATE_CONFIG = {
     enabled: true
   },
   shopee: {
-    // ID da sua conta de afiliado Shopee ou Universal Link
-    affiliateId: "", // Exemplo: "182390192"
+    // ID da sua conta de afiliado Shopee
+    affiliateId: "18345170182",
     enabled: true
   },
   magalu: {
