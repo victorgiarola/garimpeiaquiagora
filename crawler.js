@@ -1715,15 +1715,16 @@ const DEFAULT_PRODUCTS = ${JSON.stringify(processedProducts, null, 2)};
 
 // Configuração das categorias suportadas
 const CATEGORIES = [
-  { id: "todas", name: "Todas as Ofertas", icon: "💎" },
-  { id: "destaques", name: "🔥 Super Destaques", icon: "🔥" },
-  { id: "iphones", name: "🍎 iPhones Garimpados", icon: "🍎" },
-  { id: "tecnologia", name: "Tecnologia & Celulares", icon: "📱" },
-  { id: "casa-inteligente", name: "Casa & Eletro", icon: "🏠" },
-  { id: "gamer", name: "Setup & Games", icon: "🎮" },
-  { id: "audio", name: "Fones & Som", icon: "🎧" },
-  { id: "moda", name: "Moda & Acessórios", icon: "🎒" },
-  { id: "passadas", name: "⌛ Ofertas Passadas", icon: "⌛" }
+  { id: "todas", name: "Todas as Ofertas", icon: "🔥" },
+  { id: "destaques", name: "Super Destaques", icon: "⭐" },
+  { id: "eletronicos", name: "Eletrônicos & Setup", icon: "💻" },
+  { id: "casa", name: "Casa & Eletrodomésticos", icon: "🏠" },
+  { id: "moda", name: "Moda & Acessórios", icon: "👟" },
+  { id: "feminino", name: "Moda Feminina & Beleza", icon: "💄" },
+  { id: "infantil", name: "Infantil & Brinquedos", icon: "🧸" },
+  { id: "iphones", name: "iPhones & Apple", icon: "🍎" },
+  { id: "esporte", name: "Esporte & Suplementos", icon: "⚡" },
+  { id: "passadas", name: "Ofertas Passadas", icon: "⌛" }
 ];
 
 // Configuração das lojas ativas
