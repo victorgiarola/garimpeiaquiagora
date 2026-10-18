@@ -1679,37 +1679,37 @@ async function runCrawler() {
   console.log(`   - Shopee ID:          ${AFFILIATE_CONFIG.shopee.affiliateId || "(a configurar)"}`);
   console.log(`   - Loja Magalu:        ${AFFILIATE_CONFIG.magalu.storeName || "(a configurar)"}`);
   console.log("-------------------------------------------------");
-  console.log(`🔄 Processando catálogo expandido de ${PROMOTION_POOLS.length} ofertas...`);
+  
+  // Carrega o catálogo mestre limpo e diversificado de 180 ofertas
+  const catalogFile = path.join(__dirname, "products-auto.json");
+  let masterPool = [];
+  if (fs.existsSync(catalogFile)) {
+    masterPool = JSON.parse(fs.readFileSync(catalogFile, "utf-8"));
+  } else {
+    masterPool = PROMOTION_POOLS;
+  }
 
-  const processedProducts = PROMOTION_POOLS.map((item, index) => {
-    // Aplica o AutoMapper para injetar suas credenciais de afiliado
-    const mapping = AutoMapper.mapUrl(item.rawUrl, AFFILIATE_CONFIG);
+  console.log(`🔄 Processando catálogo expandido de ${masterPool.length} ofertas (intercaladas e sem repetições)...`);
+
+  const processedProducts = masterPool.map((item, index) => {
+    // Aplica o AutoMapper para garantir que suas credenciais estejam ativas em todos os links
+    const targetUrl = item.affiliateUrl || item.rawUrl;
+    const mapping = AutoMapper.mapUrl(targetUrl, AFFILIATE_CONFIG);
 
     return {
-      id: `auto-prod-${index + 1}`,
-      title: item.title,
-      category: item.category,
+      ...item,
+      id: item.id || `auto-prod-${index + 1}`,
       store: mapping.store,
       storeName: mapping.storeName,
-      badge: item.badge,
-      originalPrice: item.originalPrice,
-      currentPrice: item.currentPrice,
-      installment: item.installment,
-      pixDiscount: item.pixDiscount,
-      affiliateUrl: mapping.affiliateUrl, // URL convertida com suas métricas oficiais!
-      image: item.image,
-      featured: item.featured,
-      rating: item.rating,
-      reviewsCount: item.reviewsCount,
-      couponCode: item.couponCode,
-      dateAdded: new Date().toISOString().split("T")[0]
+      affiliateUrl: mapping.affiliateUrl,
+      dateAdded: item.dateAdded || new Date().toISOString().split("T")[0]
     };
   });
 
   // Gera o arquivo products.js atualizado
   const productsJsContent = `// Catálogo Oficial Garimpei Aqui Agora
 // Última sincronização: ${new Date().toLocaleString("pt-BR")}
-// Ofertas exclusivas de Mercado Livre, Shopee e Magazine Luiza!
+// Ofertas ativas intercaladas com diversidade máxima e histórico de promoções!
 
 const DEFAULT_PRODUCTS = ${JSON.stringify(processedProducts, null, 2)};
 
