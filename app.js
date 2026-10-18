@@ -33,20 +33,58 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 /**
- * Retorna as credenciais ativas de afiliados (LocalStorage ou Padrão)
+ * Retorna as credenciais ativas de afiliados (LocalStorage ou Padrão Oficial)
  */
 function getAffiliateConfig() {
+  const officialDefaults = {
+    mercadolivre: { toolId: "23610538", affiliateWord: "givi713407", enabled: true },
+    shopee: { affiliateId: "18345170182", enabled: true },
+    magalu: { storeName: "magazinelugarcerto01", enabled: true }
+  };
+
+  const baseConfig = (typeof AFFILIATE_CONFIG !== "undefined") ? AFFILIATE_CONFIG : officialDefaults;
+
   try {
     const saved = localStorage.getItem(AFFILIATE_CONFIG_KEY);
-    if (saved) return JSON.parse(saved);
+    if (saved) {
+      const parsed = JSON.parse(saved);
+      // Garante que valores vazios ou desatualizados do cache antigo sejam substituídos pelos dados oficiais
+      return {
+        mercadolivre: {
+          toolId: parsed.mercadolivre?.toolId || baseConfig.mercadolivre?.toolId || officialDefaults.mercadolivre.toolId,
+          affiliateWord: parsed.mercadolivre?.affiliateWord || baseConfig.mercadolivre?.affiliateWord || officialDefaults.mercadolivre.affiliateWord,
+          enabled: true
+        },
+        shopee: {
+          affiliateId: parsed.shopee?.affiliateId || baseConfig.shopee?.affiliateId || officialDefaults.shopee.affiliateId,
+          enabled: true
+        },
+        magalu: {
+          storeName: (parsed.magalu?.storeName && parsed.magalu.storeName !== "magazinemaisofertas")
+            ? parsed.magalu.storeName
+            : (baseConfig.magalu?.storeName || officialDefaults.magalu.storeName),
+          enabled: true
+        }
+      };
+    }
   } catch (err) {
     console.error("Erro ao ler config de afiliados:", err);
   }
-  return typeof AFFILIATE_CONFIG !== "undefined" ? AFFILIATE_CONFIG : {
-    mercadolivre: { toolId: "23610538", affiliateWord: "givi713407" },
-    shopee: { affiliateId: "18345170182" },
-    magalu: { storeName: "magazinelugarcerto01" }
-  };
+
+  return baseConfig;
+}
+
+/**
+ * Garante que a URL do produto tenha 100% de precisão de afiliado antes de ir pro botão Pegar Oferta
+ */
+function getVerifiedAffiliateUrl(product, config) {
+  const cfg = config || getAffiliateConfig();
+  const raw = product.affiliateUrl || product.rawUrl || "";
+  if (typeof AutoMapper !== "undefined") {
+    const mapped = AutoMapper.mapUrl(raw, cfg);
+    return mapped.affiliateUrl;
+  }
+  return raw;
 }
 
 /**
@@ -71,9 +109,17 @@ function initAffiliateConfig() {
  * Remove caches defasados para garantir que todos os visitantes vejam o catálogo completo.
  */
 function initProducts() {
-  // Limpa cache antigo que limitava a 12 ofertas
+  // Limpa cache antigo ou configurações que possam conter tags antigas
   try {
     localStorage.removeItem(OLD_STORAGE_KEY);
+    const saved = localStorage.getItem(AFFILIATE_CONFIG_KEY);
+    if (saved) {
+      const parsed = JSON.parse(saved);
+      // Se continha o nome antigo da magalu ou Shopee em branco, limpa para forçar as oficiais
+      if (parsed.magalu?.storeName === "magazinemaisofertas" || !parsed.shopee?.affiliateId || !parsed.mercadolivre?.toolId) {
+        localStorage.removeItem(AFFILIATE_CONFIG_KEY);
+      }
+    }
   } catch (e) {}
 
   const config = getAffiliateConfig();
@@ -102,17 +148,12 @@ function initProducts() {
   ];
 
   // 4. Aplica as credenciais do afiliado em todos os links
-  if (typeof AutoMapper !== "undefined") {
-    state.products = combined.map(p => {
-      const mapped = AutoMapper.mapUrl(p.affiliateUrl, config);
-      return {
-        ...p,
-        affiliateUrl: mapped.affiliateUrl
-      };
-    });
-  } else {
-    state.products = combined;
-  }
+  state.products = combined.map(p => {
+    return {
+      ...p,
+      affiliateUrl: getVerifiedAffiliateUrl(p, config)
+    };
+  });
 }
 
 function saveProducts() {
@@ -288,6 +329,7 @@ function renderProducts() {
   const cardsHtml = visibleItems.map(product => {
     const storeInfo = STORES[product.store] || STORES.outros;
     const isExpired = !!product.expired;
+    const activeUrl = getVerifiedAffiliateUrl(product);
     
     // Cálculo do Desconto %
     let discountPercent = 0;
@@ -300,7 +342,12 @@ function renderProducts() {
 
     return `
       <article class="product-card ${isExpired ? 'card-expired' : ''}" id="card-${product.id}">
-        <div class="card-image-wrap">
+        <a href="${escapeHtml(activeUrl)}" 
+           target="_blank" 
+           rel="noopener noreferrer sponsored" 
+           class="card-image-wrap"
+           onclick="trackAffiliateClick('${escapeHtml(product.id)}', '${escapeHtml(product.store)}')"
+           title="Pegar Oferta: ${escapeHtml(product.title)}">
           <img src="${escapeHtml(product.image)}" alt="${escapeHtml(product.title)}" class="card-img" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&auto=format&fit=crop&q=80'" />
           
           ${isExpired ? `
@@ -316,11 +363,17 @@ function renderProducts() {
           <div class="store-ribbon" style="background: ${storeInfo.color}; color: ${storeInfo.textColor};">
             <span>${storeInfo.logoEmoji}</span> ${escapeHtml(product.storeName || storeInfo.name)}
           </div>
-        </div>
+        </a>
 
         <div class="card-body">
           <h2 class="card-title" title="${escapeHtml(product.title)}">
-            ${escapeHtml(product.title)}
+            <a href="${escapeHtml(activeUrl)}" 
+               target="_blank" 
+               rel="noopener noreferrer sponsored"
+               class="card-title-link"
+               onclick="trackAffiliateClick('${escapeHtml(product.id)}', '${escapeHtml(product.store)}')">
+              ${escapeHtml(product.title)}
+            </a>
           </h2>
 
           <div class="card-rating">
@@ -349,17 +402,18 @@ function renderProducts() {
           </div>
 
           <div class="card-actions">
-            <a href="${escapeHtml(product.affiliateUrl)}" 
+            <a href="${escapeHtml(activeUrl)}" 
                target="_blank" 
                rel="noopener noreferrer sponsored" 
                class="btn-affiliate-cta ${isExpired ? 'btn-cta-expired' : ''}"
+               title="Pegar Oferta no ${escapeHtml(product.storeName || storeInfo.name)}"
                onclick="trackAffiliateClick('${escapeHtml(product.id)}', '${escapeHtml(product.store)}')">
               <span>${isExpired ? 'Conferir Preço Atual' : 'Pegar Oferta'}</span> ${isExpired ? '↗️' : '🚀'}
             </a>
             
             <button class="btn-copy-link" 
                     title="Copiar Link de Afiliado" 
-                    onclick="copyAffiliateLink('${escapeHtml(product.affiliateUrl)}')">
+                    onclick="copyAffiliateLink('${escapeHtml(activeUrl)}')">
               🔗
             </button>
           </div>

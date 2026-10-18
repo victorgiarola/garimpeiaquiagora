@@ -679,6 +679,22 @@ body {
   height: 2.8em;
 }
 
+.card-title-link {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.card-title-link:hover {
+  color: var(--accent-gold);
+}
+
+.card-image-wrap {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .card-rating {
   display: flex;
   align-items: center;
