@@ -1,6 +1,6 @@
 // Catálogo Oficial Garimpei Aqui Agora
-// Última sincronização: 17/10/2026, 22:41:10
-// Ofertas exclusivas de Mercado Livre, Shopee e Magazine Luiza!
+// Última sincronização: 17/10/2026, 23:39:48
+// Ofertas ativas e arquivo histórico de promoções!
 
 const DEFAULT_PRODUCTS = [
   {
@@ -20,7 +20,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 15400,
     "couponCode": "MAGALU150",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-2",
@@ -39,7 +40,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 8900,
     "couponCode": "MAGALU100",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-3",
@@ -58,7 +60,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 5,
     "reviewsCount": 4120,
     "couponCode": "MELI200",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-4",
@@ -77,7 +80,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 5,
     "reviewsCount": 3890,
     "couponCode": "MAGALU200",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-5",
@@ -96,7 +100,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 5,
     "reviewsCount": 1200,
     "couponCode": "MAGALU200",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-6",
@@ -115,7 +120,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 9400,
     "couponCode": "MAGALU50",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-7",
@@ -134,7 +140,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 4890,
     "couponCode": "MELI100",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-8",
@@ -153,7 +160,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 7120,
     "couponCode": "MAGALU100",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-9",
@@ -172,7 +180,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 3190,
     "couponCode": "MELI80",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-10",
@@ -191,7 +200,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 6120,
     "couponCode": "MELI50",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-11",
@@ -210,7 +220,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 9400,
     "couponCode": "MELI20",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-12",
@@ -229,7 +240,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 11200,
     "couponCode": "CASA30",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-13",
@@ -248,7 +260,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 5210,
     "couponCode": "GAME150",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-14",
@@ -267,7 +280,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 6540,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-15",
@@ -286,7 +300,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 11400,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-16",
@@ -305,7 +320,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 31200,
     "couponCode": "SHP10",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-17",
@@ -324,7 +340,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 4890,
     "couponCode": "MODA20",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-18",
@@ -343,7 +360,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 6200,
     "couponCode": "MELI100",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-19",
@@ -362,7 +380,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 3400,
     "couponCode": "MELI100",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-20",
@@ -381,7 +400,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 7800,
     "couponCode": "MELI80",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-21",
@@ -400,7 +420,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.7,
     "reviewsCount": 4100,
     "couponCode": "SHOPEE50",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-22",
@@ -419,7 +440,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 19800,
     "couponCode": "MELI50",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-23",
@@ -438,7 +460,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.7,
     "reviewsCount": 11200,
     "couponCode": "SHOPEE40",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-24",
@@ -457,7 +480,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 5,
     "reviewsCount": 840,
     "couponCode": "MELI200",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-25",
@@ -476,7 +500,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 2900,
     "couponCode": "MELI100",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-26",
@@ -495,7 +520,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 3100,
     "couponCode": "MELI50",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-27",
@@ -514,7 +540,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 6200,
     "couponCode": "MELI30",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-28",
@@ -533,7 +560,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 5700,
     "couponCode": "MAGALU50",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-29",
@@ -552,7 +580,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 3900,
     "couponCode": "MELI100",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-30",
@@ -571,7 +600,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 12500,
     "couponCode": "SHOPEE10",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-31",
@@ -590,7 +620,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 8900,
     "couponCode": "SHOPEE10",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-32",
@@ -609,7 +640,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 4200,
     "couponCode": "MAGALU30",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-33",
@@ -628,7 +660,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 3100,
     "couponCode": "MELI30",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-34",
@@ -647,7 +680,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 5200,
     "couponCode": "MELI200",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-35",
@@ -666,7 +700,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 6800,
     "couponCode": "MAGALU50",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-36",
@@ -685,7 +720,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 4500,
     "couponCode": "MELI100",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-37",
@@ -704,7 +740,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 3900,
     "couponCode": "MAGALU100",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-38",
@@ -723,7 +760,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 2800,
     "couponCode": "MELI80",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-39",
@@ -742,7 +780,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 7400,
     "couponCode": "MELI50",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-40",
@@ -761,7 +800,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 9100,
     "couponCode": "MAGALU30",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-41",
@@ -780,7 +820,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 12800,
     "couponCode": "MELI100",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-42",
@@ -799,7 +840,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 4700,
     "couponCode": "MAGALU50",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-43",
@@ -818,7 +860,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 8200,
     "couponCode": "MELI20",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-44",
@@ -837,7 +880,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 2900,
     "couponCode": "MELI50",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-45",
@@ -856,7 +900,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 3400,
     "couponCode": "MELI100",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-46",
@@ -875,7 +920,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 16400,
     "couponCode": "SHOPEE20",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-47",
@@ -894,7 +940,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 4600,
     "couponCode": "MAGALU50",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-48",
@@ -913,7 +960,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 8800,
     "couponCode": "MELI30",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-49",
@@ -932,7 +980,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 22000,
     "couponCode": "SHOPEE10",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-50",
@@ -951,7 +1000,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 14500,
     "couponCode": "SHOPEE20",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-51",
@@ -970,7 +1020,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 3200,
     "couponCode": "MELI50",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-52",
@@ -989,7 +1040,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 5,
     "reviewsCount": 4200,
     "couponCode": "MAGALU200",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-53",
@@ -1008,7 +1060,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.7,
     "reviewsCount": 8100,
     "couponCode": "MAGALU30",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-54",
@@ -1027,7 +1080,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 17500,
     "couponCode": "MAGALU20",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-55",
@@ -1046,7 +1100,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 5200,
     "couponCode": "MAGALU20",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-56",
@@ -1065,7 +1120,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 9300,
     "couponCode": "MELI20",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-57",
@@ -1084,7 +1140,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 6500,
     "couponCode": "MELI30",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-58",
@@ -1103,7 +1160,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 14200,
     "couponCode": "SHOPEE20",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-59",
@@ -1122,7 +1180,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 8100,
     "couponCode": "MAGALU20",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-60",
@@ -1141,7 +1200,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 5600,
     "couponCode": "MELI50",
-    "dateAdded": "2026-10-18"
+    "dateAdded": "2026-10-18",
+    "expired": false
   },
   {
     "id": "auto-prod-61",
@@ -1160,7 +1220,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.7,
     "reviewsCount": 1650,
     "couponCode": "MAGALU50",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-62",
@@ -1179,7 +1240,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 4300,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-63",
@@ -1198,7 +1260,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.7,
     "reviewsCount": 3820,
     "couponCode": "SHOPEE20",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-64",
@@ -1217,7 +1280,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 5410,
     "couponCode": "TECH20",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-65",
@@ -1236,7 +1300,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 8200,
     "couponCode": "SHP10",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-66",
@@ -1255,7 +1320,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 2890,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-67",
@@ -1274,7 +1340,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.7,
     "reviewsCount": 3400,
     "couponCode": "MAGALU30",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-68",
@@ -1293,7 +1360,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 8900,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-69",
@@ -1312,7 +1380,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 4200,
     "couponCode": "TECH15",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-70",
@@ -1331,7 +1400,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 6700,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-71",
@@ -1350,7 +1420,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 15300,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-72",
@@ -1369,7 +1440,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 3890,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-73",
@@ -1388,7 +1460,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 2400,
     "couponCode": "MELITABLET",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-74",
@@ -1407,7 +1480,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 5200,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-75",
@@ -1426,7 +1500,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 3100,
     "couponCode": "SOM15",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-76",
@@ -1445,7 +1520,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 9400,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-77",
@@ -1464,7 +1540,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 15400,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-78",
@@ -1483,7 +1560,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.7,
     "reviewsCount": 6840,
     "couponCode": "MAGALU20",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-79",
@@ -1502,7 +1580,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 8100,
     "couponCode": "CAFE20",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-80",
@@ -1521,7 +1600,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 3950,
     "couponCode": "COZINHA40",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-81",
@@ -1540,7 +1620,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 9340,
     "couponCode": "BELEZA15",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-82",
@@ -1559,7 +1640,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 14200,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-83",
@@ -1578,7 +1660,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.7,
     "reviewsCount": 18900,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-84",
@@ -1597,7 +1680,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 16200,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-85",
@@ -1616,7 +1700,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 4700,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-86",
@@ -1635,7 +1720,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.7,
     "reviewsCount": 13800,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-87",
@@ -1654,7 +1740,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 11400,
     "couponCode": "LED10",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-88",
@@ -1673,7 +1760,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.7,
     "reviewsCount": 7800,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-89",
@@ -1692,7 +1780,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 24500,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-90",
@@ -1711,7 +1800,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 8900,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-91",
@@ -1730,7 +1820,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 3100,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-92",
@@ -1749,7 +1840,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.7,
     "reviewsCount": 9200,
     "couponCode": "CASA15",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-93",
@@ -1768,7 +1860,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 16300,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-94",
@@ -1787,7 +1880,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.7,
     "reviewsCount": 6400,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-95",
@@ -1806,7 +1900,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 3870,
     "couponCode": "MELIGAME",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-96",
@@ -1825,7 +1920,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 4200,
     "couponCode": "MAGALUGAMER",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-97",
@@ -1844,7 +1940,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 7890,
     "couponCode": "SHPGAME",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-98",
@@ -1863,7 +1960,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 21500,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-99",
@@ -1882,7 +1980,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 6700,
     "couponCode": "MELISSD",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-100",
@@ -1901,7 +2000,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 12400,
     "couponCode": "SETUP10",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-101",
@@ -1920,7 +2020,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 9400,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-102",
@@ -1939,7 +2040,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.7,
     "reviewsCount": 3100,
     "couponCode": "CADEIRA50",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-103",
@@ -1958,7 +2060,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 18200,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-104",
@@ -1977,7 +2080,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 7800,
     "couponCode": "AUDIO10",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-105",
@@ -1996,7 +2100,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 5200,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-106",
@@ -2015,7 +2120,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 6700,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-107",
@@ -2034,7 +2140,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 4800,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-108",
@@ -2053,7 +2160,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 3900,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-109",
@@ -2072,7 +2180,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 4600,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-110",
@@ -2091,7 +2200,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.7,
     "reviewsCount": 11200,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-111",
@@ -2110,7 +2220,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 8900,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-112",
@@ -2129,7 +2240,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 19400,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-113",
@@ -2148,7 +2260,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 16800,
     "couponCode": "QCY20",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-114",
@@ -2167,7 +2280,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 2940,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-115",
@@ -2186,7 +2300,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 7100,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-116",
@@ -2205,7 +2320,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 4200,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-117",
@@ -2224,7 +2340,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 8900,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-118",
@@ -2243,7 +2360,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.7,
     "reviewsCount": 2800,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-119",
@@ -2262,7 +2380,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 3900,
     "couponCode": "BASEUS20",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-120",
@@ -2281,7 +2400,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 22400,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-121",
@@ -2300,7 +2420,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.7,
     "reviewsCount": 1950,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-122",
@@ -2319,7 +2440,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 14700,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-123",
@@ -2338,7 +2460,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.7,
     "reviewsCount": 8900,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-124",
@@ -2357,7 +2480,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 16100,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-125",
@@ -2376,7 +2500,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.7,
     "reviewsCount": 12800,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-126",
@@ -2395,7 +2520,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 3700,
     "couponCode": "TENIS20",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-127",
@@ -2414,7 +2540,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 7420,
     "couponCode": "MOCHILA10",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-128",
@@ -2433,7 +2560,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 9800,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-129",
@@ -2452,7 +2580,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 3800,
     "couponCode": "CORRIDA30",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-130",
@@ -2471,7 +2600,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 11200,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-131",
@@ -2490,7 +2620,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 15800,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-132",
@@ -2509,7 +2640,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 13900,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-133",
@@ -2528,7 +2660,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 17400,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-134",
@@ -2547,7 +2680,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 8400,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-135",
@@ -2566,7 +2700,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 12100,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-136",
@@ -2585,7 +2720,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 9700,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-137",
@@ -2604,7 +2740,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 18400,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-138",
@@ -2623,7 +2760,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 8200,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-139",
@@ -2642,7 +2780,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 4200,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-140",
@@ -2661,7 +2800,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 5120,
     "couponCode": "BOSCH30",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-141",
@@ -2680,7 +2820,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 16700,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-142",
@@ -2699,7 +2840,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 8400,
     "couponCode": "AUTO10",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-143",
@@ -2718,7 +2860,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 4600,
     "couponCode": "CASA10",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-144",
@@ -2737,7 +2880,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.7,
     "reviewsCount": 13200,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-145",
@@ -2756,7 +2900,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 7800,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-146",
@@ -2775,7 +2920,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 3910,
     "couponCode": "SHP10",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-147",
@@ -2794,7 +2940,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 14600,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-148",
@@ -2813,7 +2960,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 22100,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-149",
@@ -2832,7 +2980,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.7,
     "reviewsCount": 6540,
     "couponCode": "",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-150",
@@ -2851,7 +3000,8 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 18900,
     "couponCode": "SAUDE10",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
   },
   {
     "id": "auto-prod-151",
@@ -2870,7 +3020,468 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.7,
     "reviewsCount": 10400,
     "couponCode": "SHP10",
-    "dateAdded": "2026-10-17"
+    "dateAdded": "2026-10-17",
+    "expired": false
+  },
+  {
+    "id": "auto-prod-past-1",
+    "title": "Console PlayStation 5 Edição Digital + 2 Jogos (God of War Ragnarök + Horizon Forbidden West)",
+    "category": "gamer",
+    "store": "magalu",
+    "storeName": "Magalu",
+    "badge": "⏰ Promoção Encerrada",
+    "originalPrice": 4499,
+    "currentPrice": 2999,
+    "installment": "Lote promocional esgotado",
+    "pixDiscount": "Preço recorde histórico",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinemaisofertas/p/237292800/",
+    "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=600&auto=format&fit=crop&q=80",
+    "featured": false,
+    "rating": 5,
+    "reviewsCount": 8900,
+    "couponCode": "ESGOTADO",
+    "expired": true,
+    "dateAdded": "2026-10-15"
+  },
+  {
+    "id": "auto-prod-past-2",
+    "title": "Smart TV 50'' Crystal UHD 4K Samsung CU7700 com Gaming Hub e Visual Livre de Cabos",
+    "category": "casa-inteligente",
+    "store": "magalu",
+    "storeName": "Magalu",
+    "badge": "⏰ Promoção Encerrada",
+    "originalPrice": 2999,
+    "currentPrice": 1749,
+    "installment": "Oferta relâmpago encerrada",
+    "pixDiscount": "Preço no Pix na época",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinemaisofertas/p/237292900/",
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=600&auto=format&fit=crop&q=80",
+    "featured": false,
+    "rating": 4.8,
+    "reviewsCount": 12400,
+    "couponCode": "ESGOTADO",
+    "expired": true,
+    "dateAdded": "2026-10-15"
+  },
+  {
+    "id": "auto-prod-past-3",
+    "title": "Apple iPhone 13 (128 GB) Azul - Super Oferta de Queima de Estoque Black Friday",
+    "category": "iphones",
+    "store": "mercadolivre",
+    "storeName": "Mercado Livre",
+    "badge": "⏰ Promoção Encerrada",
+    "originalPrice": 7599,
+    "currentPrice": 2999,
+    "installment": "Esgotou em 14 minutos",
+    "pixDiscount": "Menor preço histórico registrado",
+    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928400-apple-iphone-13-128gb-azul",
+    "image": "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=600&auto=format&fit=crop&q=80",
+    "featured": false,
+    "rating": 4.9,
+    "reviewsCount": 22000,
+    "couponCode": "BLACKFRIDAY",
+    "expired": true,
+    "dateAdded": "2026-10-15"
+  },
+  {
+    "id": "auto-prod-past-4",
+    "title": "Fritadeira Sem Óleo Air Fryer Mondial 4L Family Inox AFN-40-BI 1500W",
+    "category": "casa-inteligente",
+    "store": "shopee",
+    "storeName": "Shopee",
+    "badge": "⏰ Promoção Encerrada",
+    "originalPrice": 449,
+    "currentPrice": 169,
+    "installment": "Lote promocional esgotado",
+    "pixDiscount": "Cupom Shopee Relâmpago",
+    "affiliateUrl": "https://shopee.com.br/product/air-fryer-mondial-4l-inox-afn40",
+    "image": "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?w=600&auto=format&fit=crop&q=80",
+    "featured": false,
+    "rating": 4.8,
+    "reviewsCount": 31000,
+    "couponCode": "ESGOTADO",
+    "expired": true,
+    "dateAdded": "2026-10-15"
+  },
+  {
+    "id": "auto-prod-past-5",
+    "title": "Fone de Ouvido Gamer Lenovo GM2 Pro Bluetooth 5.3 com Modo Gamer Baixa Latência",
+    "category": "audio",
+    "store": "shopee",
+    "storeName": "Shopee",
+    "badge": "⏰ Promoção Encerrada",
+    "originalPrice": 99,
+    "currentPrice": 29.9,
+    "installment": "Bug de cupom encerrado",
+    "pixDiscount": "Sucesso no grupo VIP",
+    "affiliateUrl": "https://shopee.com.br/product/fone-lenovo-gm2-pro-bluetooth-gamer",
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&auto=format&fit=crop&q=80",
+    "featured": false,
+    "rating": 4.8,
+    "reviewsCount": 45000,
+    "couponCode": "BUGENCERRADO",
+    "expired": true,
+    "dateAdded": "2026-10-15"
+  },
+  {
+    "id": "auto-prod-past-6",
+    "title": "Notebook Lenovo IdeaPad 3 AMD Ryzen 5 8GB 256GB SSD Tela 15.6'' Full HD",
+    "category": "tecnologia",
+    "store": "mercadolivre",
+    "storeName": "Mercado Livre",
+    "badge": "⏰ Promoção Encerrada",
+    "originalPrice": 3899,
+    "currentPrice": 1999,
+    "installment": "Lote de queima encerrado",
+    "pixDiscount": "Desconto histórico no Pix",
+    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928401-notebook-lenovo-ideapad-3-ryzen-5",
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600&auto=format&fit=crop&q=80",
+    "featured": false,
+    "rating": 4.8,
+    "reviewsCount": 16000,
+    "couponCode": "ESGOTADO",
+    "expired": true,
+    "dateAdded": "2026-10-15"
+  },
+  {
+    "id": "auto-prod-past-7",
+    "title": "Smart Speaker Echo Pop com Alexa e Som Direcionado Compacto - Lavanda",
+    "category": "casa-inteligente",
+    "store": "mercadolivre",
+    "storeName": "Mercado Livre",
+    "badge": "⏰ Promoção Encerrada",
+    "originalPrice": 349,
+    "currentPrice": 149,
+    "installment": "Flash Day encerrado",
+    "pixDiscount": "Preço promocional na época",
+    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928402-smart-speaker-echo-pop-alexa",
+    "image": "https://images.unsplash.com/photo-1543512214-318c7553f230?w=600&auto=format&fit=crop&q=80",
+    "featured": false,
+    "rating": 4.8,
+    "reviewsCount": 18200,
+    "couponCode": "ESGOTADO",
+    "expired": true,
+    "dateAdded": "2026-10-15"
+  },
+  {
+    "id": "auto-prod-past-8",
+    "title": "Tênis Nike Revolution 6 Next Nature Masculino Preto com Amortecimento",
+    "category": "moda",
+    "store": "magalu",
+    "storeName": "Magalu",
+    "badge": "⏰ Promoção Encerrada",
+    "originalPrice": 399,
+    "currentPrice": 149.9,
+    "installment": "Liquidação total encerrada",
+    "pixDiscount": "10% no Pix Magalu na época",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinemaisofertas/p/237293000/",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&auto=format&fit=crop&q=80",
+    "featured": false,
+    "rating": 4.8,
+    "reviewsCount": 14200,
+    "couponCode": "ESGOTADO",
+    "expired": true,
+    "dateAdded": "2026-10-15"
+  },
+  {
+    "id": "auto-prod-past-9",
+    "title": "Controle Sem Fio Sony DualSense PS5 Midnight Black com Feedback Háptico",
+    "category": "gamer",
+    "store": "mercadolivre",
+    "storeName": "Mercado Livre",
+    "badge": "⏰ Promoção Encerrada",
+    "originalPrice": 499,
+    "currentPrice": 299,
+    "installment": "Esgotado",
+    "pixDiscount": "Frete Full Grátis na época",
+    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928403-controle-dualsense-ps5-midnight-black",
+    "image": "https://images.unsplash.com/photo-1600080972464-8e5f35f63d08?w=600&auto=format&fit=crop&q=80",
+    "featured": false,
+    "rating": 4.9,
+    "reviewsCount": 11000,
+    "couponCode": "ESGOTADO",
+    "expired": true,
+    "dateAdded": "2026-10-15"
+  },
+  {
+    "id": "auto-prod-past-10",
+    "title": "Monitor Gamer Samsung Odyssey G3 24'' 144Hz 1ms Ajuste de Altura e Giro",
+    "category": "gamer",
+    "store": "magalu",
+    "storeName": "Magalu",
+    "badge": "⏰ Promoção Encerrada",
+    "originalPrice": 1299,
+    "currentPrice": 699,
+    "installment": "Promoção relâmpago encerrada",
+    "pixDiscount": "Preço no Pix na época",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinemaisofertas/p/237293100/",
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&auto=format&fit=crop&q=80",
+    "featured": false,
+    "rating": 4.8,
+    "reviewsCount": 9500,
+    "couponCode": "ESGOTADO",
+    "expired": true,
+    "dateAdded": "2026-10-15"
+  },
+  {
+    "id": "auto-prod-past-11",
+    "title": "Caixa de Som Bluetooth JBL Go 3 à Prova D'água IP67 com Alça Integrada",
+    "category": "audio",
+    "store": "shopee",
+    "storeName": "Shopee",
+    "badge": "⏰ Promoção Encerrada",
+    "originalPrice": 299,
+    "currentPrice": 129,
+    "installment": "Lote Shopee esgotado",
+    "pixDiscount": "Cupom expirado",
+    "affiliateUrl": "https://shopee.com.br/product/caixa-jbl-go-3-bluetooth-original",
+    "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=600&auto=format&fit=crop&q=80",
+    "featured": false,
+    "rating": 4.9,
+    "reviewsCount": 28000,
+    "couponCode": "ESGOTADO",
+    "expired": true,
+    "dateAdded": "2026-10-15"
+  },
+  {
+    "id": "auto-prod-past-12",
+    "title": "Robô Aspirador de Pó Xiaomi Mi Robot Vacuum Mop 2 com Mapeamento Inteligente",
+    "category": "casa-inteligente",
+    "store": "mercadolivre",
+    "storeName": "Mercado Livre",
+    "badge": "⏰ Promoção Encerrada",
+    "originalPrice": 2299,
+    "currentPrice": 899,
+    "installment": "Queima de estoque encerrada",
+    "pixDiscount": "Desconto histórico",
+    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928404-robo-aspirador-xiaomi-mop-2",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&auto=format&fit=crop&q=80",
+    "featured": false,
+    "rating": 4.8,
+    "reviewsCount": 6500,
+    "couponCode": "ESGOTADO",
+    "expired": true,
+    "dateAdded": "2026-10-15"
+  },
+  {
+    "id": "auto-prod-past-13",
+    "title": "Cafeteira Nespresso Essenza Mini 19 Bar com Kit de Boas-Vindas de Cápsulas",
+    "category": "casa-inteligente",
+    "store": "magalu",
+    "storeName": "Magalu",
+    "badge": "⏰ Promoção Encerrada",
+    "originalPrice": 549,
+    "currentPrice": 249,
+    "installment": "Oferta de Natal encerrada",
+    "pixDiscount": "Preço no Pix na época",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinemaisofertas/p/237293200/",
+    "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=600&auto=format&fit=crop&q=80",
+    "featured": false,
+    "rating": 4.9,
+    "reviewsCount": 14000,
+    "couponCode": "ESGOTADO",
+    "expired": true,
+    "dateAdded": "2026-10-15"
+  },
+  {
+    "id": "auto-prod-past-14",
+    "title": "Apple Watch SE 1ª Geração GPS 40mm Caixa Cinza Espacial com Pulseira Esportiva",
+    "category": "iphones",
+    "store": "mercadolivre",
+    "storeName": "Mercado Livre",
+    "badge": "⏰ Promoção Encerrada",
+    "originalPrice": 2999,
+    "currentPrice": 1399,
+    "installment": "Últimas unidades esgotadas",
+    "pixDiscount": "Preço na época",
+    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928405-apple-watch-se-40mm-gps",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&auto=format&fit=crop&q=80",
+    "featured": false,
+    "rating": 4.9,
+    "reviewsCount": 7800,
+    "couponCode": "ESGOTADO",
+    "expired": true,
+    "dateAdded": "2026-10-15"
+  },
+  {
+    "id": "auto-prod-past-15",
+    "title": "Smartphone Samsung Galaxy S22 5G 128GB Snapdragon 8 Gen 1 Câmera 50MP Nightography",
+    "category": "tecnologia",
+    "store": "magalu",
+    "storeName": "Magalu",
+    "badge": "⏰ Promoção Encerrada",
+    "originalPrice": 5999,
+    "currentPrice": 1999,
+    "installment": "Queima de estoque encerrada",
+    "pixDiscount": "Desconto no Pix Magalu",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinemaisofertas/p/237293300/",
+    "image": "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=600&auto=format&fit=crop&q=80",
+    "featured": false,
+    "rating": 4.8,
+    "reviewsCount": 19000,
+    "couponCode": "ESGOTADO",
+    "expired": true,
+    "dateAdded": "2026-10-15"
+  },
+  {
+    "id": "auto-prod-past-16",
+    "title": "Copo Térmico Stanley com Tampa 473ml Matte Black Original com Nota Fiscal",
+    "category": "casa-inteligente",
+    "store": "mercadolivre",
+    "storeName": "Mercado Livre",
+    "badge": "⏰ Promoção Encerrada",
+    "originalPrice": 220,
+    "currentPrice": 99,
+    "installment": "Promoção Dia dos Pais encerrada",
+    "pixDiscount": "Envio Full na época",
+    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928406-copo-termico-stanley-473ml-com-tampa",
+    "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=600&auto=format&fit=crop&q=80",
+    "featured": false,
+    "rating": 4.9,
+    "reviewsCount": 26000,
+    "couponCode": "ESGOTADO",
+    "expired": true,
+    "dateAdded": "2026-10-15"
+  },
+  {
+    "id": "auto-prod-past-17",
+    "title": "Kit Teclado Mecânico Gamer Redragon Kumara Switch Blue RGB Anti-Ghosting",
+    "category": "gamer",
+    "store": "shopee",
+    "storeName": "Shopee",
+    "badge": "⏰ Promoção Encerrada",
+    "originalPrice": 299,
+    "currentPrice": 139,
+    "installment": "Cupom Shopee encerrado",
+    "pixDiscount": "Preço no Pix na época",
+    "affiliateUrl": "https://shopee.com.br/product/teclado-mecanico-redragon-kumara-rgb",
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80",
+    "featured": false,
+    "rating": 4.8,
+    "reviewsCount": 15300,
+    "couponCode": "ESGOTADO",
+    "expired": true,
+    "dateAdded": "2026-10-15"
+  },
+  {
+    "id": "auto-prod-past-18",
+    "title": "SSD Kingston A400 480GB SATA 3 2.5'' Leitura até 500MB/s e Gravação 450MB/s",
+    "category": "gamer",
+    "store": "shopee",
+    "storeName": "Shopee",
+    "badge": "⏰ Promoção Encerrada",
+    "originalPrice": 259,
+    "currentPrice": 99,
+    "installment": "Flash Shopee encerrado",
+    "pixDiscount": "Preço na época",
+    "affiliateUrl": "https://shopee.com.br/product/ssd-kingston-a400-480gb-sata3",
+    "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600&auto=format&fit=crop&q=80",
+    "featured": false,
+    "rating": 4.9,
+    "reviewsCount": 38000,
+    "couponCode": "ESGOTADO",
+    "expired": true,
+    "dateAdded": "2026-10-15"
+  },
+  {
+    "id": "auto-prod-past-19",
+    "title": "Smartband Xiaomi Mi Band 7 Tela AMOLED 1.62'' 120 Modos de Treino Monitor SpO2",
+    "category": "tecnologia",
+    "store": "shopee",
+    "storeName": "Shopee",
+    "badge": "⏰ Promoção Encerrada",
+    "originalPrice": 299,
+    "currentPrice": 119,
+    "installment": "Lote promocional encerrado",
+    "pixDiscount": "Frete Grátis na época",
+    "affiliateUrl": "https://shopee.com.br/product/xiaomi-mi-band-7-smartwatch-original",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&auto=format&fit=crop&q=80",
+    "featured": false,
+    "rating": 4.8,
+    "reviewsCount": 29000,
+    "couponCode": "ESGOTADO",
+    "expired": true,
+    "dateAdded": "2026-10-15"
+  },
+  {
+    "id": "auto-prod-past-20",
+    "title": "Aspirador de Pó Vertical 2 em 1 Electrolux STK10 1000W Bivolt com Cabo de 5 Metros",
+    "category": "casa-inteligente",
+    "store": "magalu",
+    "storeName": "Magalu",
+    "badge": "⏰ Promoção Encerrada",
+    "originalPrice": 249,
+    "currentPrice": 119,
+    "installment": "Promoção encerrada",
+    "pixDiscount": "Preço no Pix na época",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinemaisofertas/p/237293400/",
+    "image": "https://images.unsplash.com/photo-1558317374-067fb5f30001?w=600&auto=format&fit=crop&q=80",
+    "featured": false,
+    "rating": 4.8,
+    "reviewsCount": 22000,
+    "couponCode": "ESGOTADO",
+    "expired": true,
+    "dateAdded": "2026-10-15"
+  },
+  {
+    "id": "auto-prod-past-21",
+    "title": "Perfume Ferrari Black Masculino Eau de Toilette 125ml com Selo Adipec",
+    "category": "moda",
+    "store": "mercadolivre",
+    "storeName": "Mercado Livre",
+    "badge": "⏰ Promoção Encerrada",
+    "originalPrice": 299,
+    "currentPrice": 129,
+    "installment": "Lote de queima esgotado",
+    "pixDiscount": "Preço na época",
+    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928407-perfume-ferrari-black-125ml",
+    "image": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=600&auto=format&fit=crop&q=80",
+    "featured": false,
+    "rating": 4.8,
+    "reviewsCount": 16800,
+    "couponCode": "ESGOTADO",
+    "expired": true,
+    "dateAdded": "2026-10-15"
+  },
+  {
+    "id": "auto-prod-past-22",
+    "title": "Secador de Cabelo Taiff Red Íon 1900W 110V/220V com Cabo de 1.80m e Emissão de Íons",
+    "category": "moda",
+    "store": "magalu",
+    "storeName": "Magalu",
+    "badge": "⏰ Promoção Encerrada",
+    "originalPrice": 329,
+    "currentPrice": 159,
+    "installment": "Lote promocional encerrado",
+    "pixDiscount": "Preço no Pix na época",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinemaisofertas/p/237293500/",
+    "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600&auto=format&fit=crop&q=80",
+    "featured": false,
+    "rating": 4.9,
+    "reviewsCount": 18500,
+    "couponCode": "ESGOTADO",
+    "expired": true,
+    "dateAdded": "2026-10-15"
+  },
+  {
+    "id": "auto-prod-past-23",
+    "title": "Apple iPhone 12 Mini (64 GB) Preto 5G - Câmera Dupla 12MP e Tela OLED Super Retina",
+    "category": "iphones",
+    "store": "mercadolivre",
+    "storeName": "Mercado Livre",
+    "badge": "⏰ Promoção Encerrada",
+    "originalPrice": 4999,
+    "currentPrice": 1899,
+    "installment": "Esgotou em 10 minutos",
+    "pixDiscount": "Maior desconto registrado",
+    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928408-apple-iphone-12-mini-64gb",
+    "image": "https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=600&auto=format&fit=crop&q=80",
+    "featured": false,
+    "rating": 4.8,
+    "reviewsCount": 9200,
+    "couponCode": "ESGOTADO",
+    "expired": true,
+    "dateAdded": "2026-10-15"
   }
 ];
 
@@ -2915,6 +3526,11 @@ const CATEGORIES = [
     "id": "moda",
     "name": "Moda & Acessórios",
     "icon": "🎒"
+  },
+  {
+    "id": "passadas",
+    "name": "⌛ Ofertas Passadas",
+    "icon": "⌛"
   }
 ];
 

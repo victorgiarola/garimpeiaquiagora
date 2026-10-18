@@ -1722,7 +1722,8 @@ const CATEGORIES = [
   { id: "casa-inteligente", name: "Casa & Eletro", icon: "🏠" },
   { id: "gamer", name: "Setup & Games", icon: "🎮" },
   { id: "audio", name: "Fones & Som", icon: "🎧" },
-  { id: "moda", name: "Moda & Acessórios", icon: "🎒" }
+  { id: "moda", name: "Moda & Acessórios", icon: "🎒" },
+  { id: "passadas", name: "⌛ Ofertas Passadas", icon: "⌛" }
 ];
 
 // Configuração das lojas ativas

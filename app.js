@@ -167,12 +167,20 @@ function getFilteredProducts() {
   let list = [...state.products];
 
   // 1. Filtro por Categoria
-  if (state.activeCategory === "destaques") {
-    list = list.filter(p => p.featured);
-  } else if (state.activeCategory === "iphones") {
-    list = list.filter(p => p.category === "iphones" || p.title.toLowerCase().includes("iphone") || p.title.toLowerCase().includes("apple"));
-  } else if (state.activeCategory !== "todas") {
-    list = list.filter(p => p.category === state.activeCategory);
+  if (state.activeCategory === "passadas") {
+    // Aba exclusiva de ofertas passadas / encerradas
+    list = list.filter(p => p.expired === true);
+  } else {
+    // Todas as outras abas exibem APENAS ofertas ativas e válidas!
+    list = list.filter(p => !p.expired);
+
+    if (state.activeCategory === "destaques") {
+      list = list.filter(p => p.featured);
+    } else if (state.activeCategory === "iphones") {
+      list = list.filter(p => p.category === "iphones" || p.title.toLowerCase().includes("iphone") || p.title.toLowerCase().includes("apple"));
+    } else if (state.activeCategory !== "todas") {
+      list = list.filter(p => p.category === state.activeCategory);
+    }
   }
 
   // 2. Filtro por Loja
@@ -223,10 +231,12 @@ function renderProducts() {
   const visibleItems = items.slice(0, state.displayLimit);
 
   if (stats) {
-    if (visibleItems.length < items.length) {
-      stats.innerHTML = `Exibindo <strong>${visibleItems.length}</strong> de <strong>${items.length}</strong> super ofertas garimpadas`;
+    if (state.activeCategory === "passadas") {
+      stats.innerHTML = `Exibindo <strong>${visibleItems.length}</strong> de <strong>${items.length}</strong> ofertas encerradas no arquivo histórico`;
+    } else if (visibleItems.length < items.length) {
+      stats.innerHTML = `Exibindo <strong>${visibleItems.length}</strong> de <strong>${items.length}</strong> super ofertas ativas`;
     } else {
-      stats.innerHTML = `Exibindo <strong>${items.length}</strong> ${items.length === 1 ? 'oferta garimpada' : 'ofertas garimpadas'} com super descontos`;
+      stats.innerHTML = `Exibindo <strong>${items.length}</strong> ${items.length === 1 ? 'oferta ativa' : 'ofertas ativas'} com super descontos`;
     }
   }
 
@@ -259,8 +269,25 @@ function renderProducts() {
     return;
   }
 
-  grid.innerHTML = visibleItems.map(product => {
+  const isPast = state.activeCategory === "passadas";
+  const pastAlertHtml = isPast ? `
+    <div class="past-deals-alert">
+      <div class="past-alert-content">
+        <span class="past-alert-icon">⏳</span>
+        <div>
+          <h4>Arquivo Histórico de Ofertas Encerradas</h4>
+          <p>Estas promoções já encerraram ou esgotaram seus estoques promocionais. Não quer perder as próximas? Entre no nosso Grupo VIP de WhatsApp!</p>
+        </div>
+      </div>
+      <a href="https://chat.whatsapp.com" target="_blank" rel="noopener noreferrer" class="btn-vip-alert">
+        <span>💬 Entrar no Grupo VIP</span>
+      </a>
+    </div>
+  ` : '';
+
+  const cardsHtml = visibleItems.map(product => {
     const storeInfo = STORES[product.store] || STORES.outros;
+    const isExpired = !!product.expired;
     
     // Cálculo do Desconto %
     let discountPercent = 0;
@@ -272,15 +299,17 @@ function renderProducts() {
     const formattedCurrent = formatMoney(product.currentPrice);
 
     return `
-      <article class="product-card" id="card-${product.id}">
+      <article class="product-card ${isExpired ? 'card-expired' : ''}" id="card-${product.id}">
         <div class="card-image-wrap">
           <img src="${escapeHtml(product.image)}" alt="${escapeHtml(product.title)}" class="card-img" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&auto=format&fit=crop&q=80'" />
           
-          ${discountPercent > 0 ? `
+          ${isExpired ? `
+            <div class="badge-discount badge-expired">⏰ OFERTA ENCERRADA</div>
+          ` : (discountPercent > 0 ? `
             <div class="badge-discount">-${discountPercent}% OFF</div>
-          ` : ''}
+          ` : '')}
 
-          ${product.badge ? `
+          ${(!isExpired && product.badge) ? `
             <div class="badge-featured">✨ ${escapeHtml(product.badge)}</div>
           ` : ''}
 
@@ -300,14 +329,18 @@ function renderProducts() {
           </div>
 
           <div class="price-container">
-            ${formattedOriginal ? `<div class="price-original">De ${formattedOriginal}</div>` : ''}
+            ${formattedOriginal ? `<div class="price-original">${isExpired ? 'Preço na época: De ' : 'De '}${formattedOriginal}</div>` : ''}
             <div class="price-row">
-              <span class="price-current">R$ ${formattedCurrent}</span>
+              <span class="price-current ${isExpired ? 'price-current-expired' : ''}">${isExpired ? 'Custou R$ ' : 'R$ '}${formattedCurrent}</span>
             </div>
-            ${product.installment ? `<div class="price-installment">${escapeHtml(product.installment)}</div>` : ''}
-            ${product.pixDiscount ? `<div class="pix-badge">🏷️ ${escapeHtml(product.pixDiscount)}</div>` : ''}
+            ${isExpired ? `
+              <div class="expired-pill">⚠️ Preço pode ter subido na loja</div>
+            ` : `
+              ${product.installment ? `<div class="price-installment">${escapeHtml(product.installment)}</div>` : ''}
+              ${product.pixDiscount ? `<div class="pix-badge">🏷️ ${escapeHtml(product.pixDiscount)}</div>` : ''}
+            `}
             
-            ${product.couponCode ? `
+            ${(!isExpired && product.couponCode) ? `
               <div class="coupon-pill" onclick="copyCoupon('${escapeHtml(product.couponCode)}')" title="Clique para copiar o cupom">
                 <span>🎟️ Cupom: <strong>${escapeHtml(product.couponCode)}</strong></span>
                 <span>Copiar 📋</span>
@@ -319,9 +352,9 @@ function renderProducts() {
             <a href="${escapeHtml(product.affiliateUrl)}" 
                target="_blank" 
                rel="noopener noreferrer sponsored" 
-               class="btn-affiliate-cta"
+               class="btn-affiliate-cta ${isExpired ? 'btn-cta-expired' : ''}"
                onclick="trackAffiliateClick('${escapeHtml(product.id)}', '${escapeHtml(product.store)}')">
-              <span>Pegar Oferta</span> 🚀
+              <span>${isExpired ? 'Conferir Preço Atual' : 'Pegar Oferta'}</span> ${isExpired ? '↗️' : '🚀'}
             </a>
             
             <button class="btn-copy-link" 
@@ -334,6 +367,8 @@ function renderProducts() {
       </article>
     `;
   }).join("");
+
+  grid.innerHTML = pastAlertHtml + cardsHtml;
 }
 
 /**
