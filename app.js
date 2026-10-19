@@ -568,7 +568,7 @@ function renderProducts() {
                class="btn-affiliate-cta ${isExpired ? 'btn-cta-expired' : ''}"
                title="Pegar Oferta no ${escapeHtml(product.storeName || storeInfo.name)}"
                onclick="trackAffiliateClick('${escapeHtml(product.id)}', '${escapeHtml(product.store)}')">
-              <span>${isExpired ? 'Conferir Preço Atual' : 'Pegar Oferta'}</span> ${isExpired ? '↗️' : '🚀'}
+              <span>${isExpired ? 'Conferir Preço Atual' : `Ver no ${escapeHtml(product.storeName || storeInfo.name)}`}</span> ${isExpired ? '↗️' : '🚀'}
             </a>
             
             <button class="btn-copy-link" 

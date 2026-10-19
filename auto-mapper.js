@@ -231,6 +231,9 @@ const AutoMapper = {
 
   /**
    * Converte link comum do Magalu para o Magazine Você da sua loja
+   * - Preserva links de busca oficial na loja do parceiro (/busca/termo/)
+   * - Converte códigos de produtos reais para a vitrine oficial do parceiro (/p/codigo/)
+   * - Evita redirecionamentos para produtos errados
    */
   formatMagalu(url, storeName) {
     try {
@@ -240,6 +243,13 @@ const AutoMapper = {
       let cleanUrl = String(url || "").trim();
       while (/^https?:\/\/[^/]+\/https?:\/\//i.test(cleanUrl)) {
         cleanUrl = cleanUrl.replace(/^https?:\/\/[^/]+\//i, "");
+      }
+
+      // Se for link já estruturado de busca no Magazine Você, garante a loja correta
+      if (cleanUrl.includes("/busca/")) {
+        const queryMatch = cleanUrl.match(/\/busca\/([^/?#]+)/i);
+        const query = queryMatch ? queryMatch[1] : "";
+        return `https://www.magazinevoce.com.br/${cleanStore}/busca/${query}/`;
       }
 
       // Pega o código do produto no final da URL
