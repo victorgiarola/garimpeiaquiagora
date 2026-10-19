@@ -127,6 +127,9 @@ const AutoMapper = {
 
   /**
    * Converte URL da Shopee
+   * - Preserva links encurtados oficiais (s.shopee.com.br / shope.ee)
+   * - Detecta URLs inválidas do tipo /product/<texto-slug> e IDs fictícios que causam erro 404 na Shopee
+   * - Converte automaticamente em /search?keyword=<termo> com os parâmetros de afiliado oficiais
    */
   formatShopee(url, affId) {
     try {
@@ -134,11 +137,49 @@ const AutoMapper = {
       if (url.includes("s.shopee.com.br") || url.includes("shope.ee")) {
         return url;
       }
-      const parsed = new URL(url);
-      if (affId) {
-        parsed.searchParams.set("utm_source", "an_" + affId.replace(/^an_/, ""));
+
+      // Limpa qualquer duplicação acidental na URL
+      let cleanUrl = String(url || "").trim();
+      while (/^https?:\/\/[^/]+\/https?:\/\//i.test(cleanUrl)) {
+        cleanUrl = cleanUrl.replace(/^https?:\/\/[^/]+\//i, "");
+      }
+
+      const cleanAff = affId ? String(affId).trim().replace(/^an_/, "") : "18345170182";
+
+      // Verifica se é uma URL do tipo /product/<slug-de-texto> ou com ID de loja fictício (/product/58123910/...)
+      // A Shopee dá 404 nesses caminhos! O formato universal funcional é /search?keyword=...
+      const isProductSlug = cleanUrl.includes("/product/") && !cleanUrl.match(/\/product\/\d{5,}\/\d{5,}/);
+      const isDummyShop = cleanUrl.includes("/product/58123910/");
+
+      if (isProductSlug || isDummyShop) {
+        let keyword = "";
+        const slugMatch = cleanUrl.match(/\/product\/([a-zA-Z0-9_-]+)/i);
+        if (slugMatch && slugMatch[1] && isNaN(Number(slugMatch[1]))) {
+          keyword = slugMatch[1].replace(/[-_+]/g, " ").trim();
+        }
+        if (!keyword) {
+          try {
+            const tempUrl = new URL(cleanUrl);
+            keyword = tempUrl.searchParams.get("keyword") || "";
+          } catch {}
+        }
+        if (!keyword) keyword = "ofertas";
+
+        const searchUrl = `https://shopee.com.br/search?keyword=${encodeURIComponent(keyword)}`;
+        const parsed = new URL(searchUrl);
+        if (cleanAff) {
+          parsed.searchParams.set("utm_source", "an_" + cleanAff);
+          parsed.searchParams.set("utm_medium", "affiliates");
+          parsed.searchParams.set("af_siteid", cleanAff);
+        }
+        return parsed.toString();
+      }
+
+      const parsed = new URL(cleanUrl);
+      if (cleanAff) {
+        parsed.searchParams.set("utm_source", "an_" + cleanAff);
         parsed.searchParams.set("utm_medium", "affiliates");
-        parsed.searchParams.set("af_siteid", affId);
+        parsed.searchParams.set("af_siteid", cleanAff);
       }
       return parsed.toString();
     } catch {
