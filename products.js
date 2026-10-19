@@ -1,7 +1,8 @@
-// Catálogo Oficial Garimpei Aqui Agora
-// Sincronizado com 100% de Fotos Reais Verificadas e Links Funcionais: 19/10/2026, 12:13:16
-
-const DEFAULT_PRODUCTS = [
+/**
+ * Product Catalog Data
+ * Auto-generated & Synchronized with Permanent Catalog URLs
+ */
+const PRODUCTS = [
   {
     "id": "auto-prod-1",
     "title": "Console Portátil Steam Deck OLED 512GB HDR 90Hz com Case Oficial de Transporte",
@@ -17,11 +18,12 @@ const DEFAULT_PRODUCTS = [
     "rating": 5,
     "reviewsCount": 1420,
     "couponCode": "MELI200",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-5239710334-valve-steam-deck-oled-512gb-cor-preto-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/consola-de-jogos-portatil-valve-steam-deck-oled-512gb/p/MLB2039424405?matt_tool=23610538&matt_word=givi713407",
     "storeName": "Mercado Livre",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-5239710334-valve-steam-deck-oled-512gb-cor-preto-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-5239710334-valve-steam-deck-oled-512gb-cor-preto-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/consola-de-jogos-portatil-valve-steam-deck-oled-512gb/p/MLB2039424405"
   },
   {
     "id": "auto-prod-2",
@@ -34,7 +36,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 6399,
     "installment": "em até 10x de R$ 639,90 sem juros",
     "pixDiscount": "Frete Full Grátis Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-4146050514-apple-iphone-15-pro-128-gb-titnio-preto-americano-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/apple-iphone-15-pro-128-gb-titanio-natural/p/MLB27172722?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/81CgtwSII3L._AC_SL1500_.jpg",
     "featured": true,
     "rating": 5,
@@ -42,7 +44,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MELI200",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-4146050514-apple-iphone-15-pro-128-gb-titnio-preto-americano-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-4146050514-apple-iphone-15-pro-128-gb-titnio-preto-americano-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/apple-iphone-15-pro-128-gb-titanio-natural/p/MLB27172722"
   },
   {
     "id": "auto-prod-3",
@@ -103,9 +106,10 @@ const DEFAULT_PRODUCTS = [
     "reviewsCount": 3400,
     "couponCode": "MAGALU50",
     "storeName": "Magalu",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/relogio-orient-masculino-automatico-prata-469ss078f-d1sx/p/eegcdjg6k0/re/rgma/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/relogio-orient-masculino-submariner-diver-automatico-100m-f49ss026nhd1sx/p/djch162ebd/re/rgma/?seller_id=mundotechmarco-ce",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/relogio-orient-masculino-submariner-diver-automatico-100m-f49ss026nhd1sx/p/djch162ebd/re/rgma/?seller_id=mundotechmarco-ce"
   },
   {
     "id": "auto-prod-6",
@@ -118,7 +122,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 5499,
     "installment": "em até 10x de R$ 549,90 sem juros",
     "pixDiscount": "10% no Pix Magalu",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/smart-tv-4k-lg-oled-evo-55-polegadas-oled55c4-processador-a9-ger7-ai-painel-144hz-e-design-ultra-slim/p/ef269egcg3/et/tv4k/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/smart-tv-lg-oled-ai-4k-b6-55-polegadas-2026/p/jk5k9g730d/et/elit/?seller_id=lgelectronicsdobrasil",
     "image": "https://m.media-amazon.com/images/I/71O7wgely5L.jpg",
     "featured": true,
     "rating": 5,
@@ -126,7 +130,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MAGALU200",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://www.magazineluiza.com.br/smart-tv-4k-lg-oled-evo-55-polegadas-oled55c4-processador-a9-ger7-ai-painel-144hz-e-design-ultra-slim/p/ef269egcg3/et/tv4k/"
+    "rawUrl": "https://www.magazineluiza.com.br/smart-tv-4k-lg-oled-evo-55-polegadas-oled55c4-processador-a9-ger7-ai-painel-144hz-e-design-ultra-slim/p/ef269egcg3/et/tv4k/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/smart-tv-lg-oled-ai-4k-b6-55-polegadas-2026/p/jk5k9g730d/et/elit/?seller_id=lgelectronicsdobrasil"
   },
   {
     "id": "auto-prod-7",
@@ -139,7 +144,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 7899,
     "installment": "em até 10x de R$ 789,90 sem juros",
     "pixDiscount": "10% no Pix Magalu Oficial",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/apple-iphone-15-pro-max-256gb-titanio-preto-67-48mp-ios-5g/p/237922200/te/15pm/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/apple-iphone-15-de-128gb-preto/p/cf8a963g11/te/ip15/?seller_id=lojaiplace",
     "image": "https://www.apple.com/newsroom/images/live-action/Apple-September-2022-launch-hero_big.jpg.large.jpg",
     "featured": true,
     "rating": 5,
@@ -147,7 +152,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MAGALU200",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://www.magazineluiza.com.br/apple-iphone-15-pro-max-256gb-titanio-preto-67-48mp-ios-5g/p/237922200/te/15pm/"
+    "rawUrl": "https://www.magazineluiza.com.br/apple-iphone-15-pro-max-256gb-titanio-preto-67-48mp-ios-5g/p/237922200/te/15pm/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/apple-iphone-15-de-128gb-preto/p/cf8a963g11/te/ip15/?seller_id=lojaiplace"
   },
   {
     "id": "auto-prod-8",
@@ -187,9 +193,10 @@ const DEFAULT_PRODUCTS = [
     "reviewsCount": 14200,
     "couponCode": "MAGALU30",
     "storeName": "Magalu",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/kit-wella-invigo-nutri-enrich-shampoo-1000ml-e-condicionador-1000ml-wella-professionals/p/ajgjg9ae2d/pf/kttc/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/wella-professionals-invigo-nutri-enrich-kit-shampoo-condicionador/p/hfa7dgdfc5/pf/kipr/?seller_id=epocacosmeticos-integra",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/wella-professionals-invigo-nutri-enrich-kit-shampoo-condicionador/p/hfa7dgdfc5/pf/kipr/?seller_id=epocacosmeticos-integra"
   },
   {
     "id": "auto-prod-10",
@@ -223,7 +230,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 319,
     "installment": "em até 6x de R$ 53,17 sem juros",
     "pixDiscount": "Envio Full Oficial",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-2611569447-tnis-nike-air-max-sc-masculino-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/tnis-nike-air-max-sc-masculino/p/MLB44735053?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_658638-MLB99521635249_112025-O-tnis-nike-air-max-sc-masculino.webp",
     "featured": true,
     "rating": 4.8,
@@ -231,7 +238,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MELI30",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-2611569447-tnis-nike-air-max-sc-masculino-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-2611569447-tnis-nike-air-max-sc-masculino-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/tnis-nike-air-max-sc-masculino/p/MLB44735053"
   },
   {
     "id": "auto-prod-12",
@@ -250,9 +258,10 @@ const DEFAULT_PRODUCTS = [
     "reviewsCount": 7850,
     "couponCode": "MAGALU20",
     "storeName": "Magalu",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/lego-classic-caixa-media-de-pecas-criativas-484-pecas-10696/p/212941700/br/brmd/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/lego-classic-caixa-media-de-pecas-criativas-10696/p/ed1bkca3f2/br/brmd/?seller_id=brinkashop",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/lego-classic-caixa-media-de-pecas-criativas-10696/p/ed1bkca3f2/br/brmd/?seller_id=brinkashop"
   },
   {
     "id": "auto-prod-13",
@@ -265,7 +274,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 3499,
     "installment": "em até 10x de R$ 349,90 sem juros",
     "pixDiscount": "10% de desconto no Pix pelo Magalu",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/apple-iphone-13-128gb-meia-noite-tela-61-12mp-ios/p/233008500/te/ip13/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/usado-iphone-13-128gb-meia-noite-bom-trocafone-apple/p/gggjj8gj7j/te/ip13/?seller_id=trocafone",
     "image": "https://a-static.mlcdn.com.br/1500x1500/apple-iphone-13-128gb-meia-noite-tela-61-12mp/magazineluiza/234661800/a57c1ab14765ab0b7ca87de98ba94b94.jpg",
     "featured": true,
     "rating": 4.9,
@@ -273,7 +282,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MAGALU150",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://www.magazineluiza.com.br/apple-iphone-13-128gb-meia-noite-tela-61-12mp-ios/p/233008500/te/ip13/"
+    "rawUrl": "https://www.magazineluiza.com.br/apple-iphone-13-128gb-meia-noite-tela-61-12mp-ios/p/233008500/te/ip13/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/usado-iphone-13-128gb-meia-noite-bom-trocafone-apple/p/gggjj8gj7j/te/ip13/?seller_id=trocafone"
   },
   {
     "id": "auto-prod-14",
@@ -311,11 +321,12 @@ const DEFAULT_PRODUCTS = [
     "rating": 5,
     "reviewsCount": 3850,
     "couponCode": "MELI150",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-5044620202-fone-de-ouvido-sony-wh-1000xm4-noise-canceling-original-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/fone-de-ouvido-sony-wh-1000xm4-bluetoothnfc-prata/p/MLB28781574?matt_tool=23610538&matt_word=givi713407",
     "storeName": "Mercado Livre",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-5044620202-fone-de-ouvido-sony-wh-1000xm4-noise-canceling-original-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-5044620202-fone-de-ouvido-sony-wh-1000xm4-noise-canceling-original-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/fone-de-ouvido-sony-wh-1000xm4-bluetoothnfc-prata/p/MLB28781574"
   },
   {
     "id": "auto-prod-16",
@@ -328,7 +339,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 3899,
     "installment": "em até 10x de R$ 389,90 sem juros",
     "pixDiscount": "Desconto especial no Pix",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/apple-iphone-14-plus-128gb-estelar-67-12m/p/235921800/te/14pl/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/usado-iphone-14-128gb-estelar-excelente-trocafone-apple/p/bae0038k6b/te/ip14/?seller_id=trocafone",
     "image": "https://m.media-amazon.com/images/I/61bK6PMOC3L._AC_SL1500_.jpg",
     "featured": true,
     "rating": 4.9,
@@ -336,7 +347,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MAGALU100",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://www.magazineluiza.com.br/apple-iphone-14-plus-128gb-estelar-67-12m/p/235921800/te/14pl/"
+    "rawUrl": "https://www.magazineluiza.com.br/apple-iphone-14-plus-128gb-estelar-67-12m/p/235921800/te/14pl/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/usado-iphone-14-128gb-estelar-excelente-trocafone-apple/p/bae0038k6b/te/ip14/?seller_id=trocafone"
   },
   {
     "id": "auto-prod-17",
@@ -376,9 +388,10 @@ const DEFAULT_PRODUCTS = [
     "reviewsCount": 18900,
     "couponCode": "MAGALU50",
     "storeName": "Magalu",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/la-vie-est-belle-lancome-perfume-feminino-eau-de-parfum/p/5367986/pf/ppfm/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/perfume-la-vie-est-belle-lancome-eau-de-parfum-feminino/p/507319000/pf/ppfm/?seller_id=epocacosmeticos-integra",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/perfume-la-vie-est-belle-lancome-eau-de-parfum-feminino/p/507319000/pf/ppfm/?seller_id=epocacosmeticos-integra"
   },
   {
     "id": "auto-prod-19",
@@ -391,7 +404,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 1599,
     "installment": "em até 10x de R$ 159,90 sem juros",
     "pixDiscount": "10% no Pix Magalu",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/air-pods-pro-com-estojo-de-recarga-mag-safe-a2083-branco-2021/p/cb3200d2cd/ea/fobt/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/cabo-usb-c-para-lightning-apple-2m/p/ahk1g24f49/te/adca/?seller_id=lojaiplace",
     "image": "https://m.media-amazon.com/images/I/61SUj2aKoEL._AC_SL1500_.jpg",
     "featured": true,
     "rating": 4.9,
@@ -399,7 +412,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MAGALU50",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://www.magazineluiza.com.br/air-pods-pro-com-estojo-de-recarga-mag-safe-a2083-branco-2021/p/cb3200d2cd/ea/fobt/"
+    "rawUrl": "https://www.magazineluiza.com.br/air-pods-pro-com-estojo-de-recarga-mag-safe-a2083-branco-2021/p/cb3200d2cd/ea/fobt/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/cabo-usb-c-para-lightning-apple-2m/p/ahk1g24f49/te/adca/?seller_id=lojaiplace"
   },
   {
     "id": "auto-prod-20",
@@ -412,7 +426,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 159,
     "installment": "em até 5x de R$ 31,80 sem juros",
     "pixDiscount": "Envio Full Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-740439128-relogio-casio-a168wa-1-prat-unissex-retr-vintage-alarm-luz-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/relogio-casio-unissex-vintage-a168wa-1wdf-digital/p/MLB27491121?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/81jYNNocg1S._AC_UY500_.jpg",
     "featured": false,
     "rating": 4.9,
@@ -420,7 +434,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-740439128-relogio-casio-a168wa-1-prat-unissex-retr-vintage-alarm-luz-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-740439128-relogio-casio-a168wa-1-prat-unissex-retr-vintage-alarm-luz-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/relogio-casio-unissex-vintage-a168wa-1wdf-digital/p/MLB27491121"
   },
   {
     "id": "auto-prod-21",
@@ -439,9 +454,10 @@ const DEFAULT_PRODUCTS = [
     "reviewsCount": 16500,
     "couponCode": "MELI50",
     "storeName": "Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-852332228-good-girl-eau-de-parfum-carolina-herrera-80-ml-original-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/perfume-carolina-herrera-ch-good-girl-eau-de-parfum-80ml/p/MLB2008180639?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "directUrl": "https://www.mercadolivre.com.br/perfume-carolina-herrera-ch-good-girl-eau-de-parfum-80ml/p/MLB2008180639"
   },
   {
     "id": "auto-prod-22",
@@ -454,7 +470,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 4699,
     "installment": "em até 10x de R$ 469,90 sem juros",
     "pixDiscount": "10% no Pix pelo Magalu",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/apple-iphone-16-128gb-branco-61-48mp-ios-5g/p/238723900/te/i16p/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/usado-iphone-13-128gb-meia-noite-bom-trocafone-apple/p/gggjj8gj7j/te/ip13/?seller_id=trocafone",
     "image": "https://m.media-amazon.com/images/I/71657TiFeHL._AC_SL1500_.jpg",
     "featured": true,
     "rating": 4.9,
@@ -462,7 +478,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MAGALU100",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://www.magazineluiza.com.br/apple-iphone-16-128gb-branco-61-48mp-ios-5g/p/238723900/te/i16p/"
+    "rawUrl": "https://www.magazineluiza.com.br/apple-iphone-16-128gb-branco-61-48mp-ios-5g/p/238723900/te/i16p/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/usado-iphone-13-128gb-meia-noite-bom-trocafone-apple/p/gggjj8gj7j/te/ip13/?seller_id=trocafone"
   },
   {
     "id": "auto-prod-23",
@@ -475,7 +492,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 349,
     "installment": "em até 10x de R$ 34,90 sem juros",
     "pixDiscount": "Tênis do Ano de Corrida",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-3431674031-tenis-masculino-olympikus-corre-3-eleva-pro-macio-original-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/olympikus-corre-3-masculino-adultos/p/MLB27178958?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_693905-MLA71676164378_092023-O.webp",
     "featured": false,
     "rating": 4.9,
@@ -483,7 +500,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "CORRIDA30",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-3431674031-tenis-masculino-olympikus-corre-3-eleva-pro-macio-original-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-3431674031-tenis-masculino-olympikus-corre-3-eleva-pro-macio-original-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/olympikus-corre-3-masculino-adultos/p/MLB27178958"
   },
   {
     "id": "auto-prod-24",
@@ -565,9 +583,10 @@ const DEFAULT_PRODUCTS = [
     "reviewsCount": 6420,
     "couponCode": "MAGALU200",
     "storeName": "Magalu",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/geladeira-brastemp-frost-free-duplex-375-litros-cor-inox-com-freeze-control-brm54jk/p/chhbb3ggj7/ed/ref2/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/geladeira-refrigerador-brastemp-frost-free-duplex-385l-brm46mk/p/240972400/ed/refr/?seller_id=magazineluiza",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/geladeira-refrigerador-brastemp-frost-free-duplex-385l-brm46mk/p/240972400/ed/refr/?seller_id=magazineluiza"
   },
   {
     "id": "auto-prod-28",
@@ -601,7 +620,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 54.9,
     "installment": "à vista",
     "pixDiscount": "Envio Full",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-3797987681-kit-com-12-pares-de-meia-cano-curto-lupo-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/12-pares-de-meia-lupo-cano-curto-unissex-sport-casual-qualid/up/MLBU3896900582?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_895311-MLB50066177114_052022-O.webp",
     "featured": false,
     "rating": 4.9,
@@ -609,7 +628,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-3797987681-kit-com-12-pares-de-meia-cano-curto-lupo-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-3797987681-kit-com-12-pares-de-meia-cano-curto-lupo-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/12-pares-de-meia-lupo-cano-curto-unissex-sport-casual-qualid/up/MLBU3896900582"
   },
   {
     "id": "auto-prod-30",
@@ -706,7 +726,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 1899,
     "installment": "em até 10x de R$ 189,90 sem juros",
     "pixDiscount": "Desconto no Pix Magalu",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/apple-watch-se-2a-geracao-gps-caixa-estelar-de-aluminio-40mm-pulseira-esportiva-estelar/p/235930100/te/smtw/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/apple-watch-se-3-gps-caixa-estelar-de-aluminio-de-40mm-pulseira-esportiva-areia-p-m/p/242501100/te/was3/?seller_id=magazineluiza",
     "image": "https://a-static.mlcdn.com.br/1500x1500/apple-watch-se-2a-geracao-gps-caixa-estelar-de-aluminio-40mm-pulseira-esportiva-estelar/magazineluiza/235930100/415790013d739edbeeef05f02a79fdcf.jpg",
     "featured": false,
     "rating": 4.9,
@@ -714,7 +734,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MAGALU50",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://www.magazineluiza.com.br/apple-watch-se-2a-geracao-gps-caixa-estelar-de-aluminio-40mm-pulseira-esportiva-estelar/p/235930100/te/smtw/"
+    "rawUrl": "https://www.magazineluiza.com.br/apple-watch-se-2a-geracao-gps-caixa-estelar-de-aluminio-40mm-pulseira-esportiva-estelar/p/235930100/te/smtw/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/apple-watch-se-3-gps-caixa-estelar-de-aluminio-de-40mm-pulseira-esportiva-areia-p-m/p/242501100/te/was3/?seller_id=magazineluiza"
   },
   {
     "id": "auto-prod-35",
@@ -727,7 +748,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 22.9,
     "installment": "à vista",
     "pixDiscount": "Clássico Brasileiro",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/sandalia-chinelo-havaianas-basico-top-feminino-e-masculino-varias-cores-as-legitimas/p/kcj11kbf67/md/chfm/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/sandalias-havaianas-top-fashion-original-varias-cores/p/cgk76a93a4/md/sdfm/?seller_id=tropicalstyle",
     "image": "https://http2.mlstatic.com/D_NQ_NP_888496-MLB70440263660_072023-O.webp",
     "featured": false,
     "rating": 4.9,
@@ -735,7 +756,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://www.magazineluiza.com.br/sandalia-chinelo-havaianas-basico-top-feminino-e-masculino-varias-cores-as-legitimas/p/kcj11kbf67/md/chfm/"
+    "rawUrl": "https://www.magazineluiza.com.br/sandalia-chinelo-havaianas-basico-top-feminino-e-masculino-varias-cores-as-legitimas/p/kcj11kbf67/md/chfm/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/sandalias-havaianas-top-fashion-original-varias-cores/p/cgk76a93a4/md/sdfm/?seller_id=tropicalstyle"
   },
   {
     "id": "auto-prod-36",
@@ -754,9 +776,10 @@ const DEFAULT_PRODUCTS = [
     "reviewsCount": 11400,
     "couponCode": "MAGALU150",
     "storeName": "Magalu",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/lavadora-de-roupas-electrolux-led14-essential-care-14kg-cesto-inox-11-programas-de-lavagem-branca/p/228849700/ed/lava/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/maquina-de-lavar-electrolux-15kg-branca-essential-care-com-cesto-inox-e-jet-clean-led15/p/ejf77g3k6c/ed/lava/?seller_id=electrolux",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/maquina-de-lavar-electrolux-15kg-branca-essential-care-com-cesto-inox-e-jet-clean-led15/p/ejf77g3k6c/ed/lava/?seller_id=electrolux"
   },
   {
     "id": "auto-prod-37",
@@ -811,7 +834,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 3399,
     "installment": "em até 10x de R$ 339,90 sem juros",
     "pixDiscount": "Loja Oficial PlayStation no ML",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-3921865785-console-digital-ps5-slim-com-2-jogos-gratuitos-ratchet-clank-and-returnal-branco-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/sony-playstation-5-slim-1tb-cor-branco/p/MLB28616777?matt_tool=23610538&matt_word=givi713407",
     "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/b4c2d162-48ec-4ecb-a62d-5a2303703a52.jpg",
     "featured": true,
     "rating": 4.9,
@@ -819,7 +842,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "GAME150",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-3921865785-console-digital-ps5-slim-com-2-jogos-gratuitos-ratchet-clank-and-returnal-branco-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-3921865785-console-digital-ps5-slim-com-2-jogos-gratuitos-ratchet-clank-and-returnal-branco-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/sony-playstation-5-slim-1tb-cor-branco/p/MLB28616777"
   },
   {
     "id": "auto-prod-40",
@@ -832,7 +856,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 949,
     "installment": "em até 10x de R$ 94,90 sem juros",
     "pixDiscount": "10% no Pix Magalu",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/apple-pencil-2a-geracao-original/p/221926900/tb/ctke/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/caneta-touch-magnetica-universal-para-android-ios-windows-ipad-apple-pencil-tablets-samsung-e-qukam/p/cjbjj2f7g5/tb/ctke/?seller_id=aliexpress",
     "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MU8F2?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=L1VmMUh5SDdMT3hqbTdraXdQb3JSUWtuVHYzMERCZURia3c5SzJFOTlPaGs0L0NuK3FMQUlmekpVaFVHWXZKQ2duMVUwMDdhR2NIUGFBTk5SLzRpdHc",
     "featured": false,
     "rating": 4.9,
@@ -840,7 +864,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MAGALU30",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://www.magazineluiza.com.br/apple-pencil-2a-geracao-original/p/221926900/tb/ctke/"
+    "rawUrl": "https://www.magazineluiza.com.br/apple-pencil-2a-geracao-original/p/221926900/tb/ctke/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/caneta-touch-magnetica-universal-para-android-ios-windows-ipad-apple-pencil-tablets-samsung-e-qukam/p/cjbjj2f7g5/tb/ctke/?seller_id=aliexpress"
   },
   {
     "id": "auto-prod-41",
@@ -857,11 +882,12 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 3100,
     "couponCode": "MAGALU100",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/tenis-adidas-solar-glide-boost-19-masculino/p/khhdg02gk6/es/tdcr/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/tenis-adidas-grand-court-3-0-masculino/p/hd1bhjbf7d/md/tnml/?seller_id=netshoes",
     "storeName": "Magalu",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://www.magazineluiza.com.br/tenis-adidas-solar-glide-boost-19-masculino/p/khhdg02gk6/es/tdcr/"
+    "rawUrl": "https://www.magazineluiza.com.br/tenis-adidas-solar-glide-boost-19-masculino/p/khhdg02gk6/es/tdcr/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/tenis-adidas-grand-court-3-0-masculino/p/hd1bhjbf7d/md/tnml/?seller_id=netshoes"
   },
   {
     "id": "auto-prod-42",
@@ -895,7 +921,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 749,
     "installment": "em até 10x de R$ 74,90 sem juros",
     "pixDiscount": "Envio Full Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-1991054228-apple-air-tag-pack-com-4-unidades-original-com-nf-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/capa-airtag-para-apple-pacote-com-4-com-pino-de-seguranca-cor-preto-branco-rosa-roxo/p/MLB47932857?matt_tool=23610538&matt_word=givi713407",
     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Apple_AirTag.svg/1280px-Apple_AirTag.svg.png",
     "featured": false,
     "rating": 4.9,
@@ -903,7 +929,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MELI30",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-1991054228-apple-air-tag-pack-com-4-unidades-original-com-nf-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-1991054228-apple-air-tag-pack-com-4-unidades-original-com-nf-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/capa-airtag-para-apple-pacote-com-4-com-pino-de-seguranca-cor-preto-branco-rosa-roxo/p/MLB47932857"
   },
   {
     "id": "auto-prod-44",
@@ -958,7 +985,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 3199,
     "installment": "em até 10x de R$ 319,90 sem juros",
     "pixDiscount": "Frete Grátis Mercado Envios",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-3075675001-apple-ipad-10-geraco-109-wi-fi-256gb-prata-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/apple-ipad-10-geraco-109-wi-fi-64gb-azul-com-nf-distribuidor-autorizado/p/MLB1022258639?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/61uA2UVnYWL._AC_SL1500_.jpg",
     "featured": false,
     "rating": 4.9,
@@ -966,7 +993,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-3075675001-apple-ipad-10-geraco-109-wi-fi-256gb-prata-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-3075675001-apple-ipad-10-geraco-109-wi-fi-256gb-prata-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/apple-ipad-10-geraco-109-wi-fi-64gb-azul-com-nf-distribuidor-autorizado/p/MLB1022258639"
   },
   {
     "id": "auto-prod-47",
@@ -1000,7 +1028,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 1299,
     "installment": "em até 10x de R$ 129,90 sem juros",
     "pixDiscount": "10% no Pix Magalu",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/jbl-partybox-encore-essential-com-2-microfones-sem-fio-caixa-de-som-portatil-bluetooth-ipx4/p/ckhc6gk321/ea/easm/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/caixa-de-som-bluetooth-jbl-boombox-4-preta-bateria-de-ate-34h-a-prova-dagua-e-resistente-a-poeira-ip68-e-210w/p/gedgadhjg8/ea/jbla/?seller_id=fastshop2",
     "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6511/6511782_rd.jpg",
     "featured": true,
     "rating": 4.9,
@@ -1008,7 +1036,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MAGALU50",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://www.magazineluiza.com.br/jbl-partybox-encore-essential-com-2-microfones-sem-fio-caixa-de-som-portatil-bluetooth-ipx4/p/ckhc6gk321/ea/easm/"
+    "rawUrl": "https://www.magazineluiza.com.br/jbl-partybox-encore-essential-com-2-microfones-sem-fio-caixa-de-som-portatil-bluetooth-ipx4/p/ckhc6gk321/ea/easm/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/caixa-de-som-bluetooth-jbl-boombox-4-preta-bateria-de-ate-34h-a-prova-dagua-e-resistente-a-poeira-ip68-e-210w/p/gedgadhjg8/ea/jbla/?seller_id=fastshop2"
   },
   {
     "id": "auto-prod-49",
@@ -1069,9 +1098,10 @@ const DEFAULT_PRODUCTS = [
     "reviewsCount": 16700,
     "couponCode": "MAGALU20",
     "storeName": "Magalu",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/escova-secadora-para-cabelo-tourmaline-1200w-seca-e-modela-taiff-110v/p/ebac031fg3/pf/esse/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/escova-secadora-taiff-easy-1200w/p/236323600/pf/esse/?seller_id=magazineluiza",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/escova-secadora-taiff-easy-1200w/p/236323600/pf/esse/?seller_id=magazineluiza"
   },
   {
     "id": "auto-prod-52",
@@ -1084,7 +1114,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 2899,
     "installment": "em até 10x de R$ 289,90 sem juros",
     "pixDiscount": "Garantia Mercado Pago 12 Meses",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-3744508021-apple-iphone-12-128-gb-azul-vitrine-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/iphone-12-mini-128-gb-azul-aceitavel-recondicionado/p/MLB2000064885?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/71ZOtNdaZCL._AC_SL1500_.jpg",
     "featured": false,
     "rating": 4.8,
@@ -1092,7 +1122,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MELI80",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-3744508021-apple-iphone-12-128-gb-azul-vitrine-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-3744508021-apple-iphone-12-128-gb-azul-vitrine-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/iphone-12-mini-128-gb-azul-aceitavel-recondicionado/p/MLB2000064885"
   },
   {
     "id": "auto-prod-53",
@@ -1105,7 +1136,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 219,
     "installment": "em até 6x de R$ 36,50 sem juros",
     "pixDiscount": "5% de desconto no Pix",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/tenis-adidas-grand-court-base-masculino/p/gb4134jfa6/es/tees/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/tenis-adidas-grand-court-base-3-0-feminino-preto/p/ce80b7a19j/md/tens/?seller_id=futfanaticsoficial",
     "image": "https://static.netshoes.com.br/produtos/tenis-adidas-vl-court-base-feminino/55/FB9-3765-855/FB9-3765-855_zoom2.jpg?ts=1704295205",
     "featured": false,
     "rating": 4.8,
@@ -1113,7 +1144,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "TENIS20",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://www.magazineluiza.com.br/tenis-adidas-grand-court-base-masculino/p/gb4134jfa6/es/tees/"
+    "rawUrl": "https://www.magazineluiza.com.br/tenis-adidas-grand-court-base-masculino/p/gb4134jfa6/es/tees/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/tenis-adidas-grand-court-base-3-0-feminino-preto/p/ce80b7a19j/md/tens/?seller_id=futfanaticsoficial"
   },
   {
     "id": "auto-prod-54",
@@ -1126,7 +1158,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 999,
     "installment": "em até 10x de R$ 99,90 sem juros",
     "pixDiscount": "Desconto Mercado Pago",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-3761207819-monitor-gamer-lg-ultragear-ips-de-27-full-hd-144hz-1ms-cor-cinza-escuro-110v220v-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/monitor-gamer-lg-ultragear-27gr83q-b-tela-ips-27-quadhd-cor-preto/p/MLB47565197?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/81MinBCfJtL._AC_.jpg",
     "featured": true,
     "rating": 4.9,
@@ -1134,7 +1166,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MELI50",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-3761207819-monitor-gamer-lg-ultragear-ips-de-27-full-hd-144hz-1ms-cor-cinza-escuro-110v220v-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-3761207819-monitor-gamer-lg-ultragear-ips-de-27-full-hd-144hz-1ms-cor-cinza-escuro-110v220v-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/monitor-gamer-lg-ultragear-27gr83q-b-tela-ips-27-quadhd-cor-preto/p/MLB47565197"
   },
   {
     "id": "auto-prod-55",
@@ -1189,7 +1222,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 2249,
     "installment": "em até 10x de R$ 224,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-4334367788-console-xbox-series-s-512gb-controle-sem-fio-branco-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/microsoft-xbox-series-s-512gb-standard-cor-branco/p/MLB16650345?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/71NBQ2a52CL._AC_SL1500_.jpg",
     "featured": true,
     "rating": 4.9,
@@ -1197,7 +1230,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MELI100",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-4334367788-console-xbox-series-s-512gb-controle-sem-fio-branco-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-4334367788-console-xbox-series-s-512gb-controle-sem-fio-branco-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/microsoft-xbox-series-s-512gb-standard-cor-branco/p/MLB16650345"
   },
   {
     "id": "auto-prod-58",
@@ -1256,11 +1290,12 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 7890,
     "couponCode": "BRINCA20",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/jogo-de-tabuleiro-banco-imobiliario-classico-estrela/p/hg6aj8g6cc/br/bjdt/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/jogo-tabuleiro-banco-imobiliario-mundo-estrela/p/kaeegdd6jg/br/bjdt/?seller_id=muitochic-modas",
     "dateAdded": "2026-10-18",
     "expired": false,
     "id": "auto-prod-60",
-    "rawUrl": "https://www.magazineluiza.com.br/jogo-de-tabuleiro-banco-imobiliario-classico-estrela/p/hg6aj8g6cc/br/bjdt/"
+    "rawUrl": "https://www.magazineluiza.com.br/jogo-de-tabuleiro-banco-imobiliario-classico-estrela/p/hg6aj8g6cc/br/bjdt/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/jogo-tabuleiro-banco-imobiliario-mundo-estrela/p/kaeegdd6jg/br/bjdt/?seller_id=muitochic-modas"
   },
   {
     "id": "auto-prod-61",
@@ -1319,11 +1354,12 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 9120,
     "couponCode": "CORRIDA50",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/tenis-olympikus-corre-3/p/ag4k6gca6k/es/tdcr/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/tenis-feminino-masculino-oldsen-b-max-maxima-qualidade-corrida-e-academia/p/jh15272395/es/idca/?seller_id=oldsen",
     "dateAdded": "2026-10-18",
     "expired": false,
     "id": "auto-prod-63",
-    "rawUrl": "https://www.magazineluiza.com.br/tenis-olympikus-corre-3/p/ag4k6gca6k/es/tdcr/"
+    "rawUrl": "https://www.magazineluiza.com.br/tenis-olympikus-corre-3/p/ag4k6gca6k/es/tdcr/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/tenis-feminino-masculino-oldsen-b-max-maxima-qualidade-corrida-e-academia/p/jh15272395/es/idca/?seller_id=oldsen"
   },
   {
     "id": "auto-prod-64",
@@ -1382,11 +1418,12 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 4620,
     "couponCode": "MAGALU50",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/mouse-sem-fio-logitech-mx-master-3s-8000-dpi-bluetooth-usbclique-silencioso/p/eda5j56gd5/in/rato/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/mouse-sem-fio-conexao-bluetooth-mx-master-3s-grafite-logitech-910-007502/p/ggk4261cb9/in/rato/?seller_id=fastshop2",
     "storeName": "Magalu",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://www.magazineluiza.com.br/mouse-sem-fio-logitech-mx-master-3s-8000-dpi-bluetooth-usbclique-silencioso/p/eda5j56gd5/in/rato/"
+    "rawUrl": "https://www.magazineluiza.com.br/mouse-sem-fio-logitech-mx-master-3s-8000-dpi-bluetooth-usbclique-silencioso/p/eda5j56gd5/in/rato/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/mouse-sem-fio-conexao-bluetooth-mx-master-3s-grafite-logitech-910-007502/p/ggk4261cb9/in/rato/?seller_id=fastshop2"
   },
   {
     "id": "auto-prod-67",
@@ -1420,7 +1457,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 169,
     "installment": "em até 5x de R$ 33,80 sem juros",
     "pixDiscount": "Envio Full Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-5266185486-mala-rigida-de-bordo-rodinhas-360-padro-anac-cadeado-10kg-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/mala-de-bordo-rigida-com-rodinhas-360-graus-cadeado-embutido/p/MLB36630512?matt_tool=23610538&matt_word=givi713407",
     "image": "https://down-br.img.susercontent.com/file/sg-11134201-22110-roqij9rc80jvc1",
     "featured": false,
     "rating": 4.8,
@@ -1428,7 +1465,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-5266185486-mala-rigida-de-bordo-rodinhas-360-padro-anac-cadeado-10kg-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-5266185486-mala-rigida-de-bordo-rodinhas-360-padro-anac-cadeado-10kg-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/mala-de-bordo-rigida-com-rodinhas-360-graus-cadeado-embutido/p/MLB36630512"
   },
   {
     "title": "Fone de Ouvido Infantil JBL JR310 com Limitador de Volume Seguro 85dB",
@@ -1445,11 +1483,12 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 3120,
     "couponCode": "AUDIO15",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/fone-de-ouvido-infantil-jbl-jr310-vermelho-azul-com-microfone-limitador-de-volume-85db-para-crianca/p/jja5b97e7c/ea/focf/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/fone-de-ouvido-jbl-infantil-junior-320-p2-azul-28913831/p/addj9063c3/ea/hefi/?seller_id=kabum",
     "dateAdded": "2026-10-18",
     "expired": false,
     "id": "auto-prod-69",
-    "rawUrl": "https://www.magazineluiza.com.br/fone-de-ouvido-infantil-jbl-jr310-vermelho-azul-com-microfone-limitador-de-volume-85db-para-crianca/p/jja5b97e7c/ea/focf/"
+    "rawUrl": "https://www.magazineluiza.com.br/fone-de-ouvido-infantil-jbl-jr310-vermelho-azul-com-microfone-limitador-de-volume-85db-para-crianca/p/jja5b97e7c/ea/focf/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/fone-de-ouvido-jbl-infantil-junior-320-p2-azul-28913831/p/addj9063c3/ea/hefi/?seller_id=kabum"
   },
   {
     "id": "auto-prod-70",
@@ -1487,11 +1526,12 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 7650,
     "couponCode": "MELI50",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-3303146071-perfume-lily-eau-de-parfum-boticario-feminino-75ml-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/perfume-lily-eau-de-parfum-75ml-com-borrifador-o-boticario/p/MLB20303677?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false,
     "id": "auto-prod-71",
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-3303146071-perfume-lily-eau-de-parfum-boticario-feminino-75ml-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-3303146071-perfume-lily-eau-de-parfum-boticario-feminino-75ml-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/perfume-lily-eau-de-parfum-75ml-com-borrifador-o-boticario/p/MLB20303677"
   },
   {
     "id": "auto-prod-72",
@@ -1546,7 +1586,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 219,
     "installment": "em até 7x de R$ 31,28 sem juros",
     "pixDiscount": "Envio Full Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-3567264437-echo-pop-smart-speaker-compacto-com-som-envolvente-e-alexa-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/echo-pop-smart-speaker-amazon-compacto-com-som-envolvente-e-alexa-cor-branca/up/MLBU2952795633?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/81t8gScXClL.jpg",
     "featured": true,
     "rating": 4.8,
@@ -1554,7 +1594,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MELI20",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-3567264437-echo-pop-smart-speaker-compacto-com-som-envolvente-e-alexa-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-3567264437-echo-pop-smart-speaker-compacto-com-som-envolvente-e-alexa-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/echo-pop-smart-speaker-amazon-compacto-com-som-envolvente-e-alexa-cor-branca/up/MLBU2952795633"
   },
   {
     "id": "auto-prod-75",
@@ -1567,7 +1608,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 229,
     "installment": "em até 7x de R$ 32,71 sem juros",
     "pixDiscount": "Envio Full Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-4957533972-air-fryer-mondial-4-litros-panela-fritadeira-sem-oleo-220v-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/fritadeira-eletrica-sem-oleoair-fryer-mondial-naf-05-4l/p/MLB32281940?matt_tool=23610538&matt_word=givi713407",
     "image": "https://a-static.mlcdn.com.br/800x560/air-fryer-mondial-family-afn-40-bi-preto-4l-com-timer/magazineluiza/228887000/f030da645341f959c0139572c8741134.jpg",
     "featured": true,
     "rating": 4.8,
@@ -1575,7 +1616,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "CASA30",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-4957533972-air-fryer-mondial-4-litros-panela-fritadeira-sem-oleo-220v-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-4957533972-air-fryer-mondial-4-litros-panela-fritadeira-sem-oleo-220v-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/fritadeira-eletrica-sem-oleoair-fryer-mondial-naf-05-4l/p/MLB32281940"
   },
   {
     "id": "auto-prod-76",
@@ -1594,9 +1636,10 @@ const DEFAULT_PRODUCTS = [
     "reviewsCount": 5120,
     "couponCode": "MAGALU50",
     "storeName": "Magalu",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/forno-micro-ondas-27-litros-ms37r-electrolux/p/ab9fgg49jc/ed/mond/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/forno-micro-ondas-limpa-facil-electrolux-36-litros-me36s/p/dfj96g727e/ed/mond/?seller_id=lojascolombooficial",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/forno-micro-ondas-limpa-facil-electrolux-36-litros-me36s/p/dfj96g727e/ed/mond/?seller_id=lojascolombooficial"
   },
   {
     "title": "Fone de Ouvido Esportivo Bluetooth JBL Endurance Peak 3 À Prova D'Água IP68",
@@ -1672,7 +1715,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 1549,
     "installment": "em até 10x de R$ 154,90 sem juros",
     "pixDiscount": "Envio Full Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-4899714332-smartphone-xiaomi-redmi-note-13-pro-5g-256gb-8gb-ram-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/xiaomi-redmi-note-13-pro-5g-256-gb-8-gb-ram-cor-preto-novo-com-caixa-aberta/p/MLB2016211620?matt_tool=23610538&matt_word=givi713407",
     "image": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lzzaamc7ny9180",
     "featured": true,
     "rating": 4.8,
@@ -1680,7 +1723,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MELI80",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-4899714332-smartphone-xiaomi-redmi-note-13-pro-5g-256gb-8gb-ram-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-4899714332-smartphone-xiaomi-redmi-note-13-pro-5g-256gb-8gb-ram-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/xiaomi-redmi-note-13-pro-5g-256-gb-8-gb-ram-cor-preto-novo-com-caixa-aberta/p/MLB2016211620"
   },
   {
     "id": "auto-prod-81",
@@ -1693,7 +1737,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 189,
     "installment": "em até 6x de R$ 31,50 sem juros",
     "pixDiscount": "Frete Grátis Magalu",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/fone-de-ouvido-tune-jbl-520bt-sem-fio-57-horas-de-bateria/p/khah3e63h3/ea/hebl/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/fone-de-ouvido-s-fio-bluetooth-garantia-original-nota-fiscal-01smart/p/aebba02a4a/ea/hdga/?seller_id=01esporte",
     "image": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/486547/Fone-De-Ouvido-JBL-Tune-520bt-Bluetooth-5-3-Preto_1694635128_gg.jpg",
     "featured": true,
     "rating": 4.8,
@@ -1701,7 +1745,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://www.magazineluiza.com.br/fone-de-ouvido-tune-jbl-520bt-sem-fio-57-horas-de-bateria/p/khah3e63h3/ea/hebl/"
+    "rawUrl": "https://www.magazineluiza.com.br/fone-de-ouvido-tune-jbl-520bt-sem-fio-57-horas-de-bateria/p/khah3e63h3/ea/hebl/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/fone-de-ouvido-s-fio-bluetooth-garantia-original-nota-fiscal-01smart/p/aebba02a4a/ea/hdga/?seller_id=01esporte"
   },
   {
     "id": "auto-prod-82",
@@ -1714,7 +1759,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 1479,
     "installment": "em até 10x de R$ 147,90 sem juros",
     "pixDiscount": "Frete Grátis Mercado Envios",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-4581895672-samsung-galaxy-a54-128gb-8gb-ram-5g-dual-sim-otimo-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/samsung-galaxy-a54-5g-5g-128-gb-lima-8-gb-ram/p/MLB24248458?matt_tool=23610538&matt_word=givi713407",
     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Back_of_the_Samsung_Galaxy_A54_5G.jpg/1280px-Back_of_the_Samsung_Galaxy_A54_5G.jpg",
     "featured": true,
     "rating": 4.8,
@@ -1722,7 +1767,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MELI50",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-4581895672-samsung-galaxy-a54-128gb-8gb-ram-5g-dual-sim-otimo-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-4581895672-samsung-galaxy-a54-128gb-8gb-ram-5g-dual-sim-otimo-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/samsung-galaxy-a54-5g-5g-128-gb-lima-8-gb-ram/p/MLB24248458"
   },
   {
     "id": "auto-prod-83",
@@ -1760,11 +1806,12 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 11200,
     "couponCode": "MAGALU15",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/mascara-para-cilios-maybelline-the-colossal-volum-express-a-prova-dagua-preto-92ml-garnier/p/jg98g682j4/pf/merp/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/mascara-de-cilios-maybelline-the-colossal-volum-express-lavavel-preto/p/547337200/pf/merp/?seller_id=epocacosmeticos-integra",
     "dateAdded": "2026-10-18",
     "expired": false,
     "id": "auto-prod-84",
-    "rawUrl": "https://www.magazineluiza.com.br/mascara-para-cilios-maybelline-the-colossal-volum-express-a-prova-dagua-preto-92ml-garnier/p/jg98g682j4/pf/merp/"
+    "rawUrl": "https://www.magazineluiza.com.br/mascara-para-cilios-maybelline-the-colossal-volum-express-a-prova-dagua-preto-92ml-garnier/p/jg98g682j4/pf/merp/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/mascara-de-cilios-maybelline-the-colossal-volum-express-lavavel-preto/p/547337200/pf/merp/?seller_id=epocacosmeticos-integra"
   },
   {
     "id": "auto-prod-85",
@@ -1777,7 +1824,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 2899,
     "installment": "em até 10x de R$ 289,90 sem juros",
     "pixDiscount": "Desconto no Pix Magalu",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/notebook-dell-inspiron-15-intel-core-i5-16gb-ram-ssd-512gb-156-windows-11-office/p/238031300/in/nodl/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/notebook-dell-inspiron-15-intel-core-3-8gb-ram-ssd-512gb-tela-15-6-full-hd-120hz-windows-11/p/ddk0b5d1fd/in/nodl/?seller_id=rmazarashop",
     "image": "https://images.kabum.com.br/produtos/fotos/378467/notebook-gamer-lenovo-ideapad-3i-intel-core-i5-11300h-geforce-gtx1650-8gb-ram-ssd-512gb-15-6-full-hd-linux-preto-82mgs00200_1666118881_original.jpg",
     "featured": true,
     "rating": 4.8,
@@ -1785,7 +1832,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MAGALU100",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://www.magazineluiza.com.br/notebook-dell-inspiron-15-intel-core-i5-16gb-ram-ssd-512gb-156-windows-11-office/p/238031300/in/nodl/"
+    "rawUrl": "https://www.magazineluiza.com.br/notebook-dell-inspiron-15-intel-core-i5-16gb-ram-ssd-512gb-156-windows-11-office/p/238031300/in/nodl/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/notebook-dell-inspiron-15-intel-core-3-8gb-ram-ssd-512gb-tela-15-6-full-hd-120hz-windows-11/p/ddk0b5d1fd/in/nodl/?seller_id=rmazarashop"
   },
   {
     "title": "Pista de Corrida Hot Wheels Looping Duplo Aceleração com 2 Carrinhos de Metal",
@@ -1802,11 +1850,12 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 6540,
     "couponCode": "MELI30",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-5419626594-pista-corrida-2-carrinho-looping-360lancador-tipo-hotwheels-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/pista-corrida-2-carrinho-looping-360lancador-tipo-hotwheels/p/MLB53224882?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false,
     "id": "auto-prod-86",
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-5419626594-pista-corrida-2-carrinho-looping-360lancador-tipo-hotwheels-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-5419626594-pista-corrida-2-carrinho-looping-360lancador-tipo-hotwheels-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/pista-corrida-2-carrinho-looping-360lancador-tipo-hotwheels/p/MLB53224882"
   },
   {
     "id": "auto-prod-87",
@@ -1819,7 +1868,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 789,
     "installment": "em até 10x de R$ 78,90 sem juros",
     "pixDiscount": "Desconto no Pix Magalu",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/monitor-gamer-lg-ultragear-24-full-hd-144hz-1ms-ips-hdmi-e-displayport-99-srgb-hdr-freesync-premium-vesa-24gn60r/p/kh821d3ce0/in/mogm/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/monitor-gamer-lg-ultragear-24-pol-24gs60f-b-ips-180hz-1ms-gtg-nvidia-gsync-amd-freesync-hdr10/p/jbeggadgf1/in/mogm/?seller_id=negociunoficial",
     "image": "https://images.tcdn.com.br/img/img_prod/487288/monitor_gamer_lg_ultragear_24_full_hd_144hz_1ms_ips_hdmi_e_displayport_99_srgb_hdr_freesync_premium__10375_6_ac45a6358853ee9bfd26555811b0fbd1.jpg",
     "featured": true,
     "rating": 4.8,
@@ -1827,7 +1876,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://www.magazineluiza.com.br/monitor-gamer-lg-ultragear-24-full-hd-144hz-1ms-ips-hdmi-e-displayport-99-srgb-hdr-freesync-premium-vesa-24gn60r/p/kh821d3ce0/in/mogm/"
+    "rawUrl": "https://www.magazineluiza.com.br/monitor-gamer-lg-ultragear-24-full-hd-144hz-1ms-ips-hdmi-e-displayport-99-srgb-hdr-freesync-premium-vesa-24gn60r/p/kh821d3ce0/in/mogm/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/monitor-gamer-lg-ultragear-24-pol-24gs60f-b-ips-180hz-1ms-gtg-nvidia-gsync-amd-freesync-hdr10/p/jbeggadgf1/in/mogm/?seller_id=negociunoficial"
   },
   {
     "id": "auto-prod-88",
@@ -1865,11 +1915,12 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 9380,
     "couponCode": "BELEZA25",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/escova-rotativa-mondial-er-05-kit-5-em-1-ceramic-ion-vermelha-1200w-seca-alisa-e-modela-os-cabelos/p/fbf5a6kkbc/pf/esro/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/escova-rotativa-mondial-black-rose-erb-01-ceramica-1200w/p/jf888cafeh/pf/esro/?seller_id=amvariedades",
     "dateAdded": "2026-10-18",
     "expired": false,
     "id": "auto-prod-89",
-    "rawUrl": "https://www.magazineluiza.com.br/escova-rotativa-mondial-er-05-kit-5-em-1-ceramic-ion-vermelha-1200w-seca-alisa-e-modela-os-cabelos/p/fbf5a6kkbc/pf/esro/"
+    "rawUrl": "https://www.magazineluiza.com.br/escova-rotativa-mondial-er-05-kit-5-em-1-ceramic-ion-vermelha-1200w-seca-alisa-e-modela-os-cabelos/p/fbf5a6kkbc/pf/esro/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/escova-rotativa-mondial-black-rose-erb-01-ceramica-1200w/p/jf888cafeh/pf/esro/?seller_id=amvariedades"
   },
   {
     "title": "Tablet Infantil 7 Polegadas 64GB com Capa Emborrachada Anti-Queda e Controle Parental",
@@ -1886,11 +1937,12 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.7,
     "reviewsCount": 5210,
     "couponCode": "MELI50",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-1364948970-capa-case-emborrachada-azul-infantil-para-tablet-7-polegadas-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/capa-emborrachada-infantil-para-tablets-de-7-polegadas-cor-rosa-claro/p/MLB55228336?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false,
     "id": "auto-prod-90",
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-1364948970-capa-case-emborrachada-azul-infantil-para-tablet-7-polegadas-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-1364948970-capa-case-emborrachada-azul-infantil-para-tablet-7-polegadas-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/capa-emborrachada-infantil-para-tablets-de-7-polegadas-cor-rosa-claro/p/MLB55228336"
   },
   {
     "id": "auto-prod-91",
@@ -1909,9 +1961,10 @@ const DEFAULT_PRODUCTS = [
     "reviewsCount": 16800,
     "couponCode": "MAGALU10",
     "storeName": "Magalu",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/creatina-creapure-300g-100-pura-dux-nutrition/p/jgk3c697ab/sa/sacr/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/creatina-creapure-dux-300g-selo-alemao-de-pureza-original-qualidade-premium-envio-full-dux-human-health/p/ag7akka5b3/sa/sacr/?seller_id=pontoessencial",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/creatina-creapure-dux-300g-selo-alemao-de-pureza-original-qualidade-premium-envio-full-dux-human-health/p/ag7akka5b3/sa/sacr/?seller_id=pontoessencial"
   },
   {
     "id": "auto-prod-92",
@@ -1930,9 +1983,10 @@ const DEFAULT_PRODUCTS = [
     "reviewsCount": 24500,
     "couponCode": "MAGALU10",
     "storeName": "Magalu",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/cerave-creme-hidratante-pele-seca-e-extra-seca-453g/p/fd9f10k1jk/pf/hdcd/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/cerave-locao-hidratante-corporal-para-pele-seca-com-acido-hialuronico-e-ceramidas-kit-com-2-unidades/p/ca7ff2bgae/pf/pplf/?seller_id=epocacosmeticos-integra",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/cerave-locao-hidratante-corporal-para-pele-seca-com-acido-hialuronico-e-ceramidas-kit-com-2-unidades/p/ca7ff2bgae/pf/pplf/?seller_id=epocacosmeticos-integra"
   },
   {
     "id": "auto-prod-93",
@@ -1993,9 +2047,10 @@ const DEFAULT_PRODUCTS = [
     "reviewsCount": 5600,
     "couponCode": "MELI20",
     "storeName": "Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-2777632316-pista-hot-wheels-ataque-do-tubaro-com-carrinho-muda-de-cor-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/pista-de-ataque-de-tubaro-wheels-shark-attack-muda-de-cor-cor-colorido/p/MLB41434956?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "directUrl": "https://www.mercadolivre.com.br/pista-de-ataque-de-tubaro-wheels-shark-attack-muda-de-cor-cor-colorido/p/MLB41434956"
   },
   {
     "id": "auto-prod-96",
@@ -2008,7 +2063,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 429,
     "installment": "em até 8x de R$ 53,63 sem juros",
     "pixDiscount": "Desconto no Pix Magalu",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/panela-de-pressao-eletrica-6l-electrolux-pcc20/p/dg029a9c8e/ep/eppe/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/panela-de-pressao-eletrica-electrolux-5l-inox-1000w-experience-rita-lobo-pcc15/p/237895300/ep/eppe/?seller_id=magazineluiza",
     "image": "https://a-static.mlcdn.com.br/1500x1500/panela-de-pressao-eletrica-electrolux-digital-pcc20-1000w-6l-controle-de-temperatura/magazineluiza/023301400/4bb9b5cd0d28fbe244ec7b47e609cd77.jpg",
     "featured": false,
     "rating": 4.9,
@@ -2016,7 +2071,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MAGALU20",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://www.magazineluiza.com.br/panela-de-pressao-eletrica-6l-electrolux-pcc20/p/dg029a9c8e/ep/eppe/"
+    "rawUrl": "https://www.magazineluiza.com.br/panela-de-pressao-eletrica-6l-electrolux-pcc20/p/dg029a9c8e/ep/eppe/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/panela-de-pressao-eletrica-electrolux-5l-inox-1000w-experience-rita-lobo-pcc15/p/237895300/ep/eppe/?seller_id=magazineluiza"
   },
   {
     "id": "auto-prod-97",
@@ -2035,9 +2091,10 @@ const DEFAULT_PRODUCTS = [
     "reviewsCount": 9100,
     "couponCode": "MELI20",
     "storeName": "Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-4139051813-truss-uso-obrigatorio-plus-kit-shampoo-condicionador-e-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/kit-uso-obrigatorio-plus-shampoo-cond-2x300ml-truss/p/MLB27545141?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "directUrl": "https://www.mercadolivre.com.br/kit-uso-obrigatorio-plus-shampoo-cond-2x300ml-truss/p/MLB27545141"
   },
   {
     "id": "auto-prod-98",
@@ -2050,7 +2107,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 389,
     "installment": "em até 8x de R$ 48,63 sem juros",
     "pixDiscount": "Envio Full Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-1666108450-cafeteira-nescafe-dolce-gusto-genio-s-plus-dgs3-vermelha-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/cafeteira-nescafe-dolce-gusto-genio-s-plus-automatica-preta-para-capsulas-monodose-220v-240v/p/MLB24594140?matt_tool=23610538&matt_word=givi713407",
     "image": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lnbv6d8bhscs8c",
     "featured": false,
     "rating": 4.9,
@@ -2058,7 +2115,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MELI20",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-1666108450-cafeteira-nescafe-dolce-gusto-genio-s-plus-dgs3-vermelha-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-1666108450-cafeteira-nescafe-dolce-gusto-genio-s-plus-dgs3-vermelha-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/cafeteira-nescafe-dolce-gusto-genio-s-plus-automatica-preta-para-capsulas-monodose-220v-240v/p/MLB24594140"
   },
   {
     "id": "auto-prod-99",
@@ -2096,11 +2154,12 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 12400,
     "couponCode": "MELI15",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-4090297773-massa-de-modelar-play-doh-golden-pack-hasbro-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/massa-de-modelar-play-doh-mini-kit-corte-maluco/p/MLB35626531?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false,
     "id": "auto-prod-100",
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-4090297773-massa-de-modelar-play-doh-golden-pack-hasbro-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-4090297773-massa-de-modelar-play-doh-golden-pack-hasbro-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/massa-de-modelar-play-doh-mini-kit-corte-maluco/p/MLB35626531"
   },
   {
     "id": "auto-prod-101",
@@ -2134,7 +2193,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 329,
     "installment": "em até 8x de R$ 41,12 sem juros",
     "pixDiscount": "Frete Grátis Magalu",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/maquina-de-cafe-em-capsulas-nespresso-essenza-vermelha-mini-19-bar-expresso/p/ee11ccje03/ep/ceac/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/cafeteira-nespresso-essenza-mini-preta-127v/p/kdja666kjg/ep/cane/?seller_id=duascabecas-economizar",
     "image": "https://d3qoj2c6mu9s8x.cloudfront.net/Custom/Content/Products/34/11/34112_cafeteira-nespresso-essenza-mini-d30-preta-fosca-aeroccino_z2_636905110105524141.jpg",
     "featured": false,
     "rating": 4.9,
@@ -2142,7 +2201,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "CAFE20",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://www.magazineluiza.com.br/maquina-de-cafe-em-capsulas-nespresso-essenza-vermelha-mini-19-bar-expresso/p/ee11ccje03/ep/ceac/"
+    "rawUrl": "https://www.magazineluiza.com.br/maquina-de-cafe-em-capsulas-nespresso-essenza-vermelha-mini-19-bar-expresso/p/ee11ccje03/ep/ceac/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/cafeteira-nespresso-essenza-mini-preta-127v/p/kdja666kjg/ep/cane/?seller_id=duascabecas-economizar"
   },
   {
     "title": "Kit Par de Halteres Emborraxados de 3kg e 5kg para Treino de Braços e Ombros em Casa",
@@ -2159,11 +2219,12 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 5210,
     "couponCode": "FITNESS20",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-4159771156-kit-halter-emborrachado-3kg-e-5kg-02-pares-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/par-de-halter-sextavado-emborrachado-3kg-academia-treino/p/MLB26693908?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false,
     "id": "auto-prod-103",
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-4159771156-kit-halter-emborrachado-3kg-e-5kg-02-pares-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-4159771156-kit-halter-emborrachado-3kg-e-5kg-02-pares-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/par-de-halter-sextavado-emborrachado-3kg-academia-treino/p/MLB26693908"
   },
   {
     "id": "auto-prod-104",
@@ -2176,7 +2237,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 119.9,
     "installment": "em até 3x de R$ 39,96 sem juros",
     "pixDiscount": "Envio Full",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-3613265953-barbeador-aparador-philips-oneblade-a-prova-dagua-qp272410-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/barbeador-eletrico-philips-oneblade/p/MLB42961900?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_841259-MLA104793277477_012026-O.webp",
     "featured": false,
     "rating": 4.9,
@@ -2184,7 +2245,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-3613265953-barbeador-aparador-philips-oneblade-a-prova-dagua-qp272410-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-3613265953-barbeador-aparador-philips-oneblade-a-prova-dagua-qp272410-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/barbeador-eletrico-philips-oneblade/p/MLB42961900"
   },
   {
     "title": "Jogo de Cartas Uno Clássico Oficial Copag para Toda a Família",
@@ -2218,7 +2280,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 169,
     "installment": "em até 5x de R$ 33,80 sem juros",
     "pixDiscount": "Frete Grátis Mercado Envios",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-3926437085-torneira-gourmet-ducha-extensivel-inox-escovado-monocomando-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/torneira-gourmet-monocomando-com-extensor-ducha-luxo-inox-cor-cinza-claro/p/MLB24074095?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_869124-MLB96129415340_102025-O-torneira-gourmet-ducha-extensivel-inox-escovado-monocomando.webp",
     "featured": false,
     "rating": 4.9,
@@ -2226,7 +2288,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-3926437085-torneira-gourmet-ducha-extensivel-inox-escovado-monocomando-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-3926437085-torneira-gourmet-ducha-extensivel-inox-escovado-monocomando-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/torneira-gourmet-monocomando-com-extensor-ducha-luxo-inox-cor-cinza-claro/p/MLB24074095"
   },
   {
     "title": "Batom Líquido Matte Boca Rosa Beauty by Payot Longa Duração Cor Queimado",
@@ -2281,7 +2344,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 399,
     "installment": "em até 10x de R$ 39,90 sem juros",
     "pixDiscount": "Envio Full Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-1317683714-parafusadeira-e-furadeira-de-impacto-bateria-gsb-120li-e-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/parafusadeira-bosch-gsb-120-li-c2-batjg-de-pontas-c32pcs/p/MLB28624978?matt_tool=23610538&matt_word=givi713407",
     "image": "https://images.tcdn.com.br/img/img_prod/1048952/parafusadeira_furadeira_impacto_12v_com_2_baterias_carregador_bivolt_e_maleta_gsb_120_li_bosch_06019_191_1_f074907ac03cba3709fe79d01557877e_20210831035803.jpg",
     "featured": false,
     "rating": 4.9,
@@ -2289,7 +2352,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "BOSCH30",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-1317683714-parafusadeira-e-furadeira-de-impacto-bateria-gsb-120li-e-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-1317683714-parafusadeira-e-furadeira-de-impacto-bateria-gsb-120li-e-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/parafusadeira-bosch-gsb-120-li-c2-batjg-de-pontas-c32pcs/p/MLB28624978"
   },
   {
     "id": "auto-prod-110",
@@ -2369,11 +2433,12 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 4890,
     "couponCode": "BARBIE15",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/barbie-dreamtopia-princesa-vestido-arco-iris-3-gjk16-mattel/p/fceg40fbj6/br/mdba/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/boneca-barbie-dreamtopia-princesa-morena-mattel-hgr00/p/gg7g1ekc1k/br/mdba/?seller_id=starhouse",
     "dateAdded": "2026-10-18",
     "expired": false,
     "id": "auto-prod-113",
-    "rawUrl": "https://www.magazineluiza.com.br/barbie-dreamtopia-princesa-vestido-arco-iris-3-gjk16-mattel/p/fceg40fbj6/br/mdba/"
+    "rawUrl": "https://www.magazineluiza.com.br/barbie-dreamtopia-princesa-vestido-arco-iris-3-gjk16-mattel/p/fceg40fbj6/br/mdba/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/boneca-barbie-dreamtopia-princesa-morena-mattel-hgr00/p/gg7g1ekc1k/br/mdba/?seller_id=starhouse"
   },
   {
     "id": "auto-prod-114",
@@ -2386,7 +2451,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 799,
     "installment": "em até 10x de R$ 79,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-4295636024-caixa-de-som-bluetooth-40w-charge-5-a-prova-dagua-jbl-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/caixa-de-som-jbl-charge-5-portatil-a-prova-dagua/up/MLBU1394021095?matt_tool=23610538&matt_word=givi713407",
     "image": "https://images.tcdn.com.br/img/img_prod/1225936/caixa_de_som_porttil_jbl_charge_5_jblcharge5blk_4_20260205163913_b2ef207ef171.jpg",
     "featured": false,
     "rating": 4.9,
@@ -2394,7 +2459,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MELI30",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-4295636024-caixa-de-som-bluetooth-40w-charge-5-a-prova-dagua-jbl-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-4295636024-caixa-de-som-bluetooth-40w-charge-5-a-prova-dagua-jbl-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/caixa-de-som-jbl-charge-5-portatil-a-prova-dagua/up/MLBU1394021095"
   },
   {
     "id": "auto-prod-115",
@@ -2470,7 +2536,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 2499,
     "installment": "em até 10x de R$ 249,90 sem juros",
     "pixDiscount": "10% no Pix pelo Magalu",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/smartphone-motorola-edge-50-pro-5g-256gb-12gb-ram-12gb-ram-boost-50mp-ultrapixel-ai-camerenovapay/p/jca0da07h3/te/tcsp/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/smartphone-motorola-edge-70-pro-5g-256gb-12gb-ram-12gb-ram-boost-4-cameras-de-50mp-tela-1-5k-extreme-amoled-144hz-bateria-6500-mah-ip68-ip69/p/ja2cg9kge3/te/srmt/?seller_id=lojamotorolaoficial",
     "image": "https://imgs.casasbahia.com.br/1566584537/1xg.jpg",
     "featured": false,
     "rating": 4.9,
@@ -2478,7 +2544,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://www.magazineluiza.com.br/smartphone-motorola-edge-50-pro-5g-256gb-12gb-ram-12gb-ram-boost-50mp-ultrapixel-ai-camerenovapay/p/jca0da07h3/te/tcsp/"
+    "rawUrl": "https://www.magazineluiza.com.br/smartphone-motorola-edge-50-pro-5g-256gb-12gb-ram-12gb-ram-boost-50mp-ultrapixel-ai-camerenovapay/p/jca0da07h3/te/tcsp/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/smartphone-motorola-edge-70-pro-5g-256gb-12gb-ram-12gb-ram-boost-4-cameras-de-50mp-tela-1-5k-extreme-amoled-144hz-bateria-6500-mah-ip68-ip69/p/ja2cg9kge3/te/srmt/?seller_id=lojamotorolaoficial"
   },
   {
     "title": "Protetor Solar Facial Anthelios Airlicium FPS 80 La Roche-Posay Toque Seco 40g",
@@ -2554,7 +2621,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 1549,
     "installment": "em até 10x de R$ 154,90 sem juros",
     "pixDiscount": "Desconto no Pix Magalu",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/volante-logitech-g29-driving-force-e-pedais-com-force-feedback-para-ps5-ps4-ps3-e-pc/p/bh0g6hfahb/ga/otga/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/volante-gamer-logitech-g29-driving-force-ps5-ps4-ps3-pc-com-force-feedback-e-pedais-inox/p/hfkfb9kk3h/ga/otga/?seller_id=bestgaes",
     "image": "https://imgs.extra.com.br/11366897/1xg.jpg",
     "featured": false,
     "rating": 4.9,
@@ -2562,7 +2629,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MAGALU50",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://www.magazineluiza.com.br/volante-logitech-g29-driving-force-e-pedais-com-force-feedback-para-ps5-ps4-ps3-e-pc/p/bh0g6hfahb/ga/otga/"
+    "rawUrl": "https://www.magazineluiza.com.br/volante-logitech-g29-driving-force-e-pedais-com-force-feedback-para-ps5-ps4-ps3-e-pc/p/bh0g6hfahb/ga/otga/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/volante-gamer-logitech-g29-driving-force-ps5-ps4-ps3-pc-com-force-feedback-e-pedais-inox/p/hfkfb9kk3h/ga/otga/?seller_id=bestgaes"
   },
   {
     "id": "auto-prod-123",
@@ -2617,7 +2685,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 399,
     "installment": "em até 8x de R$ 49,87 sem juros",
     "pixDiscount": "Envio Full Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-911237780-headset-gamer-hyperx-cloud-ii-preto-e-vermelho-khx-hscp-rd-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/headset-gamer-hyperx-cloud-ii-red-khxhscprd/up/MLBU1875866101?matt_tool=23610538&matt_word=givi713407",
     "image": "https://images.tcdn.com.br/img/img_prod/313499/headset_gamer_hyperx_cloud_ii_som_surround_7_1_drivers_53mm_usb_e_p3_preto_e_vermelho_khx_hscp_rd_15707_3_d3cd5630b4e1a2fc9496290c05d14ed8.jpg",
     "featured": false,
     "rating": 4.9,
@@ -2625,7 +2693,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MELI20",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-911237780-headset-gamer-hyperx-cloud-ii-preto-e-vermelho-khx-hscp-rd-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-911237780-headset-gamer-hyperx-cloud-ii-preto-e-vermelho-khx-hscp-rd-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/headset-gamer-hyperx-cloud-ii-red-khxhscprd/up/MLBU1875866101"
   },
   {
     "id": "auto-prod-126",
@@ -2638,7 +2707,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 159,
     "installment": "em até 5x de R$ 31,80 sem juros",
     "pixDiscount": "Envio Full",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-1828460627-headset-fone-de-ouvido-gamer-havit-hv-h2002d-p2-35mm-black-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/fone-de-ouvido-gamer-havit-h2002d-com-microfone-cor-rosa/p/MLB38917674?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/71nuOzj9qwL._AC_.jpg",
     "featured": false,
     "rating": 4.9,
@@ -2646,7 +2715,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-1828460627-headset-fone-de-ouvido-gamer-havit-hv-h2002d-p2-35mm-black-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-1828460627-headset-fone-de-ouvido-gamer-havit-hv-h2002d-p2-35mm-black-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/fone-de-ouvido-gamer-havit-h2002d-com-microfone-cor-rosa/p/MLB38917674"
   },
   {
     "id": "auto-prod-127",
@@ -2659,7 +2729,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 429,
     "installment": "em até 10x de R$ 42,90 sem juros",
     "pixDiscount": "Frete Grátis Mercado Envios",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-3065715631-novo-kindle-11-geraco-tela-6-16gb-300ppi-capa-original-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/kindle-paperwhite-11-68-tela-de-16-gb-e-livros/p/MLB19819473?matt_tool=23610538&matt_word=givi713407",
     "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6519/6519374cv1d.jpg",
     "featured": false,
     "rating": 4.9,
@@ -2667,7 +2737,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-3065715631-novo-kindle-11-geraco-tela-6-16gb-300ppi-capa-original-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-3065715631-novo-kindle-11-geraco-tela-6-16gb-300ppi-capa-original-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/kindle-paperwhite-11-68-tela-de-16-gb-e-livros/p/MLB19819473"
   },
   {
     "id": "auto-prod-128",
@@ -2768,11 +2839,12 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 8900,
     "couponCode": "MELI50",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-3961906607-caixa-de-som-jbl-flip-6-bluetooth-ip67-preto-30w-original-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/caixa-de-som-portatil-bluetooth-prova-dagua-30w-flip-6-jbl-cor-blue/p/MLB32020082?matt_tool=23610538&matt_word=givi713407",
     "storeName": "Mercado Livre",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-3961906607-caixa-de-som-jbl-flip-6-bluetooth-ip67-preto-30w-original-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-3961906607-caixa-de-som-jbl-flip-6-bluetooth-ip67-preto-30w-original-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/caixa-de-som-portatil-bluetooth-prova-dagua-30w-flip-6-jbl-cor-blue/p/MLB32020082"
   },
   {
     "id": "auto-prod-133",
@@ -2806,7 +2878,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 1899,
     "installment": "em até 10x de R$ 189,90 sem juros",
     "pixDiscount": "Desconto no Pix Mercado Pago",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-2852785520-nintendo-switch-oled-com-joy-con-nacional-c-nf-e-garantia-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/nintendo-switch-oled-model-64gb/p/MLB2063384810?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_925310-MLA96862732927_102025-O.webp",
     "featured": false,
     "rating": 4.9,
@@ -2814,7 +2886,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MELIGAME",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-2852785520-nintendo-switch-oled-com-joy-con-nacional-c-nf-e-garantia-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-2852785520-nintendo-switch-oled-com-joy-con-nacional-c-nf-e-garantia-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/nintendo-switch-oled-model-64gb/p/MLB2063384810"
   },
   {
     "id": "auto-prod-135",
@@ -3064,9 +3137,10 @@ const DEFAULT_PRODUCTS = [
     "reviewsCount": 4300,
     "couponCode": "MAGALU15",
     "storeName": "Magalu",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/boneca-baby-alive-morena-hora-da-papinha-come-comida-hasbro/p/de45e9dge9/br/brba/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/boneca-baby-alive-hora-do-xixi-com-acessorios-hasbro/p/180608600/br/brba/?seller_id=magazineluiza",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/boneca-baby-alive-hora-do-xixi-com-acessorios-hasbro/p/180608600/br/brba/?seller_id=magazineluiza"
   },
   {
     "title": "Kit 5 Elásticos Extensores Mini Bands Treino Musculação, Funcional e Fisioterapia",
@@ -3188,11 +3262,12 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 3890,
     "couponCode": "VOLTAAULAS",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-3557649621-mochila-de-rodinhas-lancheira-termica-e-estojo-duplo-sereia-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/kit-escolar-mochila-rodinha-lancheira-termica-estojo-menina-cor-holografica-desenho-do-tecido-liso/p/MLB45004293?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false,
     "id": "auto-prod-152",
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-3557649621-mochila-de-rodinhas-lancheira-termica-e-estojo-duplo-sereia-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-3557649621-mochila-de-rodinhas-lancheira-termica-e-estojo-duplo-sereia-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/kit-escolar-mochila-rodinha-lancheira-termica-estojo-menina-cor-holografica-desenho-do-tecido-liso/p/MLB45004293"
   },
   {
     "id": "auto-prod-153",
@@ -3268,7 +3343,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 599,
     "installment": "em até 10x de R$ 59,90 sem juros",
     "pixDiscount": "Desconto exclusivo no Pix",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/fritadeira-air-fryer-oven-12l-oster-3x1-ofrt780-preto-110v/p/be2ak7bg81/ep/frel/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/fritadeira-air-fryer-forno-mondial-afon-12l-bi-12l-2000w-127v-preto-inox/p/ke108jj19a/ep/efso/?seller_id=2eletroinfo",
     "image": "https://http2.mlstatic.com/D_NQ_NP_851947-MLA99946517393_112025-O.webp",
     "featured": false,
     "rating": 4.8,
@@ -3276,7 +3351,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MAGALU20",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://www.magazineluiza.com.br/fritadeira-air-fryer-oven-12l-oster-3x1-ofrt780-preto-110v/p/be2ak7bg81/ep/frel/"
+    "rawUrl": "https://www.magazineluiza.com.br/fritadeira-air-fryer-oven-12l-oster-3x1-ofrt780-preto-110v/p/be2ak7bg81/ep/frel/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/fritadeira-air-fryer-forno-mondial-afon-12l-bi-12l-2000w-127v-preto-inox/p/ke108jj19a/ep/efso/?seller_id=2eletroinfo"
   },
   {
     "id": "auto-prod-157",
@@ -3289,7 +3365,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 899,
     "installment": "em até 10x de R$ 89,90 sem juros",
     "pixDiscount": "10% no Pix Magalu",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/cafeteira-expresso-oster-primalatte-vermelho-ii-bvstem6701b/p/ck6kj9718k/ep/ceac/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/filtro-duplo-para-cafeteira-expresso-oster-prima-latte/p/gc8h9095k1/ep/acae/?seller_id=torreperescomercial",
     "image": "https://carrefourbr.vtexassets.com/arquivos/ids/136893372/cafeteira-espresso-oster-primalatte-touch-vermelha-220v-6.jpg?v=638927013055870000",
     "featured": false,
     "rating": 4.8,
@@ -3297,7 +3373,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "COZINHA40",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://www.magazineluiza.com.br/cafeteira-expresso-oster-primalatte-vermelho-ii-bvstem6701b/p/ck6kj9718k/ep/ceac/"
+    "rawUrl": "https://www.magazineluiza.com.br/cafeteira-expresso-oster-primalatte-vermelho-ii-bvstem6701b/p/ck6kj9718k/ep/ceac/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/filtro-duplo-para-cafeteira-expresso-oster-prima-latte/p/gc8h9095k1/ep/acae/?seller_id=torreperescomercial"
   },
   {
     "title": "Kit 12 Pincéis de Maquiagem Profissional com Cerdas Macias e Estojo de Viagem",
@@ -3331,7 +3408,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 149,
     "installment": "em até 4x de R$ 37,25 sem juros",
     "pixDiscount": "Envio Full Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-2708780190-aspirador-de-po-vertical-portatil-wap-silent-speed-1000w-1l-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/aspirador-de-po-vertical-2x1-wap-silent-speed-1000w/p/MLB35173885?matt_tool=23610538&matt_word=givi713407",
     "image": "https://down-br.img.susercontent.com/file/sg-11134201-7rbki-lpgxrnrgepay9a",
     "featured": false,
     "rating": 4.8,
@@ -3339,7 +3416,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-2708780190-aspirador-de-po-vertical-portatil-wap-silent-speed-1000w-1l-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-2708780190-aspirador-de-po-vertical-portatil-wap-silent-speed-1000w-1l-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/aspirador-de-po-vertical-2x1-wap-silent-speed-1000w/p/MLB35173885"
   },
   {
     "id": "auto-prod-160",
@@ -3352,7 +3430,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 249,
     "installment": "em até 6x de R$ 41,50 sem juros",
     "pixDiscount": "Desconto no Pix",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/liquidificador-oster-classico-osterizer-3-velocidades-600w-com-jarra-de-vidro/p/088798200/ep/liqu/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/kit-new-osterizer-aco-escovado-liquidificador-e-base-processadora-oster/p/aa32308f22/ep/liqu/?seller_id=osteroficial",
     "image": "https://http2.mlstatic.com/D_NQ_NP_615101-MLA99583757498_122025-O.webp",
     "featured": false,
     "rating": 4.8,
@@ -3360,7 +3438,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://www.magazineluiza.com.br/liquidificador-oster-classico-osterizer-3-velocidades-600w-com-jarra-de-vidro/p/088798200/ep/liqu/"
+    "rawUrl": "https://www.magazineluiza.com.br/liquidificador-oster-classico-osterizer-3-velocidades-600w-com-jarra-de-vidro/p/088798200/ep/liqu/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/kit-new-osterizer-aco-escovado-liquidificador-e-base-processadora-oster/p/aa32308f22/ep/liqu/?seller_id=osteroficial"
   },
   {
     "id": "auto-prod-161",
@@ -3524,11 +3603,12 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 7600,
     "couponCode": "MELI20",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-3271866375-jogo-kit-de-ferramentas-110-pecas-com-chave-catraca-e-maleta-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/kit-ferramentas-200-pecas-c-maleta-titanium-chaves-alicates-martelos-serra-aco-carbono-diy-oficina-casa/p/MLB34731119?matt_tool=23610538&matt_word=givi713407",
     "storeName": "Mercado Livre",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-3271866375-jogo-kit-de-ferramentas-110-pecas-com-chave-catraca-e-maleta-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-3271866375-jogo-kit-de-ferramentas-110-pecas-com-chave-catraca-e-maleta-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/kit-ferramentas-200-pecas-c-maleta-titanium-chaves-alicates-martelos-serra-aco-carbono-diy-oficina-casa/p/MLB34731119"
   },
   {
     "id": "auto-prod-169",
@@ -3547,9 +3627,10 @@ const DEFAULT_PRODUCTS = [
     "reviewsCount": 3890,
     "couponCode": "MELI50",
     "storeName": "Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-1369937769-frigobar-midea-45-litros-branco-220v-mrc06b2-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/frigobar-midea-45-litros-branco-mrc06b2-220v/up/MLBU2906439372?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "directUrl": "https://www.mercadolivre.com.br/frigobar-midea-45-litros-branco-mrc06b2-220v/up/MLBU2906439372"
   },
   {
     "id": "auto-prod-170",
@@ -3583,7 +3664,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 1799,
     "installment": "em até 10x de R$ 179,90 sem juros",
     "pixDiscount": "10% no Pix Magalu",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/smartphone-samsung-galaxy-a55-5g-azul-claro-128gb-8gb-ram-e-camera-tripla-50mp-12mp-5mp/p/da0dje0kfd/te/galx/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/usado-galaxy-a55-128gb-azul-claro-muito-bom-trocafy-samsung/p/kg8j913114/te/ga55/?seller_id=trocafy",
     "image": "https://www.kabum.com.br/_next/image?url=https:%2F%2Fimages7.kabum.com.br%2Fprodutos%2Ffotos%2Fsync_mirakl%2F541947%2Fxlarge%2FSmartphone-Samsung-Galaxy-A55-5G-128GB-8GB-RAM-C-mera-Tripla-50mp-Tela-6-6-Azul-Escuro_1751910893.jpg&amp;w=1920&amp;q=75",
     "featured": false,
     "rating": 4.8,
@@ -3591,7 +3672,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MAGALU50",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://www.magazineluiza.com.br/smartphone-samsung-galaxy-a55-5g-azul-claro-128gb-8gb-ram-e-camera-tripla-50mp-12mp-5mp/p/da0dje0kfd/te/galx/"
+    "rawUrl": "https://www.magazineluiza.com.br/smartphone-samsung-galaxy-a55-5g-azul-claro-128gb-8gb-ram-e-camera-tripla-50mp-12mp-5mp/p/da0dje0kfd/te/galx/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/usado-galaxy-a55-128gb-azul-claro-muito-bom-trocafy-samsung/p/kg8j913114/te/ga55/?seller_id=trocafy"
   },
   {
     "id": "auto-prod-172",
@@ -3604,7 +3686,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 899,
     "installment": "em até 10x de R$ 89,90 sem juros",
     "pixDiscount": "Envio Full Imediato",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-2124731605-jbl-soundbar-cinema-sb170-21-bluetooth-hdmi-110w-rms-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/jbl-cinema-sb170-soundbar-21-com-subwoofer-bluetooth-bivolt/up/MLBU2108844042?matt_tool=23610538&matt_word=givi713407",
     "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/j/b/jblsb170blkbr4.jpg",
     "featured": false,
     "rating": 4.8,
@@ -3612,7 +3694,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MELI50",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-2124731605-jbl-soundbar-cinema-sb170-21-bluetooth-hdmi-110w-rms-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-2124731605-jbl-soundbar-cinema-sb170-21-bluetooth-hdmi-110w-rms-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/jbl-cinema-sb170-soundbar-21-com-subwoofer-bluetooth-bivolt/up/MLBU2108844042"
   },
   {
     "id": "auto-prod-173",
@@ -3856,7 +3939,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 799,
     "installment": "em até 10x de R$ 79,90 sem juros",
     "pixDiscount": "10% no Pix Magalu",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/monitor-gamer-aoc-24-g2-hero-144hz-ips-1ms-amd-freesync-24g2-widescreen-full-hd-hdmi-vga-ips/p/jkh430f333/in/mogm/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/monitor-gamer-aoc-agon-24-fhd-144hz-0-5ms-ips-hdr-preto-24g50f/p/habchecech/in/mogm/?seller_id=kabum",
     "image": "https://m.media-amazon.com/images/I/61C0a3AawtL._AC_SL1500_.jpg",
     "featured": false,
     "rating": 4.8,
@@ -3864,7 +3947,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MAGALU30",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://www.magazineluiza.com.br/monitor-gamer-aoc-24-g2-hero-144hz-ips-1ms-amd-freesync-24g2-widescreen-full-hd-hdmi-vga-ips/p/jkh430f333/in/mogm/"
+    "rawUrl": "https://www.magazineluiza.com.br/monitor-gamer-aoc-24-g2-hero-144hz-ips-1ms-amd-freesync-24g2-widescreen-full-hd-hdmi-vga-ips/p/jkh430f333/in/mogm/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/monitor-gamer-aoc-agon-24-fhd-144hz-0-5ms-ips-hdr-preto-24g50f/p/habchecech/in/mogm/?seller_id=kabum"
   },
   {
     "id": "auto-prod-185",
@@ -3877,7 +3961,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 989,
     "installment": "em até 10x de R$ 98,90 sem juros",
     "pixDiscount": "Frete Grátis Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-3571030051-cadeira-gamer-barata-com-regulagem-do-braco-2d-thunderx3-bc3-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/cadeira-gamer-thunderx3-tgc12-loft-apoio-de-braco-2d-82874-cor-preto-material-do-estofamento-tecido/p/MLB37920830?matt_tool=23610538&matt_word=givi713407",
     "image": "https://a-static.mlcdn.com.br/470x352/cadeira-gamer-thunderx3-all-black-para-escritorio-suporta-ate-120kg-com-encosto-ergonomico-e-apoio-para-lombar-e-pescoco-alto-conforto-cor-preta-base-de-metal/comerciovarejogammeregeek/var0472993/0e92c0e0aaeb41d5631727ddef8d9eed.jpeg",
     "featured": false,
     "rating": 4.8,
@@ -3885,7 +3969,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MELI50",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-3571030051-cadeira-gamer-barata-com-regulagem-do-braco-2d-thunderx3-bc3-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-3571030051-cadeira-gamer-barata-com-regulagem-do-braco-2d-thunderx3-bc3-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/cadeira-gamer-thunderx3-tgc12-loft-apoio-de-braco-2d-82874-cor-preto-material-do-estofamento-tecido/p/MLB37920830"
   },
   {
     "id": "auto-prod-186",
@@ -3898,7 +3983,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 179,
     "installment": "em até 5x de R$ 35,80 sem juros",
     "pixDiscount": "5% de desconto no Pix",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/headset-gamer-hyperx-cloud-stinger-2/p/fbeff6004k/ea/achd/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/fone-headset-gamer-sem-fio-hyperx-cloudx-stinger-core-preto-4p5j0aa/p/ha7d45f48b/ea/hdga/?seller_id=bftechchapeco",
     "image": "https://m.media-amazon.com/images/I/81bQEkMevBL._AC_SL1500_.jpg",
     "featured": false,
     "rating": 4.8,
@@ -3906,7 +3991,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MAGALUGAMER",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://www.magazineluiza.com.br/headset-gamer-hyperx-cloud-stinger-2/p/fbeff6004k/ea/achd/"
+    "rawUrl": "https://www.magazineluiza.com.br/headset-gamer-hyperx-cloud-stinger-2/p/fbeff6004k/ea/achd/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/fone-headset-gamer-sem-fio-hyperx-cloudx-stinger-core-preto-4p5j0aa/p/ha7d45f48b/ea/hdga/?seller_id=bftechchapeco"
   },
   {
     "id": "auto-prod-187",
@@ -3919,7 +4005,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 99.9,
     "installment": "em até 3x de R$ 33,30 sem juros",
     "pixDiscount": "Envio Full",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-3778577299-mouse-gamer-logitech-g203-lightsync-rgb-ate-8000-dpi-preto-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/mouse-para-jogos-logitech-g203-lightsync-rgb-de-6-botoes-u/up/MLBU2958460151?matt_tool=23610538&matt_word=givi713407",
     "image": "https://down-br.img.susercontent.com/file/sg-11134201-82631-mj60un3yhypte8",
     "featured": false,
     "rating": 4.8,
@@ -3927,7 +4013,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-3778577299-mouse-gamer-logitech-g203-lightsync-rgb-ate-8000-dpi-preto-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-3778577299-mouse-gamer-logitech-g203-lightsync-rgb-ate-8000-dpi-preto-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/mouse-para-jogos-logitech-g203-lightsync-rgb-de-6-botoes-u/up/MLBU2958460151"
   },
   {
     "id": "auto-prod-188",
@@ -4045,7 +4132,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 699,
     "installment": "em até 10x de R$ 69,90 sem juros",
     "pixDiscount": "Desconto no Pix Magalu",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/aspirador-de-po-wap-robot-w300-vermelho-e-preto/p/bjekg14743/ep/adpc/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/robo-aspirador-wap-w96-30w/p/238011700/ep/eprb/?seller_id=magazineluiza",
     "image": "https://http2.mlstatic.com/D_NQ_NP_881998-MLB50582147638_072022-O.webp",
     "featured": false,
     "rating": 4.7,
@@ -4053,7 +4140,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MAGALU30",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://www.magazineluiza.com.br/aspirador-de-po-wap-robot-w300-vermelho-e-preto/p/bjekg14743/ep/adpc/"
+    "rawUrl": "https://www.magazineluiza.com.br/aspirador-de-po-wap-robot-w300-vermelho-e-preto/p/bjekg14743/ep/adpc/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/robo-aspirador-wap-w96-30w/p/238011700/ep/eprb/?seller_id=magazineluiza"
   },
   {
     "id": "auto-prod-194",
@@ -4066,7 +4154,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 339,
     "installment": "em até 10x de R$ 33,90 sem juros",
     "pixDiscount": "10% no Pix pelo App",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/robo-aspirador-de-po-wap-w100-bivolt/p/ha8hge79a9/ep/eprb/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/robo-aspirador-wap-w96-30w/p/238011700/ep/eprb/?seller_id=magazineluiza",
     "image": "https://http2.mlstatic.com/D_NQ_NP_718143-MLA99930114129_112025-O.webp",
     "featured": false,
     "rating": 4.7,
@@ -4074,7 +4162,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MAGALU20",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://www.magazineluiza.com.br/robo-aspirador-de-po-wap-w100-bivolt/p/ha8hge79a9/ep/eprb/"
+    "rawUrl": "https://www.magazineluiza.com.br/robo-aspirador-de-po-wap-w100-bivolt/p/ha8hge79a9/ep/eprb/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/robo-aspirador-wap-w96-30w/p/238011700/ep/eprb/?seller_id=magazineluiza"
   },
   {
     "id": "auto-prod-195",
@@ -4108,7 +4197,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 79.9,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Envio Full",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-2918541960-grill-e-sanduicheira-pratic-sn-01-750w-preto-mondial-220v-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/grill-e-sanduicheira-s-25-premium-preto-e-inox-mondial-cor-pretoinox/p/MLB23130935?matt_tool=23610538&matt_word=givi713407",
     "image": "https://eletroangeloni.vtexassets.com/arquivos/ids/2381436/17234849915248.jpg?v=638680290412500000",
     "featured": false,
     "rating": 4.7,
@@ -4116,7 +4205,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-2918541960-grill-e-sanduicheira-pratic-sn-01-750w-preto-mondial-220v-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-2918541960-grill-e-sanduicheira-pratic-sn-01-750w-preto-mondial-220v-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/grill-e-sanduicheira-s-25-premium-preto-e-inox-mondial-cor-pretoinox/p/MLB23130935"
   },
   {
     "id": "auto-prod-197",
@@ -4261,9 +4351,10 @@ const DEFAULT_PRODUCTS = [
     "reviewsCount": 2980,
     "couponCode": "MAGALU80",
     "storeName": "Magalu",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/guarda-roupa-munique-6-portas-2-gavetas-100-rovere-bbm/p/eb3db95f8k/mo/guro/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/guarda-roupa-casal-hera-mdf-8-portas-e-4-gavetas-rufato/p/cfee31c69h/mo/guro/?seller_id=modernamobilia2",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/guarda-roupa-casal-hera-mdf-8-portas-e-4-gavetas-rufato/p/cfee31c69h/mo/guro/?seller_id=modernamobilia2"
   },
   {
     "id": "auto-prod-204",
@@ -4276,7 +4367,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 229,
     "installment": "em até 6x de R$ 38,16 sem juros",
     "pixDiscount": "Melhora o Som da TV",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/soundbar-mondial-60w-2-0-canais-sb-01/p/215628900/ea/sdbr/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/soundbar-philips-tab4000-78-2-0-canais-bluetooth-60w-preto/p/241767400/ea/sdbr/?seller_id=magazineluiza",
     "image": "https://images.tcdn.com.br/img/img_prod/1294847/home_theater_caixa_som_bluetooth_subwoofer_tv_efeito_cinema_243_9_06b7a4af50dc8d37619b6395ce6803da.jpg",
     "featured": false,
     "rating": 4.7,
@@ -4284,7 +4375,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://www.magazineluiza.com.br/soundbar-mondial-60w-2-0-canais-sb-01/p/215628900/ea/sdbr/"
+    "rawUrl": "https://www.magazineluiza.com.br/soundbar-mondial-60w-2-0-canais-sb-01/p/215628900/ea/sdbr/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/soundbar-philips-tab4000-78-2-0-canais-bluetooth-60w-preto/p/241767400/ea/sdbr/?seller_id=magazineluiza"
   },
   {
     "id": "auto-prod-205",
@@ -4297,7 +4389,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 299,
     "installment": "em até 8x de R$ 37,37 sem juros",
     "pixDiscount": "Ideal para Festas",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/caixa-som-amplificada-portatil-bluetooth-250w-rms-fm-usb-led-tws-bateria-aca-250-groove-pedestal-amvox/p/dakkh1f9b7/ea/easm/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/caixa-de-som-torre-aiwa-aws-t2w-02-bluetooth-2300w-rms-amplificada/p/238676000/ea/easm/?seller_id=magazineluiza",
     "image": "https://images.tcdn.com.br/img/img_prod/1309171/caixa_de_som_amplificada_amvox_aca221_gigante_ii_250w_rms_bluetooth_radio_fm_usb_589_1_90061f4c85d1a57dcb8b547b111a7348.jpg",
     "featured": false,
     "rating": 4.7,
@@ -4305,7 +4397,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://www.magazineluiza.com.br/caixa-som-amplificada-portatil-bluetooth-250w-rms-fm-usb-led-tws-bateria-aca-250-groove-pedestal-amvox/p/dakkh1f9b7/ea/easm/"
+    "rawUrl": "https://www.magazineluiza.com.br/caixa-som-amplificada-portatil-bluetooth-250w-rms-fm-usb-led-tws-bateria-aca-250-groove-pedestal-amvox/p/dakkh1f9b7/ea/easm/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/caixa-de-som-torre-aiwa-aws-t2w-02-bluetooth-2300w-rms-amplificada/p/238676000/ea/easm/?seller_id=magazineluiza"
   },
   {
     "id": "auto-prod-206",
@@ -4360,7 +4453,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 1499,
     "installment": "em até 10x de R$ 149,90 sem juros",
     "pixDiscount": "10% de desconto no Pix",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/smartphone-motorola-edge-40-neo-5g-256gb-8-ram-50mp-ultra-pixel-ai-camera-ip68-nfc-caneel-bay-vegan/p/af1146395b/te/e40n/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/usado-moto-edge-40-neo-256gb-azul-excelente-trocafy-motorola/p/hec7dae2b8/te/srmt/?seller_id=trocafy",
     "image": "https://carrefourbr.vtexassets.com/arquivos/ids/178700309/smartphone-motorola-edge-40-neo-5g-256gb-8gb-ram-camera-dupla-selfie-32mp-6-55-soothing-sea-vegan-leather.jpg?v=638668686351830000",
     "featured": false,
     "rating": 4.7,
@@ -4368,7 +4461,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MAGALU50",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://www.magazineluiza.com.br/smartphone-motorola-edge-40-neo-5g-256gb-8-ram-50mp-ultra-pixel-ai-camera-ip68-nfc-caneel-bay-vegan/p/af1146395b/te/e40n/"
+    "rawUrl": "https://www.magazineluiza.com.br/smartphone-motorola-edge-40-neo-5g-256gb-8-ram-50mp-ultra-pixel-ai-camera-ip68-nfc-caneel-bay-vegan/p/af1146395b/te/e40n/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/usado-moto-edge-40-neo-256gb-azul-excelente-trocafy-motorola/p/hec7dae2b8/te/srmt/?seller_id=trocafy"
   },
   {
     "id": "auto-prod-209",
@@ -4402,7 +4496,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 1199,
     "installment": "em até 10x de R$ 119,90 sem juros",
     "pixDiscount": "5% de desconto no Pix",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/smartphone-motorola-moto-g84-5g-256gb-8gb-ram-8gb-ram-boost-50mp-ultrapixel-ai-camera-tela-poled-nfc/p/fead6457g5/te/mg85/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/smartphone-moto-g71-5g-128gb-6gb-ram-verde-escuro-motorola-neptune-green/p/jcc9geh1hj/te/mg84/?seller_id=b2ctechcomercioeservicos",
     "image": "https://images.tcdn.com.br/img/img_prod/1225936/smartphone_motorola_moto_g84_256gb_8gb_ram_octa_core_tela_6_55_dual_chip_5g_cam_50mp_bateria_de_5000_1431_1_07ed758de004d4568ca651d096d69068.jpg",
     "featured": false,
     "rating": 4.7,
@@ -4410,7 +4504,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "MAGALU30",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://www.magazineluiza.com.br/smartphone-motorola-moto-g84-5g-256gb-8gb-ram-8gb-ram-boost-50mp-ultrapixel-ai-camera-tela-poled-nfc/p/fead6457g5/te/mg85/"
+    "rawUrl": "https://www.magazineluiza.com.br/smartphone-motorola-moto-g84-5g-256gb-8gb-ram-8gb-ram-boost-50mp-ultrapixel-ai-camera-tela-poled-nfc/p/fead6457g5/te/mg85/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/smartphone-moto-g71-5g-128gb-6gb-ram-verde-escuro-motorola-neptune-green/p/jcc9geh1hj/te/mg84/?seller_id=b2ctechcomercioeservicos"
   },
   {
     "id": "auto-prod-211",
@@ -4465,7 +4560,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 2999,
     "installment": "Lote promocional esgotado",
     "pixDiscount": "Preço recorde histórico",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/console-sony-playstation-5-edicao-digital-horizon-forbidden-west/p/gba3g4a177/ga/otga/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/playstation-5-edicao-digital-825gb-1-controle-branco-sony-com-2-jogos/p/240590700/ga/gap5/?seller_id=magazineluiza",
     "image": "https://http2.mlstatic.com/D_NQ_NP_756435-MLA95500672926_102025-O.webp",
     "featured": false,
     "rating": 5,
@@ -4473,7 +4568,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "ESGOTADO",
     "expired": true,
     "dateAdded": "2026-10-15",
-    "rawUrl": "https://www.magazineluiza.com.br/console-sony-playstation-5-edicao-digital-horizon-forbidden-west/p/gba3g4a177/ga/otga/"
+    "rawUrl": "https://www.magazineluiza.com.br/console-sony-playstation-5-edicao-digital-horizon-forbidden-west/p/gba3g4a177/ga/otga/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/playstation-5-edicao-digital-825gb-1-controle-branco-sony-com-2-jogos/p/240590700/ga/gap5/?seller_id=magazineluiza"
   },
   {
     "id": "auto-prod-past-2",
@@ -4486,7 +4582,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 1749,
     "installment": "Oferta relâmpago encerrada",
     "pixDiscount": "Preço no Pix na época",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/p/237016100/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/smart-tv-50-samsung-uhd-4k-crystal-uhd-u8600f-un50u8600fgxzd-tizen-crystal-4k-bixby-e-alexa-3-hdmi/p/240147400/et/elit/?seller_id=magazineluiza",
     "image": "https://carrefourbr.vtexassets.com/arquivos/ids/132195847/samsung-smart-tv-50-polegadas-uhd-4k-50cu7700-2023-processador-crystal-4k-gaming-hub-alexa-built-in-1.jpg?v=638324683790270000",
     "featured": false,
     "rating": 4.8,
@@ -4494,7 +4590,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "ESGOTADO",
     "expired": true,
     "dateAdded": "2026-10-15",
-    "rawUrl": "https://clube3.magazineluiza.com.br/smart-tv-50-uhd-4k-led-samsung-50cu7700-wi-fi-bluetooth-alexa-3-hdmi/p/237016100/et/tv4k"
+    "rawUrl": "https://clube3.magazineluiza.com.br/smart-tv-50-uhd-4k-led-samsung-50cu7700-wi-fi-bluetooth-alexa-3-hdmi/p/237016100/et/tv4k",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/smart-tv-50-samsung-uhd-4k-crystal-uhd-u8600f-un50u8600fgxzd-tizen-crystal-4k-bixby-e-alexa-3-hdmi/p/240147400/et/elit/?seller_id=magazineluiza"
   },
   {
     "id": "auto-prod-past-3",
@@ -4591,7 +4688,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 149,
     "installment": "Flash Day encerrado",
     "pixDiscount": "Preço promocional na época",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-4131417239-echo-pop-smart-speaker-compacto-som-alexa-original-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/echo-pop-smart-speaker-amazon-preto/p/MLB61265584?matt_tool=23610538&matt_word=givi713407",
     "image": "https://images.tcdn.com.br/img/img_prod/1289196/echo_pop_smart_speaker_compacto_com_som_envolvente_e_alexa_cor_lavanda_117_4_b191e4878f3d63b63d7b0e9c7cd05586.jpg",
     "featured": false,
     "rating": 4.8,
@@ -4599,20 +4696,21 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "ESGOTADO",
     "expired": true,
     "dateAdded": "2026-10-15",
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-4131417239-echo-pop-smart-speaker-compacto-som-alexa-original-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-4131417239-echo-pop-smart-speaker-compacto-som-alexa-original-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/echo-pop-smart-speaker-amazon-preto/p/MLB61265584"
   },
   {
     "id": "auto-prod-past-8",
     "title": "Tênis Nike Revolution 6 Next Nature Masculino Preto com Amortecimento",
     "category": "moda",
-    "store": "magalu",
+    "store": "mercadolivre",
     "storeName": "Magalu",
     "badge": "⏰ Promoção Encerrada",
     "originalPrice": 399,
     "currentPrice": 149.9,
     "installment": "Liquidação total encerrada",
     "pixDiscount": "10% no Pix Magalu na época",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/tenis-nike-revolution-6-masculino-preto/p/ed57eb54f3/es/tnik/",
+    "affiliateUrl": "https://www.mercadolivre.com.br/tnis-nike-revolution-7-masculino/p/MLB46191739?matt_tool=23610538&matt_word=givi713407",
     "image": "https://static.netshoes.com.br/produtos/tenis-nike-revolution-6-next-nature-masculino/06/2IC-5000-006/2IC-5000-006_zoom1.jpg?ts=1634862986",
     "featured": false,
     "rating": 4.8,
@@ -4620,7 +4718,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "ESGOTADO",
     "expired": true,
     "dateAdded": "2026-10-15",
-    "rawUrl": "https://www.magazineluiza.com.br/tenis-nike-revolution-6-masculino-preto/p/ed57eb54f3/es/tnik/"
+    "rawUrl": "https://www.magazineluiza.com.br/tenis-nike-revolution-6-masculino-preto/p/ed57eb54f3/es/tnik/",
+    "directUrl": "https://www.mercadolivre.com.br/tnis-nike-revolution-7-masculino/p/MLB46191739"
   },
   {
     "id": "auto-prod-past-9",
@@ -4654,7 +4753,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 699,
     "installment": "Promoção relâmpago encerrada",
     "pixDiscount": "Preço no Pix na época",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/monitor-gamer-samsung-odyssey-g3-ls27ag320nlxzx-27-full-hd-preto/p/hahee78f19/in/mnpc/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/monitor-gamer-samsung-odyssey-g3-24-fhd-180hz-1ms/p/gd445d235j/in/mogm/?seller_id=nocnocestadosunidos",
     "image": "https://image-us.samsung.com/SamsungUS/home/easy-asset/cbsr-4811/01_S32C39_002_Front_Black.jpg",
     "featured": false,
     "rating": 4.8,
@@ -4662,7 +4761,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "ESGOTADO",
     "expired": true,
     "dateAdded": "2026-10-15",
-    "rawUrl": "https://www.magazineluiza.com.br/monitor-gamer-samsung-odyssey-g3-ls27ag320nlxzx-27-full-hd-preto/p/hahee78f19/in/mnpc/"
+    "rawUrl": "https://www.magazineluiza.com.br/monitor-gamer-samsung-odyssey-g3-ls27ag320nlxzx-27-full-hd-preto/p/hahee78f19/in/mnpc/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/monitor-gamer-samsung-odyssey-g3-24-fhd-180hz-1ms/p/gd445d235j/in/mogm/?seller_id=nocnocestadosunidos"
   },
   {
     "id": "auto-prod-past-11",
@@ -4717,7 +4817,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 249,
     "installment": "Oferta de Natal encerrada",
     "pixDiscount": "Preço no Pix na época",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/cafeteira-expresso-essenza-mini-branca-com-kit-boas-vindas-nespresso/p/6000130/ep/cane/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/cafeteira-nespresso-essenza-mini-preta-127v/p/kdja666kjg/ep/cane/?seller_id=duascabecas-economizar",
     "image": "https://http2.mlstatic.com/D_NQ_NP_870274-MLB95821830060_102025-O-cafeteira-oster-primalatte-bvstem6701-15l-pretavermelha.webp",
     "featured": false,
     "rating": 4.9,
@@ -4725,7 +4825,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "ESGOTADO",
     "expired": true,
     "dateAdded": "2026-10-15",
-    "rawUrl": "https://www.magazineluiza.com.br/cafeteira-expresso-essenza-mini-branca-com-kit-boas-vindas-nespresso/p/6000130/ep/cane/"
+    "rawUrl": "https://www.magazineluiza.com.br/cafeteira-expresso-essenza-mini-branca-com-kit-boas-vindas-nespresso/p/6000130/ep/cane/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/cafeteira-nespresso-essenza-mini-preta-127v/p/kdja666kjg/ep/cane/?seller_id=duascabecas-economizar"
   },
   {
     "id": "auto-prod-past-14",
@@ -4759,7 +4860,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 1999,
     "installment": "Queima de estoque encerrada",
     "pixDiscount": "Desconto no Pix Magalu",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/smartphone-samsung-galaxy-s22-5g-verde-128gb-8gb-ram-6-1-cam-tripla-50mp-10mp-12mp-e-selfie-10mp/p/kdkacge75a/te/gs22/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/celular-samsung-galaxy-z-fold8-ultra-512gb-12gb-ram-tela-8-0-cam-tras-ate-200-mp-frontal-10mp/p/kddcgj4c4b/te/s22u/?seller_id=samsung",
     "image": "https://http2.mlstatic.com/D_NQ_NP_691638-MLA99961924897_112025-O.webp",
     "featured": false,
     "rating": 4.8,
@@ -4767,7 +4868,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "ESGOTADO",
     "expired": true,
     "dateAdded": "2026-10-15",
-    "rawUrl": "https://www.magazineluiza.com.br/smartphone-samsung-galaxy-s22-5g-verde-128gb-8gb-ram-6-1-cam-tripla-50mp-10mp-12mp-e-selfie-10mp/p/kdkacge75a/te/gs22/"
+    "rawUrl": "https://www.magazineluiza.com.br/smartphone-samsung-galaxy-s22-5g-verde-128gb-8gb-ram-6-1-cam-tripla-50mp-10mp-12mp-e-selfie-10mp/p/kdkacge75a/te/gs22/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/celular-samsung-galaxy-z-fold8-ultra-512gb-12gb-ram-tela-8-0-cam-tras-ate-200-mp-frontal-10mp/p/kddcgj4c4b/te/s22u/?seller_id=samsung"
   },
   {
     "id": "auto-prod-past-16",
@@ -4864,7 +4966,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 119,
     "installment": "Promoção encerrada",
     "pixDiscount": "Preço no Pix na época",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/aspirador-de-po-vertical-2-em-1-electrolux-stk10/p/ee33ehdhdg/ep/apdv/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/aspirador-de-po-vertical-1100w-stk12-electrolux-2-em-1/p/021499100/ep/apdv/?seller_id=magazineluiza",
     "image": "https://electrolux.vtexassets.com/arquivos/ids/213312/VacuumCleaner_ERG28_2in1Handset_2_Electrolux_Portuguese_detalhe2.jpg?v=638760971185170000",
     "featured": false,
     "rating": 4.8,
@@ -4872,7 +4974,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "ESGOTADO",
     "expired": true,
     "dateAdded": "2026-10-15",
-    "rawUrl": "https://www.magazineluiza.com.br/aspirador-de-po-vertical-2-em-1-electrolux-stk10/p/ee33ehdhdg/ep/apdv/"
+    "rawUrl": "https://www.magazineluiza.com.br/aspirador-de-po-vertical-2-em-1-electrolux-stk10/p/ee33ehdhdg/ep/apdv/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/aspirador-de-po-vertical-1100w-stk12-electrolux-2-em-1/p/021499100/ep/apdv/?seller_id=magazineluiza"
   },
   {
     "id": "auto-prod-past-21",
@@ -4885,7 +4988,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 129,
     "installment": "Lote de queima esgotado",
     "pixDiscount": "Preço na época",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-1845578237-perfume-ferrari-black-edp-125ml-scuderia-oriental-amadeirado-masculino-eau-de-toilette-selo-adipec-original-novo-lacrado-_JM?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://www.mercadolivre.com.br/perfume-masculino-ferrari-black-eau-de-toilette-125ml/p/MLB54233230?matt_tool=23610538&matt_word=givi713407",
     "image": "https://images.tcdn.com.br/img/img_prod/1101389/perfume_masculino_scuderia_ferrari_black_eau_de_toilette_125ml_1055_1_d1e6e2f154cae95af3ec2e0f2798dba5.jpg",
     "featured": false,
     "rating": 4.8,
@@ -4893,7 +4996,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "ESGOTADO",
     "expired": true,
     "dateAdded": "2026-10-15",
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-1845578237-perfume-ferrari-black-edp-125ml-scuderia-oriental-amadeirado-masculino-eau-de-toilette-selo-adipec-original-novo-lacrado-_JM"
+    "rawUrl": "https://produto.mercadolivre.com.br/MLB-1845578237-perfume-ferrari-black-edp-125ml-scuderia-oriental-amadeirado-masculino-eau-de-toilette-selo-adipec-original-novo-lacrado-_JM",
+    "directUrl": "https://www.mercadolivre.com.br/perfume-masculino-ferrari-black-eau-de-toilette-125ml/p/MLB54233230"
   },
   {
     "id": "auto-prod-past-22",
@@ -4906,7 +5010,7 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 159,
     "installment": "Lote promocional encerrado",
     "pixDiscount": "Preço no Pix na época",
-    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/secador-de-cabelo-taiff-red-ion-1900w-2-velocidades/p/108173600/pf/psec/",
+    "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/secador-de-cabelo-taiff-style-red-vermelho-2000w-2-velocidades/p/108515400/pf/psec/?seller_id=magazineluiza",
     "image": "https://panvelprd.vteximg.com.br/arquivos/ids/169511",
     "featured": false,
     "rating": 4.9,
@@ -4914,7 +5018,8 @@ const DEFAULT_PRODUCTS = [
     "couponCode": "ESGOTADO",
     "expired": true,
     "dateAdded": "2026-10-15",
-    "rawUrl": "https://www.magazineluiza.com.br/secador-de-cabelo-taiff-red-ion-1900w-2-velocidades/p/108173600/pf/psec/"
+    "rawUrl": "https://www.magazineluiza.com.br/secador-de-cabelo-taiff-red-ion-1900w-2-velocidades/p/108173600/pf/psec/",
+    "directUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/secador-de-cabelo-taiff-style-red-vermelho-2000w-2-velocidades/p/108515400/pf/psec/?seller_id=magazineluiza"
   },
   {
     "id": "auto-prod-past-23",
@@ -4939,48 +5044,8 @@ const DEFAULT_PRODUCTS = [
   }
 ];
 
-// Categorias do site
-const CATEGORIES = [
-  { id: "todas", name: "Todas as Ofertas", icon: "🔥" },
-  { id: "destaques", name: "Super Destaques", icon: "⭐" },
-  { id: "eletronicos", name: "Eletrônicos & Setup", icon: "💻" },
-  { id: "casa", name: "Casa & Eletrodomésticos", icon: "🏠" },
-  { id: "moda", name: "Moda & Acessórios", icon: "👟" },
-  { id: "feminino", name: "Moda Feminina & Beleza", icon: "💄" },
-  { id: "infantil", name: "Infantil & Brinquedos", icon: "🧸" },
-  { id: "iphones", name: "iPhones & Apple", icon: "🍎" },
-  { id: "esporte", name: "Esporte & Suplementos", icon: "⚡" },
-  { id: "passadas", name: "Ofertas Passadas", icon: "⌛" }
-];
+if (typeof window !== 'undefined') {
+  window.PRODUCTS = PRODUCTS;
+}
 
-// Configuração das lojas ativas
-const STORES = {
-  mercadolivre: {
-    name: "Mercado Livre",
-    color: "#ffe600",
-    textColor: "#2d3277",
-    badgeBg: "rgba(255, 230, 0, 0.2)",
-    logoEmoji: "🤝"
-  },
-  shopee: {
-    name: "Shopee",
-    color: "#ee4d2d",
-    textColor: "#ffffff",
-    badgeBg: "rgba(238, 77, 45, 0.15)",
-    logoEmoji: "🛍️"
-  },
-  magalu: {
-    name: "Magalu",
-    color: "#0086ff",
-    textColor: "#ffffff",
-    badgeBg: "rgba(0, 134, 255, 0.15)",
-    logoEmoji: "💙"
-  },
-  outros: {
-    name: "Loja Parceira",
-    color: "#10b981",
-    textColor: "#ffffff",
-    badgeBg: "rgba(16, 185, 129, 0.15)",
-    logoEmoji: "🛒"
-  }
-};
+export default PRODUCTS;

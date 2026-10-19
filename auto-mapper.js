@@ -218,6 +218,7 @@ const AutoMapper = {
   /**
    * Converte link comum do Magalu para o Magazine Você da sua loja
    * - Preserva rotas diretas de produto (/slug/p/codigo/ ou /p/codigo/) abrindo a página de compra oficial do parceiro
+   * - Preserva parâmetros essenciais de marketplace como ?seller_id=...
    * - Redireciona para vitrine do parceiro oficial
    */
   formatMagalu(url, storeName) {
@@ -230,29 +231,37 @@ const AutoMapper = {
         cleanUrl = cleanUrl.replace(/^https?:\/\/[^/]+\//i, "");
       }
 
+      // Separa query string (ex: ?seller_id=...) se houver
+      let queryString = "";
+      const queryIdx = cleanUrl.indexOf("?");
+      if (queryIdx !== -1) {
+        queryString = cleanUrl.slice(queryIdx);
+        cleanUrl = cleanUrl.slice(0, queryIdx);
+      }
+
       // Se for link direto de produto com slug e código SKU
       // Ex: magazineluiza.com.br/<slug>/p/<sku>/... ou magazinevoce.com.br/<outraloja>/<slug>/p/<sku>/...
       const productMatch = cleanUrl.match(/(?:magazineluiza\.com\.br|magazinevoce\.com\.br(?:\/[^/]+)?)\/([^/?#]+\/p\/[a-zA-Z0-9]+[^?#]*)/i);
       if (productMatch && productMatch[1]) {
         let pPath = productMatch[1].replace(/^\/+|\/+$/g, "");
-        return `https://www.magazinevoce.com.br/${cleanStore}/${pPath}/`;
+        return `https://www.magazinevoce.com.br/${cleanStore}/${pPath}/${queryString}`;
       }
 
       // Pega o código do produto no final da URL
       // Ex: magazineluiza.com.br/p/234902100/ ou /p/237291500
       const match = cleanUrl.match(/\/p\/([a-zA-Z0-9]+)/i);
       if (match && match[1]) {
-        return `https://www.magazinevoce.com.br/${cleanStore}/p/${match[1]}/`;
+        return `https://www.magazinevoce.com.br/${cleanStore}/p/${match[1]}/${queryString}`;
       }
 
       // Se for link de busca
       if (cleanUrl.includes("/busca/")) {
         const queryMatch = cleanUrl.match(/\/busca\/([^/?#]+)/i);
         const query = queryMatch ? queryMatch[1] : "";
-        return `https://www.magazinevoce.com.br/${cleanStore}/busca/${query}/`;
+        return `https://www.magazinevoce.com.br/${cleanStore}/busca/${query}/${queryString}`;
       }
 
-      return `https://www.magazinevoce.com.br/${cleanStore}/`;
+      return `https://www.magazinevoce.com.br/${cleanStore}/${queryString}`;
     } catch {
       return url;
     }
