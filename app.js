@@ -461,7 +461,7 @@ function renderProducts() {
            class="card-image-wrap"
            onclick="trackAffiliateClick('${escapeHtml(product.id)}', '${escapeHtml(product.store)}')"
            title="Pegar Oferta: ${escapeHtml(product.title)}">
-          <img src="${escapeHtml(product.image)}" alt="${escapeHtml(product.title)}" class="card-img" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&auto=format&fit=crop&q=80'" />
+          <img src="${escapeHtml(product.image)}" alt="${escapeHtml(product.title)}" class="card-img" loading="lazy" referrerpolicy="no-referrer" onerror="this.src='https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&auto=format&fit=crop&q=80'" />
           <div class="card-badges-top">
             ${isExpired ? `
               <span class="badge-discount badge-expired">⏰ OFERTA ENCERRADA</span>
