@@ -1,5 +1,5 @@
 // Catálogo Oficial Garimpei Aqui Agora
-// Sincronizado com Links de Busca Oficiais Shopee: 19/10/2026, 01:05:19
+// Sincronizado com Links Diretos de Alta Conversão ML e Shopee: 19/10/2026, 01:14:26
 
 const DEFAULT_PRODUCTS = [
   {
@@ -17,10 +17,11 @@ const DEFAULT_PRODUCTS = [
     "rating": 5,
     "reviewsCount": 1420,
     "couponCode": "MELI200",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928420-valve-steam-deck-oled-512gb-oficial?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/valve-steam-deck-oled-512gb?matt_tool=23610538&matt_word=givi713407",
     "storeName": "Mercado Livre",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/valve-steam-deck-oled-512gb"
   },
   {
     "id": "auto-prod-2",
@@ -33,14 +34,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 6399,
     "installment": "em até 10x de R$ 639,90 sem juros",
     "pixDiscount": "Frete Full Grátis Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928372-apple-iphone-15-pro-128gb-titanio?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-iphone-15-pro-128gb-titanio?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/81CgtwSII3L._AC_SL1500_.jpg",
     "featured": true,
     "rating": 5,
     "reviewsCount": 4120,
     "couponCode": "MELI200",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/apple-iphone-15-pro-128gb-titanio"
   },
   {
     "id": "auto-prod-3",
@@ -156,14 +158,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 239,
     "installment": "em até 7x de R$ 34,14 sem juros",
     "pixDiscount": "Loja Oficial Nike no ML",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-351829401-tenis-nike-revolution-7-original?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/tenis-nike-revolution-7?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_827245-MLB101004030439_122025-O-tnis-nike-revolution-7-masculino.webp",
     "featured": true,
     "rating": 4.8,
     "reviewsCount": 4890,
     "couponCode": "MODA20",
     "dateAdded": "2026-10-17",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/tenis-nike-revolution-7"
   },
   {
     "id": "auto-prod-9",
@@ -217,14 +220,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 319,
     "installment": "em até 6x de R$ 53,17 sem juros",
     "pixDiscount": "Envio Full Oficial",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928394-tenis-nike-air-max-sc-masculino-original?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/tenis-nike-air-max-sc-masculino?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_658638-MLB99521635249_112025-O-tnis-nike-air-max-sc-masculino.webp",
     "featured": true,
     "rating": 4.8,
     "reviewsCount": 6500,
     "couponCode": "MELI30",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/tenis-nike-air-max-sc-masculino"
   },
   {
     "id": "auto-prod-12",
@@ -278,14 +282,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 539,
     "installment": "em até 10x de R$ 53,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928395-perfume-dior-sauvage-edt-100ml-original?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/perfume-dior-sauvage-edt-100ml?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_740293-MLB71321021323_082023-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 5600,
     "couponCode": "MELI50",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/perfume-dior-sauvage-edt-100ml"
   },
   {
     "id": "auto-prod-15",
@@ -302,10 +307,11 @@ const DEFAULT_PRODUCTS = [
     "rating": 5,
     "reviewsCount": 3850,
     "couponCode": "MELI150",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928421-sony-wh-1000xm5-preto-lacrado?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/sony-wh-1000xm5-preto?matt_tool=23610538&matt_word=givi713407",
     "storeName": "Mercado Livre",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/sony-wh-1000xm5-preto"
   },
   {
     "id": "auto-prod-16",
@@ -400,19 +406,20 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 159,
     "installment": "em até 5x de R$ 31,80 sem juros",
     "pixDiscount": "Envio Full Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-192830192-relogio-casio-vintage-a168wa?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/relogio-casio-vintage-a168wa?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/81jYNNocg1S._AC_UY500_.jpg",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 9800,
     "couponCode": "",
     "dateAdded": "2026-10-17",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/relogio-casio-vintage-a168wa"
   },
   {
     "id": "auto-prod-21",
     "title": "Perfume Feminino Carolina Herrera Good Girl Eau de Parfum 80ml Original Sapatinho",
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-361928506-perfume-good-girl-80ml-original-selo-adipec",
+    "rawUrl": "https://lista.mercadolivre.com.br/perfume-good-girl-80ml",
     "category": "feminino",
     "store": "mercadolivre",
     "originalPrice": 659,
@@ -426,7 +433,7 @@ const DEFAULT_PRODUCTS = [
     "reviewsCount": 16500,
     "couponCode": "MELI50",
     "storeName": "Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928506-perfume-good-girl-80ml-original-selo-adipec?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/perfume-good-girl-80ml?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false
   },
@@ -461,19 +468,20 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 349,
     "installment": "em até 10x de R$ 34,90 sem juros",
     "pixDiscount": "Tênis do Ano de Corrida",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361920194-tenis-olympikus-corre-3-original?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/tenis-olympikus-corre-3?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_693905-MLA71676164378_092023-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 3800,
     "couponCode": "CORRIDA30",
     "dateAdded": "2026-10-17",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/tenis-olympikus-corre-3"
   },
   {
     "id": "auto-prod-24",
     "title": "Whey Protein 100% Concentrado Max Titanium 900g Baunilha 21g de Proteína por Dose",
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-361928507-whey-protein-max-titanium-100-concentrado-900g",
+    "rawUrl": "https://lista.mercadolivre.com.br/whey-protein-max-titanium-100-concentrado-900g",
     "category": "esporte",
     "store": "mercadolivre",
     "originalPrice": 149,
@@ -487,7 +495,7 @@ const DEFAULT_PRODUCTS = [
     "reviewsCount": 22400,
     "couponCode": "MELI10",
     "storeName": "Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928507-whey-protein-max-titanium-100-concentrado-900g?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/whey-protein-max-titanium-100-concentrado-900g?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false
   },
@@ -502,14 +510,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 8299,
     "installment": "em até 10x de R$ 829,90 sem juros",
     "pixDiscount": "Envio Full Oficial Apple",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928377-apple-iphone-16-pro-128gb-deserto?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-iphone-16-pro-128gb-deserto?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/71kduvIxBVL._AC_SL1500_.jpg",
     "featured": false,
     "rating": 5,
     "reviewsCount": 840,
     "couponCode": "MELI200",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/apple-iphone-16-pro-128gb-deserto"
   },
   {
     "id": "auto-prod-26",
@@ -564,14 +573,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 3999,
     "installment": "em até 10x de R$ 399,90 sem juros",
     "pixDiscount": "Envio Full Imediato",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928373-apple-iphone-13-256gb-luz-estrelas?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-iphone-13-256gb-luz-estrelas?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/71xb2xkN5qL._AC_SL1500_.jpg",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 6200,
     "couponCode": "MELI100",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/apple-iphone-13-256gb-luz-estrelas"
   },
   {
     "id": "auto-prod-29",
@@ -584,14 +594,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 54.9,
     "installment": "à vista",
     "pixDiscount": "Envio Full",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-219382092-kit-12-meias-lupo-algodao?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/kit-12-meias-lupo-algodao?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_895311-MLB50066177114_052022-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 17400,
     "couponCode": "",
     "dateAdded": "2026-10-17",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/kit-12-meias-lupo-algodao"
   },
   {
     "id": "auto-prod-30",
@@ -625,14 +636,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 5199,
     "installment": "em até 10x de R$ 519,90 sem juros",
     "pixDiscount": "Frete Grátis Mercado Envios",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928378-apple-iphone-15-plus-128gb-azul?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-iphone-15-plus-128gb-azul?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/71zFRCcMS2L._AC_SL1500_.jpg",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 2900,
     "couponCode": "MELI100",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/apple-iphone-15-plus-128gb-azul"
   },
   {
     "id": "auto-prod-32",
@@ -666,14 +678,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 5899,
     "installment": "em até 10x de R$ 589,90 sem juros",
     "pixDiscount": "Desconto no Pix Mercado Pago",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928383-samsung-galaxy-s24-ultra-5g-256gb?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/samsung-galaxy-s24-ultra-5g-256gb?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_691638-MLA99961924897_112025-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 5200,
     "couponCode": "MELI200",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/samsung-galaxy-s24-ultra-5g-256gb"
   },
   {
     "id": "auto-prod-34",
@@ -747,14 +760,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 2999,
     "installment": "em até 10x de R$ 299,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928381-apple-watch-series-9-gps-41mm?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-watch-series-9-gps-41mm?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_886008-MLA99466590140_112025-O.jpg",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 3900,
     "couponCode": "MELI100",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/apple-watch-series-9-gps-41mm"
   },
   {
     "id": "auto-prod-38",
@@ -787,14 +801,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 3399,
     "installment": "em até 10x de R$ 339,90 sem juros",
     "pixDiscount": "Loja Oficial PlayStation no ML",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928301-console-playstation-5-slim-edicao-digital-2-jogos?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/console-playstation-5-slim-edicao-digital-2-jogos?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_756435-MLA95500672926_102025-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 5210,
     "couponCode": "GAME150",
     "dateAdded": "2026-10-17",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/console-playstation-5-slim-edicao-digital-2-jogos"
   },
   {
     "id": "auto-prod-40",
@@ -868,14 +883,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 749,
     "installment": "em até 10x de R$ 74,90 sem juros",
     "pixDiscount": "Envio Full Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928382-apple-airtag-pacote-4-unidades-original?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-airtag-pacote-4-unidades?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/71gY9E+cTaS._AC_SL1500_.jpg",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 3100,
     "couponCode": "MELI30",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/apple-airtag-pacote-4-unidades"
   },
   {
     "id": "auto-prod-44",
@@ -913,10 +929,11 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 7890,
     "couponCode": "MELI60",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928621-xiaomi-redmi-watch-4-amoled-gps?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/xiaomi-redmi-watch-4-amoled-gps?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "id": "auto-prod-45"
+    "id": "auto-prod-45",
+    "rawUrl": "https://lista.mercadolivre.com.br/xiaomi-redmi-watch-4-amoled-gps"
   },
   {
     "id": "auto-prod-46",
@@ -929,14 +946,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 3199,
     "installment": "em até 10x de R$ 319,90 sem juros",
     "pixDiscount": "Frete Grátis Mercado Envios",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-291829012-apple-ipad-10-geracao-64gb-wi-fi?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-ipad-10-geracao-64gb-wi-fi?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/61uA2UVnYWL._AC_SL1500_.jpg",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 4300,
     "couponCode": "",
     "dateAdded": "2026-10-17",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/apple-ipad-10-geracao-64gb-wi-fi"
   },
   {
     "id": "auto-prod-47",
@@ -990,14 +1008,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 4299,
     "installment": "em até 10x de R$ 429,90 sem juros",
     "pixDiscount": "Frete Grátis Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928374-apple-iphone-14-plus-128gb-roxo?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-iphone-14-plus-128gb-roxo?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/61bK6PMOC3L._AC_SL1500_.jpg",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 3400,
     "couponCode": "MELI100",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/apple-iphone-14-plus-128gb-roxo"
   },
   {
     "id": "auto-prod-50",
@@ -1051,14 +1070,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 2899,
     "installment": "em até 10x de R$ 289,90 sem juros",
     "pixDiscount": "Garantia Mercado Pago 12 Meses",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928375-apple-iphone-12-128gb-azul-5g?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-iphone-12-128gb-azul-5g?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/71ZOtNdaZCL._AC_SL1500_.jpg",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 7800,
     "couponCode": "MELI80",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/apple-iphone-12-128gb-azul-5g"
   },
   {
     "id": "auto-prod-53",
@@ -1091,14 +1111,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 999,
     "installment": "em até 10x de R$ 99,90 sem juros",
     "pixDiscount": "Desconto Mercado Pago",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928386-monitor-gamer-lg-ultragear-27-144hz-1ms?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/monitor-gamer-lg-ultragear-27-144hz-1ms?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/71O7wgely5L.jpg",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 7400,
     "couponCode": "MELI50",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/monitor-gamer-lg-ultragear-27-144hz-1ms"
   },
   {
     "id": "auto-prod-55",
@@ -1111,14 +1132,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 2199,
     "installment": "em até 10x de R$ 219,90 sem juros",
     "pixDiscount": "Envio Full Pronta Entrega",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928376-apple-iphone-11-128gb-preto-lacrado?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-iphone-11-128gb-preto?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/71iO2R+CLjL._AC_SL1500_.jpg",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 19800,
     "couponCode": "MELI50",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/apple-iphone-11-128gb-preto"
   },
   {
     "id": "auto-prod-56",
@@ -1152,14 +1174,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 2249,
     "installment": "em até 10x de R$ 224,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928387-console-xbox-series-s-512gb-ssd?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/console-xbox-series-s-512gb-ssd?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_632101-MLA110165481061_042026-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 12800,
     "couponCode": "MELI100",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/console-xbox-series-s-512gb-ssd"
   },
   {
     "id": "auto-prod-58",
@@ -1172,14 +1195,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 2399,
     "installment": "em até 10x de R$ 239,90 sem juros",
     "pixDiscount": "Garantia Oficial Apple 1 Ano",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928379-apple-iphone-se-3-geracao-64gb-5g?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-iphone-se-3-geracao-64gb-5g?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/61TOWf11+jL._AC_SL1500_.jpg",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 3100,
     "couponCode": "MELI50",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/apple-iphone-se-3-geracao-64gb-5g"
   },
   {
     "id": "auto-prod-59",
@@ -1233,14 +1257,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 1099,
     "installment": "em até 10x de R$ 109,90 sem juros",
     "pixDiscount": "Envio Full Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928380-apple-airpods-3-geracao-original?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-airpods-3-geracao?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/615ekapl+pL._AC_SL1500_.jpg",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 6200,
     "couponCode": "MELI30",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/apple-airpods-3-geracao"
   },
   {
     "id": "auto-prod-62",
@@ -1377,14 +1402,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 169,
     "installment": "em até 5x de R$ 33,80 sem juros",
     "pixDiscount": "Envio Full Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-291820392-mala-bordo-10kg-rodinhas-360-anac?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/mala-bordo-10kg-rodinhas-360-anac?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_833989-MLB71378873095_082023-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 4200,
     "couponCode": "",
     "dateAdded": "2026-10-17",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/mala-bordo-10kg-rodinhas-360-anac"
   },
   {
     "title": "Fone de Ouvido Infantil JBL JR310 com Limitador de Volume Seguro 85dB",
@@ -1442,10 +1468,11 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 7650,
     "couponCode": "MELI50",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928602-perfume-lily-eau-de-parfum-75ml?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/perfume-lily-eau-de-parfum-75ml?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "id": "auto-prod-71"
+    "id": "auto-prod-71",
+    "rawUrl": "https://lista.mercadolivre.com.br/perfume-lily-eau-de-parfum-75ml"
   },
   {
     "id": "auto-prod-72",
@@ -1483,10 +1510,11 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 9240,
     "couponCode": "MELI40",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928603-serum-la-roche-posay-hyalu-b5-30ml?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/serum-la-roche-posay-hyalu-b5-30ml?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "id": "auto-prod-73"
+    "id": "auto-prod-73",
+    "rawUrl": "https://lista.mercadolivre.com.br/serum-la-roche-posay-hyalu-b5-30ml"
   },
   {
     "id": "auto-prod-74",
@@ -1499,14 +1527,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 219,
     "installment": "em até 7x de R$ 31,28 sem juros",
     "pixDiscount": "Envio Full Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-329182019-smart-speaker-echo-pop-alexa?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/smart-speaker-echo-pop-alexa?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_623528-CBT114423263844_082026-O.webp",
     "featured": true,
     "rating": 4.8,
     "reviewsCount": 9400,
     "couponCode": "MELI20",
     "dateAdded": "2026-10-17",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/smart-speaker-echo-pop-alexa"
   },
   {
     "id": "auto-prod-75",
@@ -1519,14 +1548,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 229,
     "installment": "em até 7x de R$ 32,71 sem juros",
     "pixDiscount": "Envio Full Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-281940182-air-fryer-mondial-4l-inox?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/air-fryer-mondial-4l-inox?matt_tool=23610538&matt_word=givi713407",
     "image": "https://a-static.mlcdn.com.br/800x560/air-fryer-mondial-family-afn-40-bi-preto-4l-com-timer/magazineluiza/228887000/f030da645341f959c0139572c8741134.jpg",
     "featured": true,
     "rating": 4.8,
     "reviewsCount": 11200,
     "couponCode": "CASA30",
     "dateAdded": "2026-10-17",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/air-fryer-mondial-4l-inox"
   },
   {
     "id": "auto-prod-76",
@@ -1564,10 +1594,11 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 4120,
     "couponCode": "MELI50",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928622-jbl-endurance-peak-3-ip68?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/jbl-endurance-peak-3-ip68?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "id": "auto-prod-77"
+    "id": "auto-prod-77",
+    "rawUrl": "https://lista.mercadolivre.com.br/jbl-endurance-peak-3-ip68"
   },
   {
     "id": "auto-prod-78",
@@ -1580,14 +1611,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 2799,
     "installment": "em até 10x de R$ 279,90 sem juros",
     "pixDiscount": "Desconto no Pix Mercado Pago",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-358912019-samsung-galaxy-s23-5g-128gb-oficial?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/samsung-galaxy-s23-5g-128gb?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_691638-MLA99961924897_112025-O.webp",
     "featured": true,
     "rating": 4.8,
     "reviewsCount": 4890,
     "couponCode": "MELI100",
     "dateAdded": "2026-10-17",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/samsung-galaxy-s23-5g-128gb"
   },
   {
     "title": "Patinete Infantil 3 Rodas com Luz de LED nas Rodas e Guidão Ajustável",
@@ -1621,14 +1653,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 1549,
     "installment": "em até 10x de R$ 154,90 sem juros",
     "pixDiscount": "Envio Full Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928371-xiaomi-redmi-note-13-pro-5g-256gb?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/xiaomi-redmi-note-13-pro-5g-256gb?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_691638-MLA99961924897_112025-O.webp",
     "featured": true,
     "rating": 4.8,
     "reviewsCount": 3190,
     "couponCode": "MELI80",
     "dateAdded": "2026-10-17",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/xiaomi-redmi-note-13-pro-5g-256gb"
   },
   {
     "id": "auto-prod-81",
@@ -1661,14 +1694,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 1479,
     "installment": "em até 10x de R$ 147,90 sem juros",
     "pixDiscount": "Frete Grátis Mercado Envios",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-331902812-samsung-galaxy-a54-5g-128gb?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/samsung-galaxy-a54-5g-128gb?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_691638-MLA99961924897_112025-O.webp",
     "featured": true,
     "rating": 4.8,
     "reviewsCount": 6120,
     "couponCode": "MELI50",
     "dateAdded": "2026-10-17",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/samsung-galaxy-a54-5g-128gb"
   },
   {
     "id": "auto-prod-83",
@@ -1746,10 +1780,11 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 6540,
     "couponCode": "MELI30",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928613-hot-wheels-pista-looping-duplo?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/hot-wheels-pista-looping-duplo?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "id": "auto-prod-86"
+    "id": "auto-prod-86",
+    "rawUrl": "https://lista.mercadolivre.com.br/hot-wheels-pista-looping-duplo"
   },
   {
     "id": "auto-prod-87",
@@ -1774,7 +1809,7 @@ const DEFAULT_PRODUCTS = [
   {
     "id": "auto-prod-88",
     "title": "Computador Gamer Completo Intel Core i5 16GB RAM SSD 512GB com Gabinete RGB e Monitor 21.5''",
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-361928503-computador-gamer-completo-i5-16gb-ssd-512gb",
+    "rawUrl": "https://lista.mercadolivre.com.br/computador-gamer-completo-i5-16gb-ssd-512gb",
     "category": "eletronicos",
     "store": "mercadolivre",
     "originalPrice": 3299,
@@ -1788,7 +1823,7 @@ const DEFAULT_PRODUCTS = [
     "reviewsCount": 3100,
     "couponCode": "MELI150",
     "storeName": "Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928503-computador-gamer-completo-i5-16gb-ssd-512gb?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/computador-gamer-completo-i5-16gb-ssd-512gb?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false
   },
@@ -1827,10 +1862,11 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.7,
     "reviewsCount": 5210,
     "couponCode": "MELI50",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928614-tablet-infantil-64gb-capa-anti-queda?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/tablet-infantil-64gb-capa-anti-queda?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "id": "auto-prod-90"
+    "id": "auto-prod-90",
+    "rawUrl": "https://lista.mercadolivre.com.br/tablet-infantil-64gb-capa-anti-queda"
   },
   {
     "id": "auto-prod-91",
@@ -1889,10 +1925,11 @@ const DEFAULT_PRODUCTS = [
     "rating": 5,
     "reviewsCount": 1980,
     "couponCode": "MELI50",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928423-teclado-keychron-k2-bluetooth-mecanico?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/teclado-keychron-k2-bluetooth-mecanico?matt_tool=23610538&matt_word=givi713407",
     "storeName": "Mercado Livre",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/teclado-keychron-k2-bluetooth-mecanico"
   },
   {
     "id": "auto-prod-94",
@@ -1918,7 +1955,7 @@ const DEFAULT_PRODUCTS = [
   {
     "id": "auto-prod-95",
     "title": "Pista de Carrinho Hot Wheels Ataque do Tubarão com 1 Veículo Exclusivo que Muda de Cor",
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-361928504-pista-hot-wheels-tubarao-carrinho",
+    "rawUrl": "https://lista.mercadolivre.com.br/pista-hot-wheels-tubarao-carrinho",
     "category": "infantil",
     "store": "mercadolivre",
     "originalPrice": 249,
@@ -1932,7 +1969,7 @@ const DEFAULT_PRODUCTS = [
     "reviewsCount": 5600,
     "couponCode": "MELI20",
     "storeName": "Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928504-pista-hot-wheels-tubarao-carrinho?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/pista-hot-wheels-tubarao-carrinho?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false
   },
@@ -1959,7 +1996,7 @@ const DEFAULT_PRODUCTS = [
   {
     "id": "auto-prod-97",
     "title": "Kit Shampoo e Condicionador Truss Uso Obrigatório Plus+ Reconstrução Intensa",
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-361928505-kit-truss-uso-obrigatorio-shampoo-condicionador",
+    "rawUrl": "https://lista.mercadolivre.com.br/kit-truss-uso-obrigatorio-shampoo-condicionador",
     "category": "feminino",
     "store": "mercadolivre",
     "originalPrice": 279,
@@ -1973,7 +2010,7 @@ const DEFAULT_PRODUCTS = [
     "reviewsCount": 9100,
     "couponCode": "MELI20",
     "storeName": "Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928505-kit-truss-uso-obrigatorio-shampoo-condicionador?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/kit-truss-uso-obrigatorio-shampoo-condicionador?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false
   },
@@ -1988,14 +2025,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 389,
     "installment": "em até 8x de R$ 48,63 sem juros",
     "pixDiscount": "Envio Full Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928393-cafeteira-dolce-gusto-genio-s-plus?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/cafeteira-dolce-gusto-genio-s-plus?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_870274-MLB95821830060_102025-O-cafeteira-oster-primalatte-bvstem6701-15l-pretavermelha.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 9300,
     "couponCode": "MELI20",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/cafeteira-dolce-gusto-genio-s-plus"
   },
   {
     "id": "auto-prod-99",
@@ -2033,10 +2071,11 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 12400,
     "couponCode": "MELI15",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928611-play-doh-conjunto-8-potes-hasbro?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/play-doh-conjunto-8-potes-hasbro?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "id": "auto-prod-100"
+    "id": "auto-prod-100",
+    "rawUrl": "https://lista.mercadolivre.com.br/play-doh-conjunto-8-potes-hasbro"
   },
   {
     "id": "auto-prod-101",
@@ -2049,14 +2088,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 289,
     "installment": "em até 9x de R$ 32,11 sem juros",
     "pixDiscount": "Frete Grátis Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-281920193-echo-dot-5-geracao-alexa-preta?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/echo-dot-5-geracao-alexa-preta?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_703059-MLA117448435255_092026-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 15400,
     "couponCode": "",
     "dateAdded": "2026-10-17",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/echo-dot-5-geracao-alexa-preta"
   },
   {
     "id": "auto-prod-102",
@@ -2093,10 +2133,11 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 5210,
     "couponCode": "FITNESS20",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928623-kit-par-halteres-emborrachados?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/kit-par-halteres-emborrachados?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "id": "auto-prod-103"
+    "id": "auto-prod-103",
+    "rawUrl": "https://lista.mercadolivre.com.br/kit-par-halteres-emborrachados"
   },
   {
     "id": "auto-prod-104",
@@ -2109,14 +2150,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 119.9,
     "installment": "em até 3x de R$ 39,96 sem juros",
     "pixDiscount": "Envio Full",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-291840291-barbeador-philips-oneblade-qp2724?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/barbeador-philips-oneblade-qp2724?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_841259-MLA104793277477_012026-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 14200,
     "couponCode": "",
     "dateAdded": "2026-10-17",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/barbeador-philips-oneblade-qp2724"
   },
   {
     "title": "Jogo de Cartas Uno Clássico Oficial Copag para Toda a Família",
@@ -2150,14 +2192,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 169,
     "installment": "em até 5x de R$ 33,80 sem juros",
     "pixDiscount": "Frete Grátis Mercado Envios",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-291829302-torneira-gourmet-monocomando-inox?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/torneira-gourmet-monocomando-inox?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_614683-MLA99382695658_112025-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 3100,
     "couponCode": "",
     "dateAdded": "2026-10-17",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/torneira-gourmet-monocomando-inox"
   },
   {
     "title": "Batom Líquido Matte Boca Rosa Beauty by Payot Longa Duração Cor Queimado",
@@ -2174,10 +2217,11 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 8430,
     "couponCode": "MELI20",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928601-batom-liquido-matte-boca-rosa-payot?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/batom-liquido-matte-boca-rosa-payot?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "id": "auto-prod-107"
+    "id": "auto-prod-107",
+    "rawUrl": "https://lista.mercadolivre.com.br/batom-liquido-matte-boca-rosa-payot"
   },
   {
     "title": "Coqueteleira Shaker com Mola Batedora em Inox e Compartimentos para Suplementos 600ml",
@@ -2211,14 +2255,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 399,
     "installment": "em até 10x de R$ 39,90 sem juros",
     "pixDiscount": "Envio Full Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-203918291-parafusadeira-bosch-gsb-120-li?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/parafusadeira-bosch-gsb-120-li?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_923337-MLA113455559253_062026-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 5120,
     "couponCode": "BOSCH30",
     "dateAdded": "2026-10-17",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/parafusadeira-bosch-gsb-120-li"
   },
   {
     "id": "auto-prod-110",
@@ -2244,7 +2289,7 @@ const DEFAULT_PRODUCTS = [
   {
     "id": "auto-prod-111",
     "title": "Lava e Seca Samsung 11kg EcoBubble com Inteligência Artificial e Conexão Wi-Fi SmartThings",
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-361928502-lava-e-seca-samsung-11kg-ecobubble",
+    "rawUrl": "https://lista.mercadolivre.com.br/lava-e-seca-samsung-11kg-ecobubble",
     "category": "casa",
     "store": "mercadolivre",
     "originalPrice": 4799,
@@ -2258,7 +2303,7 @@ const DEFAULT_PRODUCTS = [
     "reviewsCount": 4200,
     "couponCode": "MELI200",
     "storeName": "Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928502-lava-e-seca-samsung-11kg-ecobubble?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/lava-e-seca-samsung-11kg-ecobubble?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false
   },
@@ -2313,14 +2358,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 799,
     "installment": "em até 10x de R$ 79,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928391-caixa-de-som-jbl-charge-5-original?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/caixa-de-som-jbl-charge-5?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_819875-MLA50901235129_072022-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 8800,
     "couponCode": "MELI30",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/caixa-de-som-jbl-charge-5"
   },
   {
     "id": "auto-prod-115",
@@ -2419,10 +2465,11 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 16800,
     "couponCode": "MELI25",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928604-protetor-anthelios-fps-80-la-roche?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/protetor-anthelios-fps-80-la-roche?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "id": "auto-prod-119"
+    "id": "auto-prod-119",
+    "rawUrl": "https://lista.mercadolivre.com.br/protetor-anthelios-fps-80-la-roche"
   },
   {
     "id": "auto-prod-120",
@@ -2435,14 +2482,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 199,
     "installment": "em até 6x de R$ 33,16 sem juros",
     "pixDiscount": "Envio no Mesmo Dia",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-372819021-caixa-som-jbl-go-4-original?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/caixa-som-jbl-go-4?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/51aXvjzcukL._AC_SL1500_.jpg",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 2940,
     "couponCode": "",
     "dateAdded": "2026-10-17",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/caixa-som-jbl-go-4"
   },
   {
     "id": "auto-prod-121",
@@ -2538,14 +2586,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 399,
     "installment": "em até 8x de R$ 49,87 sem juros",
     "pixDiscount": "Envio Full Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928388-headset-hyperx-cloud-ii-red-7-1?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/headset-hyperx-cloud-ii-red-7-1?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/51aXvjzcukL._AC_SL1500_.jpg",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 8200,
     "couponCode": "MELI20",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/headset-hyperx-cloud-ii-red-7-1"
   },
   {
     "id": "auto-prod-126",
@@ -2558,14 +2607,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 159,
     "installment": "em até 5x de R$ 31,80 sem juros",
     "pixDiscount": "Envio Full",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-219382091-headset-gamer-havit-h2002d?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/headset-gamer-havit-h2002d?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/51aXvjzcukL._AC_SL1500_.jpg",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 8900,
     "couponCode": "",
     "dateAdded": "2026-10-17",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/headset-gamer-havit-h2002d"
   },
   {
     "id": "auto-prod-127",
@@ -2578,14 +2628,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 429,
     "installment": "em até 10x de R$ 42,90 sem juros",
     "pixDiscount": "Frete Grátis Mercado Envios",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-291820194-leitor-digital-kindle-11-geracao-16gb?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/leitor-digital-kindle-11-geracao-16gb?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_703059-MLA117448435255_092026-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 5200,
     "couponCode": "",
     "dateAdded": "2026-10-17",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/leitor-digital-kindle-11-geracao-16gb"
   },
   {
     "id": "auto-prod-128",
@@ -2598,14 +2649,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 1899,
     "installment": "em até 10x de R$ 189,90 sem juros",
     "pixDiscount": "Envio Full Imediato",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928390-placa-de-video-rtx-4060-8gb-galax?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/placa-de-video-rtx-4060-8gb-galax?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_907134-MLU73129976178_122023-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 3400,
     "couponCode": "MELI100",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/placa-de-video-rtx-4060-8gb-galax"
   },
   {
     "id": "auto-prod-129",
@@ -2685,10 +2737,11 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 8900,
     "couponCode": "MELI50",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928422-caixa-de-som-jbl-flip-6-bluetooth-original?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/caixa-de-som-jbl-flip-6-bluetooth?matt_tool=23610538&matt_word=givi713407",
     "storeName": "Mercado Livre",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/caixa-de-som-jbl-flip-6-bluetooth"
   },
   {
     "id": "auto-prod-133",
@@ -2722,14 +2775,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 1899,
     "installment": "em até 10x de R$ 189,90 sem juros",
     "pixDiscount": "Desconto no Pix Mercado Pago",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-294819201-nintendo-switch-oled-64gb-nacional?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/nintendo-switch-oled-64gb-nacional?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_925310-MLA96862732927_102025-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 3870,
     "couponCode": "MELIGAME",
     "dateAdded": "2026-10-17",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/nintendo-switch-oled-64gb-nacional"
   },
   {
     "id": "auto-prod-135",
@@ -2763,14 +2817,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 589,
     "installment": "em até 10x de R$ 58,90 sem juros",
     "pixDiscount": "Envio Full Imediato",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928399-ssd-samsung-980-pro-1tb-heatsink?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/ssd-samsung-980-pro-1tb-heatsink?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_907134-MLU73129976178_122023-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 6700,
     "couponCode": "MELISSD",
     "dateAdded": "2026-10-17",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/ssd-samsung-980-pro-1tb-heatsink"
   },
   {
     "id": "auto-prod-137",
@@ -2804,14 +2859,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 369,
     "installment": "em até 10x de R$ 36,90 sem juros",
     "pixDiscount": "Envio Full",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-351928019-controle-dualsense-ps5-midnight-black?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/controle-dualsense-ps5-midnight-black?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_886577-MLA84549540358_052025-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 9400,
     "couponCode": "",
     "dateAdded": "2026-10-17",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/controle-dualsense-ps5-midnight-black"
   },
   {
     "id": "auto-prod-139",
@@ -3101,10 +3157,11 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 3890,
     "couponCode": "VOLTAAULAS",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928612-mochila-infantil-rodinhas-kit-completo?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/mochila-infantil-rodinhas-kit-completo?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "id": "auto-prod-152"
+    "id": "auto-prod-152",
+    "rawUrl": "https://lista.mercadolivre.com.br/mochila-infantil-rodinhas-kit-completo"
   },
   {
     "id": "auto-prod-153",
@@ -3241,14 +3298,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 149,
     "installment": "em até 4x de R$ 37,25 sem juros",
     "pixDiscount": "Envio Full Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-219382019-aspirador-vertical-wap-silent-speed?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/aspirador-vertical-wap-silent-speed?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_788820-MLU74192085653_012024-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 16200,
     "couponCode": "",
     "dateAdded": "2026-10-17",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/aspirador-vertical-wap-silent-speed"
   },
   {
     "id": "auto-prod-160",
@@ -3323,14 +3381,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 69.9,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Envio Full",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-281920391-mop-giratorio-balde-microfibra?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/mop-giratorio-balde-microfibra?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_788820-MLU74192085653_012024-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 8900,
     "couponCode": "",
     "dateAdded": "2026-10-17",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/mop-giratorio-balde-microfibra"
   },
   {
     "id": "auto-prod-164",
@@ -3431,15 +3490,16 @@ const DEFAULT_PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 7600,
     "couponCode": "MELI20",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928424-maleta-jogo-ferramentas-110-pecas-titanium?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/maleta-jogo-ferramentas-110-pecas-titanium?matt_tool=23610538&matt_word=givi713407",
     "storeName": "Mercado Livre",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/maleta-jogo-ferramentas-110-pecas-titanium"
   },
   {
     "id": "auto-prod-169",
     "title": "Frigobar Midea 45 Litros Compacto Branco com Compartimento Gelo Baixo Consumo A+",
-    "rawUrl": "https://produto.mercadolivre.com.br/MLB-361928501-frigobar-midea-45-litros-compacto",
+    "rawUrl": "https://lista.mercadolivre.com.br/frigobar-midea-45-litros-compacto",
     "category": "casa",
     "store": "mercadolivre",
     "originalPrice": 899,
@@ -3453,7 +3513,7 @@ const DEFAULT_PRODUCTS = [
     "reviewsCount": 3890,
     "couponCode": "MELI50",
     "storeName": "Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928501-frigobar-midea-45-litros-compacto?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/frigobar-midea-45-litros-compacto?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false
   },
@@ -3509,14 +3569,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 899,
     "installment": "em até 10x de R$ 89,90 sem juros",
     "pixDiscount": "Envio Full Imediato",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928392-soundbar-jbl-cinema-sb170-110w?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/soundbar-jbl-cinema-sb170-110w?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_819875-MLA50901235129_072022-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 3200,
     "couponCode": "MELI50",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/soundbar-jbl-cinema-sb170-110w"
   },
   {
     "id": "auto-prod-173",
@@ -3529,14 +3590,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 2149,
     "installment": "em até 10x de R$ 214,90 sem juros",
     "pixDiscount": "Envio Full Imediato",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928384-xiaomi-poco-x6-pro-5g-512gb-12gb-ram?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/xiaomi-poco-x6-pro-5g-512gb-12gb-ram?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_691638-MLA99961924897_112025-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 4500,
     "couponCode": "MELI100",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/xiaomi-poco-x6-pro-5g-512gb-12gb-ram"
   },
   {
     "id": "auto-prod-174",
@@ -3570,14 +3632,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 2699,
     "installment": "em até 10x de R$ 269,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928385-notebook-asus-vivobook-15-ryzen-7-16gb?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/notebook-asus-vivobook-15-ryzen-7-16gb?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_907134-MLU73129976178_122023-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 2800,
     "couponCode": "MELI80",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/notebook-asus-vivobook-15-ryzen-7-16gb"
   },
   {
     "id": "auto-prod-176",
@@ -3695,14 +3758,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 1049,
     "installment": "em até 10x de R$ 104,90 sem juros",
     "pixDiscount": "Envio Full",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-351829019-samsung-galaxy-tab-a9-plus-64gb?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/samsung-galaxy-tab-a9-plus-64gb?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/61uA2UVnYWL._AC_SL1500_.jpg",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 2400,
     "couponCode": "MELITABLET",
     "dateAdded": "2026-10-17",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/samsung-galaxy-tab-a9-plus-64gb"
   },
   {
     "id": "auto-prod-182",
@@ -3777,14 +3841,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 989,
     "installment": "em até 10x de R$ 98,90 sem juros",
     "pixDiscount": "Frete Grátis Mercado Livre",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928389-cadeira-gamer-thunderx3-bc3-preta?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/cadeira-gamer-thunderx3-bc3-preta?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_886577-MLA84549540358_052025-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 2900,
     "couponCode": "MELI50",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/cadeira-gamer-thunderx3-bc3-preta"
   },
   {
     "id": "auto-prod-186",
@@ -3817,14 +3882,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 99.9,
     "installment": "em até 3x de R$ 33,30 sem juros",
     "pixDiscount": "Envio Full",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-219382019-mouse-gamer-logitech-g203-rgb?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/mouse-gamer-logitech-g203-rgb?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/51aXvjzcukL._AC_SL1500_.jpg",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 21500,
     "couponCode": "",
     "dateAdded": "2026-10-17",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/mouse-gamer-logitech-g203-rgb"
   },
   {
     "id": "auto-prod-188",
@@ -4003,14 +4069,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 79.9,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Envio Full",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-192830193-sanduicheira-mondial-pratic-clean?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/sanduicheira-mondial-pratic-clean?matt_tool=23610538&matt_word=givi713407",
     "image": "https://a-static.mlcdn.com.br/800x560/air-fryer-mondial-family-afn-40-bi-preto-4l-com-timer/magazineluiza/228887000/f030da645341f959c0139572c8741134.jpg",
     "featured": false,
     "rating": 4.7,
     "reviewsCount": 13800,
     "couponCode": "",
     "dateAdded": "2026-10-17",
-    "expired": false
+    "expired": false,
+    "rawUrl": "https://lista.mercadolivre.com.br/sanduicheira-mondial-pratic-clean"
   },
   {
     "id": "auto-prod-197",
@@ -4394,14 +4461,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 2999,
     "installment": "Esgotou em 14 minutos",
     "pixDiscount": "Menor preço histórico registrado",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928400-apple-iphone-13-128gb-azul?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-iphone-13-128gb-azul?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/71xb2xkN5qL._AC_SL1500_.jpg",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 22000,
     "couponCode": "BLACKFRIDAY",
     "expired": true,
-    "dateAdded": "2026-10-15"
+    "dateAdded": "2026-10-15",
+    "rawUrl": "https://lista.mercadolivre.com.br/apple-iphone-13-128gb-azul"
   },
   {
     "id": "auto-prod-past-4",
@@ -4456,14 +4524,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 1999,
     "installment": "Lote de queima encerrado",
     "pixDiscount": "Desconto histórico no Pix",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928401-notebook-lenovo-ideapad-3-ryzen-5?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/notebook-lenovo-ideapad-3-ryzen-5?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_907134-MLU73129976178_122023-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 16000,
     "couponCode": "ESGOTADO",
     "expired": true,
-    "dateAdded": "2026-10-15"
+    "dateAdded": "2026-10-15",
+    "rawUrl": "https://lista.mercadolivre.com.br/notebook-lenovo-ideapad-3-ryzen-5"
   },
   {
     "id": "auto-prod-past-7",
@@ -4476,14 +4545,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 149,
     "installment": "Flash Day encerrado",
     "pixDiscount": "Preço promocional na época",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928402-smart-speaker-echo-pop-alexa?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/smart-speaker-echo-pop-alexa?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_623528-CBT114423263844_082026-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 18200,
     "couponCode": "ESGOTADO",
     "expired": true,
-    "dateAdded": "2026-10-15"
+    "dateAdded": "2026-10-15",
+    "rawUrl": "https://lista.mercadolivre.com.br/smart-speaker-echo-pop-alexa"
   },
   {
     "id": "auto-prod-past-8",
@@ -4516,14 +4586,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 299,
     "installment": "Esgotado",
     "pixDiscount": "Frete Full Grátis na época",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928403-controle-dualsense-ps5-midnight-black?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/controle-dualsense-ps5-midnight-black?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_886577-MLA84549540358_052025-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 11000,
     "couponCode": "ESGOTADO",
     "expired": true,
-    "dateAdded": "2026-10-15"
+    "dateAdded": "2026-10-15",
+    "rawUrl": "https://lista.mercadolivre.com.br/controle-dualsense-ps5-midnight-black"
   },
   {
     "id": "auto-prod-past-10",
@@ -4577,14 +4648,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 899,
     "installment": "Queima de estoque encerrada",
     "pixDiscount": "Desconto histórico",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928404-robo-aspirador-xiaomi-mop-2?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/robo-aspirador-xiaomi-mop-2?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_660965-MLU75808853360_042024-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 6500,
     "couponCode": "ESGOTADO",
     "expired": true,
-    "dateAdded": "2026-10-15"
+    "dateAdded": "2026-10-15",
+    "rawUrl": "https://lista.mercadolivre.com.br/robo-aspirador-xiaomi-mop-2"
   },
   {
     "id": "auto-prod-past-13",
@@ -4617,14 +4689,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 1399,
     "installment": "Últimas unidades esgotadas",
     "pixDiscount": "Preço na época",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928405-apple-watch-se-40mm-gps?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-watch-se-40mm-gps?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_886008-MLA99466590140_112025-O.jpg",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 7800,
     "couponCode": "ESGOTADO",
     "expired": true,
-    "dateAdded": "2026-10-15"
+    "dateAdded": "2026-10-15",
+    "rawUrl": "https://lista.mercadolivre.com.br/apple-watch-se-40mm-gps"
   },
   {
     "id": "auto-prod-past-15",
@@ -4657,14 +4730,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 99,
     "installment": "Promoção Dia dos Pais encerrada",
     "pixDiscount": "Envio Full na época",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928406-copo-termico-stanley-473ml-com-tampa?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/copo-termico-stanley-473ml-com-tampa?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/61SUj2aKoEL._AC_SL1500_.jpg",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 26000,
     "couponCode": "ESGOTADO",
     "expired": true,
-    "dateAdded": "2026-10-15"
+    "dateAdded": "2026-10-15",
+    "rawUrl": "https://lista.mercadolivre.com.br/copo-termico-stanley-473ml-com-tampa"
   },
   {
     "id": "auto-prod-past-17",
@@ -4760,14 +4834,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 129,
     "installment": "Lote de queima esgotado",
     "pixDiscount": "Preço na época",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928407-perfume-ferrari-black-125ml?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/perfume-ferrari-black-125ml?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_740293-MLB71321021323_082023-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 16800,
     "couponCode": "ESGOTADO",
     "expired": true,
-    "dateAdded": "2026-10-15"
+    "dateAdded": "2026-10-15",
+    "rawUrl": "https://lista.mercadolivre.com.br/perfume-ferrari-black-125ml"
   },
   {
     "id": "auto-prod-past-22",
@@ -4800,14 +4875,15 @@ const DEFAULT_PRODUCTS = [
     "currentPrice": 1899,
     "installment": "Esgotou em 10 minutos",
     "pixDiscount": "Maior desconto registrado",
-    "affiliateUrl": "https://produto.mercadolivre.com.br/MLB-361928408-apple-iphone-12-mini-64gb?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-iphone-12-mini-64gb?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/71iO2R+CLjL._AC_SL1500_.jpg",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 9200,
     "couponCode": "ESGOTADO",
     "expired": true,
-    "dateAdded": "2026-10-15"
+    "dateAdded": "2026-10-15",
+    "rawUrl": "https://lista.mercadolivre.com.br/apple-iphone-12-mini-64gb"
   }
 ];
 

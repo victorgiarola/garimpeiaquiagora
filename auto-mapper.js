@@ -102,9 +102,10 @@ const AutoMapper = {
 
   /**
    * Converte URL do Mercado Livre
-   * Aplica as DUAS métricas obrigatórias:
-   * - matt_tool: ID da Ferramenta de Afiliado
-   * - matt_word: Palavra-chave / Canal de Rastreio
+   * - Preserva links encurtados oficiais (meli.la ou /sec/)
+   * - Detecta URLs com IDs fictícios (ex: MLB-361928...) que geram erro no Mercado Livre
+   *   e converte para lista.mercadolivre.com.br/<slug> para abrir a página de ofertas do produto diretamente
+   * - Aplica as DUAS métricas obrigatórias: matt_tool e matt_word
    */
   formatMercadoLivre(url, toolId, affiliateWord) {
     try {
@@ -112,12 +113,37 @@ const AutoMapper = {
       if (url.includes("meli.la") || url.includes("/sec/")) {
         return url;
       }
-      const parsed = new URL(url);
-      if (toolId) {
-        parsed.searchParams.set("matt_tool", toolId);
+
+      let cleanUrl = String(url || "").trim();
+      while (/^https?:\/\/[^/]+\/https?:\/\//i.test(cleanUrl)) {
+        cleanUrl = cleanUrl.replace(/^https?:\/\/[^/]+\//i, "");
       }
-      if (affiliateWord) {
-        parsed.searchParams.set("matt_word", affiliateWord);
+
+      const cleanTool = toolId ? String(toolId).trim() : "23610538";
+      const cleanWord = affiliateWord ? String(affiliateWord).trim() : "givi713407";
+
+      // Detecta se é link com ID fictício (ex: MLB-3619... ou MLB-3518... que não existem e dão erro ao abrir)
+      // Converte para busca direta no catálogo: lista.mercadolivre.com.br/<slug>
+      const isDummyMlb = cleanUrl.match(/produto\.mercadolivre\.com\.br\/MLB-?\d{8,}-(.*?)(\?|$)/i);
+      if (isDummyMlb && isDummyMlb[1]) {
+        let slug = isDummyMlb[1]
+          .replace(/-(oficial|original|lacrado|selo-adipec)$/g, "")
+          .replace(/-(oficial|original|lacrado|selo-adipec)$/g, "")
+          .replace(/^-+|-+$/g, "");
+        if (!slug) slug = "ofertas";
+        const target = `https://lista.mercadolivre.com.br/${slug}`;
+        const parsed = new URL(target);
+        if (cleanTool) parsed.searchParams.set("matt_tool", cleanTool);
+        if (cleanWord) parsed.searchParams.set("matt_word", cleanWord);
+        return parsed.toString();
+      }
+
+      const parsed = new URL(cleanUrl);
+      if (cleanTool) {
+        parsed.searchParams.set("matt_tool", cleanTool);
+      }
+      if (cleanWord) {
+        parsed.searchParams.set("matt_word", cleanWord);
       }
       return parsed.toString();
     } catch {
