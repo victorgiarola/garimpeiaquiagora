@@ -20,11 +20,11 @@ const SUBCATEGORIES = {
   eletronicos: [
     { id: "todos", name: "Todos os Eletrônicos", icon: "💻" },
     { id: "computadores", name: "Computadores & PCs", icon: "🖥️", query: ["computador", "pc", "notebook", "dell", "macbook", "inspiron"] },
-    { id: "placas", name: "Placas de Vídeo", icon: "🎮", query: ["rtx", "geforce", "placa de vídeo", "placa de video"] },
+    { id: "placas", name: "Placas de Vídeo", icon: "🎮", query: ["rtx", "geforce", "placa de vídeo", "placa de video", "radeon", "rx 6600"] },
     { id: "monitores", name: "Monitores", icon: "📺", query: ["monitor", "ultragear", "144hz"] },
-    { id: "cadeiras", name: "Cadeiras Gamers", icon: "💺", query: ["cadeira", "gamer"] },
+    { id: "cadeiras", name: "Cadeiras Gamers", icon: "💺", query: ["cadeira"] },
     { id: "teclados", name: "Teclados", icon: "⌨️", query: ["teclado", "keychron"] },
-    { id: "mouses", name: "Mouses", icon: "🖱️", query: ["mouse", "logitech", "mx master"] },
+    { id: "mouses", name: "Mouses", icon: "🖱️", query: ["mouse", "logitech", "mx master", "deathadder"] },
     { id: "fones", name: "Fones & Headsets", icon: "🎧", query: ["fone", "headset", "jbl", "sony", "hyperx", "havit"] },
     { id: "mousepads", name: "Mousepads", icon: "⬛", query: ["mousepad", "speed"] }
   ],
@@ -34,16 +34,16 @@ const SUBCATEGORIES = {
     { id: "frigobar", name: "Frigobares", icon: "🧊", query: ["frigobar"] },
     { id: "microondas", name: "Micro-ondas", icon: "🍲", query: ["micro-ondas", "microondas"] },
     { id: "airfryer", name: "Airfryers", icon: "🍟", query: ["air fryer", "airfryer", "fritadeira"] },
-    { id: "tv", name: "Smart TVs", icon: "📺", query: ["tv", "oled", "crystal", "smart tv"] },
+    { id: "tv", name: "Smart TVs", icon: "📺", query: ["tv", "oled", "crystal", "smart tv", "qled"] },
     { id: "guarda-roupa", name: "Guarda-Roupas", icon: "🚪", query: ["guarda-roupa", "guarda roupa"] },
-    { id: "lavar", name: "Máquinas de Lavar", icon: "🧺", query: ["lava e seca", "máquina de lavar", "maquina de lavar"] },
+    { id: "lavar", name: "Máquinas de Lavar", icon: "🧺", query: ["lava e seca", "máquina de lavar", "maquina de lavar", "lavadora"] },
     { id: "aspirador", name: "Robôs & Aspiradores", icon: "🧹", query: ["aspirador", "robô", "robo"] }
   ],
   moda: [
     { id: "todos", name: "Toda a Moda", icon: "👟" },
     { id: "tenis", name: "Tênis", icon: "👟", query: ["tênis", "tenis", "nike", "adidas", "vans", "mizuno", "olympikus"] },
-    { id: "oculos", name: "Óculos", icon: "🕶️", query: ["óculos", "oculos", "aviador"] },
-    { id: "relogios", name: "Relógios", icon: "⌚", query: ["relógio", "relogio", "orient", "casio"] },
+    { id: "oculos", name: "Óculos", icon: "🕶️", query: ["óculos", "oculos", "aviador", "ray-ban", "oakley", "wayfarer"] },
+    { id: "relogios", name: "Relógios", icon: "⌚", query: ["relógio", "relogio", "orient", "casio", "g-shock", "invicta"] },
     { id: "pulseiras", name: "Pulseiras", icon: "⛓️", query: ["pulseira", "grumet"] },
     { id: "perfumes", name: "Perfumes", icon: "🧴", query: ["perfume", "sauvage", "212", "ferrari"] }
   ],
@@ -61,7 +61,7 @@ const SUBCATEGORIES = {
     { id: "brinquedos", name: "Brinquedos", icon: "🎲", query: ["lego", "brinquedo", "boneca", "baby alive", "barbie", "massinha", "play-doh"] },
     { id: "carrinhos", name: "Hot Wheels & Carrinhos", icon: "🏎️", query: ["hot wheels", "pista", "carrinho", "controle remoto"] },
     { id: "roupas", name: "Roupas & Conjuntos", icon: "👕", query: ["conjunto", "body", "bodies", "camiseta", "shorts", "mochila"] },
-    { id: "jogos", name: "Jogos & Tabuleiro", icon: "🎯", query: ["banco imobiliário", "uno", "jogo"] },
+    { id: "jogos", name: "Jogos & Tabuleiro", query: ["banco imobiliário", "uno", "jogo", "cara a cara", "perfil"] },
     { id: "tecnologia", name: "Tablets & Fones", icon: "📱", query: ["tablet", "jbl jr", "patinete"] }
   ],
   iphones: [
@@ -73,7 +73,7 @@ const SUBCATEGORIES = {
   esporte: [
     { id: "todos", name: "Todo Esporte", icon: "⚡" },
     { id: "suplementos", name: "Suplementos & Whey", icon: "💪", query: ["whey", "creatina", "shaker", "coqueteleira"] },
-    { id: "tenis", name: "Tênis de Corrida", icon: "🏃", query: ["corre 3", "tênis", "tenis"] },
+    { id: "tenis", name: "Tênis de Corrida", icon: "🏃", query: ["corre 3", "tênis", "tenis", "pegasus", "cumulus"] },
     { id: "treino", name: "Acessórios de Treino", icon: "🏋️", query: ["smartwatch", "elásticos", "corda", "tapete", "halteres", "mochila", "garrafa"] }
   ]
 };
@@ -369,6 +369,7 @@ function getFilteredProducts() {
       if (sub && sub.query && Array.isArray(sub.query)) {
         list = list.filter(p => {
           const titleLower = (p.title || "").toLowerCase();
+          if (sub.id === "mouses" && titleLower.includes("mousepad")) return false;
           return sub.query.some(term => titleLower.includes(term.toLowerCase()));
         });
       }
