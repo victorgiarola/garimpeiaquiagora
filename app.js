@@ -98,6 +98,22 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 /**
+ * Sanitiza o identificador da loja Magalu (Magazine Você), extraindo apenas o slug
+ */
+function sanitizeMagaluStore(storeName) {
+  if (!storeName || typeof storeName !== "string") return "magazinelugarcerto01";
+  let s = storeName.trim();
+  s = s.replace(/https?:\/\//gi, "");
+  s = s.replace(/www\./gi, "");
+  s = s.replace(/magazinevoce\.com\.br\/?/gi, "");
+  s = s.replace(/magazineluiza\.com\.br\/?/gi, "");
+  s = s.replace(/^\/+|\/+$/g, "");
+  s = s.split("/")[0] || "magazinelugarcerto01";
+  if (!s || s === "magazinemaisofertas") s = "magazinelugarcerto01";
+  return s;
+}
+
+/**
  * Retorna as credenciais ativas de afiliados (LocalStorage ou Padrão Oficial)
  */
 function getAffiliateConfig() {
@@ -113,7 +129,9 @@ function getAffiliateConfig() {
     const saved = localStorage.getItem(AFFILIATE_CONFIG_KEY);
     if (saved) {
       const parsed = JSON.parse(saved);
-      // Garante que valores vazios ou desatualizados do cache antigo sejam substituídos pelos dados oficiais
+      const rawMagalu = parsed.magalu?.storeName;
+      const cleanMagalu = sanitizeMagaluStore(rawMagalu || baseConfig.magalu?.storeName || officialDefaults.magalu.storeName);
+
       return {
         mercadolivre: {
           toolId: parsed.mercadolivre?.toolId || baseConfig.mercadolivre?.toolId || officialDefaults.mercadolivre.toolId,
@@ -125,9 +143,7 @@ function getAffiliateConfig() {
           enabled: true
         },
         magalu: {
-          storeName: (parsed.magalu?.storeName && parsed.magalu.storeName !== "magazinemaisofertas")
-            ? parsed.magalu.storeName
-            : (baseConfig.magalu?.storeName || officialDefaults.magalu.storeName),
+          storeName: cleanMagalu,
           enabled: true
         }
       };
@@ -136,7 +152,14 @@ function getAffiliateConfig() {
     console.error("Erro ao ler config de afiliados:", err);
   }
 
-  return baseConfig;
+  return {
+    ...baseConfig,
+    magalu: {
+      ...baseConfig.magalu,
+      storeName: sanitizeMagaluStore(baseConfig.magalu?.storeName || officialDefaults.magalu.storeName),
+      enabled: true
+    }
+  };
 }
 
 /**
@@ -144,7 +167,13 @@ function getAffiliateConfig() {
  */
 function getVerifiedAffiliateUrl(product, config) {
   const cfg = config || getAffiliateConfig();
-  const raw = product.affiliateUrl || product.rawUrl || "";
+  let raw = product.affiliateUrl || product.rawUrl || "";
+
+  // Remove qualquer duplicação acidental na URL crua (ex: https://dominio/https://...)
+  while (/^https?:\/\/[^/]+\/https?:\/\//i.test(raw)) {
+    raw = raw.replace(/^https?:\/\/[^/]+\//i, "");
+  }
+
   if (typeof AutoMapper !== "undefined") {
     const mapped = AutoMapper.mapUrl(raw, cfg);
     return mapped.affiliateUrl;
@@ -163,7 +192,7 @@ function initAffiliateConfig() {
   const mlWordInput = document.getElementById("cfgMercadoLivreWord");
 
   if (shopeeInput && config.shopee) shopeeInput.value = config.shopee.affiliateId || "";
-  if (magaluInput && config.magalu) magaluInput.value = config.magalu.storeName || "";
+  if (magaluInput && config.magalu) magaluInput.value = sanitizeMagaluStore(config.magalu.storeName) || "magazinelugarcerto01";
   if (mlToolInput && config.mercadolivre) mlToolInput.value = config.mercadolivre.toolId || "";
   if (mlWordInput && config.mercadolivre) mlWordInput.value = config.mercadolivre.affiliateWord || "";
 }
@@ -180,9 +209,19 @@ function initProducts() {
     const saved = localStorage.getItem(AFFILIATE_CONFIG_KEY);
     if (saved) {
       const parsed = JSON.parse(saved);
-      // Se continha o nome antigo da magalu ou Shopee em branco, limpa para forçar as oficiais
-      if (parsed.magalu?.storeName === "magazinemaisofertas" || !parsed.shopee?.affiliateId || !parsed.mercadolivre?.toolId) {
-        localStorage.removeItem(AFFILIATE_CONFIG_KEY);
+      // Se continha o nome antigo da magalu, Shopee em branco ou URL completa no storeName, limpa ou higieniza
+      if (
+        parsed.magalu?.storeName === "magazinemaisofertas" ||
+        (parsed.magalu?.storeName && (parsed.magalu.storeName.includes("http") || parsed.magalu.storeName.includes("magazinevoce"))) ||
+        !parsed.shopee?.affiliateId ||
+        !parsed.mercadolivre?.toolId
+      ) {
+        if (parsed.magalu?.storeName) {
+          parsed.magalu.storeName = sanitizeMagaluStore(parsed.magalu.storeName);
+          localStorage.setItem(AFFILIATE_CONFIG_KEY, JSON.stringify(parsed));
+        } else {
+          localStorage.removeItem(AFFILIATE_CONFIG_KEY);
+        }
       }
     }
   } catch (e) {}
@@ -199,7 +238,13 @@ function initProducts() {
   try {
     const savedCustom = localStorage.getItem(CUSTOM_OFFERS_KEY);
     if (savedCustom) {
-      customOffers = JSON.parse(savedCustom);
+      customOffers = JSON.parse(savedCustom).map(o => {
+        let u = o.affiliateUrl || o.rawUrl || "";
+        while (/^https?:\/\/[^/]+\/https?:\/\//i.test(u)) {
+          u = u.replace(/^https?:\/\/[^/]+\//i, "");
+        }
+        return { ...o, affiliateUrl: u };
+      });
     }
   } catch (err) {
     console.error("Erro ao carregar ofertas manuais:", err);
@@ -778,7 +823,7 @@ function handleSaveAffiliateConfig(e) {
       enabled: true
     },
     magalu: {
-      storeName: (document.getElementById("cfgMagaluStore")?.value || "").trim() || "magazinemaisofertas",
+      storeName: sanitizeMagaluStore((document.getElementById("cfgMagaluStore")?.value || "").trim()),
       enabled: true
     }
   };

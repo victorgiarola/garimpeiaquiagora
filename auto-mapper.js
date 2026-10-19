@@ -16,7 +16,12 @@ const AutoMapper = {
       return { affiliateUrl: rawUrl, store: "outros", storeName: "Loja Parceira" };
     }
 
-    const cleanUrl = rawUrl.trim();
+    let cleanUrl = rawUrl.trim();
+
+    // Remove qualquer duplicação acidental na URL (ex: https://dominio/https://...)
+    while (/^https?:\/\/[^/]+\/https?:\/\//i.test(cleanUrl)) {
+      cleanUrl = cleanUrl.replace(/^https?:\/\/[^/]+\//i, "");
+    }
 
     // 1. AMAZON BRASIL
     if (cleanUrl.includes("amazon.com.br") || cleanUrl.includes("amzn.to")) {
@@ -142,17 +147,41 @@ const AutoMapper = {
   },
 
   /**
+   * Sanitiza o identificador da loja Magalu (Magazine Você), extraindo apenas o slug
+   */
+  sanitizeMagaluStore(storeName) {
+    if (!storeName || typeof storeName !== "string") return "magazinelugarcerto01";
+    let s = storeName.trim();
+    s = s.replace(/https?:\/\//gi, "");
+    s = s.replace(/www\./gi, "");
+    s = s.replace(/magazinevoce\.com\.br\/?/gi, "");
+    s = s.replace(/magazineluiza\.com\.br\/?/gi, "");
+    s = s.replace(/^\/+|\/+$/g, "");
+    s = s.split("/")[0] || "magazinelugarcerto01";
+    if (!s || s === "magazinemaisofertas") s = "magazinelugarcerto01";
+    return s;
+  },
+
+  /**
    * Converte link comum do Magalu para o Magazine Você da sua loja
    */
   formatMagalu(url, storeName) {
     try {
-      // Pega o código do produto no final da URL
-      // Ex: magazineluiza.com.br/p/234902100/
-      const match = url.match(/\/p\/([a-zA-Z0-9]+)/);
-      if (match && match[1]) {
-        return `https://www.magazinevoce.com.br/${storeName}/p/${match[1]}/`;
+      const cleanStore = this.sanitizeMagaluStore(storeName);
+
+      // Limpa qualquer duplicação acidental na URL recebida
+      let cleanUrl = String(url || "").trim();
+      while (/^https?:\/\/[^/]+\/https?:\/\//i.test(cleanUrl)) {
+        cleanUrl = cleanUrl.replace(/^https?:\/\/[^/]+\//i, "");
       }
-      return `https://www.magazinevoce.com.br/${storeName}/`;
+
+      // Pega o código do produto no final da URL
+      // Ex: magazineluiza.com.br/p/234902100/ ou /p/237291500
+      const match = cleanUrl.match(/\/p\/([a-zA-Z0-9]+)/i);
+      if (match && match[1]) {
+        return `https://www.magazinevoce.com.br/${cleanStore}/p/${match[1]}/`;
+      }
+      return `https://www.magazinevoce.com.br/${cleanStore}/`;
     } catch {
       return url;
     }
