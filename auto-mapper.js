@@ -103,9 +103,8 @@ const AutoMapper = {
   /**
    * Converte URL do Mercado Livre
    * - Preserva links encurtados oficiais (meli.la ou /sec/)
-   * - Detecta URLs com IDs fictícios (ex: MLB-361928...) que geram erro no Mercado Livre
-   *   e converte para lista.mercadolivre.com.br/<slug> para abrir a página de ofertas do produto diretamente
-   * - Aplica as DUAS métricas obrigatórias: matt_tool e matt_word
+   * - Preserva links diretos de produtos (produto.mercadolivre.com.br ou /p/MLB...) para abrir diretamente a oferta
+   * - Aplica as métricas de afiliado: matt_tool e matt_word
    */
   formatMercadoLivre(url, toolId, affiliateWord) {
     try {
@@ -121,22 +120,6 @@ const AutoMapper = {
 
       const cleanTool = toolId ? String(toolId).trim() : "23610538";
       const cleanWord = affiliateWord ? String(affiliateWord).trim() : "givi713407";
-
-      // Detecta se é link com ID fictício (ex: MLB-3619... ou MLB-3518... que não existem e dão erro ao abrir)
-      // Converte para busca direta no catálogo: lista.mercadolivre.com.br/<slug>
-      const isDummyMlb = cleanUrl.match(/produto\.mercadolivre\.com\.br\/MLB-?\d{8,}-(.*?)(\?|$)/i);
-      if (isDummyMlb && isDummyMlb[1]) {
-        let slug = isDummyMlb[1]
-          .replace(/-(oficial|original|lacrado|selo-adipec)$/g, "")
-          .replace(/-(oficial|original|lacrado|selo-adipec)$/g, "")
-          .replace(/^-+|-+$/g, "");
-        if (!slug) slug = "ofertas";
-        const target = `https://lista.mercadolivre.com.br/${slug}`;
-        const parsed = new URL(target);
-        if (cleanTool) parsed.searchParams.set("matt_tool", cleanTool);
-        if (cleanWord) parsed.searchParams.set("matt_word", cleanWord);
-        return parsed.toString();
-      }
 
       const parsed = new URL(cleanUrl);
       if (cleanTool) {
@@ -154,8 +137,8 @@ const AutoMapper = {
   /**
    * Converte URL da Shopee
    * - Preserva links encurtados oficiais (s.shopee.com.br / shope.ee)
-   * - Detecta URLs inválidas do tipo /product/<texto-slug> e IDs fictícios que causam erro 404 na Shopee
-   * - Converte automaticamente em /search?keyword=<termo> com os parâmetros de afiliado oficiais
+   * - Preserva links diretos de produtos (-i.<shopid>.<itemid> ou /product/<shopid>/<itemid>)
+   * - Aplica os parâmetros oficiais de afiliado: utm_source, utm_medium, af_siteid
    */
   formatShopee(url, affId) {
     try {
@@ -172,22 +155,25 @@ const AutoMapper = {
 
       const cleanAff = affId ? String(affId).trim().replace(/^an_/, "") : "18345170182";
 
-      // Verifica se é uma URL do tipo /product/<slug-de-texto> ou com ID de loja fictício (/product/58123910/...)
-      // A Shopee dá 404 nesses caminhos! O formato universal funcional é /search?keyword=...
-      const isProductSlug = cleanUrl.includes("/product/") && !cleanUrl.match(/\/product\/\d{5,}\/\d{5,}/);
-      const isDummyShop = cleanUrl.includes("/product/58123910/");
+      // Preserva links diretos de produtos com formato oficial (-i.<shopid>.<itemid> ou /product/<shopid>/<itemid>)
+      const isDirectItem = cleanUrl.includes("-i.") || cleanUrl.match(/\/product\/\d+\/\d+/);
+      if (isDirectItem) {
+        const parsed = new URL(cleanUrl);
+        if (cleanAff) {
+          parsed.searchParams.set("utm_source", "an_" + cleanAff);
+          parsed.searchParams.set("utm_medium", "affiliates");
+          parsed.searchParams.set("af_siteid", cleanAff);
+        }
+        return parsed.toString();
+      }
 
-      if (isProductSlug || isDummyShop) {
+      // Se for URL antiga do tipo /product/<slug> sem IDs numéricos de item
+      const isProductSlugWithoutId = cleanUrl.includes("/product/") && !cleanUrl.match(/\/product\/\d{5,}\/\d{5,}/);
+      if (isProductSlugWithoutId) {
         let keyword = "";
         const slugMatch = cleanUrl.match(/\/product\/([a-zA-Z0-9_-]+)/i);
         if (slugMatch && slugMatch[1] && isNaN(Number(slugMatch[1]))) {
           keyword = slugMatch[1].replace(/[-_+]/g, " ").trim();
-        }
-        if (!keyword) {
-          try {
-            const tempUrl = new URL(cleanUrl);
-            keyword = tempUrl.searchParams.get("keyword") || "";
-          } catch {}
         }
         if (!keyword) keyword = "ofertas";
 
@@ -231,9 +217,8 @@ const AutoMapper = {
 
   /**
    * Converte link comum do Magalu para o Magazine Você da sua loja
-   * - Preserva links de busca oficial na loja do parceiro (/busca/termo/)
-   * - Converte códigos de produtos reais para a vitrine oficial do parceiro (/p/codigo/)
-   * - Evita redirecionamentos para produtos errados
+   * - Preserva rotas diretas de produto (/slug/p/codigo/ ou /p/codigo/) abrindo a página de compra oficial do parceiro
+   * - Redireciona para vitrine do parceiro oficial
    */
   formatMagalu(url, storeName) {
     try {
@@ -245,11 +230,12 @@ const AutoMapper = {
         cleanUrl = cleanUrl.replace(/^https?:\/\/[^/]+\//i, "");
       }
 
-      // Se for link já estruturado de busca no Magazine Você, garante a loja correta
-      if (cleanUrl.includes("/busca/")) {
-        const queryMatch = cleanUrl.match(/\/busca\/([^/?#]+)/i);
-        const query = queryMatch ? queryMatch[1] : "";
-        return `https://www.magazinevoce.com.br/${cleanStore}/busca/${query}/`;
+      // Se for link direto de produto com slug e código SKU
+      // Ex: magazineluiza.com.br/<slug>/p/<sku>/... ou magazinevoce.com.br/<outraloja>/<slug>/p/<sku>/...
+      const productMatch = cleanUrl.match(/(?:magazineluiza\.com\.br|magazinevoce\.com\.br(?:\/[^/]+)?)\/([^/?#]+\/p\/[a-zA-Z0-9]+[^?#]*)/i);
+      if (productMatch && productMatch[1]) {
+        let pPath = productMatch[1].replace(/^\/+|\/+$/g, "");
+        return `https://www.magazinevoce.com.br/${cleanStore}/${pPath}/`;
       }
 
       // Pega o código do produto no final da URL
@@ -258,6 +244,14 @@ const AutoMapper = {
       if (match && match[1]) {
         return `https://www.magazinevoce.com.br/${cleanStore}/p/${match[1]}/`;
       }
+
+      // Se for link de busca
+      if (cleanUrl.includes("/busca/")) {
+        const queryMatch = cleanUrl.match(/\/busca\/([^/?#]+)/i);
+        const query = queryMatch ? queryMatch[1] : "";
+        return `https://www.magazinevoce.com.br/${cleanStore}/busca/${query}/`;
+      }
+
       return `https://www.magazinevoce.com.br/${cleanStore}/`;
     } catch {
       return url;
