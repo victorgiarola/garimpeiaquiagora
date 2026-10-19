@@ -232,7 +232,8 @@ function renderCategories() {
   const container = document.getElementById("categoriesNav");
   if (!container) return;
 
-  container.innerHTML = CATEGORIES.map(cat => `
+  const cats = (typeof CATEGORIES !== "undefined" && Array.isArray(CATEGORIES)) ? CATEGORIES : [];
+  container.innerHTML = cats.map(cat => `
     <button class="cat-btn ${cat.id === state.activeCategory ? 'active' : ''}" data-category="${cat.id}">
       <span>${cat.icon}</span>
       <span>${cat.name}</span>

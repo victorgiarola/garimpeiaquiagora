@@ -4730,6 +4730,21 @@ const DEFAULT_PRODUCTS = [
   }
 ];
 
+// Categorias Principais Oficiais
+const CATEGORIES = [
+  { id: "todas", name: "Todas as Ofertas", icon: "🔥" },
+  { id: "destaques", name: "Super Destaques", icon: "⭐" },
+  { id: "eletronicos", name: "Eletrônicos & Setup", icon: "💻" },
+  { id: "casa", name: "Casa & Eletrodomésticos", icon: "🏠" },
+  { id: "moda", name: "Moda & Acessórios", icon: "👟" },
+  { id: "feminino", name: "Moda Feminina & Beleza", icon: "💄" },
+  { id: "infantil", name: "Infantil & Brinquedos", icon: "🧸" },
+  { id: "iphones", name: "iPhones & Apple", icon: "🍎" },
+  { id: "esporte", name: "Esporte & Suplementos", icon: "⚡" },
+  { id: "passadas", name: "Ofertas Passadas", icon: "⌛" }
+];
+
+// Configuração das lojas ativas
 const STORES = {
   mercadolivre: {
     name: "Mercado Livre",
