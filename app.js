@@ -15,6 +15,47 @@ const state = {
   displayLimit: 36 // Exibe inicialmente 36 ofertas com carregamento progressivo
 };
 
+// Configuração oficial e segura das lojas parceiras
+const STORE_DEFINITIONS = (typeof STORES !== "undefined" && !Array.isArray(STORES)) ? STORES : {
+  mercadolivre: {
+    id: "mercadolivre",
+    name: "Mercado Livre",
+    color: "#ffe600",
+    textColor: "#2d3277",
+    badgeBg: "rgba(255, 230, 0, 0.2)",
+    logoEmoji: "🤝"
+  },
+  shopee: {
+    id: "shopee",
+    name: "Shopee",
+    color: "#ee4d2d",
+    textColor: "#ffffff",
+    badgeBg: "rgba(238, 77, 45, 0.15)",
+    logoEmoji: "🛍️"
+  },
+  magalu: {
+    id: "magalu",
+    name: "Magazine Luiza",
+    color: "#0086ff",
+    textColor: "#ffffff",
+    badgeBg: "rgba(0, 134, 255, 0.15)",
+    logoEmoji: "💙"
+  },
+  outros: {
+    id: "outros",
+    name: "Loja Parceira",
+    color: "#10b981",
+    textColor: "#ffffff",
+    badgeBg: "rgba(16, 185, 129, 0.15)",
+    logoEmoji: "🛒"
+  }
+};
+
+function getStoreInfo(storeKey) {
+  if (!storeKey) return STORE_DEFINITIONS.outros;
+  return STORE_DEFINITIONS[storeKey] || STORE_DEFINITIONS.outros;
+}
+
 // Subcategorias dinâmicas por categoria principal (Atende 100% dos itens solicitados pelo usuário)
 const SUBCATEGORIES = {
   eletronicos: [
@@ -332,7 +373,7 @@ function renderStoreFilters() {
         </button>
       `;
     }
-    const store = STORES[key] || { name: key, logoEmoji: "🛒" };
+    const store = getStoreInfo(key);
     return `
       <button class="store-filter-btn ${state.activeStore === key ? 'active' : ''}" data-store="${key}">
         <span>${store.logoEmoji}</span> ${store.name}
@@ -395,6 +436,8 @@ function getFilteredProducts() {
   // 4. Ordenação
   if (state.sortBy === "menor-preco") {
     list.sort((a, b) => a.currentPrice - b.currentPrice);
+  } else if (state.sortBy === "maior-preco") {
+    list.sort((a, b) => b.currentPrice - a.currentPrice);
   } else if (state.sortBy === "maior-desconto") {
     list.sort((a, b) => {
       const discA = a.originalPrice ? ((a.originalPrice - a.currentPrice) / a.originalPrice) : 0;
@@ -487,7 +530,7 @@ function renderProducts() {
   ` : '';
 
   const cardsHtml = visibleItems.map(product => {
-    const storeInfo = STORES[product.store] || STORES.outros;
+    const storeInfo = getStoreInfo(product.store);
     const isExpired = !!product.expired;
     const activeUrl = getVerifiedAffiliateUrl(product);
     
@@ -1007,7 +1050,7 @@ function handleAddProduct(e) {
     return;
   }
 
-  const storeInfo = STORES[store] || STORES.outros;
+  const storeInfo = getStoreInfo(store);
 
   const newProduct = {
     id: "prod-" + Date.now(),

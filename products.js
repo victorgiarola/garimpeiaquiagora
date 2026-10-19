@@ -56,24 +56,40 @@ const CATEGORIES = [
   }
 ];
 
-const STORES = [
-  {
-    "id": "todas",
-    "name": "Todas as Lojas"
+const STORES = {
+  mercadolivre: {
+    id: "mercadolivre",
+    name: "Mercado Livre",
+    color: "#ffe600",
+    textColor: "#2d3277",
+    badgeBg: "rgba(255, 230, 0, 0.2)",
+    logoEmoji: "🤝"
   },
-  {
-    "id": "mercadolivre",
-    "name": "Mercado Livre"
+  shopee: {
+    id: "shopee",
+    name: "Shopee",
+    color: "#ee4d2d",
+    textColor: "#ffffff",
+    badgeBg: "rgba(238, 77, 45, 0.15)",
+    logoEmoji: "🛍️"
   },
-  {
-    "id": "shopee",
-    "name": "Shopee"
+  magalu: {
+    id: "magalu",
+    name: "Magazine Luiza",
+    color: "#0086ff",
+    textColor: "#ffffff",
+    badgeBg: "rgba(0, 134, 255, 0.15)",
+    logoEmoji: "💙"
   },
-  {
-    "id": "magalu",
-    "name": "Magazine Luiza"
+  outros: {
+    id: "outros",
+    name: "Loja Parceira",
+    color: "#10b981",
+    textColor: "#ffffff",
+    badgeBg: "rgba(16, 185, 129, 0.15)",
+    logoEmoji: "🛒"
   }
-];
+};
 
 const PRODUCTS = [
   {
