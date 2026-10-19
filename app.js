@@ -20,13 +20,13 @@ const SUBCATEGORIES = {
   eletronicos: [
     { id: "todos", name: "Todos os Eletrônicos", icon: "💻" },
     { id: "computadores", name: "Computadores & PCs", icon: "🖥️", query: ["computador", "pc", "notebook", "dell", "macbook", "inspiron"] },
-    { id: "placas", name: "Placas de Vídeo", icon: "🎮", query: ["rtx", "geforce", "placa de vídeo", "placa de video", "radeon", "rx 6600"] },
-    { id: "monitores", name: "Monitores", icon: "📺", query: ["monitor", "ultragear", "144hz"] },
+    { id: "placas", name: "Placas de Vídeo", icon: "🎮", query: ["rtx", "geforce", "placa de vídeo", "placa de video", "radeon", "rx 6600", "rx 7600", "gtx", "arc a580"] },
+    { id: "monitores", name: "Monitores", icon: "📺", query: ["monitor", "ultragear", "144hz", "curvo", "odyssey", "evnia", "superframe", "valak"] },
     { id: "cadeiras", name: "Cadeiras Gamers", icon: "💺", query: ["cadeira"] },
-    { id: "teclados", name: "Teclados", icon: "⌨️", query: ["teclado", "keychron"] },
-    { id: "mouses", name: "Mouses", icon: "🖱️", query: ["mouse", "logitech", "mx master", "deathadder"] },
+    { id: "teclados", name: "Teclados", icon: "⌨️", query: ["teclado", "keychron", "kumara", "mitra", "alloy origins", "fizz", "blackwidow", "machenike", "bora", "karura"] },
+    { id: "mouses", name: "Mouses", icon: "🖱️", query: ["mouse", "logitech", "mx master", "deathadder", "viper mini", "lift vertical", "cobra m711", "superlight", "pulsefire", "pebble", "shark x3", "basilisk", "delux"] },
     { id: "fones", name: "Fones & Headsets", icon: "🎧", query: ["fone", "headset", "jbl", "sony", "hyperx", "havit"] },
-    { id: "mousepads", name: "Mousepads", icon: "⬛", query: ["mousepad", "speed"] }
+    { id: "mousepads", name: "Mousepads", icon: "⬛", query: ["mousepad", "speed", "desk pad", "archelon", "qck", "pantera"] }
   ],
   casa: [
     { id: "todos", name: "Toda a Casa", icon: "🏠" },
@@ -34,47 +34,47 @@ const SUBCATEGORIES = {
     { id: "frigobar", name: "Frigobares", icon: "🧊", query: ["frigobar"] },
     { id: "microondas", name: "Micro-ondas", icon: "🍲", query: ["micro-ondas", "microondas"] },
     { id: "airfryer", name: "Airfryers", icon: "🍟", query: ["air fryer", "airfryer", "fritadeira"] },
-    { id: "tv", name: "Smart TVs", icon: "📺", query: ["tv", "oled", "crystal", "smart tv", "qled"] },
-    { id: "guarda-roupa", name: "Guarda-Roupas", icon: "🚪", query: ["guarda-roupa", "guarda roupa"] },
+    { id: "tv", name: "Smart TVs", icon: "📺", query: ["tv", "oled", "crystal", "smart tv", "qled", "roku", "ambilight"] },
+    { id: "guarda-roupa", name: "Guarda-Roupas", icon: "🚪", query: ["guarda-roupa", "guarda roupa", "roupeiro"] },
     { id: "lavar", name: "Máquinas de Lavar", icon: "🧺", query: ["lava e seca", "máquina de lavar", "maquina de lavar", "lavadora"] },
-    { id: "aspirador", name: "Robôs & Aspiradores", icon: "🧹", query: ["aspirador", "robô", "robo"] }
+    { id: "aspirador", name: "Robôs & Aspiradores", icon: "🧹", query: ["aspirador", "robô", "robo", "roomba"] }
   ],
   moda: [
     { id: "todos", name: "Toda a Moda", icon: "👟" },
-    { id: "tenis", name: "Tênis", icon: "👟", query: ["tênis", "tenis", "nike", "adidas", "vans", "mizuno", "olympikus"] },
-    { id: "oculos", name: "Óculos", icon: "🕶️", query: ["óculos", "oculos", "aviador", "ray-ban", "oakley", "wayfarer"] },
-    { id: "relogios", name: "Relógios", icon: "⌚", query: ["relógio", "relogio", "orient", "casio", "g-shock", "invicta"] },
-    { id: "pulseiras", name: "Pulseiras", icon: "⛓️", query: ["pulseira", "grumet"] },
-    { id: "perfumes", name: "Perfumes", icon: "🧴", query: ["perfume", "sauvage", "212", "ferrari"] }
+    { id: "tenis", name: "Tênis", icon: "👟", query: ["tênis", "tenis", "nike", "adidas", "vans", "mizuno", "olympikus", "asics", "all star", "puma"] },
+    { id: "oculos", name: "Óculos", icon: "🕶️", query: ["óculos", "oculos", "aviador", "ray-ban", "oakley", "wayfarer", "polarizado", "clubmaster", "frogskins", "justin", "sutro", "round metal", "mormaii", "gascan", "colcci"] },
+    { id: "relogios", name: "Relógios", icon: "⌚", query: ["relógio", "relogio", "orient", "casio", "g-shock", "invicta", "technos", "curren", "seculus", "nibosi", "condor"] },
+    { id: "pulseiras", name: "Pulseiras", icon: "⛓️", query: ["pulseira", "grumet", "bracelete", "elos cartier", "veneziana", "piastrina", "rommanel"] },
+    { id: "perfumes", name: "Perfumes", icon: "🧴", query: ["perfume", "sauvage", "212", "ferrari", "invictus", "armani", "pacorabanne", "malbec", "1 million", "bleu de chanel", "eros", "le male", "azzaro", "nautica", "lattafa", "explorer", "ck one"] }
   ],
   feminino: [
     { id: "todos", name: "Toda Beleza & Moda", icon: "💄" },
-    { id: "roupas", name: "Roupas", icon: "👗", query: ["vestido", "conjunto", "alfaiataria", "bolsa"] },
-    { id: "maquiagens", name: "Maquiagens", icon: "💋", query: ["maquiagem", "batom", "cílios", "cilios", "pincéis", "pinceis"] },
-    { id: "perfumes", name: "Perfumes Femininos", icon: "🌸", query: ["perfume", "lancôme", "good girl", "lily"] },
-    { id: "cremes", name: "Cremes & Skincare", icon: "🧴", query: ["creme", "cerave", "victoria's secret", "sérum", "serum", "anthelios", "protetor"] },
-    { id: "shampoos", name: "Shampoos & Kits", icon: "✨", query: ["shampoo", "condicionador", "wella", "truss", "lola", "cronograma", "óleo", "oleo"] },
-    { id: "escovas", name: "Escovas de Secar", icon: "💨", query: ["escova secadora", "secador", "taiff", "mondial"] }
+    { id: "roupas", name: "Roupas", icon: "👗", query: ["vestido", "conjunto", "alfaiataria", "bolsa", "cropped", "saia", "macacão", "macacao", "wide leg", "blazer", "tubinho"] },
+    { id: "maquiagens", name: "Maquiagens", icon: "💋", query: ["maquiagem", "batom", "cílios", "cilios", "pincéis", "pinceis", "base", "corretivo", "máscara de cílios", "rimel", "blush", "pó facial", "po facial", "paleta", "delineador", "gloss", "esponja"] },
+    { id: "perfumes", name: "Perfumes Femininos", icon: "🌸", query: ["perfume", "lancôme", "good girl", "lily", "vip rosé", "chloé", "scandal", "idôle", "niina secrets", "miss dior", "essencial", "egeo", "armani sì"] },
+    { id: "cremes", name: "Cremes & Skincare", icon: "🧴", query: ["creme", "cerave", "victoria's secret", "sérum", "serum", "anthelios", "protetor", "hidratação", "retinol", "vitamina c", "q10", "bio-oil", "água micelar", "agua micelar", "gel de limpeza", "hydro boost", "cetaphil"] },
+    { id: "shampoos", name: "Shampoos & Kits", icon: "✨", query: ["shampoo", "condicionador", "wella", "truss", "lola", "cronograma", "óleo", "oleo", "máscara capilar", "mascara capilar", "haskell", "absolut repair", "glycolic gloss", "kérastase", "salon line", "braé", "pantene", "tônico poderoso"] },
+    { id: "escovas", name: "Escovas de Secar", icon: "💨", query: ["escova secadora", "secador", "taiff", "mondial", "babyliss", "chapinha", "prancha", "escova rotativa", "difusor", "modelador", "escova alisadora", "lizze"] }
   ],
   infantil: [
     { id: "todos", name: "Todo Infantil", icon: "🧸" },
-    { id: "brinquedos", name: "Brinquedos", icon: "🎲", query: ["lego", "brinquedo", "boneca", "baby alive", "barbie", "massinha", "play-doh"] },
-    { id: "carrinhos", name: "Hot Wheels & Carrinhos", icon: "🏎️", query: ["hot wheels", "pista", "carrinho", "controle remoto"] },
-    { id: "roupas", name: "Roupas & Conjuntos", icon: "👕", query: ["conjunto", "body", "bodies", "camiseta", "shorts", "mochila"] },
-    { id: "jogos", name: "Jogos & Tabuleiro", query: ["banco imobiliário", "uno", "jogo", "cara a cara", "perfil"] },
-    { id: "tecnologia", name: "Tablets & Fones", icon: "📱", query: ["tablet", "jbl jr", "patinete"] }
+    { id: "brinquedos", name: "Brinquedos", icon: "🎲", query: ["lego", "brinquedo", "boneca", "baby alive", "barbie", "massinha", "play-doh", "nerf", "pelúcia", "pelucia", "marvel", "homem de ferro", "stitch", "fisher-price", "slime", "pikachu", "pokémon"] },
+    { id: "carrinhos", name: "Hot Wheels & Carrinhos", icon: "🏎️", query: ["hot wheels", "pista", "carrinho", "controle remoto", "garagem", "monster jam", "monster trucks", "cegonha", "estacionamento"] },
+    { id: "roupas", name: "Roupas & Conjuntos", icon: "👕", query: ["conjunto", "body", "bodies", "camiseta", "shorts", "mochila", "macacãozinho", "macacaozinho", "pijama", "pijamas", "meias", "moletom", "vestido infantil", "brandili", "kyly", "milon"] },
+    { id: "jogos", name: "Jogos & Tabuleiro", icon: "♟️", query: ["banco imobiliário", "uno", "jogo", "cara a cara", "perfil", "war", "detetive", "catan", "pinguim", "dixit", "jenga", "dobble", "imagem & ação", "vida", "quebra-cabeça", "pula macaco"] },
+    { id: "tecnologia", name: "Tablets & Fones", icon: "📱", query: ["tablet", "jbl jr", "patinete", "smartwatch infantil", "câmera fotográfica", "camera fotografica", "lousa mágica", "lousa magica", "walkie talkie", "orelhinha de gato", "karaokê", "karaoke"] }
   ],
   iphones: [
     { id: "todos", name: "Todos iPhones & Apple", icon: "🍎" },
     { id: "iphones", name: "iPhones", icon: "📱", query: ["iphone"] },
-    { id: "airpods", name: "AirPods", icon: "🎧", query: ["airpods"] },
-    { id: "watch", name: "Apple Watch", icon: "⌚", query: ["watch"] }
+    { id: "airpods", name: "AirPods", icon: "🎧", query: ["airpods", "case", "capa airpods", "caneta limpadora", "limpeza"] },
+    { id: "watch", name: "Apple Watch", icon: "⌚", query: ["watch", "pulseira milanese", "pulseira oceano", "carregador magnético", "película", "pelicula", "suporte base de carregamento"] }
   ],
   esporte: [
     { id: "todos", name: "Todo Esporte", icon: "⚡" },
-    { id: "suplementos", name: "Suplementos & Whey", icon: "💪", query: ["whey", "creatina", "shaker", "coqueteleira"] },
-    { id: "tenis", name: "Tênis de Corrida", icon: "🏃", query: ["corre 3", "tênis", "tenis", "pegasus", "cumulus"] },
-    { id: "treino", name: "Acessórios de Treino", icon: "🏋️", query: ["smartwatch", "elásticos", "corda", "tapete", "halteres", "mochila", "garrafa"] }
+    { id: "suplementos", name: "Suplementos & Whey", icon: "💪", query: ["whey", "creatina", "shaker", "coqueteleira", "pré-treino", "pre-treino", "bcaa", "pasta de amendoim", "hipercalórico", "hipercalorico", "glutamina", "multivitamínico", "multivitaminico", "blenderbottle"] },
+    { id: "tenis", name: "Tênis de Corrida", icon: "🏃", query: ["corre 3", "tênis", "tenis", "pegasus", "cumulus", "ultraboost", "novablast", "corre vento", "float elite", "wave rider", "corre trilha", "invincible", "deviate nitro", "nimbus", "adizero boston"] },
+    { id: "treino", name: "Acessórios de Treino", icon: "🏋️", query: ["smartwatch", "elásticos", "corda", "tapete", "halteres", "mochila", "garrafa", "hand grip", "roda abdominal", "kettlebell", "barra de porta", "cinto", "fita de suspensão", "luva de treino"] }
   ]
 };
 
