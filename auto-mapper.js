@@ -56,7 +56,7 @@ const AutoMapper = {
 
     // 4. MAGAZINE LUIZA (MAGALU / MAGAZINE VOCÊ)
     if (cleanUrl.includes("magazineluiza.com.br") || cleanUrl.includes("magazinevoce.com.br")) {
-      const storeName = config.magalu?.storeName || "magazinemaisofertas";
+      const storeName = config.magalu?.storeName || "magazinelugarcerto01";
       return {
         affiliateUrl: this.formatMagalu(cleanUrl, storeName),
         store: "magalu",

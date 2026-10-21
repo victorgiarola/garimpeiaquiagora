@@ -1,7 +1,7 @@
 /**
  * GARIMPO DE OFERTAS - BASE DE PRODUTOS E CATÁLOGO
  * Sincronizado automaticamente com produtos reais, estoque e links de afiliados
- * Última sincronização: 21/10/2026, 01:22:18
+ * Última sincronização: 21/10/2026, 07:29:59
  */
 
 const CATEGORIES = [
@@ -817,7 +817,7 @@ const PRODUCTS = [
     "installment": "em até 10x de R$ 189,90 sem juros",
     "pixDiscount": "Desconto no Pix Magalu",
     "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/busca/Apple+Watch+SE+2%C2%AA+Gera%C3%A7%C3%A3o/",
-    "image": "https://m.media-amazon.com/images/I/71fVoq5v2pL._AC_SL1500_.jpg",
+    "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 5700,
@@ -1699,7 +1699,7 @@ const PRODUCTS = [
     "installment": "em até 7x de R$ 32,71 sem juros",
     "pixDiscount": "Envio Full Mercado Livre",
     "affiliateUrl": "https://www.mercadolivre.com.br/fritadeira-eletrica-sem-oleoair-fryer-mondial-naf-05-4l/p/MLB32281940?matt_tool=23610538&matt_word=givi713407",
-    "image": "https://m.media-amazon.com/images/I/71Y-1X-L7sL._AC_SL1500_.jpg",
+    "image": "https://images.unsplash.com/photo-1584992236310-6edddc08acff?w=600&auto=format&fit=crop&q=80",
     "featured": true,
     "rating": 4.8,
     "reviewsCount": 11200,
@@ -1999,7 +1999,7 @@ const PRODUCTS = [
     "currentPrice": 139.9,
     "installment": "em até 4x de R$ 34,97 sem juros",
     "pixDiscount": "10% de desconto no Pix",
-    "image": "https://m.media-amazon.com/images/I/71rS4a7jHXL._AC_SL1500_.jpg",
+    "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&auto=format&fit=crop&q=80",
     "badge": "Efeito Salão em Casa (-39%)",
     "featured": true,
     "rating": 4.8,
@@ -2154,7 +2154,7 @@ const PRODUCTS = [
     "installment": "em até 8x de R$ 53,63 sem juros",
     "pixDiscount": "Desconto no Pix Magalu",
     "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/busca/Panela+de+Press%C3%A3o+El%C3%A9trica+Electrolux/",
-    "image": "https://m.media-amazon.com/images/I/71z78wWJ8wL._AC_SL1500_.jpg",
+    "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 5200,
@@ -3967,7 +3967,7 @@ const PRODUCTS = [
     "installment": "em até 10x de R$ 104,90 sem juros",
     "pixDiscount": "Envio Full",
     "affiliateUrl": "https://www.mercadolivre.com.br/samsung-galaxy-tab-a9-64-gb-4-gb-de-ram-prateado/p/MLB33068760?matt_tool=23610538&matt_word=givi713407",
-    "image": "https://m.media-amazon.com/images/I/71Wk3V+v-lL._AC_SL1500_.jpg",
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 2400,
@@ -4267,7 +4267,7 @@ const PRODUCTS = [
     "installment": "à vista",
     "pixDiscount": "Compatível com Alexa e Google",
     "affiliateUrl": "https://shopee.com.br/Smart-L%C3%A2mpada-Wi-Fi-Positivo-Casa-Inteligente-Ilumina%C3%A7%C3%A3o-Branca-(Quente-e-Fria)-e-RGB-(At%C3%A9-16-Milh%C3%B5es-de-Cores)-9W-i.490943982.23498714254?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
-    "image": "https://m.media-amazon.com/images/I/61r5T0v+86L._AC_SL1500_.jpg",
+    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.7,
     "reviewsCount": 18900,
@@ -5091,7 +5091,7 @@ const PRODUCTS = [
     "installment": "em até 3x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
     "affiliateUrl": "https://shopee.com.br/search?keyword=Mousepad+Gamer+Havit+Speed+Extra&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
-    "image": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lmgv0522c0cf6e",
+    "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 14200,
@@ -5251,7 +5251,7 @@ const PRODUCTS = [
     "installment": "em até 2x sem juros",
     "pixDiscount": "Estilo & Elegância",
     "affiliateUrl": "https://shopee.com.br/search?keyword=Pulseira+Masculina+Couro+Leg%C3%ADtimo+Tran%C3%A7ado&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
-    "image": "https://down-br.img.susercontent.com/file/br-11134207-7qukw-ljg3p4u57ccl12",
+    "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 3120,
@@ -5291,7 +5291,7 @@ const PRODUCTS = [
     "installment": "em até 10x de R$ 163,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
     "affiliateUrl": "https://www.mercadolivre.com.br/apple-airpods-4-com-cancelamento-ativo-de-ruido/p/MLB34194821?matt_tool=23610538&matt_word=givi713407",
-    "image": "https://m.media-amazon.com/images/I/51wXpMvF7RL._AC_SL1500_.jpg",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 1420,
@@ -6851,7 +6851,7 @@ const PRODUCTS = [
     "installment": "em até 10x de R$ 83,90 sem juros",
     "pixDiscount": "10% no Pix Magalu",
     "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/busca/Guarda+Roupa+Casal+Portas+Gavetas/",
-    "image": "https://images.unsplash.com/photo-1558997519-83ea9252def8?w=600&auto=format&fit=crop&q=80",
+    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.7,
     "reviewsCount": 3120,
@@ -7011,7 +7011,7 @@ const PRODUCTS = [
     "installment": "em até 6x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
     "affiliateUrl": "https://shopee.com.br/search?keyword=Guarda+Roupa+Solteiro+Portas+Gavetas&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
-    "image": "https://images.unsplash.com/photo-1558997519-83ea9252def8?w=600&auto=format&fit=crop&q=80",
+    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 3120,
@@ -8051,7 +8051,7 @@ const PRODUCTS = [
     "installment": "em até 10x de R$ 116,90 sem juros",
     "pixDiscount": "10% no Pix Magalu",
     "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/busca/Cadeira+Gamer+DT3+Sports+Elise/",
-    "image": "https://images.unsplash.com/photo-1580481077197-28d8b990d0ef?w=600&auto=format&fit=crop&q=80",
+    "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?w=600&auto=format&fit=crop&q=80",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 5210,
@@ -8091,7 +8091,7 @@ const PRODUCTS = [
     "installment": "em até 5x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
     "affiliateUrl": "https://shopee.com.br/search?keyword=Cadeira+Gamer+Prizi+Canvas+Preta&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
-    "image": "https://images.unsplash.com/photo-1580481077197-28d8b990d0ef?w=600&auto=format&fit=crop&q=80",
+    "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.7,
     "reviewsCount": 11200,
@@ -8131,7 +8131,7 @@ const PRODUCTS = [
     "installment": "em até 6x sem juros",
     "pixDiscount": "10% no Pix Magalu",
     "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/busca/Cadeira+Gamer+Mymax+MX1+Girat%C3%B3ria/",
-    "image": "https://images.unsplash.com/photo-1580481077197-28d8b990d0ef?w=600&auto=format&fit=crop&q=80",
+    "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.7,
     "reviewsCount": 6540,
@@ -10751,7 +10751,7 @@ const PRODUCTS = [
     "installment": "em até 2x sem juros",
     "pixDiscount": "10% no Pix Magalu",
     "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/busca/%C3%93leo+Corporal+Bio+Oil+Especialista/",
-    "image": "https://images.unsplash.com/photo-1608248597359-0026a761e27a?w=600&auto=format&fit=crop&q=80",
+    "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 12400,
@@ -10911,7 +10911,7 @@ const PRODUCTS = [
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
     "affiliateUrl": "https://shopee.com.br/search?keyword=Shampoo+Condicionador+L%27Or%C3%A9al+Elseve+Glycolic&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
-    "image": "https://images.unsplash.com/photo-1608248597359-0026a761e27a?w=600&auto=format&fit=crop&q=80",
+    "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 22100,
@@ -10951,7 +10951,7 @@ const PRODUCTS = [
     "installment": "em até 1x sem juros",
     "pixDiscount": "10% no Pix Magalu",
     "affiliateUrl": "https://www.magazinevoce.com.br/magazinelugarcerto01/busca/Kit+Salon+Line+SOS+Cachos/",
-    "image": "https://images.unsplash.com/photo-1608248597359-0026a761e27a?w=600&auto=format&fit=crop&q=80",
+    "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 18900,
@@ -10991,7 +10991,7 @@ const PRODUCTS = [
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
     "affiliateUrl": "https://shopee.com.br/search?keyword=Kit+Pantene+Bambu+Nutre+Cresce&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
-    "image": "https://images.unsplash.com/photo-1608248597359-0026a761e27a?w=600&auto=format&fit=crop&q=80",
+    "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 24500,
@@ -13543,7 +13543,7 @@ const PRODUCTS = [
     "installment": "Esgotado",
     "pixDiscount": "Frete Full Grátis na época",
     "affiliateUrl": "https://www.mercadolivre.com.br/controle-joystick-sony-dualsense-sem-fio-ps5-midnight-black/p/MLB63568390?matt_tool=23610538&matt_word=givi713407",
-    "image": "https://m.media-amazon.com/images/I/612hn4bF7kL._AC_SL1500_.jpg",
+    "image": "https://images.unsplash.com/photo-1600080972464-8e5f35f63d08?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 11000,
@@ -13864,6 +13864,8 @@ if (typeof window !== "undefined") {
   window.DEFAULT_PRODUCTS = DEFAULT_PRODUCTS;
 }
 
+// Suporte para Node.js e Navegador
 if (typeof module !== "undefined" && module.exports) {
   module.exports = { CATEGORIES, STORES, PRODUCTS, DEFAULT_PRODUCTS };
 }
+

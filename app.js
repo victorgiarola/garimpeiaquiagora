@@ -274,9 +274,17 @@ function initAffiliateConfig() {
  * Remove caches defasados para garantir que todos os visitantes vejam o catálogo completo.
  */
 function initProducts() {
-  // Limpa cache antigo ou configurações que possam conter tags antigas
+  // Purga caches defasados ou ofertas de testes que possam conter links quebrados ou imagens inválidas
+  const CURRENT_CATALOG_VERSION = "20261021_v7_clean";
   try {
-    localStorage.removeItem(OLD_STORAGE_KEY);
+    if (localStorage.getItem("garimpei_catalog_version") !== CURRENT_CATALOG_VERSION) {
+      localStorage.removeItem(CUSTOM_OFFERS_KEY);
+      localStorage.removeItem(OLD_STORAGE_KEY);
+      localStorage.removeItem("garimpo_produtos_v2");
+      localStorage.removeItem("garimpei_custom_offers");
+      localStorage.setItem("garimpei_catalog_version", CURRENT_CATALOG_VERSION);
+    }
+
     const saved = localStorage.getItem(AFFILIATE_CONFIG_KEY);
     if (saved) {
       const parsed = JSON.parse(saved);
@@ -299,23 +307,35 @@ function initProducts() {
 
   const config = getAffiliateConfig();
 
-  // 1. Carrega todas as ofertas oficiais de Mercado Livre, Shopee e Magalu
-  const baseProducts = (typeof DEFAULT_PRODUCTS !== "undefined" && Array.isArray(DEFAULT_PRODUCTS))
-    ? [...DEFAULT_PRODUCTS]
-    : [];
+  // 1. Carrega todas as ofertas oficiais de Mercado Livre, Shopee e Magalu (Garante compatibilidade total)
+  const availableBase = (typeof DEFAULT_PRODUCTS !== "undefined" && Array.isArray(DEFAULT_PRODUCTS) && DEFAULT_PRODUCTS.length > 0)
+    ? DEFAULT_PRODUCTS
+    : ((typeof PRODUCTS !== "undefined" && Array.isArray(PRODUCTS) && PRODUCTS.length > 0)
+        ? PRODUCTS
+        : ((typeof window !== "undefined" && Array.isArray(window.PRODUCTS)) ? window.PRODUCTS : []));
 
-  // 2. Carrega ofertas manuais cadastradas pelo administrador
+  const baseProducts = [...availableBase];
+
+  // 2. Carrega ofertas manuais cadastradas pelo administrador (higienizando contra itens fictícios)
   let customOffers = [];
   try {
     const savedCustom = localStorage.getItem(CUSTOM_OFFERS_KEY);
     if (savedCustom) {
-      customOffers = JSON.parse(savedCustom).map(o => {
-        let u = o.affiliateUrl || o.rawUrl || "";
-        while (/^https?:\/\/[^/]+\/https?:\/\//i.test(u)) {
-          u = u.replace(/^https?:\/\/[^/]+\//i, "");
-        }
-        return { ...o, affiliateUrl: u };
-      });
+      customOffers = JSON.parse(savedCustom)
+        .map(o => {
+          let u = o.affiliateUrl || o.rawUrl || "";
+          while (/^https?:\/\/[^/]+\/https?:\/\//i.test(u)) {
+            u = u.replace(/^https?:\/\/[^/]+\//i, "");
+          }
+          return { ...o, affiliateUrl: u };
+        })
+        .filter(o => {
+          if (!o || !o.title || !o.image) return false;
+          const u = o.affiliateUrl || o.rawUrl || "";
+          // Descarta links conhecidos de teste que não existem
+          if (u.includes("MLB152431") || u.includes("233968815") || u.includes("MLB-358912019")) return false;
+          return true;
+        });
     }
   } catch (err) {
     console.error("Erro ao carregar ofertas manuais:", err);
@@ -497,15 +517,24 @@ function handleCardImageError(imgEl, category) {
   if (!imgEl) return;
   imgEl.onerror = null;
   const fallbacks = {
-    eletronicos: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&auto=format&fit=crop&q=80",
-    iphones: "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600&auto=format&fit=crop&q=80",
-    casa: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=600&auto=format&fit=crop&q=80",
-    moda: "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&auto=format&fit=crop&q=80",
-    feminino: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600&auto=format&fit=crop&q=80",
+    eletronicos: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=600&auto=format&fit=crop&q=80",
+    iphones: "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=600&auto=format&fit=crop&q=80",
+    casa: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&auto=format&fit=crop&q=80",
+    moda: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&auto=format&fit=crop&q=80",
+    feminino: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&auto=format&fit=crop&q=80",
     infantil: "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=600&auto=format&fit=crop&q=80",
     esporte: "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=600&auto=format&fit=crop&q=80"
   };
-  imgEl.src = fallbacks[category] || "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=600&auto=format&fit=crop&q=80";
+  const target = fallbacks[category] || "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=600&auto=format&fit=crop&q=80";
+  imgEl.src = target;
+  // Fallback definitivo anti-falha: SVG estilizado se a rede offline/bloqueada
+  imgEl.onerror = function() {
+    this.onerror = null;
+    this.src = "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22400%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20fill%3D%22%231e293b%22%20width%3D%22400%22%20height%3D%22400%22%2F%3E%3Ctext%20fill%3D%22%2394a3b8%22%20font-family%3D%22sans-serif%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20text-anchor%3D%22middle%22%20x%3D%22200%22%20y%3D%22200%22%3EGarimpei%20Aqui%20Agora%20%F0%9F%94%A5%3C%2Ftext%3E%3C%2Fsvg%3E";
+  };
+}
+if (typeof window !== "undefined") {
+  window.handleCardImageError = handleCardImageError;
 }
 
 
