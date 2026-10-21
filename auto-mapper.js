@@ -103,17 +103,18 @@ const AutoMapper = {
   /**
    * Converte URL do Mercado Livre
    * - Preserva links encurtados oficiais (meli.la ou /sec/)
-   * - Converte links diretos para rota de lista/busca com o slug ativo para garantir 100% de disponibilidade
-   * - Aplica as métricas de afiliado: matt_tool e matt_word
+   * - Redireciona DIRETAMENTE para a página oficial do item anunciado (sem ir para listas)
+   * - Aplica as métricas de afiliado: matt_tool e matt_word diretamente no anúncio
    */
   formatMercadoLivre(url, toolId, affiliateWord) {
     try {
-      // Se já for link encurtado oficial do programa de afiliados (meli.la ou /sec/), mantém as credenciais
+      if (!url) return "";
+      // Se já for link encurtado oficial do programa de afiliados (meli.la ou /sec/), mantém
       if (url.includes("meli.la") || url.includes("/sec/")) {
         return url;
       }
 
-      let cleanUrl = String(url || "").trim();
+      let cleanUrl = String(url).trim();
       while (/^https?:\/\/[^/]+\/https?:\/\//i.test(cleanUrl)) {
         cleanUrl = cleanUrl.replace(/^https?:\/\/[^/]+\//i, "");
       }
@@ -121,35 +122,27 @@ const AutoMapper = {
       const cleanTool = toolId ? String(toolId).trim() : "23610538";
       const cleanWord = affiliateWord ? String(affiliateWord).trim() : "givi713407";
 
-      // Extrai slug limpo do produto para garantir que o Mercado Livre abra sempre ofertas reais com estoque
-      let cleanSlug = "";
-      const catalogMatch = cleanUrl.match(/mercadolivre\.com\.br\/([^/?#]+)\/(?:p|up)\/(?:MLB|MLBU)?\d+/i);
-      if (catalogMatch && catalogMatch[1]) {
-        cleanSlug = catalogMatch[1];
-      } else {
-        const prodMatch = cleanUrl.match(/produto\.mercadolivre\.com\.br\/(?:MLB-)?\d+-([^/?#]+)/i);
-        if (prodMatch && prodMatch[1]) {
-          cleanSlug = prodMatch[1].replace(/_JM$/i, "");
-        } else if (cleanUrl.includes("lista.mercadolivre.com.br/")) {
-          cleanSlug = cleanUrl.split("lista.mercadolivre.com.br/")[1].split("?")[0];
-        }
-      }
-
-      if (cleanSlug) {
-        cleanSlug = cleanSlug.replace(/-+/g, "-").replace(/^-+|-+$/g, "");
-        return `https://lista.mercadolivre.com.br/${cleanSlug}?matt_tool=${encodeURIComponent(cleanTool)}&matt_word=${encodeURIComponent(cleanWord)}`;
-      }
+      // Remove fragmento de hash (ex: #polycard_client=...)
+      cleanUrl = cleanUrl.split("#")[0];
 
       const parsed = new URL(cleanUrl);
+      
+      // Remove parâmetros transitórios de navegação do robô para URL limpa e direta
+      ["deal_print_id", "tracking_id", "sid", "position", "polycard_client", "wid"].forEach(k => {
+        parsed.searchParams.delete(k);
+      });
+
       if (cleanTool) {
         parsed.searchParams.set("matt_tool", cleanTool);
       }
       if (cleanWord) {
         parsed.searchParams.set("matt_word", cleanWord);
       }
+
       return parsed.toString();
     } catch {
-      return url;
+      const sep = (url || "").includes("?") ? "&" : "?";
+      return `${url || ""}${sep}matt_tool=${encodeURIComponent(toolId || "23610538")}&matt_word=${encodeURIComponent(affiliateWord || "givi713407")}`;
     }
   },
 

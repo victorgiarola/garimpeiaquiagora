@@ -234,7 +234,8 @@ function updateWhatsAppLinks() {
  */
 function getVerifiedAffiliateUrl(product, config) {
   const cfg = config || getAffiliateConfig();
-  let raw = product.affiliateUrl || product.rawUrl || "";
+  // Prioriza sempre o link direto oficial do item anunciado (sem direcionar para listas de busca)
+  let raw = product.directUrl || product.rawUrl || product.affiliateUrl || "";
 
   // Remove qualquer duplicação acidental na URL crua (ex: https://dominio/https://...)
   while (/^https?:\/\/[^/]+\/https?:\/\//i.test(raw)) {
@@ -275,7 +276,7 @@ function initAffiliateConfig() {
  */
 function initProducts() {
   // Purga caches defasados ou ofertas de testes que possam conter links quebrados ou imagens inválidas
-  const CURRENT_CATALOG_VERSION = "20261021_v9_realtime_live";
+  const CURRENT_CATALOG_VERSION = "20261021_v10_direct_item_links";
   try {
     if (localStorage.getItem("garimpei_catalog_version") !== CURRENT_CATALOG_VERSION) {
       localStorage.removeItem(CUSTOM_OFFERS_KEY);
