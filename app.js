@@ -60,13 +60,15 @@ function getStoreInfo(storeKey) {
 const SUBCATEGORIES = {
   eletronicos: [
     { id: "todos", name: "Todos os Eletrônicos", icon: "💻" },
+    { id: "consoles", name: "Consoles & Games", icon: "🎮", query: ["console", "playstation", "ps5", "xbox", "nintendo", "switch", "steam deck", "game", "gamer", "ram asgard"] },
+    { id: "smartphones", name: "Celulares & Smartphones", icon: "📱", query: ["smartphone", "galaxy", "celular", "xiaomi", "redmi", "motorola", "poco", "edge"] },
     { id: "computadores", name: "Computadores & PCs", icon: "🖥️", query: ["computador", "pc", "notebook", "dell", "macbook", "inspiron"] },
     { id: "placas", name: "Placas de Vídeo", icon: "🎮", query: ["rtx", "geforce", "placa de vídeo", "placa de video", "radeon", "rx 6600", "rx 7600", "gtx", "arc a580"] },
     { id: "monitores", name: "Monitores", icon: "📺", query: ["monitor", "ultragear", "144hz", "curvo", "odyssey", "evnia", "superframe", "valak"] },
     { id: "cadeiras", name: "Cadeiras Gamers", icon: "💺", query: ["cadeira"] },
     { id: "teclados", name: "Teclados", icon: "⌨️", query: ["teclado", "keychron", "kumara", "mitra", "alloy origins", "fizz", "blackwidow", "machenike", "bora", "karura"] },
     { id: "mouses", name: "Mouses", icon: "🖱️", query: ["mouse", "logitech", "mx master", "deathadder", "viper mini", "lift vertical", "cobra m711", "superlight", "pulsefire", "pebble", "shark x3", "basilisk", "delux"] },
-    { id: "fones", name: "Fones & Headsets", icon: "🎧", query: ["fone", "headset", "jbl", "sony", "hyperx", "havit"] },
+    { id: "fones", name: "Fones & Headsets", icon: "🎧", query: ["fone", "headset", "jbl", "sony", "hyperx", "havit", "microfone"] },
     { id: "mousepads", name: "Mousepads", icon: "⬛", query: ["mousepad", "speed", "desk pad", "archelon", "qck", "pantera"] }
   ],
   casa: [
@@ -86,7 +88,8 @@ const SUBCATEGORIES = {
     { id: "oculos", name: "Óculos", icon: "🕶️", query: ["óculos", "oculos", "aviador", "ray-ban", "oakley", "wayfarer", "polarizado", "clubmaster", "frogskins", "justin", "sutro", "round metal", "mormaii", "gascan", "colcci"] },
     { id: "relogios", name: "Relógios", icon: "⌚", query: ["relógio", "relogio", "orient", "casio", "g-shock", "invicta", "technos", "curren", "seculus", "nibosi", "condor"] },
     { id: "pulseiras", name: "Pulseiras", icon: "⛓️", query: ["pulseira", "grumet", "bracelete", "elos cartier", "veneziana", "piastrina", "rommanel"] },
-    { id: "perfumes", name: "Perfumes", icon: "🧴", query: ["perfume", "sauvage", "212", "ferrari", "invictus", "armani", "pacorabanne", "malbec", "1 million", "bleu de chanel", "eros", "le male", "azzaro", "nautica", "lattafa", "explorer", "ck one"] }
+    { id: "perfumes", name: "Perfumes", icon: "🧴", query: ["perfume", "sauvage", "212", "ferrari", "invictus", "armani", "pacorabanne", "malbec", "1 million", "bleu de chanel", "eros", "le male", "azzaro", "nautica", "lattafa", "explorer", "ck one"] },
+    { id: "acessorios", name: "Mochilas & Acessórios", icon: "🎒", query: ["mochila", "carteira", "cinto", "meia", "havaianas", "chinelo", "sandália", "sandalia"] }
   ],
   feminino: [
     { id: "todos", name: "Toda Beleza & Moda", icon: "💄" },
@@ -461,6 +464,25 @@ function cleanBadgeText(badge) {
 }
 
 /**
+ * Tratamento inteligente de erro de imagem por categoria
+ */
+function handleCardImageError(imgEl, category) {
+  if (!imgEl) return;
+  imgEl.onerror = null;
+  const fallbacks = {
+    eletronicos: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&auto=format&fit=crop&q=80",
+    iphones: "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600&auto=format&fit=crop&q=80",
+    casa: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=600&auto=format&fit=crop&q=80",
+    moda: "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&auto=format&fit=crop&q=80",
+    feminino: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600&auto=format&fit=crop&q=80",
+    infantil: "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=600&auto=format&fit=crop&q=80",
+    esporte: "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=600&auto=format&fit=crop&q=80"
+  };
+  imgEl.src = fallbacks[category] || "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=600&auto=format&fit=crop&q=80";
+}
+
+
+/**
  * Renderiza a grade de produtos
  */
 function renderProducts() {
@@ -551,7 +573,7 @@ function renderProducts() {
            class="card-image-wrap"
            onclick="trackAffiliateClick('${escapeHtml(product.id)}', '${escapeHtml(product.store)}')"
            title="Pegar Oferta: ${escapeHtml(product.title)}">
-          <img src="${escapeHtml(product.image)}" alt="${escapeHtml(product.title)}" class="card-img" loading="lazy" referrerpolicy="no-referrer" onerror="this.src='https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&auto=format&fit=crop&q=80'" />
+          <img src="${escapeHtml(product.image)}" alt="${escapeHtml(product.title)}" class="card-img" loading="lazy" referrerpolicy="no-referrer" onerror="handleCardImageError(this, '${escapeHtml(product.category || '')}')" />
           <div class="card-badges-top">
             ${isExpired ? `
               <span class="badge-discount badge-expired">⏰ OFERTA ENCERRADA</span>

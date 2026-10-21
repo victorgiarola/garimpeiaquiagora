@@ -239,29 +239,31 @@ const AutoMapper = {
         cleanUrl = cleanUrl.slice(0, queryIdx);
       }
 
+      const q = queryString ? (queryString.startsWith("?") ? queryString : "?" + queryString) : "";
+
       // Se for link direto de produto com slug e código SKU
       // Ex: magazineluiza.com.br/<slug>/p/<sku>/... ou magazinevoce.com.br/<outraloja>/<slug>/p/<sku>/...
       const productMatch = cleanUrl.match(/(?:magazineluiza\.com\.br|magazinevoce\.com\.br(?:\/[^/]+)?)\/([^/?#]+\/p\/[a-zA-Z0-9]+[^?#]*)/i);
       if (productMatch && productMatch[1]) {
         let pPath = productMatch[1].replace(/^\/+|\/+$/g, "");
-        return `https://www.magazinevoce.com.br/${cleanStore}/${pPath}/${queryString}`;
+        return `https://www.magazinevoce.com.br/${cleanStore}/${pPath}/${q}`.replace(/\/+\?/, "?").replace(/\/+$/, "/");
       }
 
       // Pega o código do produto no final da URL
       // Ex: magazineluiza.com.br/p/234902100/ ou /p/237291500
       const match = cleanUrl.match(/\/p\/([a-zA-Z0-9]+)/i);
       if (match && match[1]) {
-        return `https://www.magazinevoce.com.br/${cleanStore}/p/${match[1]}/${queryString}`;
+        return `https://www.magazinevoce.com.br/${cleanStore}/p/${match[1]}/${q}`.replace(/\/+\?/, "?").replace(/\/+$/, "/");
       }
 
       // Se for link de busca
       if (cleanUrl.includes("/busca/")) {
         const queryMatch = cleanUrl.match(/\/busca\/([^/?#]+)/i);
         const query = queryMatch ? queryMatch[1] : "";
-        return `https://www.magazinevoce.com.br/${cleanStore}/busca/${query}/${queryString}`;
+        return `https://www.magazinevoce.com.br/${cleanStore}/busca/${query}/${q}`.replace(/\/+\?/, "?").replace(/\/+$/, "/");
       }
 
-      return `https://www.magazinevoce.com.br/${cleanStore}/${queryString}`;
+      return `https://www.magazinevoce.com.br/${cleanStore}/${q}`.replace(/\/+\?/, "?").replace(/\/+$/, "/");
     } catch {
       return url;
     }

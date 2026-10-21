@@ -1696,68 +1696,92 @@ async function runCrawler() {
     const targetUrl = item.affiliateUrl || item.rawUrl;
     const mapping = AutoMapper.mapUrl(targetUrl, AFFILIATE_CONFIG);
 
+    const cleanCategory = (item.category === "gamer" || item.category === "audio") ? "eletronicos" : (item.category || "eletronicos");
     return {
       ...item,
       id: item.id || `auto-prod-${index + 1}`,
-      store: mapping.store,
-      storeName: mapping.storeName,
-      affiliateUrl: mapping.affiliateUrl,
+      category: cleanCategory,
+      store: mapping.store || item.store,
+      storeName: mapping.storeName || item.storeName,
+      affiliateUrl: mapping.affiliateUrl || targetUrl,
       dateAdded: item.dateAdded || new Date().toISOString().split("T")[0]
     };
   });
 
   // Gera o arquivo products.js atualizado
-  const productsJsContent = `// Catálogo Oficial Garimpei Aqui Agora
-// Última sincronização: ${new Date().toLocaleString("pt-BR")}
-// Ofertas ativas intercaladas com diversidade máxima e histórico de promoções!
+  const CATEGORIES = [
+    { id: "todas", name: "Todas as Ofertas", icon: "🔥" },
+    { id: "destaques", name: "Mais Vendidos", icon: "⭐" },
+    { id: "eletronicos", name: "Eletrônicos & Gamers", icon: "💻" },
+    { id: "iphones", name: "iPhones & Apple", icon: "🍎" },
+    { id: "casa", name: "Casa & Eletrodomésticos", icon: "🏠" },
+    { id: "feminino", name: "Beleza & Moda Feminina", icon: "💄" },
+    { id: "moda", name: "Moda & Acessórios", icon: "👟" },
+    { id: "esporte", name: "Esporte & Treino", icon: "⚡" },
+    { id: "infantil", name: "Infantil & Bebês", icon: "🧸" },
+    { id: "passadas", name: "Ofertas Passadas", icon: "⌛" }
+  ];
 
-const DEFAULT_PRODUCTS = ${JSON.stringify(processedProducts, null, 2)};
+  const STORES = {
+    mercadolivre: {
+      id: "mercadolivre",
+      name: "Mercado Livre",
+      color: "#ffe600",
+      textColor: "#2d3277",
+      badgeBg: "rgba(255, 230, 0, 0.2)",
+      logoEmoji: "🤝"
+    },
+    shopee: {
+      id: "shopee",
+      name: "Shopee",
+      color: "#ee4d2d",
+      textColor: "#ffffff",
+      badgeBg: "rgba(238, 77, 45, 0.15)",
+      logoEmoji: "🛍️"
+    },
+    magalu: {
+      id: "magalu",
+      name: "Magazine Luiza",
+      color: "#0086ff",
+      textColor: "#ffffff",
+      badgeBg: "rgba(0, 134, 255, 0.15)",
+      logoEmoji: "💙"
+    },
+    outros: {
+      id: "outros",
+      name: "Loja Parceira",
+      color: "#10b981",
+      textColor: "#ffffff",
+      badgeBg: "rgba(16, 185, 129, 0.15)",
+      logoEmoji: "🛒"
+    }
+  };
 
-// Configuração das categorias suportadas
-const CATEGORIES = [
-  { id: "todas", name: "Todas as Ofertas", icon: "🔥" },
-  { id: "destaques", name: "Super Destaques", icon: "⭐" },
-  { id: "eletronicos", name: "Eletrônicos & Setup", icon: "💻" },
-  { id: "casa", name: "Casa & Eletrodomésticos", icon: "🏠" },
-  { id: "moda", name: "Moda & Acessórios", icon: "👟" },
-  { id: "feminino", name: "Moda Feminina & Beleza", icon: "💄" },
-  { id: "infantil", name: "Infantil & Brinquedos", icon: "🧸" },
-  { id: "iphones", name: "iPhones & Apple", icon: "🍎" },
-  { id: "esporte", name: "Esporte & Suplementos", icon: "⚡" },
-  { id: "passadas", name: "Ofertas Passadas", icon: "⌛" }
-];
+  const productsJsContent = `/**
+ * GARIMPO DE OFERTAS - BASE DE PRODUTOS E CATÁLOGO
+ * Sincronizado automaticamente com produtos reais, estoque e links de afiliados
+ * Última sincronização: ${new Date().toLocaleString("pt-BR")}
+ */
 
-// Configuração das lojas ativas
-const STORES = {
-  mercadolivre: {
-    name: "Mercado Livre",
-    color: "#ffe600",
-    textColor: "#2d3277",
-    badgeBg: "rgba(255, 230, 0, 0.2)",
-    logoEmoji: "🤝"
-  },
-  shopee: {
-    name: "Shopee",
-    color: "#ee4d2d",
-    textColor: "#ffffff",
-    badgeBg: "rgba(238, 77, 45, 0.15)",
-    logoEmoji: "🛍️"
-  },
-  magalu: {
-    name: "Magalu",
-    color: "#0086ff",
-    textColor: "#ffffff",
-    badgeBg: "rgba(0, 134, 255, 0.15)",
-    logoEmoji: "💙"
-  },
-  outros: {
-    name: "Loja Parceira",
-    color: "#10b981",
-    textColor: "#ffffff",
-    badgeBg: "rgba(16, 185, 129, 0.15)",
-    logoEmoji: "🛒"
-  }
-};
+const CATEGORIES = ${JSON.stringify(CATEGORIES, null, 2)};
+
+const STORES = ${JSON.stringify(STORES, null, 2)};
+
+const PRODUCTS = ${JSON.stringify(processedProducts, null, 2)};
+
+const DEFAULT_PRODUCTS = PRODUCTS;
+
+// Compatibilidade global com app.js no navegador
+if (typeof window !== "undefined") {
+  window.CATEGORIES = CATEGORIES;
+  window.STORES = STORES;
+  window.PRODUCTS = PRODUCTS;
+  window.DEFAULT_PRODUCTS = DEFAULT_PRODUCTS;
+}
+
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = { CATEGORIES, STORES, PRODUCTS, DEFAULT_PRODUCTS };
+}
 `;
 
   const productsPath = path.join(__dirname, "products.js");
