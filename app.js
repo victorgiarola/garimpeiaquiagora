@@ -275,7 +275,7 @@ function initAffiliateConfig() {
  */
 function initProducts() {
   // Purga caches defasados ou ofertas de testes que possam conter links quebrados ou imagens inválidas
-  const CURRENT_CATALOG_VERSION = "20261021_v8_real_deals";
+  const CURRENT_CATALOG_VERSION = "20261021_v9_realtime_live";
   try {
     if (localStorage.getItem("garimpei_catalog_version") !== CURRENT_CATALOG_VERSION) {
       localStorage.removeItem(CUSTOM_OFFERS_KEY);
@@ -556,9 +556,9 @@ function renderProducts() {
     if (state.activeCategory === "passadas") {
       stats.innerHTML = `Exibindo <strong>${visibleItems.length}</strong> de <strong>${items.length}</strong> ofertas encerradas no arquivo histórico`;
     } else if (visibleItems.length < items.length) {
-      stats.innerHTML = `Exibindo <strong>${visibleItems.length}</strong> de <strong>${items.length}</strong> super ofertas ativas`;
+      stats.innerHTML = `🟢 Exibindo <strong>${visibleItems.length}</strong> de <strong>${items.length}</strong> ofertas 100% reais sincronizadas em tempo real`;
     } else {
-      stats.innerHTML = `Exibindo <strong>${items.length}</strong> ${items.length === 1 ? 'oferta ativa' : 'ofertas ativas'} com super descontos`;
+      stats.innerHTML = `🟢 Exibindo <strong>${items.length}</strong> ${items.length === 1 ? 'oferta 100% real' : 'ofertas 100% reais'} mineradas ao vivo`;
     }
   }
 
