@@ -65,12 +65,16 @@ function classifyCategory(title, minerCatId) {
 
   // 1. Infantil, Bebês & Brinquedos
   if (
-    minerCatId === "brinquedos" ||
-    t.includes("brinquedo") || t.includes("infantil") || t.includes("lego") || t.includes("criança") ||
-    t.includes("bebê") || t.includes("bebe") || t.includes("fralda") || t.includes("carrinho de bebê") ||
-    t.includes("mamadeira") || t.includes("chupeta") || t.includes("boneca") || t.includes("mordedor") ||
-    t.includes("berço") || t.includes("ninho redutor") || t.includes("pelúcia") || t.includes("nerf") ||
-    t.includes("fisher-price") || t.includes("hot wheels")
+    !t.includes("geriátrica") && !t.includes("geriatrica") && !t.includes("adulto") &&
+    !t.includes("matepad") && !t.includes("tablet") && !t.includes("ipad") &&
+    (
+      minerCatId === "brinquedos" ||
+      t.includes("brinquedo") || t.includes("infantil") || t.includes("lego") || t.includes("criança") ||
+      t.includes("bebê") || t.includes("bebe") || t.includes("fralda") || t.includes("carrinho de bebê") ||
+      t.includes("mamadeira") || t.includes("chupeta") || t.includes("boneca") || t.includes("mordedor") ||
+      t.includes("berço") || t.includes("ninho redutor") || t.includes("pelúcia") || t.includes("nerf") ||
+      t.includes("fisher-price") || t.includes("hot wheels")
+    )
   ) {
     return "infantil";
   }
@@ -397,6 +401,91 @@ const PARTNER_STORES_DEALS = [
     reviewsCount: "+7mil vendidos",
     couponCode: "",
     affiliateUrl: "https://shopee.com.br/search?keyword=Relogio+Casio+Vintage+A158WA&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182"
+  },
+  {
+    title: "Cadeira para Auto Fisher-Price All-Stages Fix 2.0 (0 a 36kg) Isofix",
+    category: "infantil",
+    store: "magalu",
+    storeName: "Magazine Luiza",
+    originalPrice: 899.90,
+    currentPrice: 599.90,
+    installment: "em até 10x de R$ 59,99 sem juros",
+    pixDiscount: "10% de desconto no Pix",
+    image: "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?w=600&auto=format&fit=crop&q=80",
+    badge: "Segurança Máxima (-33%)",
+    featured: true,
+    rating: 4.9,
+    reviewsCount: "+2.100 vendidos",
+    couponCode: "BEBE50",
+    affiliateUrl: "https://www.magazinevoce.com.br/magazinelugarcerto01/busca/Cadeira+Auto+Fisher+Price+All+Stages/"
+  },
+  {
+    title: "Tapete de Atividades para Bebê com Ginásio e Piano Musical",
+    category: "infantil",
+    store: "magalu",
+    storeName: "Magazine Luiza",
+    originalPrice: 299.90,
+    currentPrice: 189.90,
+    installment: "em até 6x de R$ 31,65 sem juros",
+    pixDiscount: "Frete Grátis Magalu",
+    image: "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=600&auto=format&fit=crop&q=80",
+    badge: "Desenvolvimento do Bebê (-37%)",
+    featured: true,
+    rating: 4.8,
+    reviewsCount: "+3.500 vendidos",
+    couponCode: "BRINCA10",
+    affiliateUrl: "https://www.magazinevoce.com.br/magazinelugarcerto01/busca/Tapete+Atividades+Bebe+Piano+Musical/"
+  },
+  {
+    title: "Kit 3 Mamadeiras Philips Avent Pétala 125ml 260ml e 330ml Anti-cólica",
+    category: "infantil",
+    store: "shopee",
+    storeName: "Shopee",
+    originalPrice: 219.90,
+    currentPrice: 149.90,
+    installment: "em até 5x sem juros",
+    pixDiscount: "Oferta Oficial Philips Avent",
+    image: "https://images.unsplash.com/photo-1584839462719-7f33ffcb3256?w=600&auto=format&fit=crop&q=80",
+    badge: "Anti-cólica Original (-32%)",
+    featured: false,
+    rating: 4.9,
+    reviewsCount: "+9mil vendidos",
+    couponCode: "",
+    affiliateUrl: "https://shopee.com.br/search?keyword=Kit+Mamadeiras+Philips+Avent+Petala&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182"
+  },
+  {
+    title: "Boneca Baby Alive Hora do Xixi com Fraldinha e Mamadeira Hasbro",
+    category: "infantil",
+    store: "magalu",
+    storeName: "Magazine Luiza",
+    originalPrice: 199.90,
+    currentPrice: 129.90,
+    installment: "em até 4x de R$ 32,48 sem juros",
+    pixDiscount: "Produto Original Hasbro",
+    image: "https://images.unsplash.com/photo-1558060370-d644479cb6f7?w=600&auto=format&fit=crop&q=80",
+    badge: "Clássico Infantil (-35%)",
+    featured: false,
+    rating: 4.8,
+    reviewsCount: "+4mil vendidos",
+    couponCode: "BRINCA15",
+    affiliateUrl: "https://www.magazinevoce.com.br/magazinelugarcerto01/busca/Boneca+Baby+Alive+Hora+do+Xixi/"
+  },
+  {
+    title: "Pista Hot Wheels Ataque Tóxico do Escorpião com Carrinho Mattel",
+    category: "infantil",
+    store: "shopee",
+    storeName: "Shopee",
+    originalPrice: 179.90,
+    currentPrice: 109.90,
+    installment: "em até 4x sem juros",
+    pixDiscount: "Garantia Mattel Oficial",
+    image: "https://images.unsplash.com/photo-1594787318286-3d835c1d207f?w=600&auto=format&fit=crop&q=80",
+    badge: "Ação & Aventura (-39%)",
+    featured: false,
+    rating: 4.9,
+    reviewsCount: "+6mil vendidos",
+    couponCode: "",
+    affiliateUrl: "https://shopee.com.br/search?keyword=Pista+Hot+Wheels+Escorpiao&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182"
   }
 ];
 
