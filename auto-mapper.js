@@ -103,7 +103,7 @@ const AutoMapper = {
   /**
    * Converte URL do Mercado Livre
    * - Preserva links encurtados oficiais (meli.la ou /sec/)
-   * - Preserva links diretos de produtos (produto.mercadolivre.com.br ou /p/MLB...) para abrir diretamente a oferta
+   * - Converte links diretos para rota de lista/busca com o slug ativo para garantir 100% de disponibilidade
    * - Aplica as métricas de afiliado: matt_tool e matt_word
    */
   formatMercadoLivre(url, toolId, affiliateWord) {
@@ -120,6 +120,25 @@ const AutoMapper = {
 
       const cleanTool = toolId ? String(toolId).trim() : "23610538";
       const cleanWord = affiliateWord ? String(affiliateWord).trim() : "givi713407";
+
+      // Extrai slug limpo do produto para garantir que o Mercado Livre abra sempre ofertas reais com estoque
+      let cleanSlug = "";
+      const catalogMatch = cleanUrl.match(/mercadolivre\.com\.br\/([^/?#]+)\/(?:p|up)\/(?:MLB|MLBU)?\d+/i);
+      if (catalogMatch && catalogMatch[1]) {
+        cleanSlug = catalogMatch[1];
+      } else {
+        const prodMatch = cleanUrl.match(/produto\.mercadolivre\.com\.br\/(?:MLB-)?\d+-([^/?#]+)/i);
+        if (prodMatch && prodMatch[1]) {
+          cleanSlug = prodMatch[1].replace(/_JM$/i, "");
+        } else if (cleanUrl.includes("lista.mercadolivre.com.br/")) {
+          cleanSlug = cleanUrl.split("lista.mercadolivre.com.br/")[1].split("?")[0];
+        }
+      }
+
+      if (cleanSlug) {
+        cleanSlug = cleanSlug.replace(/-+/g, "-").replace(/^-+|-+$/g, "");
+        return `https://lista.mercadolivre.com.br/${cleanSlug}?matt_tool=${encodeURIComponent(cleanTool)}&matt_word=${encodeURIComponent(cleanWord)}`;
+      }
 
       const parsed = new URL(cleanUrl);
       if (cleanTool) {

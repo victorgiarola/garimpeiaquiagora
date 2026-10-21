@@ -275,7 +275,7 @@ function initAffiliateConfig() {
  */
 function initProducts() {
   // Purga caches defasados ou ofertas de testes que possam conter links quebrados ou imagens inválidas
-  const CURRENT_CATALOG_VERSION = "20261021_v7_clean";
+  const CURRENT_CATALOG_VERSION = "20261021_v8_real_deals";
   try {
     if (localStorage.getItem("garimpei_catalog_version") !== CURRENT_CATALOG_VERSION) {
       localStorage.removeItem(CUSTOM_OFFERS_KEY);

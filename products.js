@@ -1,7 +1,7 @@
 /**
  * GARIMPO DE OFERTAS - BASE DE PRODUTOS E CATÁLOGO
  * Sincronizado automaticamente com produtos reais, estoque e links de afiliados
- * Última sincronização: 21/10/2026, 07:29:59
+ * Última sincronização: 21/10/2026, 07:58:06
  */
 
 const CATEGORIES = [
@@ -108,12 +108,12 @@ const PRODUCTS = [
     "rating": 5,
     "reviewsCount": 1420,
     "couponCode": "MELI200",
-    "affiliateUrl": "https://www.mercadolivre.com.br/consola-de-jogos-portatil-valve-steam-deck-oled-512gb/p/MLB2039424405?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/consola-de-jogos-portatil-valve-steam-deck-oled-512gb?matt_tool=23610538&matt_word=givi713407",
     "storeName": "Mercado Livre",
     "dateAdded": "2026-10-18",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-5239710334-valve-steam-deck-oled-512gb-cor-preto-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/consola-de-jogos-portatil-valve-steam-deck-oled-512gb/p/MLB2039424405"
+    "directUrl": "https://lista.mercadolivre.com.br/consola-de-jogos-portatil-valve-steam-deck-oled-512gb"
   },
   {
     "id": "auto-prod-2",
@@ -126,7 +126,7 @@ const PRODUCTS = [
     "currentPrice": 6399,
     "installment": "em até 10x de R$ 639,90 sem juros",
     "pixDiscount": "Frete Full Grátis Mercado Livre",
-    "affiliateUrl": "https://www.mercadolivre.com.br/apple-iphone-15-pro-128-gb-titanio-natural/p/MLB27172722?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-iphone-15-pro-128-gb-titanio-natural?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/81CgtwSII3L._AC_SL1500_.jpg",
     "featured": true,
     "rating": 5,
@@ -135,7 +135,7 @@ const PRODUCTS = [
     "dateAdded": "2026-10-18",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-4146050514-apple-iphone-15-pro-128-gb-titnio-preto-americano-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/apple-iphone-15-pro-128-gb-titanio-natural/p/MLB27172722"
+    "directUrl": "https://lista.mercadolivre.com.br/apple-iphone-15-pro-128-gb-titanio-natural"
   },
   {
     "id": "auto-prod-3",
@@ -148,7 +148,7 @@ const PRODUCTS = [
     "currentPrice": 199.9,
     "installment": "em até 5x de R$ 39,98 sem juros",
     "pixDiscount": "Frete Grátis",
-    "affiliateUrl": "https://shopee.com.br/Mem%C3%B3ria-RAM-Asgard-16GB-(2x8GB)-DDR4-3200MHz-%E2%80%93-Ilumina%C3%A7%C3%A3o-RGB-Gamer-i.1676312660.58254710053?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Mem%C3%B3ria%20RAM%20Asgard%20DDR4%2016GB%202x8GB&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://http2.mlstatic.com/D_NQ_NP_852546-MLB50266974373_062022-O.webp",
     "featured": false,
     "rating": 4.9,
@@ -156,7 +156,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Memória-RAM-Asgard-16GB-(2x8GB)-DDR4-3200MHz-–-Iluminação-RGB-Gamer-i.1676312660.58254710053"
+    "rawUrl": "https://shopee.com.br/Memória-RAM-Asgard-16GB-(2x8GB)-DDR4-3200MHz-–-Iluminação-RGB-Gamer-i.1676312660.58254710053",
+    "directUrl": "https://shopee.com.br/search?keyword=Mem%C3%B3ria%20RAM%20Asgard%20DDR4%2016GB%202x8GB"
   },
   {
     "id": "auto-prod-4",
@@ -169,7 +170,7 @@ const PRODUCTS = [
     "currentPrice": 49.9,
     "installment": "à vista",
     "pixDiscount": "Para Vídeos e Gravações",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Microfone+Lapela+Sem+Fio+para&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Microfone%20Lapela%20Sem%20Fio%20para&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/sg-11134301-821ef-mgntfjspohl8eb",
     "featured": false,
     "rating": 4.8,
@@ -177,7 +178,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Microfone-Lapela-Sem-Fio-2-Em-1-Plug-And-Play-P-iPhone-i.1053203124.23396881503"
+    "rawUrl": "https://shopee.com.br/Microfone-Lapela-Sem-Fio-2-Em-1-Plug-And-Play-P-iPhone-i.1053203124.23396881503",
+    "directUrl": "https://shopee.com.br/search?keyword=Microfone%20Lapela%20Sem%20Fio%20para"
   },
   {
     "id": "auto-prod-5",
@@ -256,7 +258,7 @@ const PRODUCTS = [
     "currentPrice": 239,
     "installment": "em até 7x de R$ 34,14 sem juros",
     "pixDiscount": "Loja Oficial Nike no ML",
-    "affiliateUrl": "https://www.mercadolivre.com.br/tnis-nike-revolution-7-masculino/p/MLB46191739?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/tnis-nike-revolution-7-masculino?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_827245-MLB101004030439_122025-O-tnis-nike-revolution-7-masculino.webp",
     "featured": true,
     "rating": 4.8,
@@ -264,7 +266,8 @@ const PRODUCTS = [
     "couponCode": "MODA20",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://www.mercadolivre.com.br/tnis-nike-revolution-7-masculino/p/MLB46191739"
+    "rawUrl": "https://www.mercadolivre.com.br/tnis-nike-revolution-7-masculino/p/MLB46191739",
+    "directUrl": "https://lista.mercadolivre.com.br/tnis-nike-revolution-7-masculino"
   },
   {
     "id": "auto-prod-9",
@@ -320,7 +323,7 @@ const PRODUCTS = [
     "currentPrice": 319,
     "installment": "em até 6x de R$ 53,17 sem juros",
     "pixDiscount": "Envio Full Oficial",
-    "affiliateUrl": "https://www.mercadolivre.com.br/tnis-nike-air-max-sc-masculino/p/MLB44735053?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/tnis-nike-air-max-sc-masculino?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_658638-MLB99521635249_112025-O-tnis-nike-air-max-sc-masculino.webp",
     "featured": true,
     "rating": 4.8,
@@ -329,7 +332,7 @@ const PRODUCTS = [
     "dateAdded": "2026-10-18",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-2611569447-tnis-nike-air-max-sc-masculino-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/tnis-nike-air-max-sc-masculino/p/MLB44735053"
+    "directUrl": "https://lista.mercadolivre.com.br/tnis-nike-air-max-sc-masculino"
   },
   {
     "id": "auto-prod-12",
@@ -386,7 +389,7 @@ const PRODUCTS = [
     "currentPrice": 539,
     "installment": "em até 10x de R$ 53,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/perfume-dior-sauvage-eau-de-toilette-100ml-para-homens/p/MLB41186100?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/perfume-dior-sauvage-eau-de-toilette-100ml-para-homens?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/61WUaH1sHIL._AC_SL1500_.jpg",
     "featured": false,
     "rating": 4.9,
@@ -394,7 +397,8 @@ const PRODUCTS = [
     "couponCode": "MELI50",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://www.mercadolivre.com.br/perfume-dior-sauvage-eau-de-toilette-100ml-para-homens/p/MLB41186100"
+    "rawUrl": "https://www.mercadolivre.com.br/perfume-dior-sauvage-eau-de-toilette-100ml-para-homens/p/MLB41186100",
+    "directUrl": "https://lista.mercadolivre.com.br/perfume-dior-sauvage-eau-de-toilette-100ml-para-homens"
   },
   {
     "id": "auto-prod-15",
@@ -411,12 +415,12 @@ const PRODUCTS = [
     "rating": 5,
     "reviewsCount": 3850,
     "couponCode": "MELI150",
-    "affiliateUrl": "https://www.mercadolivre.com.br/fone-de-ouvido-sony-wh-1000xm4-bluetoothnfc-prata/p/MLB28781574?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/fone-de-ouvido-sony-wh-1000xm4-bluetoothnfc-prata?matt_tool=23610538&matt_word=givi713407",
     "storeName": "Mercado Livre",
     "dateAdded": "2026-10-18",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-5044620202-fone-de-ouvido-sony-wh-1000xm4-noise-canceling-original-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/fone-de-ouvido-sony-wh-1000xm4-bluetoothnfc-prata/p/MLB28781574"
+    "directUrl": "https://lista.mercadolivre.com.br/fone-de-ouvido-sony-wh-1000xm4-bluetoothnfc-prata"
   },
   {
     "id": "auto-prod-16",
@@ -451,7 +455,7 @@ const PRODUCTS = [
     "currentPrice": 109,
     "installment": "em até 3x de R$ 36,33 sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/Mochila-Executiva-Anti-Furto-Refor%C3%A7ada-Imperme%C3%A1vel-15-6-17-3-Sa%C3%ADda-USB-Preta-i.439400964.23498037421?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Mochila%20Executiva%20Antifurto%20Imperme%C3%A1vel%20com%20Trava&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://http2.mlstatic.com/D_NQ_NP_960548-MLB70477033526_072023-O.webp",
     "featured": false,
     "rating": 4.9,
@@ -459,7 +463,8 @@ const PRODUCTS = [
     "couponCode": "MOCHILA10",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Mochila-Executiva-Anti-Furto-Reforçada-Impermeável-15-6-17-3-Saída-USB-Preta-i.439400964.23498037421"
+    "rawUrl": "https://shopee.com.br/Mochila-Executiva-Anti-Furto-Reforçada-Impermeável-15-6-17-3-Saída-USB-Preta-i.439400964.23498037421",
+    "directUrl": "https://shopee.com.br/search?keyword=Mochila%20Executiva%20Antifurto%20Imperme%C3%A1vel%20com%20Trava"
   },
   {
     "id": "auto-prod-18",
@@ -516,7 +521,7 @@ const PRODUCTS = [
     "currentPrice": 159,
     "installment": "em até 5x de R$ 31,80 sem juros",
     "pixDiscount": "Envio Full Mercado Livre",
-    "affiliateUrl": "https://www.mercadolivre.com.br/relogio-casio-unissex-vintage-a168wa-1wdf-digital/p/MLB27491121?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/relogio-casio-unissex-vintage-a168wa-1wdf-digital?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/81jYNNocg1S._AC_UY500_.jpg",
     "featured": false,
     "rating": 4.9,
@@ -525,7 +530,7 @@ const PRODUCTS = [
     "dateAdded": "2026-10-17",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-740439128-relogio-casio-a168wa-1-prat-unissex-retr-vintage-alarm-luz-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/relogio-casio-unissex-vintage-a168wa-1wdf-digital/p/MLB27491121"
+    "directUrl": "https://lista.mercadolivre.com.br/relogio-casio-unissex-vintage-a168wa-1wdf-digital"
   },
   {
     "id": "auto-prod-21",
@@ -544,10 +549,10 @@ const PRODUCTS = [
     "reviewsCount": 16500,
     "couponCode": "MELI50",
     "storeName": "Mercado Livre",
-    "affiliateUrl": "https://www.mercadolivre.com.br/perfume-carolina-herrera-ch-good-girl-eau-de-parfum-80ml/p/MLB2008180639?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/perfume-carolina-herrera-ch-good-girl-eau-de-parfum-80ml?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "directUrl": "https://www.mercadolivre.com.br/perfume-carolina-herrera-ch-good-girl-eau-de-parfum-80ml/p/MLB2008180639"
+    "directUrl": "https://lista.mercadolivre.com.br/perfume-carolina-herrera-ch-good-girl-eau-de-parfum-80ml"
   },
   {
     "id": "auto-prod-22",
@@ -582,7 +587,7 @@ const PRODUCTS = [
     "currentPrice": 349,
     "installment": "em até 10x de R$ 34,90 sem juros",
     "pixDiscount": "Tênis do Ano de Corrida",
-    "affiliateUrl": "https://www.mercadolivre.com.br/olympikus-corre-3-masculino-adultos/p/MLB27178958?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/olympikus-corre-3-masculino-adultos?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_693905-MLA71676164378_092023-O.webp",
     "featured": false,
     "rating": 4.9,
@@ -591,7 +596,7 @@ const PRODUCTS = [
     "dateAdded": "2026-10-17",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-3431674031-tenis-masculino-olympikus-corre-3-eleva-pro-macio-original-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/olympikus-corre-3-masculino-adultos/p/MLB27178958"
+    "directUrl": "https://lista.mercadolivre.com.br/olympikus-corre-3-masculino-adultos"
   },
   {
     "id": "auto-prod-24",
@@ -610,9 +615,10 @@ const PRODUCTS = [
     "reviewsCount": 22400,
     "couponCode": "MELI10",
     "storeName": "Mercado Livre",
-    "affiliateUrl": "https://www.mercadolivre.com.br/combo-2x-100-whey-protein-900g-max-titanium-sabor-baunilha/p/MLB35694021?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/combo-2x-100-whey-protein-900g-max-titanium-sabor-baunilha?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "directUrl": "https://lista.mercadolivre.com.br/combo-2x-100-whey-protein-900g-max-titanium-sabor-baunilha"
   },
   {
     "id": "auto-prod-25",
@@ -625,7 +631,7 @@ const PRODUCTS = [
     "currentPrice": 8299,
     "installment": "em até 10x de R$ 829,90 sem juros",
     "pixDiscount": "Envio Full Oficial Apple",
-    "affiliateUrl": "https://www.mercadolivre.com.br/apple-iphone-16-pro-128-gb-titnio-preto-distribuidor-autorizado/p/MLB1040287850?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-iphone-16-pro-128-gb-titnio-preto?matt_tool=23610538&matt_word=givi713407",
     "image": "https://www.apple.com/newsroom/images/2024/09/apple-debuts-iphone-16-pro-and-iphone-16-pro-max/article/Apple-iPhone-16-Pro-hero-geo-240909_inline.jpg.large_2x.jpg",
     "featured": false,
     "rating": 5,
@@ -633,7 +639,8 @@ const PRODUCTS = [
     "couponCode": "MELI200",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://www.mercadolivre.com.br/apple-iphone-16-pro-128-gb-titnio-preto-distribuidor-autorizado/p/MLB1040287850"
+    "rawUrl": "https://www.mercadolivre.com.br/apple-iphone-16-pro-128-gb-titnio-preto-distribuidor-autorizado/p/MLB1040287850",
+    "directUrl": "https://lista.mercadolivre.com.br/apple-iphone-16-pro-128-gb-titnio-preto"
   },
   {
     "id": "auto-prod-26",
@@ -646,7 +653,7 @@ const PRODUCTS = [
     "currentPrice": 29.9,
     "installment": "à vista",
     "pixDiscount": "Bloqueia Golpes por Aproximação",
-    "affiliateUrl": "https://shopee.com.br/Carteira-Masculina-de-Couro-Slim-RFID-Antifurto-Visor-RG-CNH-6-Cart%C3%B5es-Acompanha-Caixinha-i.958496689.23292359314?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Carteira%20Masculina%20Antifurto%20Slim%20em%20Couro&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://http2.mlstatic.com/D_NQ_NP_699567-MLB72741549405_112023-O.webp",
     "featured": false,
     "rating": 4.9,
@@ -654,7 +661,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Carteira-Masculina-de-Couro-Slim-RFID-Antifurto-Visor-RG-CNH-6-Cartões-Acompanha-Caixinha-i.958496689.23292359314"
+    "rawUrl": "https://shopee.com.br/Carteira-Masculina-de-Couro-Slim-RFID-Antifurto-Visor-RG-CNH-6-Cartões-Acompanha-Caixinha-i.958496689.23292359314",
+    "directUrl": "https://shopee.com.br/search?keyword=Carteira%20Masculina%20Antifurto%20Slim%20em%20Couro"
   },
   {
     "id": "auto-prod-27",
@@ -689,7 +697,7 @@ const PRODUCTS = [
     "currentPrice": 3999,
     "installment": "em até 10x de R$ 399,90 sem juros",
     "pixDiscount": "Envio Full Imediato",
-    "affiliateUrl": "https://www.mercadolivre.com.br/apple-iphone-13-256-gb-estelar/p/MLB18500856?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-iphone-13-256-gb-estelar?matt_tool=23610538&matt_word=givi713407",
     "image": "https://t.ctcdn.com.br/RyqkpoGQ55mnVy45hb9F7zx9dIM=/375x0/smart/filters:format(webp)/i772970.png",
     "featured": false,
     "rating": 4.9,
@@ -697,7 +705,8 @@ const PRODUCTS = [
     "couponCode": "MELI100",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://www.mercadolivre.com.br/apple-iphone-13-256-gb-estelar/p/MLB18500856"
+    "rawUrl": "https://www.mercadolivre.com.br/apple-iphone-13-256-gb-estelar/p/MLB18500856",
+    "directUrl": "https://lista.mercadolivre.com.br/apple-iphone-13-256-gb-estelar"
   },
   {
     "id": "auto-prod-29",
@@ -710,7 +719,7 @@ const PRODUCTS = [
     "currentPrice": 54.9,
     "installment": "à vista",
     "pixDiscount": "Envio Full",
-    "affiliateUrl": "https://www.mercadolivre.com.br/12-pares-de-meia-lupo-cano-curto-unissex-sport-casual-qualid/up/MLBU3896900582?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/12-pares-de-meia-lupo-cano-curto-unissex-sport-casual-qualid?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_895311-MLB50066177114_052022-O.webp",
     "featured": false,
     "rating": 4.9,
@@ -719,7 +728,7 @@ const PRODUCTS = [
     "dateAdded": "2026-10-17",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-3797987681-kit-com-12-pares-de-meia-cano-curto-lupo-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/12-pares-de-meia-lupo-cano-curto-unissex-sport-casual-qualid/up/MLBU3896900582"
+    "directUrl": "https://lista.mercadolivre.com.br/12-pares-de-meia-lupo-cano-curto-unissex-sport-casual-qualid"
   },
   {
     "id": "auto-prod-30",
@@ -738,9 +747,10 @@ const PRODUCTS = [
     "reviewsCount": 8940,
     "couponCode": "KIDS10",
     "storeName": "Shopee",
-    "affiliateUrl": "https://shopee.com.br/Conjunto-infantil-de-menino-Preto-de-camiseta-100-algod%C3%A3o-bermuda-moleton-ver%C3%A3o-co-estampa-ursinho-i.1032204009.23198045792?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Conjunto%20Infantil%20Menino%20Camiseta%20Estilosa%20e&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "directUrl": "https://shopee.com.br/search?keyword=Conjunto%20Infantil%20Menino%20Camiseta%20Estilosa%20e"
   },
   {
     "id": "auto-prod-31",
@@ -753,7 +763,7 @@ const PRODUCTS = [
     "currentPrice": 5199,
     "installment": "em até 10x de R$ 519,90 sem juros",
     "pixDiscount": "Frete Grátis Mercado Envios",
-    "affiliateUrl": "https://www.mercadolivre.com.br/apple-iphone-15-plus-512-gb-azul-excelente-recondicionado/p/MLB2000014761?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-iphone-15-plus-512-gb-azul-excelente-recondicionado?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/71zFRCcMS2L._AC_SL1500_.jpg",
     "featured": false,
     "rating": 4.9,
@@ -761,7 +771,8 @@ const PRODUCTS = [
     "couponCode": "MELI100",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://www.mercadolivre.com.br/apple-iphone-15-plus-512-gb-azul-excelente-recondicionado/p/MLB2000014761"
+    "rawUrl": "https://www.mercadolivre.com.br/apple-iphone-15-plus-512-gb-azul-excelente-recondicionado/p/MLB2000014761",
+    "directUrl": "https://lista.mercadolivre.com.br/apple-iphone-15-plus-512-gb-azul-excelente-recondicionado"
   },
   {
     "id": "auto-prod-32",
@@ -774,7 +785,7 @@ const PRODUCTS = [
     "currentPrice": 22.9,
     "installment": "à vista",
     "pixDiscount": "Super Resistente",
-    "affiliateUrl": "https://shopee.com.br/Moda-Cinto-T%C3%A1tico-Militar-Largo-Masculino-de-Nylon-Fivela-de-Liga-de-Zinco-e-Engate-R%C3%A1pido.-i.1566457348.58200033239?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Cinto%20Masculino%20T%C3%A1tico%20Militar%20de%20Nylon&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://http2.mlstatic.com/D_NQ_NP_672522-MLB50314115165_062022-O.webp",
     "featured": false,
     "rating": 4.9,
@@ -782,7 +793,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Moda-Cinto-Tático-Militar-Largo-Masculino-de-Nylon-Fivela-de-Liga-de-Zinco-e-Engate-Rápido.-i.1566457348.58200033239"
+    "rawUrl": "https://shopee.com.br/Moda-Cinto-Tático-Militar-Largo-Masculino-de-Nylon-Fivela-de-Liga-de-Zinco-e-Engate-Rápido.-i.1566457348.58200033239",
+    "directUrl": "https://shopee.com.br/search?keyword=Cinto%20Masculino%20T%C3%A1tico%20Militar%20de%20Nylon"
   },
   {
     "id": "auto-prod-33",
@@ -795,7 +807,7 @@ const PRODUCTS = [
     "currentPrice": 5899,
     "installment": "em até 10x de R$ 589,90 sem juros",
     "pixDiscount": "Desconto no Pix Mercado Pago",
-    "affiliateUrl": "https://www.mercadolivre.com.br/samsung-galaxy-s24-ultra-5g-dual-sim-256-gb-titnio-cinza-12-gb-ram-novo-com-caixa-aberta/p/MLB2015828537?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/samsung-galaxy-s24-ultra-5g-dual-sim-256-gb-titnio-cinza-12-gb-ram-novo-com-caixa-aberta?matt_tool=23610538&matt_word=givi713407",
     "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6570/6570396_sd.jpg",
     "featured": true,
     "rating": 4.9,
@@ -803,7 +815,8 @@ const PRODUCTS = [
     "couponCode": "MELI200",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://www.mercadolivre.com.br/samsung-galaxy-s24-ultra-5g-dual-sim-256-gb-titnio-cinza-12-gb-ram-novo-com-caixa-aberta/p/MLB2015828537"
+    "rawUrl": "https://www.mercadolivre.com.br/samsung-galaxy-s24-ultra-5g-dual-sim-256-gb-titnio-cinza-12-gb-ram-novo-com-caixa-aberta/p/MLB2015828537",
+    "directUrl": "https://lista.mercadolivre.com.br/samsung-galaxy-s24-ultra-5g-dual-sim-256-gb-titnio-cinza-12-gb-ram-novo-com-caixa-aberta"
   },
   {
     "id": "auto-prod-34",
@@ -882,7 +895,7 @@ const PRODUCTS = [
     "currentPrice": 2999,
     "installment": "em até 10x de R$ 299,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/apple-watch-series-9-gps-caixa-de-aluminio-41-mm-pulseira-esportiva-vermelho/p/MLB27466242?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-watch-series-9-gps-caixa-de-aluminio-41-mm-pulseira-esportiva-vermelho?matt_tool=23610538&matt_word=givi713407",
     "image": "https://9to5toys.com/wp-content/uploads/sites/5/2024/12/Best-Apple-deals-still-shipping-in-time-for-the-holidays-M4-MacBook-MacBook-Air-iPad-Apple-Watch-Series-10-more.jpg?resize=155",
     "featured": false,
     "rating": 4.9,
@@ -890,7 +903,8 @@ const PRODUCTS = [
     "couponCode": "MELI100",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://www.mercadolivre.com.br/apple-watch-series-9-gps-caixa-de-aluminio-41-mm-pulseira-esportiva-vermelho/p/MLB27466242"
+    "rawUrl": "https://www.mercadolivre.com.br/apple-watch-series-9-gps-caixa-de-aluminio-41-mm-pulseira-esportiva-vermelho/p/MLB27466242",
+    "directUrl": "https://lista.mercadolivre.com.br/apple-watch-series-9-gps-caixa-de-aluminio-41-mm-pulseira-esportiva-vermelho"
   },
   {
     "id": "auto-prod-38",
@@ -924,7 +938,7 @@ const PRODUCTS = [
     "currentPrice": 3399,
     "installment": "em até 10x de R$ 339,90 sem juros",
     "pixDiscount": "Loja Oficial PlayStation no ML",
-    "affiliateUrl": "https://www.mercadolivre.com.br/sony-playstation-5-slim-1tb-cor-branco/p/MLB28616777?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/sony-playstation-5-slim-1tb-cor-branco?matt_tool=23610538&matt_word=givi713407",
     "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/b4c2d162-48ec-4ecb-a62d-5a2303703a52.jpg",
     "featured": true,
     "rating": 4.9,
@@ -933,7 +947,7 @@ const PRODUCTS = [
     "dateAdded": "2026-10-17",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-3921865785-console-digital-ps5-slim-com-2-jogos-gratuitos-ratchet-clank-and-returnal-branco-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/sony-playstation-5-slim-1tb-cor-branco/p/MLB28616777"
+    "directUrl": "https://lista.mercadolivre.com.br/sony-playstation-5-slim-1tb-cor-branco"
   },
   {
     "id": "auto-prod-40",
@@ -996,9 +1010,10 @@ const PRODUCTS = [
     "reviewsCount": 7600,
     "couponCode": "MODA15",
     "storeName": "Shopee",
-    "affiliateUrl": "https://shopee.com.br/Conjunto-Social-Cal%C3%A7a-Pantalona-Cintura-alta-bolsos-Alfaiataria-Colete-Bot%C3%B5es-Uniforme-Plus-Size-i.995075181.23192888213?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Conjunto%20Alfaiataria%20Feminino%20Elegante%20Colete%20e&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "directUrl": "https://shopee.com.br/search?keyword=Conjunto%20Alfaiataria%20Feminino%20Elegante%20Colete%20e"
   },
   {
     "id": "auto-prod-43",
@@ -1011,7 +1026,7 @@ const PRODUCTS = [
     "currentPrice": 749,
     "installment": "em até 10x de R$ 74,90 sem juros",
     "pixDiscount": "Envio Full Mercado Livre",
-    "affiliateUrl": "https://www.mercadolivre.com.br/capa-airtag-para-apple-pacote-com-4-com-pino-de-seguranca-cor-preto-branco-rosa-roxo/p/MLB47932857?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/capa-airtag-para-apple-pacote-com-4-com-pino-de-seguranca-cor-preto-branco-rosa-roxo?matt_tool=23610538&matt_word=givi713407",
     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Apple_AirTag.svg/1280px-Apple_AirTag.svg.png",
     "featured": false,
     "rating": 4.9,
@@ -1020,7 +1035,7 @@ const PRODUCTS = [
     "dateAdded": "2026-10-18",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-1991054228-apple-air-tag-pack-com-4-unidades-original-com-nf-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/capa-airtag-para-apple-pacote-com-4-com-pino-de-seguranca-cor-preto-branco-rosa-roxo/p/MLB47932857"
+    "directUrl": "https://lista.mercadolivre.com.br/capa-airtag-para-apple-pacote-com-4-com-pino-de-seguranca-cor-preto-branco-rosa-roxo"
   },
   {
     "id": "auto-prod-44",
@@ -1039,9 +1054,10 @@ const PRODUCTS = [
     "reviewsCount": 15300,
     "couponCode": "ACESS5",
     "storeName": "Shopee",
-    "affiliateUrl": "https://shopee.com.br/Pulseira-Italiana-Elo-Duplo-8MM-Fecho-Gaveta-Em-Prata-925-i.889414636.22894540012?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Pulseira%20Masculina%20de%20A%C3%A7o%20Inoxid%C3%A1vel%20Grumet&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "directUrl": "https://shopee.com.br/search?keyword=Pulseira%20Masculina%20de%20A%C3%A7o%20Inoxid%C3%A1vel%20Grumet"
   },
   {
     "title": "Smartwatch Esportivo Xiaomi Redmi Watch 4 AMOLED 1.97'' com Monitor Cardíaco e GPS",
@@ -1058,11 +1074,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 7890,
     "couponCode": "MELI60",
-    "affiliateUrl": "https://www.mercadolivre.com.br/smartwatch-redmi-watch-4-modelo-m2315w1-obsidian-black-197-caixa-preto-pulseira-preto-bisel-cinza-escuro-novo-com-caixa-aberta/p/MLB2022769771?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/smartwatch-redmi-watch-4-modelo-m2315w1-obsidian-black-197-caixa-preto-pulseira-preto-bisel-cinza-escuro-novo-com-caixa-aberta?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false,
     "id": "auto-prod-45",
-    "rawUrl": "https://www.mercadolivre.com.br/smartwatch-redmi-watch-4-modelo-m2315w1-obsidian-black-197-caixa-preto-pulseira-preto-bisel-cinza-escuro-novo-com-caixa-aberta/p/MLB2022769771"
+    "rawUrl": "https://www.mercadolivre.com.br/smartwatch-redmi-watch-4-modelo-m2315w1-obsidian-black-197-caixa-preto-pulseira-preto-bisel-cinza-escuro-novo-com-caixa-aberta/p/MLB2022769771",
+    "directUrl": "https://lista.mercadolivre.com.br/smartwatch-redmi-watch-4-modelo-m2315w1-obsidian-black-197-caixa-preto-pulseira-preto-bisel-cinza-escuro-novo-com-caixa-aberta"
   },
   {
     "id": "auto-prod-46",
@@ -1075,7 +1092,7 @@ const PRODUCTS = [
     "currentPrice": 3199,
     "installment": "em até 10x de R$ 319,90 sem juros",
     "pixDiscount": "Frete Grátis Mercado Envios",
-    "affiliateUrl": "https://www.mercadolivre.com.br/apple-ipad-10-geraco-109-wi-fi-64gb-azul-com-nf-distribuidor-autorizado/p/MLB1022258639?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-ipad-10-geraco-109-wi-fi-64gb-azul-com-nf?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/61uA2UVnYWL._AC_SL1500_.jpg",
     "featured": false,
     "rating": 4.9,
@@ -1084,7 +1101,7 @@ const PRODUCTS = [
     "dateAdded": "2026-10-17",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-3075675001-apple-ipad-10-geraco-109-wi-fi-256gb-prata-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/apple-ipad-10-geraco-109-wi-fi-64gb-azul-com-nf-distribuidor-autorizado/p/MLB1022258639"
+    "directUrl": "https://lista.mercadolivre.com.br/apple-ipad-10-geraco-109-wi-fi-64gb-azul-com-nf"
   },
   {
     "id": "auto-prod-47",
@@ -1097,7 +1114,7 @@ const PRODUCTS = [
     "currentPrice": 229,
     "installment": "em até 5x de R$ 45,80 sem juros",
     "pixDiscount": "Cupom Shopee Moda",
-    "affiliateUrl": "https://shopee.com.br/T%C3%AAnis-Vans-vans-Old-Skool-masculino-e-feminino-unissex-Wx-i.478369859.22197367910?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=T%C3%AAnis%20Vans%20Old%20Skool%20Preto%20Unissex&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://http2.mlstatic.com/D_NQ_NP_666057-MLB114604090386_082026-O-tenis-vans-old-skool-black-white-atemporal.webp",
     "featured": false,
     "rating": 4.8,
@@ -1105,7 +1122,8 @@ const PRODUCTS = [
     "couponCode": "SHOPEE20",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Tênis-Vans-vans-Old-Skool-masculino-e-feminino-unissex-Wx-i.478369859.22197367910"
+    "rawUrl": "https://shopee.com.br/Tênis-Vans-vans-Old-Skool-masculino-e-feminino-unissex-Wx-i.478369859.22197367910",
+    "directUrl": "https://shopee.com.br/search?keyword=T%C3%AAnis%20Vans%20Old%20Skool%20Preto%20Unissex"
   },
   {
     "id": "auto-prod-48",
@@ -1140,7 +1158,7 @@ const PRODUCTS = [
     "currentPrice": 4299,
     "installment": "em até 10x de R$ 429,90 sem juros",
     "pixDiscount": "Frete Grátis Mercado Livre",
-    "affiliateUrl": "https://www.mercadolivre.com.br/apple-iphone-14-plus-128-gb-roxo/p/MLB19615337?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-iphone-14-plus-128-gb-roxo?matt_tool=23610538&matt_word=givi713407",
     "image": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/506721/Iphone-14-Plus-Apple-128GB-Roxo-Tela-De-6-7-Polegadas-5g-E-C-mera-De-12mp_1699877289_gg.jpg",
     "featured": false,
     "rating": 4.8,
@@ -1148,7 +1166,8 @@ const PRODUCTS = [
     "couponCode": "MELI100",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://www.mercadolivre.com.br/apple-iphone-14-plus-128-gb-roxo/p/MLB19615337"
+    "rawUrl": "https://www.mercadolivre.com.br/apple-iphone-14-plus-128-gb-roxo/p/MLB19615337",
+    "directUrl": "https://lista.mercadolivre.com.br/apple-iphone-14-plus-128-gb-roxo"
   },
   {
     "id": "auto-prod-50",
@@ -1204,7 +1223,7 @@ const PRODUCTS = [
     "currentPrice": 2899,
     "installment": "em até 10x de R$ 289,90 sem juros",
     "pixDiscount": "Garantia Mercado Pago 12 Meses",
-    "affiliateUrl": "https://www.mercadolivre.com.br/iphone-12-mini-128-gb-azul-aceitavel-recondicionado/p/MLB2000064885?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/iphone-12-mini-128-gb-azul-aceitavel-recondicionado?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/71ZOtNdaZCL._AC_SL1500_.jpg",
     "featured": false,
     "rating": 4.8,
@@ -1213,7 +1232,7 @@ const PRODUCTS = [
     "dateAdded": "2026-10-18",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-3744508021-apple-iphone-12-128-gb-azul-vitrine-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/iphone-12-mini-128-gb-azul-aceitavel-recondicionado/p/MLB2000064885"
+    "directUrl": "https://lista.mercadolivre.com.br/iphone-12-mini-128-gb-azul-aceitavel-recondicionado"
   },
   {
     "id": "auto-prod-53",
@@ -1248,7 +1267,7 @@ const PRODUCTS = [
     "currentPrice": 999,
     "installment": "em até 10x de R$ 99,90 sem juros",
     "pixDiscount": "Desconto Mercado Pago",
-    "affiliateUrl": "https://www.mercadolivre.com.br/monitor-gamer-lg-ultragear-27gr83q-b-tela-ips-27-quadhd-cor-preto/p/MLB47565197?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/monitor-gamer-lg-ultragear-27gr83q-b-tela-ips-27-quadhd-cor-preto?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/81MinBCfJtL._AC_.jpg",
     "featured": true,
     "rating": 4.9,
@@ -1257,7 +1276,7 @@ const PRODUCTS = [
     "dateAdded": "2026-10-18",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-3761207819-monitor-gamer-lg-ultragear-ips-de-27-full-hd-144hz-1ms-cor-cinza-escuro-110v220v-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/monitor-gamer-lg-ultragear-27gr83q-b-tela-ips-27-quadhd-cor-preto/p/MLB47565197"
+    "directUrl": "https://lista.mercadolivre.com.br/monitor-gamer-lg-ultragear-27gr83q-b-tela-ips-27-quadhd-cor-preto"
   },
   {
     "id": "auto-prod-55",
@@ -1270,7 +1289,7 @@ const PRODUCTS = [
     "currentPrice": 2199,
     "installment": "em até 10x de R$ 219,90 sem juros",
     "pixDiscount": "Envio Full Pronta Entrega",
-    "affiliateUrl": "https://www.mercadolivre.com.br/apple-iphone-11-128-gb-branco/p/MLB15149568?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-iphone-11-128-gb-branco?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/71iO2R+CLjL._AC_SL1500_.jpg",
     "featured": false,
     "rating": 4.8,
@@ -1278,7 +1297,8 @@ const PRODUCTS = [
     "couponCode": "MELI50",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://www.mercadolivre.com.br/apple-iphone-11-128-gb-branco/p/MLB15149568"
+    "rawUrl": "https://www.mercadolivre.com.br/apple-iphone-11-128-gb-branco/p/MLB15149568",
+    "directUrl": "https://lista.mercadolivre.com.br/apple-iphone-11-128-gb-branco"
   },
   {
     "id": "auto-prod-56",
@@ -1291,7 +1311,7 @@ const PRODUCTS = [
     "currentPrice": 44.9,
     "installment": "à vista",
     "pixDiscount": "Lentes Antirreflexo",
-    "affiliateUrl": "https://shopee.com.br/%C3%93culos-2-em-1-Aviador-Arma%C3%A7%C3%A3o-de-Grau-em-Metal-Clip-On-Com-Lente-Solar-Polarizada-e-Prote%C3%A7%C3%A3o-UV400-i.1035613293.23591849455?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=%C3%93culos%20de%20Sol%20Polarizado%20Aviador%20Prote%C3%A7%C3%A3o&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://http2.mlstatic.com/D_NQ_NP_806209-MLB71755106197_092023-O.webp",
     "featured": false,
     "rating": 4.8,
@@ -1299,7 +1319,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Óculos-2-em-1-Aviador-Armação-de-Grau-em-Metal-Clip-On-Com-Lente-Solar-Polarizada-e-Proteção-UV400-i.1035613293.23591849455"
+    "rawUrl": "https://shopee.com.br/Óculos-2-em-1-Aviador-Armação-de-Grau-em-Metal-Clip-On-Com-Lente-Solar-Polarizada-e-Proteção-UV400-i.1035613293.23591849455",
+    "directUrl": "https://shopee.com.br/search?keyword=%C3%93culos%20de%20Sol%20Polarizado%20Aviador%20Prote%C3%A7%C3%A3o"
   },
   {
     "id": "auto-prod-57",
@@ -1312,7 +1333,7 @@ const PRODUCTS = [
     "currentPrice": 2249,
     "installment": "em até 10x de R$ 224,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/microsoft-xbox-series-s-512gb-standard-cor-branco/p/MLB16650345?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/microsoft-xbox-series-s-512gb-standard-cor-branco?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/71NBQ2a52CL._AC_SL1500_.jpg",
     "featured": true,
     "rating": 4.9,
@@ -1321,7 +1342,7 @@ const PRODUCTS = [
     "dateAdded": "2026-10-18",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-4334367788-console-xbox-series-s-512gb-controle-sem-fio-branco-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/microsoft-xbox-series-s-512gb-standard-cor-branco/p/MLB16650345"
+    "directUrl": "https://lista.mercadolivre.com.br/microsoft-xbox-series-s-512gb-standard-cor-branco"
   },
   {
     "id": "auto-prod-58",
@@ -1334,7 +1355,7 @@ const PRODUCTS = [
     "currentPrice": 2399,
     "installment": "em até 10x de R$ 239,90 sem juros",
     "pixDiscount": "Garantia Oficial Apple 1 Ano",
-    "affiliateUrl": "https://www.mercadolivre.com.br/apple-iphone-se-3-geraco-64-gb-meia-noite/p/MLB18969583?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-iphone-se-3-geraco-64-gb-meia-noite?matt_tool=23610538&matt_word=givi713407",
     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/IPhone_SE_%282nd_generation%29_white_vector.svg/1280px-IPhone_SE_%282nd_generation%29_white_vector.svg.png",
     "featured": false,
     "rating": 4.8,
@@ -1342,7 +1363,8 @@ const PRODUCTS = [
     "couponCode": "MELI50",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://www.mercadolivre.com.br/apple-iphone-se-3-geraco-64-gb-meia-noite/p/MLB18969583"
+    "rawUrl": "https://www.mercadolivre.com.br/apple-iphone-se-3-geraco-64-gb-meia-noite/p/MLB18969583",
+    "directUrl": "https://lista.mercadolivre.com.br/apple-iphone-se-3-geraco-64-gb-meia-noite"
   },
   {
     "id": "auto-prod-59",
@@ -1355,7 +1377,7 @@ const PRODUCTS = [
     "currentPrice": 79.9,
     "installment": "em até 2x sem juros",
     "pixDiscount": "R$ 15 cada peça",
-    "affiliateUrl": "https://shopee.com.br/Kit-5-Camisetas-B%C3%A1sicas-100-Algod%C3%A3o-Penteado-30.1-Refor%C3%A7o-Ombro-a-Ombro-i.1725049822.58205494952?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Kit%205%20Camisetas%20B%C3%A1sicas%20Masculinas%20100&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://http2.mlstatic.com/D_NQ_NP_918556-MLB70650505191_072023-O.webp",
     "featured": false,
     "rating": 4.8,
@@ -1363,7 +1385,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Kit-5-Camisetas-Básicas-100-Algodão-Penteado-30.1-Reforço-Ombro-a-Ombro-i.1725049822.58205494952"
+    "rawUrl": "https://shopee.com.br/Kit-5-Camisetas-Básicas-100-Algodão-Penteado-30.1-Reforço-Ombro-a-Ombro-i.1725049822.58205494952",
+    "directUrl": "https://shopee.com.br/search?keyword=Kit%205%20Camisetas%20B%C3%A1sicas%20Masculinas%20100"
   },
   {
     "title": "Jogo de Tabuleiro Banco Imobiliário Clássico Oficial Estrela para Família",
@@ -1398,7 +1421,7 @@ const PRODUCTS = [
     "currentPrice": 1099,
     "installment": "em até 10x de R$ 109,90 sem juros",
     "pixDiscount": "Envio Full Mercado Livre",
-    "affiliateUrl": "https://www.mercadolivre.com.br/fones-de-ouvido-sem-fio-apple-airpods-3-geraco-com-audio/p/MLB2002415489?pdp_filters=item_id%3AMLB3757372787&matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/fones-de-ouvido-sem-fio-apple-airpods-3-geraco-com-audio?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/615ekapl+pL._AC_SL1500_.jpg",
     "featured": false,
     "rating": 4.8,
@@ -1406,7 +1429,8 @@ const PRODUCTS = [
     "couponCode": "MELI30",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://www.mercadolivre.com.br/fones-de-ouvido-sem-fio-apple-airpods-3-geraco-com-audio/p/MLB2002415489?pdp_filters=item_id:MLB3757372787"
+    "rawUrl": "https://www.mercadolivre.com.br/fones-de-ouvido-sem-fio-apple-airpods-3-geraco-com-audio/p/MLB2002415489?pdp_filters=item_id:MLB3757372787",
+    "directUrl": "https://lista.mercadolivre.com.br/fones-de-ouvido-sem-fio-apple-airpods-3-geraco-com-audio"
   },
   {
     "id": "auto-prod-62",
@@ -1419,7 +1443,7 @@ const PRODUCTS = [
     "currentPrice": 29.9,
     "installment": "à vista",
     "pixDiscount": "Muitas Divisórias",
-    "affiliateUrl": "https://shopee.com.br/Necessaire-Organizadora-de-Viagem-Imperme%C3%A1vel-com-Gancho-para-Pendurar-Bolsa-de-Maquiagem-e-Cosm%C3%A9ticos-com-Z%C3%ADper-i.1263215792.23197630169?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=N%C3%A9cessaire%20de%20Viagem%20Imperme%C3%A1vel%20Organizadora%20com&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/br-11134207-820lz-mlq5gf4p143ke7",
     "featured": false,
     "rating": 4.8,
@@ -1427,7 +1451,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Necessaire-Organizadora-de-Viagem-Impermeável-com-Gancho-para-Pendurar-Bolsa-de-Maquiagem-e-Cosméticos-com-Zíper-i.1263215792.23197630169"
+    "rawUrl": "https://shopee.com.br/Necessaire-Organizadora-de-Viagem-Impermeável-com-Gancho-para-Pendurar-Bolsa-de-Maquiagem-e-Cosméticos-com-Zíper-i.1263215792.23197630169",
+    "directUrl": "https://shopee.com.br/search?keyword=N%C3%A9cessaire%20de%20Viagem%20Imperme%C3%A1vel%20Organizadora%20com"
   },
   {
     "title": "Tênis de Corrida Masculino/Feminino Olympikus Corre 3 Amortecimento Eleva Pro",
@@ -1462,7 +1487,7 @@ const PRODUCTS = [
     "currentPrice": 89.9,
     "installment": "em até 3x de R$ 29,97 sem juros",
     "pixDiscount": "Cupom Shopee Ativo",
-    "affiliateUrl": "https://shopee.com.br/Carregador-USB-C-De-20w-Da-Apple-Original-100-Novo-i.273003762.23691434641?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Apple%20Carregador%20USB-C%20de%2020W%20Original&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.tcdn.com.br/img/img_prod/1249456/carregador_fonte_apple_20w_entrada_usb_c_apple_6847_1_3559fdf6553ec59734a25edf6b1e370a.png",
     "featured": false,
     "rating": 4.8,
@@ -1470,7 +1495,8 @@ const PRODUCTS = [
     "couponCode": "SHOPEE10",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Carregador-USB-C-De-20w-Da-Apple-Original-100-Novo-i.273003762.23691434641"
+    "rawUrl": "https://shopee.com.br/Carregador-USB-C-De-20w-Da-Apple-Original-100-Novo-i.273003762.23691434641",
+    "directUrl": "https://shopee.com.br/search?keyword=Apple%20Carregador%20USB-C%20de%2020W%20Original"
   },
   {
     "id": "auto-prod-65",
@@ -1483,7 +1509,7 @@ const PRODUCTS = [
     "currentPrice": 19.9,
     "installment": "à vista",
     "pixDiscount": "Abaixo de R$ 20",
-    "affiliateUrl": "https://shopee.com.br/Bon%C3%A9-B%C3%A1sico-Unissex-Aba-Curva-Com-Regulagem-Ajust%C3%A1vel-fivela-em-Metal-Bon%C3%A9-Cl%C3%A1ssico-Para-Qualquer-Momento-i.453732980.19929325331?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Bon%C3%A9%20Aba%20Curva%20B%C3%A1sico%20Sarja%20Algod%C3%A3o&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://http2.mlstatic.com/D_NQ_NP_657989-MLB70720512966_082023-O.webp",
     "featured": false,
     "rating": 4.8,
@@ -1491,7 +1517,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Boné-Básico-Unissex-Aba-Curva-Com-Regulagem-Ajustável-fivela-em-Metal-Boné-Clássico-Para-Qualquer-Momento-i.453732980.19929325331"
+    "rawUrl": "https://shopee.com.br/Boné-Básico-Unissex-Aba-Curva-Com-Regulagem-Ajustável-fivela-em-Metal-Boné-Clássico-Para-Qualquer-Momento-i.453732980.19929325331",
+    "directUrl": "https://shopee.com.br/search?keyword=Bon%C3%A9%20Aba%20Curva%20B%C3%A1sico%20Sarja%20Algod%C3%A3o"
   },
   {
     "id": "auto-prod-66",
@@ -1526,7 +1553,7 @@ const PRODUCTS = [
     "currentPrice": 79.9,
     "installment": "em até 2x de R$ 39,95 sem juros",
     "pixDiscount": "Frete Grátis Shopee",
-    "affiliateUrl": "https://shopee.com.br/Cabo-Original-Apple-USB-C-para-USB-C-%E2%80%93-Carregamento-R%C3%A1pido-Aut%C3%AAntico-Compat%C3%ADvel-com-iPhone-iPad-e-MacBook-i.1314830631.58201237124?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Apple%20Cabo%20USB-C%20para%20Lightning%201m&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://upload.wikimedia.org/wikipedia/commons/d/df/Lightning_connector.jpg",
     "featured": false,
     "rating": 4.8,
@@ -1534,7 +1561,8 @@ const PRODUCTS = [
     "couponCode": "SHOPEE10",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Cabo-Original-Apple-USB-C-para-USB-C-–-Carregamento-Rápido-Autêntico-Compatível-com-iPhone-iPad-e-MacBook-i.1314830631.58201237124"
+    "rawUrl": "https://shopee.com.br/Cabo-Original-Apple-USB-C-para-USB-C-–-Carregamento-Rápido-Autêntico-Compatível-com-iPhone-iPad-e-MacBook-i.1314830631.58201237124",
+    "directUrl": "https://shopee.com.br/search?keyword=Apple%20Cabo%20USB-C%20para%20Lightning%201m"
   },
   {
     "id": "auto-prod-68",
@@ -1547,7 +1575,7 @@ const PRODUCTS = [
     "currentPrice": 169,
     "installment": "em até 5x de R$ 33,80 sem juros",
     "pixDiscount": "Envio Full Mercado Livre",
-    "affiliateUrl": "https://www.mercadolivre.com.br/mala-de-bordo-rigida-com-rodinhas-360-graus-cadeado-embutido/p/MLB36630512?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/mala-de-bordo-rigida-com-rodinhas-360-graus-cadeado-embutido?matt_tool=23610538&matt_word=givi713407",
     "image": "https://down-br.img.susercontent.com/file/sg-11134201-22110-roqij9rc80jvc1",
     "featured": false,
     "rating": 4.8,
@@ -1556,7 +1584,7 @@ const PRODUCTS = [
     "dateAdded": "2026-10-17",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-5266185486-mala-rigida-de-bordo-rodinhas-360-padro-anac-cadeado-10kg-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/mala-de-bordo-rigida-com-rodinhas-360-graus-cadeado-embutido/p/MLB36630512"
+    "directUrl": "https://lista.mercadolivre.com.br/mala-de-bordo-rigida-com-rodinhas-360-graus-cadeado-embutido"
   },
   {
     "title": "Fone de Ouvido Infantil JBL JR310 com Limitador de Volume Seguro 85dB",
@@ -1591,7 +1619,7 @@ const PRODUCTS = [
     "currentPrice": 2499,
     "installment": "em até 10x de R$ 249,90 sem juros",
     "pixDiscount": "Cupom Shopee Oficial",
-    "affiliateUrl": "https://shopee.com.br/Apple-iPhone-12-(64-GB)-Branco-i.1069561547.20498945791?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Apple%20iPhone%2012%2064%20GB%20Branco&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://m.media-amazon.com/images/I/711wsjBtWeL._AC_SL1500_.jpg",
     "featured": false,
     "rating": 4.7,
@@ -1599,7 +1627,8 @@ const PRODUCTS = [
     "couponCode": "SHOPEE50",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Apple-iPhone-12-(64-GB)-Branco-i.1069561547.20498945791"
+    "rawUrl": "https://shopee.com.br/Apple-iPhone-12-(64-GB)-Branco-i.1069561547.20498945791",
+    "directUrl": "https://shopee.com.br/search?keyword=Apple%20iPhone%2012%2064%20GB%20Branco"
   },
   {
     "title": "Perfume Feminino O Boticário Lily Eau de Parfum 75ml Floral Marcante Elegante",
@@ -1616,12 +1645,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 7650,
     "couponCode": "MELI50",
-    "affiliateUrl": "https://www.mercadolivre.com.br/perfume-lily-eau-de-parfum-75ml-com-borrifador-o-boticario/p/MLB20303677?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/perfume-lily-eau-de-parfum-75ml-com-borrifador-o-boticario?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false,
     "id": "auto-prod-71",
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-3303146071-perfume-lily-eau-de-parfum-boticario-feminino-75ml-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/perfume-lily-eau-de-parfum-75ml-com-borrifador-o-boticario/p/MLB20303677"
+    "directUrl": "https://lista.mercadolivre.com.br/perfume-lily-eau-de-parfum-75ml-com-borrifador-o-boticario"
   },
   {
     "id": "auto-prod-72",
@@ -1634,7 +1663,7 @@ const PRODUCTS = [
     "currentPrice": 1899,
     "installment": "em até 10x de R$ 189,90 sem juros",
     "pixDiscount": "Garantia Shopee Oficial",
-    "affiliateUrl": "https://shopee.com.br/Apple-iPhone-11-(64-GB)-Branco-i.820383541.16885133286?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Apple%20iPhone%2011%2064%20GB%20Branco&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.tcdn.com.br/img/img_prod/1165337/90_iphone_11_apple_64gb_branco_tela_6_1_4g_camera_12mp_ios_mhdc3br_a_a2221_19788_3_d1531da378b45f831469cdcf4e97bb99.png",
     "featured": false,
     "rating": 4.7,
@@ -1642,7 +1671,8 @@ const PRODUCTS = [
     "couponCode": "SHOPEE40",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Apple-iPhone-11-(64-GB)-Branco-i.820383541.16885133286"
+    "rawUrl": "https://shopee.com.br/Apple-iPhone-11-(64-GB)-Branco-i.820383541.16885133286",
+    "directUrl": "https://shopee.com.br/search?keyword=Apple%20iPhone%2011%2064%20GB%20Branco"
   },
   {
     "title": "Sérum Facial Anti-Idade com Ácido Hialurônico La Roche-Posay Hyalu B5 30ml",
@@ -1659,11 +1689,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 9240,
     "couponCode": "MELI40",
-    "affiliateUrl": "https://www.mercadolivre.com.br/serum-facial-anti-sinais-acido-hialurnico-bellaphytus-30-ml-momento-de-aplicaco-dianoite-tipo-de-pele-todo-tipo-de-pele/p/MLB43955043?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/serum-facial-anti-sinais-acido-hialurnico-bellaphytus-30-ml-momento-de-aplicaco-dianoite-tipo-de-pele-todo-tipo-de-pele?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false,
     "id": "auto-prod-73",
-    "rawUrl": "https://www.mercadolivre.com.br/serum-facial-anti-sinais-acido-hialurnico-bellaphytus-30-ml-momento-de-aplicaco-dianoite-tipo-de-pele-todo-tipo-de-pele/p/MLB43955043"
+    "rawUrl": "https://www.mercadolivre.com.br/serum-facial-anti-sinais-acido-hialurnico-bellaphytus-30-ml-momento-de-aplicaco-dianoite-tipo-de-pele-todo-tipo-de-pele/p/MLB43955043",
+    "directUrl": "https://lista.mercadolivre.com.br/serum-facial-anti-sinais-acido-hialurnico-bellaphytus-30-ml-momento-de-aplicaco-dianoite-tipo-de-pele-todo-tipo-de-pele"
   },
   {
     "id": "auto-prod-74",
@@ -1676,7 +1707,7 @@ const PRODUCTS = [
     "currentPrice": 219,
     "installment": "em até 7x de R$ 31,28 sem juros",
     "pixDiscount": "Envio Full Mercado Livre",
-    "affiliateUrl": "https://www.mercadolivre.com.br/echo-pop-smart-speaker-amazon-compacto-com-som-envolvente-e-alexa-cor-branca/up/MLBU2952795633?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/echo-pop-smart-speaker-amazon-compacto-com-som-envolvente-e-alexa-cor-branca?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/81t8gScXClL.jpg",
     "featured": true,
     "rating": 4.8,
@@ -1685,7 +1716,7 @@ const PRODUCTS = [
     "dateAdded": "2026-10-17",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-3567264437-echo-pop-smart-speaker-compacto-com-som-envolvente-e-alexa-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/echo-pop-smart-speaker-amazon-compacto-com-som-envolvente-e-alexa-cor-branca/up/MLBU2952795633"
+    "directUrl": "https://lista.mercadolivre.com.br/echo-pop-smart-speaker-amazon-compacto-com-som-envolvente-e-alexa-cor-branca"
   },
   {
     "id": "auto-prod-75",
@@ -1698,7 +1729,7 @@ const PRODUCTS = [
     "currentPrice": 229,
     "installment": "em até 7x de R$ 32,71 sem juros",
     "pixDiscount": "Envio Full Mercado Livre",
-    "affiliateUrl": "https://www.mercadolivre.com.br/fritadeira-eletrica-sem-oleoair-fryer-mondial-naf-05-4l/p/MLB32281940?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/fritadeira-eletrica-sem-oleoair-fryer-mondial-naf-05-4l?matt_tool=23610538&matt_word=givi713407",
     "image": "https://images.unsplash.com/photo-1584992236310-6edddc08acff?w=600&auto=format&fit=crop&q=80",
     "featured": true,
     "rating": 4.8,
@@ -1707,7 +1738,7 @@ const PRODUCTS = [
     "dateAdded": "2026-10-17",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-4957533972-air-fryer-mondial-4-litros-panela-fritadeira-sem-oleo-220v-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/fritadeira-eletrica-sem-oleoair-fryer-mondial-naf-05-4l/p/MLB32281940"
+    "directUrl": "https://lista.mercadolivre.com.br/fritadeira-eletrica-sem-oleoair-fryer-mondial-naf-05-4l"
   },
   {
     "id": "auto-prod-76",
@@ -1746,11 +1777,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 4120,
     "couponCode": "MELI50",
-    "affiliateUrl": "https://www.mercadolivre.com.br/fone-de-ouvido-esportivo-endurance-peak-3-jbl-preto/p/MLB21860591?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/fone-de-ouvido-esportivo-endurance-peak-3-jbl-preto?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false,
     "id": "auto-prod-77",
-    "rawUrl": "https://www.mercadolivre.com.br/fone-de-ouvido-esportivo-endurance-peak-3-jbl-preto/p/MLB21860591"
+    "rawUrl": "https://www.mercadolivre.com.br/fone-de-ouvido-esportivo-endurance-peak-3-jbl-preto/p/MLB21860591",
+    "directUrl": "https://lista.mercadolivre.com.br/fone-de-ouvido-esportivo-endurance-peak-3-jbl-preto"
   },
   {
     "id": "auto-prod-78",
@@ -1763,7 +1795,7 @@ const PRODUCTS = [
     "currentPrice": 2799,
     "installment": "em até 10x de R$ 279,90 sem juros",
     "pixDiscount": "Desconto no Pix Mercado Pago",
-    "affiliateUrl": "https://www.mercadolivre.com.br/samsung-galaxy-s23-5g-128gb-8gb-ram-creme/p/MLB21394668?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/samsung-galaxy-s23-5g-128gb-8gb-ram-creme?matt_tool=23610538&matt_word=givi713407",
     "image": "https://upload.wikimedia.org/wikipedia/commons/7/79/Galaxy_S23.png",
     "featured": true,
     "rating": 4.8,
@@ -1771,7 +1803,8 @@ const PRODUCTS = [
     "couponCode": "MELI100",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://www.mercadolivre.com.br/samsung-galaxy-s23-5g-128gb-8gb-ram-creme/p/MLB21394668"
+    "rawUrl": "https://www.mercadolivre.com.br/samsung-galaxy-s23-5g-128gb-8gb-ram-creme/p/MLB21394668",
+    "directUrl": "https://lista.mercadolivre.com.br/samsung-galaxy-s23-5g-128gb-8gb-ram-creme"
   },
   {
     "title": "Patinete Infantil 3 Rodas com Luz de LED nas Rodas e Guidão Ajustável",
@@ -1788,11 +1821,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 5210,
     "couponCode": "BRINQ30",
-    "affiliateUrl": "https://shopee.com.br/Patinete-Infantil-3-Rodas-De-Led-Musical-Ajust%C3%A1vel-Dobr%C3%A1vel-Scooter-Crian%C3%A7as-e-Guid%C3%A3o-Ajust%C3%A1vel-P15-i.375039522.22999138148?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Patinete%20Infantil%203%20Rodas%20com%20Luz&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "dateAdded": "2026-10-18",
     "expired": false,
     "id": "auto-prod-79",
-    "rawUrl": "https://shopee.com.br/Patinete-Infantil-3-Rodas-De-Led-Musical-Ajustável-Dobrável-Scooter-Crianças-e-Guidão-Ajustável-P15-i.375039522.22999138148"
+    "rawUrl": "https://shopee.com.br/Patinete-Infantil-3-Rodas-De-Led-Musical-Ajustável-Dobrável-Scooter-Crianças-e-Guidão-Ajustável-P15-i.375039522.22999138148",
+    "directUrl": "https://shopee.com.br/search?keyword=Patinete%20Infantil%203%20Rodas%20com%20Luz"
   },
   {
     "id": "auto-prod-80",
@@ -1805,7 +1839,7 @@ const PRODUCTS = [
     "currentPrice": 1549,
     "installment": "em até 10x de R$ 154,90 sem juros",
     "pixDiscount": "Envio Full Mercado Livre",
-    "affiliateUrl": "https://www.mercadolivre.com.br/xiaomi-redmi-note-13-pro-5g-256-gb-8-gb-ram-cor-preto-novo-com-caixa-aberta/p/MLB2016211620?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/xiaomi-redmi-note-13-pro-5g-256-gb-8-gb-ram-cor-preto-novo-com-caixa-aberta?matt_tool=23610538&matt_word=givi713407",
     "image": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lzzaamc7ny9180",
     "featured": true,
     "rating": 4.8,
@@ -1814,7 +1848,7 @@ const PRODUCTS = [
     "dateAdded": "2026-10-17",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-4899714332-smartphone-xiaomi-redmi-note-13-pro-5g-256gb-8gb-ram-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/xiaomi-redmi-note-13-pro-5g-256-gb-8-gb-ram-cor-preto-novo-com-caixa-aberta/p/MLB2016211620"
+    "directUrl": "https://lista.mercadolivre.com.br/xiaomi-redmi-note-13-pro-5g-256-gb-8-gb-ram-cor-preto-novo-com-caixa-aberta"
   },
   {
     "id": "auto-prod-81",
@@ -1849,7 +1883,7 @@ const PRODUCTS = [
     "currentPrice": 1479,
     "installment": "em até 10x de R$ 147,90 sem juros",
     "pixDiscount": "Frete Grátis Mercado Envios",
-    "affiliateUrl": "https://www.mercadolivre.com.br/samsung-galaxy-a54-5g-5g-128-gb-lima-8-gb-ram/p/MLB24248458?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/samsung-galaxy-a54-5g-5g-128-gb-lima-8-gb-ram?matt_tool=23610538&matt_word=givi713407",
     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Back_of_the_Samsung_Galaxy_A54_5G.jpg/1280px-Back_of_the_Samsung_Galaxy_A54_5G.jpg",
     "featured": true,
     "rating": 4.8,
@@ -1858,7 +1892,7 @@ const PRODUCTS = [
     "dateAdded": "2026-10-17",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-4581895672-samsung-galaxy-a54-128gb-8gb-ram-5g-dual-sim-otimo-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/samsung-galaxy-a54-5g-5g-128-gb-lima-8-gb-ram/p/MLB24248458"
+    "directUrl": "https://lista.mercadolivre.com.br/samsung-galaxy-a54-5g-5g-128-gb-lima-8-gb-ram"
   },
   {
     "id": "auto-prod-83",
@@ -1871,7 +1905,7 @@ const PRODUCTS = [
     "currentPrice": 49.9,
     "installment": "à vista",
     "pixDiscount": "Campeão de Vendas Shopee",
-    "affiliateUrl": "https://shopee.com.br/Lenovo-Thinkplus-LP40-PRO-TWS-Fones-De-Ouvido-Bluetooth-Com-Microfone-Fone-Est%C3%A9reo-HiFi-Touch-Sem-Fio-i.716758080.18485676094?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Fone%20de%20Ouvido%20Bluetooth%20Lenovo%20LP40&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/cn-11134207-7r98o-ln9wrxk7p9c80f",
     "featured": true,
     "rating": 4.8,
@@ -1879,7 +1913,8 @@ const PRODUCTS = [
     "couponCode": "SHP10",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Lenovo-Thinkplus-LP40-PRO-TWS-Fones-De-Ouvido-Bluetooth-Com-Microfone-Fone-Estéreo-HiFi-Touch-Sem-Fio-i.716758080.18485676094"
+    "rawUrl": "https://shopee.com.br/Lenovo-Thinkplus-LP40-PRO-TWS-Fones-De-Ouvido-Bluetooth-Com-Microfone-Fone-Estéreo-HiFi-Touch-Sem-Fio-i.716758080.18485676094",
+    "directUrl": "https://shopee.com.br/search?keyword=Fone%20de%20Ouvido%20Bluetooth%20Lenovo%20LP40"
   },
   {
     "title": "Máscara de Cílios Maybelline The Colossal Volum' Express à Prova D'Água 9.2ml",
@@ -1940,12 +1975,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 6540,
     "couponCode": "MELI30",
-    "affiliateUrl": "https://www.mercadolivre.com.br/pista-corrida-2-carrinho-looping-360lancador-tipo-hotwheels/p/MLB53224882?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/pista-corrida-2-carrinho-looping-360lancador-tipo-hotwheels?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false,
     "id": "auto-prod-86",
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-5419626594-pista-corrida-2-carrinho-looping-360lancador-tipo-hotwheels-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/pista-corrida-2-carrinho-looping-360lancador-tipo-hotwheels/p/MLB53224882"
+    "directUrl": "https://lista.mercadolivre.com.br/pista-corrida-2-carrinho-looping-360lancador-tipo-hotwheels"
   },
   {
     "id": "auto-prod-87",
@@ -1986,9 +2021,10 @@ const PRODUCTS = [
     "reviewsCount": 3100,
     "couponCode": "MELI150",
     "storeName": "Mercado Livre",
-    "affiliateUrl": "https://www.mercadolivre.com.br/pc-gamer-completo-setup-ninja-titan-i-intel-core-i5-16gb-ram-ssd-240gb-video-2gb-monitor-19-kit-perifericos/p/MLB54261701?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/pc-gamer-completo-setup-ninja-titan-i-intel-core-i5-16gb-ram-ssd-240gb-video-2gb-monitor-19-kit-perifericos?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "directUrl": "https://lista.mercadolivre.com.br/pc-gamer-completo-setup-ninja-titan-i-intel-core-i5-16gb-ram-ssd-240gb-video-2gb-monitor-19-kit-perifericos"
   },
   {
     "title": "Escova Secadora Rotativa Mondial Ceramic Ion 1200W Alisa, Modela e Seca Bivolt",
@@ -2027,12 +2063,12 @@ const PRODUCTS = [
     "rating": 4.7,
     "reviewsCount": 5210,
     "couponCode": "MELI50",
-    "affiliateUrl": "https://www.mercadolivre.com.br/capa-emborrachada-infantil-para-tablets-de-7-polegadas-cor-rosa-claro/p/MLB55228336?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/capa-emborrachada-infantil-para-tablets-de-7-polegadas-cor-rosa-claro?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false,
     "id": "auto-prod-90",
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-1364948970-capa-case-emborrachada-azul-infantil-para-tablet-7-polegadas-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/capa-emborrachada-infantil-para-tablets-de-7-polegadas-cor-rosa-claro/p/MLB55228336"
+    "directUrl": "https://lista.mercadolivre.com.br/capa-emborrachada-infantil-para-tablets-de-7-polegadas-cor-rosa-claro"
   },
   {
     "id": "auto-prod-91",
@@ -2093,11 +2129,12 @@ const PRODUCTS = [
     "rating": 5,
     "reviewsCount": 1980,
     "couponCode": "MELI50",
-    "affiliateUrl": "https://www.mercadolivre.com.br/teclado-mecnico-sem-fio-keychron-k2-verso-2-led-qwerty-blue-switch-ansi-english-distribution-bluetooth-gamer-coder-pc-mac-tamanho-do-layout-75/p/MLB41642600?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/teclado-mecnico-sem-fio-keychron-k2-verso-2-led-qwerty-blue-switch-ansi-english-distribution-bluetooth-gamer-coder-pc-mac-tamanho-do-layout-75?matt_tool=23610538&matt_word=givi713407",
     "storeName": "Mercado Livre",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://www.mercadolivre.com.br/teclado-mecnico-sem-fio-keychron-k2-verso-2-led-qwerty-blue-switch-ansi-english-distribution-bluetooth-gamer-coder-pc-mac-tamanho-do-layout-75/p/MLB41642600"
+    "rawUrl": "https://www.mercadolivre.com.br/teclado-mecnico-sem-fio-keychron-k2-verso-2-led-qwerty-blue-switch-ansi-english-distribution-bluetooth-gamer-coder-pc-mac-tamanho-do-layout-75/p/MLB41642600",
+    "directUrl": "https://lista.mercadolivre.com.br/teclado-mecnico-sem-fio-keychron-k2-verso-2-led-qwerty-blue-switch-ansi-english-distribution-bluetooth-gamer-coder-pc-mac-tamanho-do-layout-75"
   },
   {
     "id": "auto-prod-94",
@@ -2116,9 +2153,10 @@ const PRODUCTS = [
     "reviewsCount": 12400,
     "couponCode": "SHPBEBE",
     "storeName": "Shopee",
-    "affiliateUrl": "https://shopee.com.br/Body-Beb%C3%AA-10-ou-05-Pe%C3%A7as-Manga-Curta-Antial%C3%A9rgico-100-Algod%C3%A3o-Premium-Liso-e-Estampado-P-M-G-i.367980514.22903271110?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Kit%205%20Bodies%20Beb%C3%AA%20Manga%20Curta&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "directUrl": "https://shopee.com.br/search?keyword=Kit%205%20Bodies%20Beb%C3%AA%20Manga%20Curta"
   },
   {
     "id": "auto-prod-95",
@@ -2137,10 +2175,10 @@ const PRODUCTS = [
     "reviewsCount": 5600,
     "couponCode": "MELI20",
     "storeName": "Mercado Livre",
-    "affiliateUrl": "https://www.mercadolivre.com.br/pista-de-ataque-de-tubaro-wheels-shark-attack-muda-de-cor-cor-colorido/p/MLB41434956?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/pista-de-ataque-de-tubaro-wheels-shark-attack-muda-de-cor-cor-colorido?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "directUrl": "https://www.mercadolivre.com.br/pista-de-ataque-de-tubaro-wheels-shark-attack-muda-de-cor-cor-colorido/p/MLB41434956"
+    "directUrl": "https://lista.mercadolivre.com.br/pista-de-ataque-de-tubaro-wheels-shark-attack-muda-de-cor-cor-colorido"
   },
   {
     "id": "auto-prod-96",
@@ -2181,10 +2219,10 @@ const PRODUCTS = [
     "reviewsCount": 9100,
     "couponCode": "MELI20",
     "storeName": "Mercado Livre",
-    "affiliateUrl": "https://www.mercadolivre.com.br/kit-uso-obrigatorio-plus-shampoo-cond-2x300ml-truss/p/MLB27545141?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/kit-uso-obrigatorio-plus-shampoo-cond-2x300ml-truss?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "directUrl": "https://www.mercadolivre.com.br/kit-uso-obrigatorio-plus-shampoo-cond-2x300ml-truss/p/MLB27545141"
+    "directUrl": "https://lista.mercadolivre.com.br/kit-uso-obrigatorio-plus-shampoo-cond-2x300ml-truss"
   },
   {
     "id": "auto-prod-98",
@@ -2197,7 +2235,7 @@ const PRODUCTS = [
     "currentPrice": 389,
     "installment": "em até 8x de R$ 48,63 sem juros",
     "pixDiscount": "Envio Full Mercado Livre",
-    "affiliateUrl": "https://www.mercadolivre.com.br/cafeteira-nescafe-dolce-gusto-genio-s-plus-automatica-preta-para-capsulas-monodose-220v-240v/p/MLB24594140?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/cafeteira-nescafe-dolce-gusto-genio-s-plus-automatica-preta-para-capsulas-monodose-220v-240v?matt_tool=23610538&matt_word=givi713407",
     "image": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lnbv6d8bhscs8c",
     "featured": false,
     "rating": 4.9,
@@ -2206,7 +2244,7 @@ const PRODUCTS = [
     "dateAdded": "2026-10-18",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-1666108450-cafeteira-nescafe-dolce-gusto-genio-s-plus-dgs3-vermelha-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/cafeteira-nescafe-dolce-gusto-genio-s-plus-automatica-preta-para-capsulas-monodose-220v-240v/p/MLB24594140"
+    "directUrl": "https://lista.mercadolivre.com.br/cafeteira-nescafe-dolce-gusto-genio-s-plus-automatica-preta-para-capsulas-monodose-220v-240v"
   },
   {
     "id": "auto-prod-99",
@@ -2225,9 +2263,10 @@ const PRODUCTS = [
     "reviewsCount": 9800,
     "couponCode": "VS10",
     "storeName": "Shopee",
-    "affiliateUrl": "https://shopee.com.br/Hidratante-Victoria's-Secret-Pure-Seduction-236-ml-i.959015125.22392883614?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Creme%20Hidratante%20Corporal%20Victoria%20s%20Secret&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "directUrl": "https://shopee.com.br/search?keyword=Creme%20Hidratante%20Corporal%20Victoria%20s%20Secret"
   },
   {
     "title": "Massinha de Modelar Play-Doh Conjunto 8 Potes Coloridos de 448g Hasbro",
@@ -2244,12 +2283,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 12400,
     "couponCode": "MELI15",
-    "affiliateUrl": "https://www.mercadolivre.com.br/massa-de-modelar-play-doh-mini-kit-corte-maluco/p/MLB35626531?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/massa-de-modelar-play-doh-mini-kit-corte-maluco?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false,
     "id": "auto-prod-100",
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-4090297773-massa-de-modelar-play-doh-golden-pack-hasbro-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/massa-de-modelar-play-doh-mini-kit-corte-maluco/p/MLB35626531"
+    "directUrl": "https://lista.mercadolivre.com.br/massa-de-modelar-play-doh-mini-kit-corte-maluco"
   },
   {
     "id": "auto-prod-101",
@@ -2262,7 +2301,7 @@ const PRODUCTS = [
     "currentPrice": 289,
     "installment": "em até 9x de R$ 32,11 sem juros",
     "pixDiscount": "Frete Grátis Mercado Livre",
-    "affiliateUrl": "https://www.mercadolivre.com.br/echo-dot-5-geraco-smart-speaker-com-alexa-amazon-branco/p/MLB28025537?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/echo-dot-5-geraco-smart-speaker-com-alexa-amazon-branco?matt_tool=23610538&matt_word=givi713407",
     "image": "https://down-br.img.susercontent.com/file/br-11134207-820m1-mlfki3kpm6mf1f",
     "featured": false,
     "rating": 4.9,
@@ -2270,7 +2309,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://www.mercadolivre.com.br/echo-dot-5-geraco-smart-speaker-com-alexa-amazon-branco/p/MLB28025537"
+    "rawUrl": "https://www.mercadolivre.com.br/echo-dot-5-geraco-smart-speaker-com-alexa-amazon-branco/p/MLB28025537",
+    "directUrl": "https://lista.mercadolivre.com.br/echo-dot-5-geraco-smart-speaker-com-alexa-amazon-branco"
   },
   {
     "id": "auto-prod-102",
@@ -2309,12 +2349,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 5210,
     "couponCode": "FITNESS20",
-    "affiliateUrl": "https://www.mercadolivre.com.br/par-de-halter-sextavado-emborrachado-3kg-academia-treino/p/MLB26693908?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/par-de-halter-sextavado-emborrachado-3kg-academia-treino?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false,
     "id": "auto-prod-103",
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-4159771156-kit-halter-emborrachado-3kg-e-5kg-02-pares-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/par-de-halter-sextavado-emborrachado-3kg-academia-treino/p/MLB26693908"
+    "directUrl": "https://lista.mercadolivre.com.br/par-de-halter-sextavado-emborrachado-3kg-academia-treino"
   },
   {
     "id": "auto-prod-104",
@@ -2327,7 +2367,7 @@ const PRODUCTS = [
     "currentPrice": 119.9,
     "installment": "em até 3x de R$ 39,96 sem juros",
     "pixDiscount": "Envio Full",
-    "affiliateUrl": "https://www.mercadolivre.com.br/barbeador-eletrico-philips-oneblade/p/MLB42961900?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/barbeador-eletrico-philips-oneblade?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_841259-MLA104793277477_012026-O.webp",
     "featured": false,
     "rating": 4.9,
@@ -2336,7 +2376,7 @@ const PRODUCTS = [
     "dateAdded": "2026-10-17",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-3613265953-barbeador-aparador-philips-oneblade-a-prova-dagua-qp272410-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/barbeador-eletrico-philips-oneblade/p/MLB42961900"
+    "directUrl": "https://lista.mercadolivre.com.br/barbeador-eletrico-philips-oneblade"
   },
   {
     "title": "Jogo de Cartas Uno Clássico Oficial Copag para Toda a Família",
@@ -2353,11 +2393,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 22400,
     "couponCode": "SHOPEE10",
-    "affiliateUrl": "https://shopee.com.br/2-Baralhos-Copag-e-Uno-Cl%C3%A1ssico-Alta-Qualidade-108-Cartas-Lazer-Familia-Jogo-Truco-i.1723475081.22699441635?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Jogo%20de%20Cartas%20Uno%20Cl%C3%A1ssico%20Oficial&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "dateAdded": "2026-10-18",
     "expired": false,
     "id": "auto-prod-105",
-    "rawUrl": "https://shopee.com.br/2-Baralhos-Copag-e-Uno-Clássico-Alta-Qualidade-108-Cartas-Lazer-Familia-Jogo-Truco-i.1723475081.22699441635"
+    "rawUrl": "https://shopee.com.br/2-Baralhos-Copag-e-Uno-Clássico-Alta-Qualidade-108-Cartas-Lazer-Familia-Jogo-Truco-i.1723475081.22699441635",
+    "directUrl": "https://shopee.com.br/search?keyword=Jogo%20de%20Cartas%20Uno%20Cl%C3%A1ssico%20Oficial"
   },
   {
     "id": "auto-prod-106",
@@ -2370,7 +2411,7 @@ const PRODUCTS = [
     "currentPrice": 169,
     "installment": "em até 5x de R$ 33,80 sem juros",
     "pixDiscount": "Frete Grátis Mercado Envios",
-    "affiliateUrl": "https://www.mercadolivre.com.br/torneira-gourmet-monocomando-com-extensor-ducha-luxo-inox-cor-cinza-claro/p/MLB24074095?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/torneira-gourmet-monocomando-com-extensor-ducha-luxo-inox-cor-cinza-claro?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_869124-MLB96129415340_102025-O-torneira-gourmet-ducha-extensivel-inox-escovado-monocomando.webp",
     "featured": false,
     "rating": 4.9,
@@ -2379,7 +2420,7 @@ const PRODUCTS = [
     "dateAdded": "2026-10-17",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-3926437085-torneira-gourmet-ducha-extensivel-inox-escovado-monocomando-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/torneira-gourmet-monocomando-com-extensor-ducha-luxo-inox-cor-cinza-claro/p/MLB24074095"
+    "directUrl": "https://lista.mercadolivre.com.br/torneira-gourmet-monocomando-com-extensor-ducha-luxo-inox-cor-cinza-claro"
   },
   {
     "title": "Batom Líquido Matte Boca Rosa Beauty by Payot Longa Duração Cor Queimado",
@@ -2396,11 +2437,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 8430,
     "couponCode": "MELI20",
-    "affiliateUrl": "https://www.mercadolivre.com.br/batom-payot-boca-rosa-cor-queimado/p/MLB15282300?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/batom-payot-boca-rosa-cor-queimado?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false,
     "id": "auto-prod-107",
-    "rawUrl": "https://www.mercadolivre.com.br/batom-payot-boca-rosa-cor-queimado/p/MLB15282300"
+    "rawUrl": "https://www.mercadolivre.com.br/batom-payot-boca-rosa-cor-queimado/p/MLB15282300",
+    "directUrl": "https://lista.mercadolivre.com.br/batom-payot-boca-rosa-cor-queimado"
   },
   {
     "title": "Coqueteleira Shaker com Mola Batedora em Inox e Compartimentos para Suplementos 600ml",
@@ -2417,11 +2459,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 14200,
     "couponCode": "SHAKER10",
-    "affiliateUrl": "https://shopee.com.br/Sheikeira-Coqueteleira-600ml-Fitness-Mola-Em-Inox-Whey-i.1658238751.58258436718?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Coqueteleira%20Shaker%20com%20Mola%20Batedora%20em&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "dateAdded": "2026-10-18",
     "expired": false,
     "id": "auto-prod-108",
-    "rawUrl": "https://shopee.com.br/Sheikeira-Coqueteleira-600ml-Fitness-Mola-Em-Inox-Whey-i.1658238751.58258436718"
+    "rawUrl": "https://shopee.com.br/Sheikeira-Coqueteleira-600ml-Fitness-Mola-Em-Inox-Whey-i.1658238751.58258436718",
+    "directUrl": "https://shopee.com.br/search?keyword=Coqueteleira%20Shaker%20com%20Mola%20Batedora%20em"
   },
   {
     "id": "auto-prod-109",
@@ -2434,7 +2477,7 @@ const PRODUCTS = [
     "currentPrice": 399,
     "installment": "em até 10x de R$ 39,90 sem juros",
     "pixDiscount": "Envio Full Mercado Livre",
-    "affiliateUrl": "https://www.mercadolivre.com.br/parafusadeira-bosch-gsb-120-li-c2-batjg-de-pontas-c32pcs/p/MLB28624978?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/parafusadeira-bosch-gsb-120-li-c2-batjg-de-pontas-c32pcs?matt_tool=23610538&matt_word=givi713407",
     "image": "https://images.tcdn.com.br/img/img_prod/1048952/parafusadeira_furadeira_impacto_12v_com_2_baterias_carregador_bivolt_e_maleta_gsb_120_li_bosch_06019_191_1_f074907ac03cba3709fe79d01557877e_20210831035803.jpg",
     "featured": false,
     "rating": 4.9,
@@ -2443,7 +2486,7 @@ const PRODUCTS = [
     "dateAdded": "2026-10-17",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-1317683714-parafusadeira-e-furadeira-de-impacto-bateria-gsb-120li-e-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/parafusadeira-bosch-gsb-120-li-c2-batjg-de-pontas-c32pcs/p/MLB28624978"
+    "directUrl": "https://lista.mercadolivre.com.br/parafusadeira-bosch-gsb-120-li-c2-batjg-de-pontas-c32pcs"
   },
   {
     "id": "auto-prod-110",
@@ -2456,7 +2499,7 @@ const PRODUCTS = [
     "currentPrice": 89.9,
     "installment": "em até 2x de R$ 44,95 sem juros",
     "pixDiscount": "Conserva gelado por 12h",
-    "affiliateUrl": "https://shopee.com.br/Copo-T%C3%A9rmico-Arell-Com-Isolamento-A-V%C3%A1cuo-Capacidade-de-500-ml-Para-Cerveja-Caf%C3%A9-Bebidas-Diversas-5-hr-Gelado-Sem-Tampa-Original-i.431334350.14651063720?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Copo%20T%C3%A9rmico%20Arell%20500ml%20Inox%20com&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://tfbzt8.vtexassets.com/arquivos/ids/160988-800-auto?v=638086530821100000&amp;width=800&amp;height=auto&amp;aspect=true",
     "featured": false,
     "rating": 4.9,
@@ -2464,7 +2507,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Copo-Térmico-Arell-Com-Isolamento-A-Vácuo-Capacidade-de-500-ml-Para-Cerveja-Café-Bebidas-Diversas-5-hr-Gelado-Sem-Tampa-Original-i.431334350.14651063720"
+    "rawUrl": "https://shopee.com.br/Copo-Térmico-Arell-Com-Isolamento-A-Vácuo-Capacidade-de-500-ml-Para-Cerveja-Café-Bebidas-Diversas-5-hr-Gelado-Sem-Tampa-Original-i.431334350.14651063720",
+    "directUrl": "https://shopee.com.br/search?keyword=Copo%20T%C3%A9rmico%20Arell%20500ml%20Inox%20com"
   },
   {
     "id": "auto-prod-111",
@@ -2483,9 +2527,10 @@ const PRODUCTS = [
     "reviewsCount": 4200,
     "couponCode": "MELI200",
     "storeName": "Mercado Livre",
-    "affiliateUrl": "https://www.mercadolivre.com.br/lava-e-seca-samsung-wd11a-com-ecobubble-branca-11kg/p/MLB19120026?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/lava-e-seca-samsung-wd11a-com-ecobubble-branca-11kg?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "directUrl": "https://lista.mercadolivre.com.br/lava-e-seca-samsung-wd11a-com-ecobubble-branca-11kg"
   },
   {
     "title": "Kit Cronograma Capilar Lola Cosmetics (Morte Súbita + Danos Vorazes + Argan Oil)",
@@ -2541,7 +2586,7 @@ const PRODUCTS = [
     "currentPrice": 799,
     "installment": "em até 10x de R$ 79,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/caixa-de-som-jbl-charge-5-portatil-a-prova-dagua/up/MLBU1394021095?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/caixa-de-som-jbl-charge-5-portatil-a-prova-dagua?matt_tool=23610538&matt_word=givi713407",
     "image": "https://images.tcdn.com.br/img/img_prod/1225936/caixa_de_som_porttil_jbl_charge_5_jblcharge5blk_4_20260205163913_b2ef207ef171.jpg",
     "featured": false,
     "rating": 4.9,
@@ -2550,7 +2595,7 @@ const PRODUCTS = [
     "dateAdded": "2026-10-18",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-4295636024-caixa-de-som-bluetooth-40w-charge-5-a-prova-dagua-jbl-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/caixa-de-som-jbl-charge-5-portatil-a-prova-dagua/up/MLBU1394021095"
+    "directUrl": "https://lista.mercadolivre.com.br/caixa-de-som-jbl-charge-5-portatil-a-prova-dagua"
   },
   {
     "id": "auto-prod-115",
@@ -2563,7 +2608,7 @@ const PRODUCTS = [
     "currentPrice": 59.9,
     "installment": "em até 3x de R$ 19,96 sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/Carregador-PD-Turbo-Usb-c-30w-iphone-15Pro-cabo-fonte-tomada-i.1396357695.21399556817?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Carregador%20Turbo%2030W%20USB-C%20GaN%20Baseus&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://http2.mlstatic.com/D_NQ_NP_805961-MLB74605001493_022024-O-carregador-turbo-30w-usb-c-gan3-compacto-original-baseus.webp",
     "featured": false,
     "rating": 4.9,
@@ -2571,7 +2616,8 @@ const PRODUCTS = [
     "couponCode": "SHP10",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Carregador-PD-Turbo-Usb-c-30w-iphone-15Pro-cabo-fonte-tomada-i.1396357695.21399556817"
+    "rawUrl": "https://shopee.com.br/Carregador-PD-Turbo-Usb-c-30w-iphone-15Pro-cabo-fonte-tomada-i.1396357695.21399556817",
+    "directUrl": "https://shopee.com.br/search?keyword=Carregador%20Turbo%2030W%20USB-C%20GaN%20Baseus"
   },
   {
     "title": "Óleo Capilar Extraordinário L'Oréal Paris Elseve Tratamento Reconstrutor 100ml",
@@ -2605,7 +2651,7 @@ const PRODUCTS = [
     "currentPrice": 329,
     "installment": "em até 6x de R$ 54,83 sem juros",
     "pixDiscount": "Cupom Shopee Áudio",
-    "affiliateUrl": "https://shopee.com.br/Fone-De-Ouvido-Anker-Soundcore-Life-Q30-Preto-Original-Over-ear-Sem-Fio-Bluetooth-Cancelamento-De-Ru%C3%ADdo-Ativo-Alta-Qualidade-i.728488958.23397341486?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Fone%20de%20Ouvido%20Anker%20Soundcore%20Life&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m0f8r2qhxftp0c",
     "featured": false,
     "rating": 4.9,
@@ -2613,7 +2659,8 @@ const PRODUCTS = [
     "couponCode": "SHOPEE20",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Fone-De-Ouvido-Anker-Soundcore-Life-Q30-Preto-Original-Over-ear-Sem-Fio-Bluetooth-Cancelamento-De-Ruído-Ativo-Alta-Qualidade-i.728488958.23397341486"
+    "rawUrl": "https://shopee.com.br/Fone-De-Ouvido-Anker-Soundcore-Life-Q30-Preto-Original-Over-ear-Sem-Fio-Bluetooth-Cancelamento-De-Ruído-Ativo-Alta-Qualidade-i.728488958.23397341486",
+    "directUrl": "https://shopee.com.br/search?keyword=Fone%20de%20Ouvido%20Anker%20Soundcore%20Life"
   },
   {
     "id": "auto-prod-118",
@@ -2652,11 +2699,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 16800,
     "couponCode": "MELI25",
-    "affiliateUrl": "https://www.mercadolivre.com.br/protetor-solar-facial-fps-80-antioleosidade-anthelios-airlicium-la-roche-posay-40g/p/MLB19755099?pdp_filters=item_id%3AMLB4195198970&matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/protetor-solar-facial-fps-80-antioleosidade-anthelios-airlicium-la-roche-posay-40g?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false,
     "id": "auto-prod-119",
-    "rawUrl": "https://www.mercadolivre.com.br/protetor-solar-facial-fps-80-antioleosidade-anthelios-airlicium-la-roche-posay-40g/p/MLB19755099?pdp_filters=item_id:MLB4195198970"
+    "rawUrl": "https://www.mercadolivre.com.br/protetor-solar-facial-fps-80-antioleosidade-anthelios-airlicium-la-roche-posay-40g/p/MLB19755099?pdp_filters=item_id:MLB4195198970",
+    "directUrl": "https://lista.mercadolivre.com.br/protetor-solar-facial-fps-80-antioleosidade-anthelios-airlicium-la-roche-posay-40g"
   },
   {
     "id": "auto-prod-120",
@@ -2669,7 +2717,7 @@ const PRODUCTS = [
     "currentPrice": 199,
     "installment": "em até 6x de R$ 33,16 sem juros",
     "pixDiscount": "Envio no Mesmo Dia",
-    "affiliateUrl": "https://www.mercadolivre.com.br/caixa-de-som-go-4-black-jbl-portatil-prova-dagua-cor-preto/p/MLB44330148?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/caixa-de-som-go-4-black-jbl-portatil-prova-dagua-cor-preto?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_923415-MLB88102844162_072025-O.webp",
     "featured": false,
     "rating": 4.9,
@@ -2677,7 +2725,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://www.mercadolivre.com.br/caixa-de-som-go-4-black-jbl-portatil-prova-dagua-cor-preto/p/MLB44330148"
+    "rawUrl": "https://www.mercadolivre.com.br/caixa-de-som-go-4-black-jbl-portatil-prova-dagua-cor-preto/p/MLB44330148",
+    "directUrl": "https://lista.mercadolivre.com.br/caixa-de-som-go-4-black-jbl-portatil-prova-dagua-cor-preto"
   },
   {
     "id": "auto-prod-121",
@@ -2690,7 +2739,7 @@ const PRODUCTS = [
     "currentPrice": 34.9,
     "installment": "à vista",
     "pixDiscount": "Ultra Resistente",
-    "affiliateUrl": "https://shopee.com.br/Cabo-Usb-2.0-Usb-A-Macho-Usb-B-Macho-2.0-2m-Preto-i.1227010930.21797675005?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Cabo%20USB-C%20para%20USB-C%20100W%202&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://http2.mlstatic.com/D_NQ_NP_687595-MLB53383148568_012023-O.webp",
     "featured": false,
     "rating": 4.9,
@@ -2698,7 +2747,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Cabo-Usb-2.0-Usb-A-Macho-Usb-B-Macho-2.0-2m-Preto-i.1227010930.21797675005"
+    "rawUrl": "https://shopee.com.br/Cabo-Usb-2.0-Usb-A-Macho-Usb-B-Macho-2.0-2m-Preto-i.1227010930.21797675005",
+    "directUrl": "https://shopee.com.br/search?keyword=Cabo%20USB-C%20para%20USB-C%20100W%202"
   },
   {
     "id": "auto-prod-122",
@@ -2733,7 +2783,7 @@ const PRODUCTS = [
     "currentPrice": 129.9,
     "installment": "em até 3x sem juros",
     "pixDiscount": "À Prova D'água IPX7",
-    "affiliateUrl": "https://shopee.com.br/Caixa-De-Som-Port%C3%A1til-Tronsmart-Bluetooth-T7-Mini-15w-Ipx7-i.323813384.19597107698?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Caixa%20de%20Som%20Port%C3%A1til%20Tronsmart%20T7&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/br-11134207-7qukw-limb61wom9io99",
     "featured": false,
     "rating": 4.9,
@@ -2741,7 +2791,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Caixa-De-Som-Portátil-Tronsmart-Bluetooth-T7-Mini-15w-Ipx7-i.323813384.19597107698"
+    "rawUrl": "https://shopee.com.br/Caixa-De-Som-Portátil-Tronsmart-Bluetooth-T7-Mini-15w-Ipx7-i.323813384.19597107698",
+    "directUrl": "https://shopee.com.br/search?keyword=Caixa%20de%20Som%20Port%C3%A1til%20Tronsmart%20T7"
   },
   {
     "id": "auto-prod-124",
@@ -2754,7 +2805,7 @@ const PRODUCTS = [
     "currentPrice": 129.9,
     "installment": "em até 3x de R$ 43,30 sem juros",
     "pixDiscount": "Frete Grátis",
-    "affiliateUrl": "https://shopee.com.br/UGREEN-Usb-Hubs-5Gbps-A-Para-Usb3.0-4-Portas-Divisor-Compat%C3%ADvel-Com-Laptop-i.265767131.29873235560?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Hub%20USB-C%207%20em%201%20Baseus&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/br-11134207-81ztc-mjirzzz6rxfma7",
     "featured": false,
     "rating": 4.9,
@@ -2762,7 +2813,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/UGREEN-Usb-Hubs-5Gbps-A-Para-Usb3.0-4-Portas-Divisor-Compatível-Com-Laptop-i.265767131.29873235560"
+    "rawUrl": "https://shopee.com.br/UGREEN-Usb-Hubs-5Gbps-A-Para-Usb3.0-4-Portas-Divisor-Compatível-Com-Laptop-i.265767131.29873235560",
+    "directUrl": "https://shopee.com.br/search?keyword=Hub%20USB-C%207%20em%201%20Baseus"
   },
   {
     "id": "auto-prod-125",
@@ -2775,7 +2827,7 @@ const PRODUCTS = [
     "currentPrice": 399,
     "installment": "em até 8x de R$ 49,87 sem juros",
     "pixDiscount": "Envio Full Mercado Livre",
-    "affiliateUrl": "https://www.mercadolivre.com.br/headset-gamer-hyperx-cloud-ii-red-khxhscprd/up/MLBU1875866101?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/headset-gamer-hyperx-cloud-ii-red-khxhscprd?matt_tool=23610538&matt_word=givi713407",
     "image": "https://images.tcdn.com.br/img/img_prod/313499/headset_gamer_hyperx_cloud_ii_som_surround_7_1_drivers_53mm_usb_e_p3_preto_e_vermelho_khx_hscp_rd_15707_3_d3cd5630b4e1a2fc9496290c05d14ed8.jpg",
     "featured": false,
     "rating": 4.9,
@@ -2784,7 +2836,7 @@ const PRODUCTS = [
     "dateAdded": "2026-10-18",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-911237780-headset-gamer-hyperx-cloud-ii-preto-e-vermelho-khx-hscp-rd-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/headset-gamer-hyperx-cloud-ii-red-khxhscprd/up/MLBU1875866101"
+    "directUrl": "https://lista.mercadolivre.com.br/headset-gamer-hyperx-cloud-ii-red-khxhscprd"
   },
   {
     "id": "auto-prod-126",
@@ -2797,7 +2849,7 @@ const PRODUCTS = [
     "currentPrice": 159,
     "installment": "em até 5x de R$ 31,80 sem juros",
     "pixDiscount": "Envio Full",
-    "affiliateUrl": "https://www.mercadolivre.com.br/fone-de-ouvido-gamer-havit-h2002d-com-microfone-cor-rosa/p/MLB38917674?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/fone-de-ouvido-gamer-havit-h2002d-com-microfone-cor-rosa?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/71nuOzj9qwL._AC_.jpg",
     "featured": false,
     "rating": 4.9,
@@ -2806,7 +2858,7 @@ const PRODUCTS = [
     "dateAdded": "2026-10-17",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-1828460627-headset-fone-de-ouvido-gamer-havit-hv-h2002d-p2-35mm-black-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/fone-de-ouvido-gamer-havit-h2002d-com-microfone-cor-rosa/p/MLB38917674"
+    "directUrl": "https://lista.mercadolivre.com.br/fone-de-ouvido-gamer-havit-h2002d-com-microfone-cor-rosa"
   },
   {
     "id": "auto-prod-127",
@@ -2819,7 +2871,7 @@ const PRODUCTS = [
     "currentPrice": 429,
     "installment": "em até 10x de R$ 42,90 sem juros",
     "pixDiscount": "Frete Grátis Mercado Envios",
-    "affiliateUrl": "https://www.mercadolivre.com.br/kindle-paperwhite-11-68-tela-de-16-gb-e-livros/p/MLB19819473?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/kindle-paperwhite-11-68-tela-de-16-gb-e-livros?matt_tool=23610538&matt_word=givi713407",
     "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6519/6519374cv1d.jpg",
     "featured": false,
     "rating": 4.9,
@@ -2828,7 +2880,7 @@ const PRODUCTS = [
     "dateAdded": "2026-10-17",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-3065715631-novo-kindle-11-geraco-tela-6-16gb-300ppi-capa-original-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/kindle-paperwhite-11-68-tela-de-16-gb-e-livros/p/MLB19819473"
+    "directUrl": "https://lista.mercadolivre.com.br/kindle-paperwhite-11-68-tela-de-16-gb-e-livros"
   },
   {
     "id": "auto-prod-128",
@@ -2841,7 +2893,7 @@ const PRODUCTS = [
     "currentPrice": 1899,
     "installment": "em até 10x de R$ 189,90 sem juros",
     "pixDiscount": "Envio Full Imediato",
-    "affiliateUrl": "https://www.mercadolivre.com.br/placa-de-vdeo-galax-geforce-rtx-4060-1-click-oc-2x-8gb/p/MLB25928270?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/placa-de-vdeo-galax-geforce-rtx-4060-1-click-oc-2x-8gb?matt_tool=23610538&matt_word=givi713407",
     "image": "https://images2.kabum.com.br/produtos/fotos/496012/placa-de-video-rtx-4060-1-click-oc-1x-galax-nvidia-geforce-8gb-gddr6-dlss-ray-trancing-g-sync_1700256902_gg.jpg",
     "featured": false,
     "rating": 4.9,
@@ -2849,7 +2901,8 @@ const PRODUCTS = [
     "couponCode": "MELI100",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://www.mercadolivre.com.br/placa-de-vdeo-galax-geforce-rtx-4060-1-click-oc-2x-8gb/p/MLB25928270"
+    "rawUrl": "https://www.mercadolivre.com.br/placa-de-vdeo-galax-geforce-rtx-4060-1-click-oc-2x-8gb/p/MLB25928270",
+    "directUrl": "https://lista.mercadolivre.com.br/placa-de-vdeo-galax-geforce-rtx-4060-1-click-oc-2x-8gb"
   },
   {
     "id": "auto-prod-129",
@@ -2862,7 +2915,7 @@ const PRODUCTS = [
     "currentPrice": 44.9,
     "installment": "à vista",
     "pixDiscount": "Som de Estúdio",
-    "affiliateUrl": "https://shopee.com.br/Fone-de-Ouvido-Intra-Auricular-Live-Pro-2-TWS-Bluetooth-Preto-JBL-i.714151019.22393123944?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Fone%20Intra-auricular%20com%20Fio%20KZ%20EDX&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/sg-11134201-8261l-mjrg4xhfc3k627",
     "featured": false,
     "rating": 4.9,
@@ -2870,7 +2923,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Fone-de-Ouvido-Intra-Auricular-Live-Pro-2-TWS-Bluetooth-Preto-JBL-i.714151019.22393123944"
+    "rawUrl": "https://shopee.com.br/Fone-de-Ouvido-Intra-Auricular-Live-Pro-2-TWS-Bluetooth-Preto-JBL-i.714151019.22393123944",
+    "directUrl": "https://shopee.com.br/search?keyword=Fone%20Intra-auricular%20com%20Fio%20KZ%20EDX"
   },
   {
     "id": "auto-prod-130",
@@ -2883,7 +2937,7 @@ const PRODUCTS = [
     "currentPrice": 39.9,
     "installment": "à vista",
     "pixDiscount": "Frete Grátis",
-    "affiliateUrl": "https://shopee.com.br/Suporte-para-Tablet-e-Celular-de-Mesa-Base-Girat%C3%B3rio-360%C2%B0-Rotativo-Alum%C3%ADnio-Resistente-Ajust%C3%A1vel-i.1572665331.23294205337?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Suporte%20Articulado%20para%20Celular%20e%20Tablet&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1586105251261-72a756497a11?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.9,
@@ -2891,7 +2945,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Suporte-para-Tablet-e-Celular-de-Mesa-Base-Giratório-360°-Rotativo-Alumínio-Resistente-Ajustável-i.1572665331.23294205337"
+    "rawUrl": "https://shopee.com.br/Suporte-para-Tablet-e-Celular-de-Mesa-Base-Giratório-360°-Rotativo-Alumínio-Resistente-Ajustável-i.1572665331.23294205337",
+    "directUrl": "https://shopee.com.br/search?keyword=Suporte%20Articulado%20para%20Celular%20e%20Tablet"
   },
   {
     "id": "auto-prod-131",
@@ -2904,7 +2959,7 @@ const PRODUCTS = [
     "currentPrice": 299,
     "installment": "em até 6x de R$ 49,83 sem juros",
     "pixDiscount": "Cupom Shopee Tech",
-    "affiliateUrl": "https://shopee.com.br/SSD-M.2-NVME-KINGSTON-1TB-NV2-PCIE-4.0-3500MB-S-i.286417563.22297637395?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=SSD%20Kingston%20NV2%201TB%20M%202&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-ph.img.susercontent.com/file/sg-11134201-23010-kgtgepuy5bmvd6",
     "featured": false,
     "rating": 4.9,
@@ -2912,7 +2967,8 @@ const PRODUCTS = [
     "couponCode": "SHOPEE20",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/SSD-M.2-NVME-KINGSTON-1TB-NV2-PCIE-4.0-3500MB-S-i.286417563.22297637395"
+    "rawUrl": "https://shopee.com.br/SSD-M.2-NVME-KINGSTON-1TB-NV2-PCIE-4.0-3500MB-S-i.286417563.22297637395",
+    "directUrl": "https://shopee.com.br/search?keyword=SSD%20Kingston%20NV2%201TB%20M%202"
   },
   {
     "id": "auto-prod-132",
@@ -2929,12 +2985,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewsCount": 8900,
     "couponCode": "MELI50",
-    "affiliateUrl": "https://www.mercadolivre.com.br/caixa-de-som-portatil-bluetooth-prova-dagua-30w-flip-6-jbl-cor-blue/p/MLB32020082?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/caixa-de-som-portatil-bluetooth-prova-dagua-30w-flip-6-jbl-cor-blue?matt_tool=23610538&matt_word=givi713407",
     "storeName": "Mercado Livre",
     "dateAdded": "2026-10-18",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-3961906607-caixa-de-som-jbl-flip-6-bluetooth-ip67-preto-30w-original-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/caixa-de-som-portatil-bluetooth-prova-dagua-30w-flip-6-jbl-cor-blue/p/MLB32020082"
+    "directUrl": "https://lista.mercadolivre.com.br/caixa-de-som-portatil-bluetooth-prova-dagua-30w-flip-6-jbl-cor-blue"
   },
   {
     "id": "auto-prod-133",
@@ -2947,7 +3003,7 @@ const PRODUCTS = [
     "currentPrice": 29.9,
     "installment": "à vista",
     "pixDiscount": "Frete Grátis",
-    "affiliateUrl": "https://shopee.com.br/SUPORTE-CELULAR-VEICULAR-MAGNETICO-(SAIDA-DE-AR)-i.973666806.21899759167?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Suporte%20de%20Celular%20Veicular%20Magn%C3%A9tico%20com&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lt6ti00v2u9gd1",
     "featured": false,
     "rating": 4.9,
@@ -2955,7 +3011,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/SUPORTE-CELULAR-VEICULAR-MAGNETICO-(SAIDA-DE-AR)-i.973666806.21899759167"
+    "rawUrl": "https://shopee.com.br/SUPORTE-CELULAR-VEICULAR-MAGNETICO-(SAIDA-DE-AR)-i.973666806.21899759167",
+    "directUrl": "https://shopee.com.br/search?keyword=Suporte%20de%20Celular%20Veicular%20Magn%C3%A9tico%20com"
   },
   {
     "id": "auto-prod-134",
@@ -2968,7 +3025,7 @@ const PRODUCTS = [
     "currentPrice": 1899,
     "installment": "em até 10x de R$ 189,90 sem juros",
     "pixDiscount": "Desconto no Pix Mercado Pago",
-    "affiliateUrl": "https://www.mercadolivre.com.br/nintendo-switch-oled-model-64gb/p/MLB2063384810?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/nintendo-switch-oled-model-64gb?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_925310-MLA96862732927_102025-O.webp",
     "featured": false,
     "rating": 4.9,
@@ -2977,7 +3034,7 @@ const PRODUCTS = [
     "dateAdded": "2026-10-17",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-2852785520-nintendo-switch-oled-com-joy-con-nacional-c-nf-e-garantia-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/nintendo-switch-oled-model-64gb/p/MLB2063384810"
+    "directUrl": "https://lista.mercadolivre.com.br/nintendo-switch-oled-model-64gb"
   },
   {
     "id": "auto-prod-135",
@@ -2990,7 +3047,7 @@ const PRODUCTS = [
     "currentPrice": 169,
     "installment": "em até 4x de R$ 42,25 sem juros",
     "pixDiscount": "Cupom Tech Ativo",
-    "affiliateUrl": "https://shopee.com.br/Teclado-Mec%C3%A2nico-Gamer-Redragon-Kumara-K552-Switch-Blue-Com-Led-ABNT2-Black-i.698210755.18397834558?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Teclado%20Mec%C3%A2nico%20Gamer%20Redragon%20Kumara%20Switch&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://static.netshoes.com.br/produtos/teclado-mecanico-gamer-redragon-kumara-rgb-switch-blue-abnt2-e-k552wp-rgb-(pt-blue)/14/MYJ-11DC-014/MYJ-11DC-014_zoom2.jpg?ts=1767961097&amp;ims=1088x",
     "featured": false,
     "rating": 4.9,
@@ -2998,7 +3055,8 @@ const PRODUCTS = [
     "couponCode": "SHPGAME",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Teclado-Mecânico-Gamer-Redragon-Kumara-K552-Switch-Blue-Com-Led-ABNT2-Black-i.698210755.18397834558"
+    "rawUrl": "https://shopee.com.br/Teclado-Mecânico-Gamer-Redragon-Kumara-K552-Switch-Blue-Com-Led-ABNT2-Black-i.698210755.18397834558",
+    "directUrl": "https://shopee.com.br/search?keyword=Teclado%20Mec%C3%A2nico%20Gamer%20Redragon%20Kumara%20Switch"
   },
   {
     "id": "auto-prod-136",
@@ -3011,7 +3069,7 @@ const PRODUCTS = [
     "currentPrice": 589,
     "installment": "em até 10x de R$ 58,90 sem juros",
     "pixDiscount": "Envio Full Imediato",
-    "affiliateUrl": "https://www.mercadolivre.com.br/ssd-1tb-m2-nvme-pcie-40-7000mbs-leit-6000mbs-grav/p/MLB25836810?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/ssd-1tb-m2-nvme-pcie-40-7000mbs-leit-6000mbs-grav?matt_tool=23610538&matt_word=givi713407",
     "image": "https://down-br.img.susercontent.com/file/br-11134207-820lq-mmkmskota1ond0",
     "featured": false,
     "rating": 4.9,
@@ -3019,7 +3077,8 @@ const PRODUCTS = [
     "couponCode": "MELISSD",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://www.mercadolivre.com.br/ssd-1tb-m2-nvme-pcie-40-7000mbs-leit-6000mbs-grav/p/MLB25836810"
+    "rawUrl": "https://www.mercadolivre.com.br/ssd-1tb-m2-nvme-pcie-40-7000mbs-leit-6000mbs-grav/p/MLB25836810",
+    "directUrl": "https://lista.mercadolivre.com.br/ssd-1tb-m2-nvme-pcie-40-7000mbs-leit-6000mbs-grav"
   },
   {
     "id": "auto-prod-137",
@@ -3032,7 +3091,7 @@ const PRODUCTS = [
     "currentPrice": 149,
     "installment": "em até 4x de R$ 37,25 sem juros",
     "pixDiscount": "Frete Grátis Cupom",
-    "affiliateUrl": "https://shopee.com.br/Suporte-de-Monitor-17-a-35-Bra%C3%A7o-Articulado-com-Pist%C3%A3o-a-G%C3%A1s-North-Bayou-NB-F150-i.890525171.58252714093?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Suporte%20Articulado%20a%20G%C3%A1s%20para%20Monitor&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.tcdn.com.br/img/img_prod/1165337/suporte_articulado_de_mesa_para_monitores_17_a_35_pistao_a_gas_elg_f80n_altura_ajustavel_preto_17476_6_19d6c4f93ac1fab820d6aef2ce16102e.jpg",
     "featured": false,
     "rating": 4.9,
@@ -3040,7 +3099,8 @@ const PRODUCTS = [
     "couponCode": "SETUP10",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Suporte-de-Monitor-17-a-35-Braço-Articulado-com-Pistão-a-Gás-North-Bayou-NB-F150-i.890525171.58252714093"
+    "rawUrl": "https://shopee.com.br/Suporte-de-Monitor-17-a-35-Braço-Articulado-com-Pistão-a-Gás-North-Bayou-NB-F150-i.890525171.58252714093",
+    "directUrl": "https://shopee.com.br/search?keyword=Suporte%20Articulado%20a%20G%C3%A1s%20para%20Monitor"
   },
   {
     "id": "auto-prod-138",
@@ -3053,7 +3113,7 @@ const PRODUCTS = [
     "currentPrice": 369,
     "installment": "em até 10x de R$ 36,90 sem juros",
     "pixDiscount": "Envio Full",
-    "affiliateUrl": "https://www.mercadolivre.com.br/controle-joystick-sony-dualsense-sem-fio-ps5-midnight-black/p/MLB63568390?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/controle-joystick-sony-dualsense-sem-fio-ps5-midnight-black?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/61O9tWR6WDS._AC_SL1500_.jpg",
     "featured": false,
     "rating": 4.9,
@@ -3061,7 +3121,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://www.mercadolivre.com.br/controle-joystick-sony-dualsense-sem-fio-ps5-midnight-black/p/MLB63568390"
+    "rawUrl": "https://www.mercadolivre.com.br/controle-joystick-sony-dualsense-sem-fio-ps5-midnight-black/p/MLB63568390",
+    "directUrl": "https://lista.mercadolivre.com.br/controle-joystick-sony-dualsense-sem-fio-ps5-midnight-black"
   },
   {
     "id": "auto-prod-139",
@@ -3074,7 +3135,7 @@ const PRODUCTS = [
     "currentPrice": 34.9,
     "installment": "à vista",
     "pixDiscount": "Frete Grátis",
-    "affiliateUrl": "https://shopee.com.br/Mouse-Pad-Gamer-Grande-Borda-Costurada-90x40-Mousepad-Speed-i.907058113.23208833903?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Mousepad%20Gamer%20Extra%20Grande%20Speed%2090x40cm&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/br-11134207-820mh-moqzawxa9ybkac",
     "featured": false,
     "rating": 4.9,
@@ -3082,7 +3143,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Mouse-Pad-Gamer-Grande-Borda-Costurada-90x40-Mousepad-Speed-i.907058113.23208833903"
+    "rawUrl": "https://shopee.com.br/Mouse-Pad-Gamer-Grande-Borda-Costurada-90x40-Mousepad-Speed-i.907058113.23208833903",
+    "directUrl": "https://shopee.com.br/search?keyword=Mousepad%20Gamer%20Extra%20Grande%20Speed%2090x40cm"
   },
   {
     "id": "auto-prod-140",
@@ -3095,7 +3157,7 @@ const PRODUCTS = [
     "currentPrice": 149.9,
     "installment": "em até 4x de R$ 37,47 sem juros",
     "pixDiscount": "Áudio Profissional",
-    "affiliateUrl": "https://shopee.com.br/Microfone-Condensador-USB-Gamer-FIFINE-A6V-rgb-i.569100171.23396752994?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Microfone%20Condensador%20USB%20Gamer%20Fifine%20AmpliGame&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://http2.mlstatic.com/D_NQ_NP_933038-MLB53164697706_012023-O-microfone-usb-gamer-rgb-fifine-a6v-ampligame-pop-filter-trip.webp",
     "featured": false,
     "rating": 4.9,
@@ -3103,7 +3165,8 @@ const PRODUCTS = [
     "couponCode": "AUDIO10",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Microfone-Condensador-USB-Gamer-FIFINE-A6V-rgb-i.569100171.23396752994"
+    "rawUrl": "https://shopee.com.br/Microfone-Condensador-USB-Gamer-FIFINE-A6V-rgb-i.569100171.23396752994",
+    "directUrl": "https://shopee.com.br/search?keyword=Microfone%20Condensador%20USB%20Gamer%20Fifine%20AmpliGame"
   },
   {
     "id": "auto-prod-141",
@@ -3116,7 +3179,7 @@ const PRODUCTS = [
     "currentPrice": 42.9,
     "installment": "à vista",
     "pixDiscount": "Economiza Espaço na Mesa",
-    "affiliateUrl": "https://shopee.com.br/Suporte-Notebook-Computador-Mesa-Madeira-Maci%C3%A7a-Pinus-i.804996988.23292026325?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Suporte%20Vertical%20para%20Notebook%20em%20Alum%C3%ADnio&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://m.media-amazon.com/images/I/410c-u74CDL._AC_.jpg",
     "featured": false,
     "rating": 4.9,
@@ -3124,7 +3187,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Suporte-Notebook-Computador-Mesa-Madeira-Maciça-Pinus-i.804996988.23292026325"
+    "rawUrl": "https://shopee.com.br/Suporte-Notebook-Computador-Mesa-Madeira-Maciça-Pinus-i.804996988.23292026325",
+    "directUrl": "https://shopee.com.br/search?keyword=Suporte%20Vertical%20para%20Notebook%20em%20Alum%C3%ADnio"
   },
   {
     "id": "auto-prod-142",
@@ -3137,7 +3201,7 @@ const PRODUCTS = [
     "currentPrice": 89.9,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Protege a Visão",
-    "affiliateUrl": "https://shopee.com.br/Barra-de-Luz-Monitor-Light-Bar-L%C3%A2mpada-de-tela-Led-Stepless-De-Computado-tela-Lampa-44cm-de-escrit%C3%B3rio-Luz-da-barra-liderada-para-escrit%C3%B3rio-de-mesa-superf%C3%ADcie-curvada-anti-azul-%C3%A2ngulo-ajustado-luz-de-RGB-escurecimento-cont%C3%ADnuo-computador-monitor-de-pc-i.575109039.22003996746?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Barra%20de%20Luz%20LED%20para%20Monitor&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://http2.mlstatic.com/D_NQ_NP_627425-MLC107207728625_022026-O.webp",
     "featured": false,
     "rating": 4.9,
@@ -3145,7 +3209,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Barra-de-Luz-Monitor-Light-Bar-Lâmpada-de-tela-Led-Stepless-De-Computado-tela-Lampa-44cm-de-escritório-Luz-da-barra-liderada-para-escritório-de-mesa-superfície-curvada-anti-azul-ângulo-ajustado-luz-de-RGB-escurecimento-contínuo-computador-monitor-de-pc-i.575109039.22003996746"
+    "rawUrl": "https://shopee.com.br/Barra-de-Luz-Monitor-Light-Bar-Lâmpada-de-tela-Led-Stepless-De-Computado-tela-Lampa-44cm-de-escritório-Luz-da-barra-liderada-para-escritório-de-mesa-superfície-curvada-anti-azul-ângulo-ajustado-luz-de-RGB-escurecimento-contínuo-computador-monitor-de-pc-i.575109039.22003996746",
+    "directUrl": "https://shopee.com.br/search?keyword=Barra%20de%20Luz%20LED%20para%20Monitor"
   },
   {
     "id": "auto-prod-143",
@@ -3158,7 +3223,7 @@ const PRODUCTS = [
     "currentPrice": 15.9,
     "installment": "à vista",
     "pixDiscount": "Essencial para Setup",
-    "affiliateUrl": "https://shopee.com.br/7-EM-1-Kit-de-limpeza-para-teclado-tela-de-celular-e-fones-de-ouvido-Escova-Limpeza-Multifuncional-Port%C3%A1til-i.279082060.23192962061?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Kit%20Limpeza%207%20em%201%20para&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/sg-11134201-7rbm5-lq0jne44ppol41",
     "featured": false,
     "rating": 4.9,
@@ -3166,7 +3231,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/7-EM-1-Kit-de-limpeza-para-teclado-tela-de-celular-e-fones-de-ouvido-Escova-Limpeza-Multifuncional-Portátil-i.279082060.23192962061"
+    "rawUrl": "https://shopee.com.br/7-EM-1-Kit-de-limpeza-para-teclado-tela-de-celular-e-fones-de-ouvido-Escova-Limpeza-Multifuncional-Portátil-i.279082060.23192962061",
+    "directUrl": "https://shopee.com.br/search?keyword=Kit%20Limpeza%207%20em%201%20para"
   },
   {
     "id": "auto-prod-144",
@@ -3179,7 +3245,7 @@ const PRODUCTS = [
     "currentPrice": 19.9,
     "installment": "à vista",
     "pixDiscount": "Frete Grátis Shopee",
-    "affiliateUrl": "https://shopee.com.br/Kit-3-6-9-12-Organizador-de-Cabos-Magn%C3%A9tico-Fixador-de-Fios-e-Cabos-Autoadesivo-Pratico-Port%C3%A1til-i.778389008.21799571373?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Organizador%20de%20Cabos%20Magn%C3%A9tico%20de%20Mesa&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m5xcvl311zdc29",
     "featured": false,
     "rating": 4.9,
@@ -3187,7 +3253,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Kit-3-6-9-12-Organizador-de-Cabos-Magnético-Fixador-de-Fios-e-Cabos-Autoadesivo-Pratico-Portátil-i.778389008.21799571373"
+    "rawUrl": "https://shopee.com.br/Kit-3-6-9-12-Organizador-de-Cabos-Magnético-Fixador-de-Fios-e-Cabos-Autoadesivo-Pratico-Portátil-i.778389008.21799571373",
+    "directUrl": "https://shopee.com.br/search?keyword=Organizador%20de%20Cabos%20Magn%C3%A9tico%20de%20Mesa"
   },
   {
     "id": "auto-prod-145",
@@ -3200,7 +3267,7 @@ const PRODUCTS = [
     "currentPrice": 29.9,
     "installment": "à vista",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/Kit-3-Garrafas-Squeeze-Degrad%C3%AA-2-Litros-900ml-e-300ml-Fases-t%C3%A9rmica-Motivadoras-com-Adesivos-2D-e-3D-Personalizavel-Academia-Escola-Treino-Antivazamento-i.698136597.22095771028?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Garrafa%20T%C3%A9rmica%20Motivacional%202%20Litros%20Degrad%C3%AA&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
@@ -3208,7 +3275,8 @@ const PRODUCTS = [
     "couponCode": "SAUDE10",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Kit-3-Garrafas-Squeeze-Degradê-2-Litros-900ml-e-300ml-Fases-térmica-Motivadoras-com-Adesivos-2D-e-3D-Personalizavel-Academia-Escola-Treino-Antivazamento-i.698136597.22095771028"
+    "rawUrl": "https://shopee.com.br/Kit-3-Garrafas-Squeeze-Degradê-2-Litros-900ml-e-300ml-Fases-térmica-Motivadoras-com-Adesivos-2D-e-3D-Personalizavel-Academia-Escola-Treino-Antivazamento-i.698136597.22095771028",
+    "directUrl": "https://shopee.com.br/search?keyword=Garrafa%20T%C3%A9rmica%20Motivacional%202%20Litros%20Degrad%C3%AA"
   },
   {
     "id": "auto-prod-146",
@@ -3247,11 +3315,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 16800,
     "couponCode": "TREINO10",
-    "affiliateUrl": "https://shopee.com.br/Kit-16-Itens-Treino-Em-Casa-Completo-El%C3%A1sticos-Extensores-5-Mini-Bands-Fitness-Muscula%C3%A7%C3%A3o-Exerc%C3%ADcios-Yoga-Fisioterapia-i.1791860951.58212307496?extraParams=%7B%5C&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Kit%205%20El%C3%A1sticos%20Extensores%20Mini%20Bands&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "dateAdded": "2026-10-18",
     "expired": false,
     "id": "auto-prod-147",
-    "rawUrl": "https://shopee.com.br/Kit-16-Itens-Treino-Em-Casa-Completo-Elásticos-Extensores-5-Mini-Bands-Fitness-Musculação-Exercícios-Yoga-Fisioterapia-i.1791860951.58212307496?extraParams={\\"
+    "rawUrl": "https://shopee.com.br/Kit-16-Itens-Treino-Em-Casa-Completo-Elásticos-Extensores-5-Mini-Bands-Fitness-Musculação-Exercícios-Yoga-Fisioterapia-i.1791860951.58212307496?extraParams={\\",
+    "directUrl": "https://shopee.com.br/search?keyword=Kit%205%20El%C3%A1sticos%20Extensores%20Mini%20Bands"
   },
   {
     "id": "auto-prod-148",
@@ -3270,9 +3339,10 @@ const PRODUCTS = [
     "reviewsCount": 6100,
     "couponCode": "BRINQ10",
     "storeName": "Shopee",
-    "affiliateUrl": "https://shopee.com.br/Carrinho-Grande-de-Controle-Remoto-Recarreg%C3%A1vel-4x4-Anda-na-Terra-Clamber-Off-Road-i.607538721.45158005196?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Carrinho%20de%20Controle%20Remoto%204x4%20Todo&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "directUrl": "https://shopee.com.br/search?keyword=Carrinho%20de%20Controle%20Remoto%204x4%20Todo"
   },
   {
     "title": "Corda de Pular Crossfit Speed Rope Profissional com Rolamento Duplo e Cabo de Aço",
@@ -3289,11 +3359,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 8430,
     "couponCode": "CORDA10",
-    "affiliateUrl": "https://shopee.com.br/Corda-De-Pular-Crossfit-Speed-Rope-Rolamento-3m-Cabo-De-A%C3%A7o-Profissional-Fitness-i.691301662.21540037623?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Corda%20de%20Pular%20Crossfit%20Speed%20Rope&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "dateAdded": "2026-10-18",
     "expired": false,
     "id": "auto-prod-149",
-    "rawUrl": "https://shopee.com.br/Corda-De-Pular-Crossfit-Speed-Rope-Rolamento-3m-Cabo-De-Aço-Profissional-Fitness-i.691301662.21540037623"
+    "rawUrl": "https://shopee.com.br/Corda-De-Pular-Crossfit-Speed-Rope-Rolamento-3m-Cabo-De-Aço-Profissional-Fitness-i.691301662.21540037623",
+    "directUrl": "https://shopee.com.br/search?keyword=Corda%20de%20Pular%20Crossfit%20Speed%20Rope"
   },
   {
     "id": "auto-prod-150",
@@ -3306,7 +3377,7 @@ const PRODUCTS = [
     "currentPrice": 149.9,
     "installment": "em até 4x de R$ 37,47 sem juros",
     "pixDiscount": "Cupom Shopee Beleza",
-    "affiliateUrl": "https://shopee.com.br/Escova-Secadora-Taiff-Tourmaline-2-em-1-1200w-220V-i.431925269.23297283881?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Escova%20Secadora%20Taiff%20Tourmaline%201200W%20Alisa&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.tcdn.com.br/img/img_prod/777993/escova_secadora_alisadora_modeladora_taiff_style_seca_e_alisa_2_temperaturas_1200w_azul_tiffany_127v_126581_7_3f86fa199d222228a9c72412d5e5b030.png",
     "featured": false,
     "rating": 4.8,
@@ -3314,7 +3385,8 @@ const PRODUCTS = [
     "couponCode": "BELEZA15",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Escova-Secadora-Taiff-Tourmaline-2-em-1-1200w-220V-i.431925269.23297283881"
+    "rawUrl": "https://shopee.com.br/Escova-Secadora-Taiff-Tourmaline-2-em-1-1200w-220V-i.431925269.23297283881",
+    "directUrl": "https://shopee.com.br/search?keyword=Escova%20Secadora%20Taiff%20Tourmaline%201200W%20Alisa"
   },
   {
     "id": "auto-prod-151",
@@ -3327,7 +3399,7 @@ const PRODUCTS = [
     "currentPrice": 59.9,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Elegante e Prática",
-    "affiliateUrl": "https://shopee.com.br/Bolsinha-Feminina-de-Al%C3%A7a-Transversal-Linda-em-Couro-Sint%C3%A9tico-Tiracolo-i.1572726820.20998261608?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Bolsa%20Feminina%20Transversal%20Tiracolo%20em%20Couro&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lsd0p8ng4vujdc",
     "featured": false,
     "rating": 4.8,
@@ -3335,7 +3407,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Bolsinha-Feminina-de-Alça-Transversal-Linda-em-Couro-Sintético-Tiracolo-i.1572726820.20998261608"
+    "rawUrl": "https://shopee.com.br/Bolsinha-Feminina-de-Alça-Transversal-Linda-em-Couro-Sintético-Tiracolo-i.1572726820.20998261608",
+    "directUrl": "https://shopee.com.br/search?keyword=Bolsa%20Feminina%20Transversal%20Tiracolo%20em%20Couro"
   },
   {
     "title": "Mochila Infantil Escolar com Rodinhas + Lancheira Térmica + Estojo Duplo",
@@ -3352,12 +3425,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 3890,
     "couponCode": "VOLTAAULAS",
-    "affiliateUrl": "https://www.mercadolivre.com.br/kit-escolar-mochila-rodinha-lancheira-termica-estojo-menina-cor-holografica-desenho-do-tecido-liso/p/MLB45004293?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/kit-escolar-mochila-rodinha-lancheira-termica-estojo-menina-cor-holografica-desenho-do-tecido-liso?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false,
     "id": "auto-prod-152",
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-3557649621-mochila-de-rodinhas-lancheira-termica-e-estojo-duplo-sereia-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/kit-escolar-mochila-rodinha-lancheira-termica-estojo-menina-cor-holografica-desenho-do-tecido-liso/p/MLB45004293"
+    "directUrl": "https://lista.mercadolivre.com.br/kit-escolar-mochila-rodinha-lancheira-termica-estojo-menina-cor-holografica-desenho-do-tecido-liso"
   },
   {
     "id": "auto-prod-153",
@@ -3376,9 +3449,10 @@ const PRODUCTS = [
     "reviewsCount": 11200,
     "couponCode": "BELEZA15",
     "storeName": "Shopee",
-    "affiliateUrl": "https://shopee.com.br/Kit-Maquiagem-Completo-Luxo-Batom-Paleta-de-Sombras-i.300023639.3452885374?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Kit%20Maquiagem%20Completo%20com%20Paleta%20de&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "dateAdded": "2026-10-18",
-    "expired": false
+    "expired": false,
+    "directUrl": "https://shopee.com.br/search?keyword=Kit%20Maquiagem%20Completo%20com%20Paleta%20de"
   },
   {
     "title": "Mochila Esportiva Impermeável para Academia com Compartimento Térmico para Tênis",
@@ -3395,11 +3469,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 7890,
     "couponCode": "BAG15",
-    "affiliateUrl": "https://shopee.com.br/Mochila-Esportiva-De-Grande-Capacidade-Multifuncional-Para-Raquete-De-T%C3%AAnis-Ao-Ar-Livre-Com-V%C3%A1rios-Compartimentos-E-Co-i.461992273.29830266550?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Mochila%20Esportiva%20Imperme%C3%A1vel%20para%20Academia%20com&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "dateAdded": "2026-10-18",
     "expired": false,
     "id": "auto-prod-154",
-    "rawUrl": "https://shopee.com.br/Mochila-Esportiva-De-Grande-Capacidade-Multifuncional-Para-Raquete-De-Tênis-Ao-Ar-Livre-Com-Vários-Compartimentos-E-Co-i.461992273.29830266550"
+    "rawUrl": "https://shopee.com.br/Mochila-Esportiva-De-Grande-Capacidade-Multifuncional-Para-Raquete-De-Tênis-Ao-Ar-Livre-Com-Vários-Compartimentos-E-Co-i.461992273.29830266550",
+    "directUrl": "https://shopee.com.br/search?keyword=Mochila%20Esportiva%20Imperme%C3%A1vel%20para%20Academia%20com"
   },
   {
     "title": "Kit 3 Conjuntos Infantis Menina Blusa Estampada e Shorts Moletinho 100% Algodão",
@@ -3416,11 +3491,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 4120,
     "couponCode": "ROUPA20",
-    "affiliateUrl": "https://shopee.com.br/Kit-com-3-Conjuntos-Menina-Premium-Feminino-Infantil-Blusa-e-Bermuda-Varias-Estampas-i.1186552526.23397350734?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Kit%203%20Conjuntos%20Infantis%20Menina%20Blusa&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "dateAdded": "2026-10-18",
     "expired": false,
     "id": "auto-prod-155",
-    "rawUrl": "https://shopee.com.br/Kit-com-3-Conjuntos-Menina-Premium-Feminino-Infantil-Blusa-e-Bermuda-Varias-Estampas-i.1186552526.23397350734"
+    "rawUrl": "https://shopee.com.br/Kit-com-3-Conjuntos-Menina-Premium-Feminino-Infantil-Blusa-e-Bermuda-Varias-Estampas-i.1186552526.23397350734",
+    "directUrl": "https://shopee.com.br/search?keyword=Kit%203%20Conjuntos%20Infantis%20Menina%20Blusa"
   },
   {
     "id": "auto-prod-156",
@@ -3481,11 +3557,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 4210,
     "couponCode": "SHOPEE20",
-    "affiliateUrl": "https://shopee.com.br/Conjunto-De-Pinc%C3%A9is-De-Maquiagem-De-Uva-Fofa-De-12-Pe%C3%A7as-Com-Bolsa-De-Arco-Cerdas-Macias-Ferramentas-Completas-i.1006215031.27339243641?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Kit%2012%20Pinc%C3%A9is%20de%20Maquiagem%20Profissional&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "dateAdded": "2026-10-18",
     "expired": false,
     "id": "auto-prod-158",
-    "rawUrl": "https://shopee.com.br/Conjunto-De-Pincéis-De-Maquiagem-De-Uva-Fofa-De-12-Peças-Com-Bolsa-De-Arco-Cerdas-Macias-Ferramentas-Completas-i.1006215031.27339243641"
+    "rawUrl": "https://shopee.com.br/Conjunto-De-Pincéis-De-Maquiagem-De-Uva-Fofa-De-12-Peças-Com-Bolsa-De-Arco-Cerdas-Macias-Ferramentas-Completas-i.1006215031.27339243641",
+    "directUrl": "https://shopee.com.br/search?keyword=Kit%2012%20Pinc%C3%A9is%20de%20Maquiagem%20Profissional"
   },
   {
     "id": "auto-prod-159",
@@ -3498,7 +3575,7 @@ const PRODUCTS = [
     "currentPrice": 149,
     "installment": "em até 4x de R$ 37,25 sem juros",
     "pixDiscount": "Envio Full Mercado Livre",
-    "affiliateUrl": "https://www.mercadolivre.com.br/aspirador-de-po-vertical-2x1-wap-silent-speed-1000w/p/MLB35173885?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/aspirador-de-po-vertical-2x1-wap-silent-speed-1000w?matt_tool=23610538&matt_word=givi713407",
     "image": "https://down-br.img.susercontent.com/file/sg-11134201-7rbki-lpgxrnrgepay9a",
     "featured": false,
     "rating": 4.8,
@@ -3507,7 +3584,7 @@ const PRODUCTS = [
     "dateAdded": "2026-10-17",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-2708780190-aspirador-de-po-vertical-portatil-wap-silent-speed-1000w-1l-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/aspirador-de-po-vertical-2x1-wap-silent-speed-1000w/p/MLB35173885"
+    "directUrl": "https://lista.mercadolivre.com.br/aspirador-de-po-vertical-2x1-wap-silent-speed-1000w"
   },
   {
     "id": "auto-prod-160",
@@ -3542,7 +3619,7 @@ const PRODUCTS = [
     "currentPrice": 49.9,
     "installment": "à vista",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/Kit-Fita-Led-Inteligente-Wifi-RGB-5050-C-Silicone-IP65-5-Metros-Controlador-Controle-Remoto-Nova-Digital-i.612139311.15866883035?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Fita%20LED%20RGB%205050%205%20Metros&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/br-11134207-820m8-mm973rrgy0p3cc",
     "featured": false,
     "rating": 4.8,
@@ -3550,7 +3627,8 @@ const PRODUCTS = [
     "couponCode": "LED10",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Kit-Fita-Led-Inteligente-Wifi-RGB-5050-C-Silicone-IP65-5-Metros-Controlador-Controle-Remoto-Nova-Digital-i.612139311.15866883035"
+    "rawUrl": "https://shopee.com.br/Kit-Fita-Led-Inteligente-Wifi-RGB-5050-C-Silicone-IP65-5-Metros-Controlador-Controle-Remoto-Nova-Digital-i.612139311.15866883035",
+    "directUrl": "https://shopee.com.br/search?keyword=Fita%20LED%20RGB%205050%205%20Metros"
   },
   {
     "id": "auto-prod-162",
@@ -3563,7 +3641,7 @@ const PRODUCTS = [
     "currentPrice": 27.9,
     "installment": "à vista",
     "pixDiscount": "Achadinho Viral",
-    "affiliateUrl": "https://shopee.com.br/Mini-Processador-El%C3%A9trico-de-Alimentos-Port%C3%A1til-com-3-l%C3%A2minas-de-a%C3%A7o-inox-250-ml-USB-Bivolt-i.1603106316.23794512382?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Mini%20Processador%20de%20Alimentos%20El%C3%A9trico%20USB&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/br-11134207-81z1k-mgsmv1be8x6sb0",
     "featured": false,
     "rating": 4.8,
@@ -3571,7 +3649,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Mini-Processador-Elétrico-de-Alimentos-Portátil-com-3-lâminas-de-aço-inox-250-ml-USB-Bivolt-i.1603106316.23794512382"
+    "rawUrl": "https://shopee.com.br/Mini-Processador-Elétrico-de-Alimentos-Portátil-com-3-lâminas-de-aço-inox-250-ml-USB-Bivolt-i.1603106316.23794512382",
+    "directUrl": "https://shopee.com.br/search?keyword=Mini%20Processador%20de%20Alimentos%20El%C3%A9trico%20USB"
   },
   {
     "id": "auto-prod-163",
@@ -3584,7 +3663,7 @@ const PRODUCTS = [
     "currentPrice": 69.9,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Envio Full",
-    "affiliateUrl": "https://www.mercadolivre.com.br/mop-giratorio-12l-com-balde-centrifuga-refil-microfibra-cor-cinza-rosa/p/MLB51491368?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/mop-giratorio-12l-com-balde-centrifuga-refil-microfibra-cor-cinza-rosa?matt_tool=23610538&matt_word=givi713407",
     "image": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-ma8tnkig67w987",
     "featured": false,
     "rating": 4.8,
@@ -3592,7 +3671,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://www.mercadolivre.com.br/mop-giratorio-12l-com-balde-centrifuga-refil-microfibra-cor-cinza-rosa/p/MLB51491368"
+    "rawUrl": "https://www.mercadolivre.com.br/mop-giratorio-12l-com-balde-centrifuga-refil-microfibra-cor-cinza-rosa/p/MLB51491368",
+    "directUrl": "https://lista.mercadolivre.com.br/mop-giratorio-12l-com-balde-centrifuga-refil-microfibra-cor-cinza-rosa"
   },
   {
     "id": "auto-prod-164",
@@ -3605,7 +3685,7 @@ const PRODUCTS = [
     "currentPrice": 34.9,
     "installment": "à vista",
     "pixDiscount": "Silencioso e Relaxante",
-    "affiliateUrl": "https://shopee.com.br/Difusor-Umidificador-Aromatizador-%C3%93leos-Ambientes-700ml-Led-7-Cores-Ultrass%C3%B4nico-Envio-Imediato-Testado-Aprovado-i.1020682872.21998661395?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Umidificador%20e%20Aromatizador%20Ultrass%C3%B4nico%20de%20Ambientes&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/br-11134207-7qukw-ljci7b95t0og4d",
     "featured": false,
     "rating": 4.8,
@@ -3613,7 +3693,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Difusor-Umidificador-Aromatizador-Óleos-Ambientes-700ml-Led-7-Cores-Ultrassônico-Envio-Imediato-Testado-Aprovado-i.1020682872.21998661395"
+    "rawUrl": "https://shopee.com.br/Difusor-Umidificador-Aromatizador-Óleos-Ambientes-700ml-Led-7-Cores-Ultrassônico-Envio-Imediato-Testado-Aprovado-i.1020682872.21998661395",
+    "directUrl": "https://shopee.com.br/search?keyword=Umidificador%20e%20Aromatizador%20Ultrass%C3%B4nico%20de%20Ambientes"
   },
   {
     "id": "auto-prod-165",
@@ -3626,7 +3707,7 @@ const PRODUCTS = [
     "currentPrice": 69.9,
     "installment": "em até 2x de R$ 34,95 sem juros",
     "pixDiscount": "Economia de 53%",
-    "affiliateUrl": "https://shopee.com.br/kit1-4-Lumin%C3%A1ria-Articulada-com-2-Aberturas-Led-Abajur-de-Mesa-Recarreg%C3%A1vel-via-USB-3-Tons-de-Luz-i.979730489.23593743894?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Lumin%C3%A1ria%20de%20Mesa%20Articulada%20LED%20com&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
@@ -3634,7 +3715,8 @@ const PRODUCTS = [
     "couponCode": "CASA10",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/kit1-4-Luminária-Articulada-com-2-Aberturas-Led-Abajur-de-Mesa-Recarregável-via-USB-3-Tons-de-Luz-i.979730489.23593743894"
+    "rawUrl": "https://shopee.com.br/kit1-4-Luminária-Articulada-com-2-Aberturas-Led-Abajur-de-Mesa-Recarregável-via-USB-3-Tons-de-Luz-i.979730489.23593743894",
+    "directUrl": "https://shopee.com.br/search?keyword=Lumin%C3%A1ria%20de%20Mesa%20Articulada%20LED%20com"
   },
   {
     "id": "auto-prod-166",
@@ -3647,7 +3729,7 @@ const PRODUCTS = [
     "currentPrice": 59.9,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis Shopee",
-    "affiliateUrl": "https://shopee.com.br/Micro-Mini-Retifica-Furadeira-Lixadeira-400w-210pcs-Promocao-i.733795503.20119915718?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Kit%20Mini%20Micro%20Ret%C3%ADfica%20Furadeira%20El%C3%A9trica&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://http2.mlstatic.com/D_NQ_NP_923337-MLA113455559253_062026-O.webp",
     "featured": false,
     "rating": 4.8,
@@ -3655,7 +3737,8 @@ const PRODUCTS = [
     "couponCode": "SHP10",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Micro-Mini-Retifica-Furadeira-Lixadeira-400w-210pcs-Promocao-i.733795503.20119915718"
+    "rawUrl": "https://shopee.com.br/Micro-Mini-Retifica-Furadeira-Lixadeira-400w-210pcs-Promocao-i.733795503.20119915718",
+    "directUrl": "https://shopee.com.br/search?keyword=Kit%20Mini%20Micro%20Ret%C3%ADfica%20Furadeira%20El%C3%A9trica"
   },
   {
     "id": "auto-prod-167",
@@ -3668,7 +3751,7 @@ const PRODUCTS = [
     "currentPrice": 24.9,
     "installment": "à vista",
     "pixDiscount": "Preço Imperdível",
-    "affiliateUrl": "https://shopee.com.br/Balan%C3%A7a-Digital-de-Cozinha-10kg-Alta-Precis%C3%A3o-LCD-Fun%C3%A7%C3%A3o-Tara-Para-Dieta-i.1700279815.58255089218?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Balan%C3%A7a%20Digital%20de%20Alta%20Precis%C3%A3o%20para&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/br-11134207-820lp-ml6txjmjde6eea",
     "featured": false,
     "rating": 4.8,
@@ -3676,7 +3759,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Balança-Digital-de-Cozinha-10kg-Alta-Precisão-LCD-Função-Tara-Para-Dieta-i.1700279815.58255089218"
+    "rawUrl": "https://shopee.com.br/Balança-Digital-de-Cozinha-10kg-Alta-Precisão-LCD-Função-Tara-Para-Dieta-i.1700279815.58255089218",
+    "directUrl": "https://shopee.com.br/search?keyword=Balan%C3%A7a%20Digital%20de%20Alta%20Precis%C3%A3o%20para"
   },
   {
     "id": "auto-prod-168",
@@ -3693,12 +3777,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewsCount": 7600,
     "couponCode": "MELI20",
-    "affiliateUrl": "https://www.mercadolivre.com.br/kit-ferramentas-200-pecas-c-maleta-titanium-chaves-alicates-martelos-serra-aco-carbono-diy-oficina-casa/p/MLB34731119?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/kit-ferramentas-200-pecas-c-maleta-titanium-chaves-alicates-martelos-serra-aco-carbono-diy-oficina-casa?matt_tool=23610538&matt_word=givi713407",
     "storeName": "Mercado Livre",
     "dateAdded": "2026-10-18",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-3271866375-jogo-kit-de-ferramentas-110-pecas-com-chave-catraca-e-maleta-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/kit-ferramentas-200-pecas-c-maleta-titanium-chaves-alicates-martelos-serra-aco-carbono-diy-oficina-casa/p/MLB34731119"
+    "directUrl": "https://lista.mercadolivre.com.br/kit-ferramentas-200-pecas-c-maleta-titanium-chaves-alicates-martelos-serra-aco-carbono-diy-oficina-casa"
   },
   {
     "id": "auto-prod-169",
@@ -3717,10 +3801,10 @@ const PRODUCTS = [
     "reviewsCount": 3890,
     "couponCode": "MELI50",
     "storeName": "Mercado Livre",
-    "affiliateUrl": "https://www.mercadolivre.com.br/frigobar-midea-45-litros-branco-mrc06b2-220v/up/MLBU2906439372?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/frigobar-midea-45-litros-branco-mrc06b2-220v?matt_tool=23610538&matt_word=givi713407",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "directUrl": "https://www.mercadolivre.com.br/frigobar-midea-45-litros-branco-mrc06b2-220v/up/MLBU2906439372"
+    "directUrl": "https://lista.mercadolivre.com.br/frigobar-midea-45-litros-branco-mrc06b2-220v"
   },
   {
     "id": "auto-prod-170",
@@ -3733,7 +3817,7 @@ const PRODUCTS = [
     "currentPrice": 119,
     "installment": "em até 3x de R$ 39,67 sem juros",
     "pixDiscount": "Frete Grátis Shopee",
-    "affiliateUrl": "https://shopee.com.br/Fone-de-Ouvido-QCY-T13-ANC-Cancelamento-de-ru%C3%ADdo-ativo-Bluetooth-5.3-i.304830199.20598142123?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Fone%20Bluetooth%20QCY%20T13%20ANC%20Cancelamento&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/br-11134207-820le-mm3kx15gn37q28",
     "featured": false,
     "rating": 4.8,
@@ -3741,7 +3825,8 @@ const PRODUCTS = [
     "couponCode": "SHOPEE10",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Fone-de-Ouvido-QCY-T13-ANC-Cancelamento-de-ruído-ativo-Bluetooth-5.3-i.304830199.20598142123"
+    "rawUrl": "https://shopee.com.br/Fone-de-Ouvido-QCY-T13-ANC-Cancelamento-de-ruído-ativo-Bluetooth-5.3-i.304830199.20598142123",
+    "directUrl": "https://shopee.com.br/search?keyword=Fone%20Bluetooth%20QCY%20T13%20ANC%20Cancelamento"
   },
   {
     "id": "auto-prod-171",
@@ -3776,7 +3861,7 @@ const PRODUCTS = [
     "currentPrice": 899,
     "installment": "em até 10x de R$ 89,90 sem juros",
     "pixDiscount": "Envio Full Imediato",
-    "affiliateUrl": "https://www.mercadolivre.com.br/jbl-cinema-sb170-soundbar-21-com-subwoofer-bluetooth-bivolt/up/MLBU2108844042?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/jbl-cinema-sb170-soundbar-21-com-subwoofer-bluetooth-bivolt?matt_tool=23610538&matt_word=givi713407",
     "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/j/b/jblsb170blkbr4.jpg",
     "featured": false,
     "rating": 4.8,
@@ -3785,7 +3870,7 @@ const PRODUCTS = [
     "dateAdded": "2026-10-18",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-2124731605-jbl-soundbar-cinema-sb170-21-bluetooth-hdmi-110w-rms-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/jbl-cinema-sb170-soundbar-21-com-subwoofer-bluetooth-bivolt/up/MLBU2108844042"
+    "directUrl": "https://lista.mercadolivre.com.br/jbl-cinema-sb170-soundbar-21-com-subwoofer-bluetooth-bivolt"
   },
   {
     "id": "auto-prod-173",
@@ -3798,7 +3883,7 @@ const PRODUCTS = [
     "currentPrice": 2149,
     "installment": "em até 10x de R$ 214,90 sem juros",
     "pixDiscount": "Envio Full Imediato",
-    "affiliateUrl": "https://www.mercadolivre.com.br/xiaomi-poco-poco-x6-pro-esim-dual-sim-512-gb-cinza-12-gb-ram/p/MLB37799589?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/xiaomi-poco-poco-x6-pro-esim-dual-sim-512-gb-cinza-12-gb-ram?matt_tool=23610538&matt_word=givi713407",
     "image": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lyh8nga2j3tx6b",
     "featured": false,
     "rating": 4.8,
@@ -3806,7 +3891,8 @@ const PRODUCTS = [
     "couponCode": "MELI100",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://www.mercadolivre.com.br/xiaomi-poco-poco-x6-pro-esim-dual-sim-512-gb-cinza-12-gb-ram/p/MLB37799589"
+    "rawUrl": "https://www.mercadolivre.com.br/xiaomi-poco-poco-x6-pro-esim-dual-sim-512-gb-cinza-12-gb-ram/p/MLB37799589",
+    "directUrl": "https://lista.mercadolivre.com.br/xiaomi-poco-poco-x6-pro-esim-dual-sim-512-gb-cinza-12-gb-ram"
   },
   {
     "id": "auto-prod-174",
@@ -3819,7 +3905,7 @@ const PRODUCTS = [
     "currentPrice": 89.9,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis",
-    "affiliateUrl": "https://shopee.com.br/Haylou-GT7-Neo-Original-Fone-de-Ouvido-Bluetooth-5.2-lat%C3%AAncia-ultra-baixa-i.602810658.17229946224?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Fone%20de%20Ouvido%20Bluetooth%20Haylou%20GT7&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/sg-11134201-7qvfo-lhe2ejgc4y6k0c",
     "featured": false,
     "rating": 4.8,
@@ -3827,7 +3913,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Haylou-GT7-Neo-Original-Fone-de-Ouvido-Bluetooth-5.2-latência-ultra-baixa-i.602810658.17229946224"
+    "rawUrl": "https://shopee.com.br/Haylou-GT7-Neo-Original-Fone-de-Ouvido-Bluetooth-5.2-latência-ultra-baixa-i.602810658.17229946224",
+    "directUrl": "https://shopee.com.br/search?keyword=Fone%20de%20Ouvido%20Bluetooth%20Haylou%20GT7"
   },
   {
     "id": "auto-prod-175",
@@ -3840,7 +3927,7 @@ const PRODUCTS = [
     "currentPrice": 2699,
     "installment": "em até 10x de R$ 269,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/notebook-asus-vivobook-go-15-amd-ryzen-5-7520u-16gb-512ssd-mixed-black/p/MLB43417665?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/notebook-asus-vivobook-go-15-amd-ryzen-5-7520u-16gb-512ssd-mixed-black?matt_tool=23610538&matt_word=givi713407",
     "image": "https://down-br.img.susercontent.com/file/sg-11134201-824iy-me0ct3k0yt51c2",
     "featured": false,
     "rating": 4.8,
@@ -3848,7 +3935,8 @@ const PRODUCTS = [
     "couponCode": "MELI80",
     "dateAdded": "2026-10-18",
     "expired": false,
-    "rawUrl": "https://www.mercadolivre.com.br/notebook-asus-vivobook-go-15-amd-ryzen-5-7520u-16gb-512ssd-mixed-black/p/MLB43417665"
+    "rawUrl": "https://www.mercadolivre.com.br/notebook-asus-vivobook-go-15-amd-ryzen-5-7520u-16gb-512ssd-mixed-black/p/MLB43417665",
+    "directUrl": "https://lista.mercadolivre.com.br/notebook-asus-vivobook-go-15-amd-ryzen-5-7520u-16gb-512ssd-mixed-black"
   },
   {
     "id": "auto-prod-176",
@@ -3861,7 +3949,7 @@ const PRODUCTS = [
     "currentPrice": 159.9,
     "installment": "em até 4x sem juros",
     "pixDiscount": "Qualidade Audiófila",
-    "affiliateUrl": "https://shopee.com.br/Baseus-Bowie-M2-ENC-TWS-Bluetooth-5.2-Fones-De-Ouvido-Com-Suporte-Para-Cancelamento-De-Ru%C3%ADdo-Ativo-Baixa-Lat%C3%AAncia-Redu%C3%A7%C3%A3o-De-4-Microfones-i.1006215031.23790360826?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Fone%20de%20Ouvido%20TWS%20Baseus%20Bowie&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.tcdn.com.br/img/img_prod/948834/fone_de_ouvido_tws_bluetooth_c_cancelamento_de_ruido_bowie_m2_branco_baseus_5326_2_fced0337010f14bb36212d4ab1ed3eb0.jpg",
     "featured": false,
     "rating": 4.8,
@@ -3869,7 +3957,8 @@ const PRODUCTS = [
     "couponCode": "BASEUS20",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Baseus-Bowie-M2-ENC-TWS-Bluetooth-5.2-Fones-De-Ouvido-Com-Suporte-Para-Cancelamento-De-Ruído-Ativo-Baixa-Latência-Redução-De-4-Microfones-i.1006215031.23790360826"
+    "rawUrl": "https://shopee.com.br/Baseus-Bowie-M2-ENC-TWS-Bluetooth-5.2-Fones-De-Ouvido-Com-Suporte-Para-Cancelamento-De-Ruído-Ativo-Baixa-Latência-Redução-De-4-Microfones-i.1006215031.23790360826",
+    "directUrl": "https://shopee.com.br/search?keyword=Fone%20de%20Ouvido%20TWS%20Baseus%20Bowie"
   },
   {
     "id": "auto-prod-177",
@@ -3882,7 +3971,7 @@ const PRODUCTS = [
     "currentPrice": 179,
     "installment": "em até 4x sem juros",
     "pixDiscount": "Frete Grátis Shopee",
-    "affiliateUrl": "https://shopee.com.br/Baseus-GaN-65w-Carregador-R%C3%A1pido-de-Mesa-4-em-1-i.358653452.23996329435?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Power%20Bank%20Baseus%2020%20000mAh%2065W&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://m.media-amazon.com/images/I/61+EFG9bs4L._AC_.jpg",
     "featured": false,
     "rating": 4.8,
@@ -3890,7 +3979,8 @@ const PRODUCTS = [
     "couponCode": "TECH20",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Baseus-GaN-65w-Carregador-Rápido-de-Mesa-4-em-1-i.358653452.23996329435"
+    "rawUrl": "https://shopee.com.br/Baseus-GaN-65w-Carregador-Rápido-de-Mesa-4-em-1-i.358653452.23996329435",
+    "directUrl": "https://shopee.com.br/search?keyword=Power%20Bank%20Baseus%2020%20000mAh%2065W"
   },
   {
     "id": "auto-prod-178",
@@ -3903,7 +3993,7 @@ const PRODUCTS = [
     "currentPrice": 19.9,
     "installment": "à vista",
     "pixDiscount": "Transforma Qualquer Som",
-    "affiliateUrl": "https://shopee.com.br/Adaptador-Receptor-De-Carro-T66-Bluetooth-5.3-Com-AUX-De-3.5-Mm-Para-%C3%81udio-Sem-Fio-Viva-Voz-i.935991633.40561610488?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Adaptador%20Receptor%20de%20%C3%81udio%20Bluetooth%205&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/sg-11134201-7rdxy-mbr3wuxvg6qkf3",
     "featured": false,
     "rating": 4.8,
@@ -3911,7 +4001,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Adaptador-Receptor-De-Carro-T66-Bluetooth-5.3-Com-AUX-De-3.5-Mm-Para-Áudio-Sem-Fio-Viva-Voz-i.935991633.40561610488"
+    "rawUrl": "https://shopee.com.br/Adaptador-Receptor-De-Carro-T66-Bluetooth-5.3-Com-AUX-De-3.5-Mm-Para-Áudio-Sem-Fio-Viva-Voz-i.935991633.40561610488",
+    "directUrl": "https://shopee.com.br/search?keyword=Adaptador%20Receptor%20de%20%C3%81udio%20Bluetooth%205"
   },
   {
     "id": "auto-prod-179",
@@ -3924,7 +4015,7 @@ const PRODUCTS = [
     "currentPrice": 189.9,
     "installment": "em até 4x sem juros",
     "pixDiscount": "Cupom Shopee Ativo",
-    "affiliateUrl": "https://shopee.com.br/Haylou-Solar-Plus-RT3-Relogio-Smartwatch-Inteligente-com-Display-1.43-Amoled-com-Always-On-Exibi%C3%A7%C3%A3o-Sempre-Ativa-Faz-e-Recebe-Chamadas-Monitor-de-Sa%C3%BAde-Bluetooth-5.3.-i.382596847.19074009262?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Smartwatch%20Haylou%20Solar%20Plus%20RT3%20Chamadas&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lvltcfqvs02q55",
     "featured": false,
     "rating": 4.8,
@@ -3932,7 +4023,8 @@ const PRODUCTS = [
     "couponCode": "TECH15",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Haylou-Solar-Plus-RT3-Relogio-Smartwatch-Inteligente-com-Display-1.43-Amoled-com-Always-On-Exibição-Sempre-Ativa-Faz-e-Recebe-Chamadas-Monitor-de-Saúde-Bluetooth-5.3.-i.382596847.19074009262"
+    "rawUrl": "https://shopee.com.br/Haylou-Solar-Plus-RT3-Relogio-Smartwatch-Inteligente-com-Display-1.43-Amoled-com-Always-On-Exibição-Sempre-Ativa-Faz-e-Recebe-Chamadas-Monitor-de-Saúde-Bluetooth-5.3.-i.382596847.19074009262",
+    "directUrl": "https://shopee.com.br/search?keyword=Smartwatch%20Haylou%20Solar%20Plus%20RT3%20Chamadas"
   },
   {
     "id": "auto-prod-180",
@@ -3945,7 +4037,7 @@ const PRODUCTS = [
     "currentPrice": 69.9,
     "installment": "à vista",
     "pixDiscount": "Frete Grátis",
-    "affiliateUrl": "https://shopee.com.br/Carregador-Indu%C3%A7%C3%A3o-Sem-Fio-Carga-R%C3%A1pida-Qi-Turbo-iPhone-Samsung-Suporte-Base-30W-i.342268436.18699554965?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Carregador%20por%20Indu%C3%A7%C3%A3o%20Sem%20Fio%2015W&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lq9h3ntwtonz1c",
     "featured": false,
     "rating": 4.8,
@@ -3953,7 +4045,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Carregador-Indução-Sem-Fio-Carga-Rápida-Qi-Turbo-iPhone-Samsung-Suporte-Base-30W-i.342268436.18699554965"
+    "rawUrl": "https://shopee.com.br/Carregador-Indução-Sem-Fio-Carga-Rápida-Qi-Turbo-iPhone-Samsung-Suporte-Base-30W-i.342268436.18699554965",
+    "directUrl": "https://shopee.com.br/search?keyword=Carregador%20por%20Indu%C3%A7%C3%A3o%20Sem%20Fio%2015W"
   },
   {
     "id": "auto-prod-181",
@@ -3966,7 +4059,7 @@ const PRODUCTS = [
     "currentPrice": 1049,
     "installment": "em até 10x de R$ 104,90 sem juros",
     "pixDiscount": "Envio Full",
-    "affiliateUrl": "https://www.mercadolivre.com.br/samsung-galaxy-tab-a9-64-gb-4-gb-de-ram-prateado/p/MLB33068760?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/samsung-galaxy-tab-a9-64-gb-4-gb-de-ram-prateado?matt_tool=23610538&matt_word=givi713407",
     "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
@@ -3974,7 +4067,8 @@ const PRODUCTS = [
     "couponCode": "MELITABLET",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://www.mercadolivre.com.br/samsung-galaxy-tab-a9-64-gb-4-gb-de-ram-prateado/p/MLB33068760"
+    "rawUrl": "https://www.mercadolivre.com.br/samsung-galaxy-tab-a9-64-gb-4-gb-de-ram-prateado/p/MLB33068760",
+    "directUrl": "https://lista.mercadolivre.com.br/samsung-galaxy-tab-a9-64-gb-4-gb-de-ram-prateado"
   },
   {
     "id": "auto-prod-182",
@@ -3987,7 +4081,7 @@ const PRODUCTS = [
     "currentPrice": 119.9,
     "installment": "em até 3x de R$ 39,96 sem juros",
     "pixDiscount": "Frete Grátis Shopee",
-    "affiliateUrl": "https://shopee.com.br/Caixa-De-Som-Bluetooth-50W-RMS-Potente-LED-RGB-IPX5-Prova-D'%C3%A1gua-Graves-Fortes-Som-360-Graus-BIVOLT-i.399160509.58206508795?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Mini%20Caixa%20de%20Som%20Bluetooth%20Lenyes&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://http2.mlstatic.com/D_NQ_NP_604621-MLB97931790012_112025-O-mini-caixa-de-som-bluetooth-50w-potente-alta-portatil.webp",
     "featured": false,
     "rating": 4.8,
@@ -3995,7 +4089,8 @@ const PRODUCTS = [
     "couponCode": "SOM15",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Caixa-De-Som-Bluetooth-50W-RMS-Potente-LED-RGB-IPX5-Prova-D'água-Graves-Fortes-Som-360-Graus-BIVOLT-i.399160509.58206508795"
+    "rawUrl": "https://shopee.com.br/Caixa-De-Som-Bluetooth-50W-RMS-Potente-LED-RGB-IPX5-Prova-D'água-Graves-Fortes-Som-360-Graus-BIVOLT-i.399160509.58206508795",
+    "directUrl": "https://shopee.com.br/search?keyword=Mini%20Caixa%20de%20Som%20Bluetooth%20Lenyes"
   },
   {
     "id": "auto-prod-183",
@@ -4008,7 +4103,7 @@ const PRODUCTS = [
     "currentPrice": 89.9,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/Mini-Compressor-de-Ar-Port%C3%A1til-Recarreg%C3%A1vel-Digital-USB-Calibrador-Pneu-i.1287249540.19297734544?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Mini%20Compressor%20de%20Ar%20Port%C3%A1til%20Digital&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/br-11134207-81z1k-mflx2zj9eqrr9e",
     "featured": false,
     "rating": 4.8,
@@ -4016,7 +4111,8 @@ const PRODUCTS = [
     "couponCode": "AUTO10",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Mini-Compressor-de-Ar-Portátil-Recarregável-Digital-USB-Calibrador-Pneu-i.1287249540.19297734544"
+    "rawUrl": "https://shopee.com.br/Mini-Compressor-de-Ar-Portátil-Recarregável-Digital-USB-Calibrador-Pneu-i.1287249540.19297734544",
+    "directUrl": "https://shopee.com.br/search?keyword=Mini%20Compressor%20de%20Ar%20Port%C3%A1til%20Digital"
   },
   {
     "id": "auto-prod-184",
@@ -4051,7 +4147,7 @@ const PRODUCTS = [
     "currentPrice": 989,
     "installment": "em até 10x de R$ 98,90 sem juros",
     "pixDiscount": "Frete Grátis Mercado Livre",
-    "affiliateUrl": "https://www.mercadolivre.com.br/cadeira-gamer-thunderx3-tgc12-loft-apoio-de-braco-2d-82874-cor-preto-material-do-estofamento-tecido/p/MLB37920830?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/cadeira-gamer-thunderx3-tgc12-loft-apoio-de-braco-2d-82874-cor-preto-material-do-estofamento-tecido?matt_tool=23610538&matt_word=givi713407",
     "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
@@ -4060,7 +4156,7 @@ const PRODUCTS = [
     "dateAdded": "2026-10-18",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-3571030051-cadeira-gamer-barata-com-regulagem-do-braco-2d-thunderx3-bc3-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/cadeira-gamer-thunderx3-tgc12-loft-apoio-de-braco-2d-82874-cor-preto-material-do-estofamento-tecido/p/MLB37920830"
+    "directUrl": "https://lista.mercadolivre.com.br/cadeira-gamer-thunderx3-tgc12-loft-apoio-de-braco-2d-82874-cor-preto-material-do-estofamento-tecido"
   },
   {
     "id": "auto-prod-186",
@@ -4095,7 +4191,7 @@ const PRODUCTS = [
     "currentPrice": 99.9,
     "installment": "em até 3x de R$ 33,30 sem juros",
     "pixDiscount": "Envio Full",
-    "affiliateUrl": "https://www.mercadolivre.com.br/mouse-para-jogos-logitech-g203-lightsync-rgb-de-6-botoes-u/up/MLBU2958460151?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/mouse-para-jogos-logitech-g203-lightsync-rgb-de-6-botoes-u?matt_tool=23610538&matt_word=givi713407",
     "image": "https://down-br.img.susercontent.com/file/sg-11134201-82631-mj60un3yhypte8",
     "featured": false,
     "rating": 4.8,
@@ -4104,7 +4200,7 @@ const PRODUCTS = [
     "dateAdded": "2026-10-17",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-3778577299-mouse-gamer-logitech-g203-lightsync-rgb-ate-8000-dpi-preto-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/mouse-para-jogos-logitech-g203-lightsync-rgb-de-6-botoes-u/up/MLBU2958460151"
+    "directUrl": "https://lista.mercadolivre.com.br/mouse-para-jogos-logitech-g203-lightsync-rgb-de-6-botoes-u"
   },
   {
     "id": "auto-prod-188",
@@ -4117,7 +4213,7 @@ const PRODUCTS = [
     "currentPrice": 59.9,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Ideal para Streaming e Home Office",
-    "affiliateUrl": "https://shopee.com.br/Webcam-Loosafe-Full-HD-1080p-LS-F37-com-Microfone-e-Trip%C3%A9-USB-Preto-i.1319069948.23793567378?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Webcam%20Full%20HD%201080p%20com%20Microfone&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/br-11134207-820lm-monsp5y8uebn7a",
     "featured": false,
     "rating": 4.8,
@@ -4125,7 +4221,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Webcam-Loosafe-Full-HD-1080p-LS-F37-com-Microfone-e-Tripé-USB-Preto-i.1319069948.23793567378"
+    "rawUrl": "https://shopee.com.br/Webcam-Loosafe-Full-HD-1080p-LS-F37-com-Microfone-e-Tripé-USB-Preto-i.1319069948.23793567378",
+    "directUrl": "https://shopee.com.br/search?keyword=Webcam%20Full%20HD%201080p%20com%20Microfone"
   },
   {
     "id": "auto-prod-189",
@@ -4138,7 +4235,7 @@ const PRODUCTS = [
     "currentPrice": 69.9,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Evita Superaquecimento",
-    "affiliateUrl": "https://shopee.com.br/Suporte-Base-Cooler-para-notebook-9-at%C3%A9-17-Led-RGB-6-Coolers-Ventoinha-Silencioso-Refrigerada-USB-i.1256488766.22998411023?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Base%20Cooler%20para%20Notebook%20com%206&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://http2.mlstatic.com/D_NQ_NP_617614-MLB53999096992_022023-O-cooler-suporte-base-notebook-gamer-led-refrigeraco-6-fans.webp",
     "featured": false,
     "rating": 4.8,
@@ -4146,7 +4243,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Suporte-Base-Cooler-para-notebook-9-até-17-Led-RGB-6-Coolers-Ventoinha-Silencioso-Refrigerada-USB-i.1256488766.22998411023"
+    "rawUrl": "https://shopee.com.br/Suporte-Base-Cooler-para-notebook-9-até-17-Led-RGB-6-Coolers-Ventoinha-Silencioso-Refrigerada-USB-i.1256488766.22998411023",
+    "directUrl": "https://shopee.com.br/search?keyword=Base%20Cooler%20para%20Notebook%20com%206"
   },
   {
     "id": "auto-prod-190",
@@ -4159,7 +4257,7 @@ const PRODUCTS = [
     "currentPrice": 18.9,
     "installment": "à vista",
     "pixDiscount": "Organização do Setup",
-    "affiliateUrl": "https://shopee.com.br/Suporte-para-Headset-Gamer-com-Base-Antiderrapante-Organizador-de-Mesa-para-Fone-i.1738044188.58204359627?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Suporte%20Headset%20de%20Mesa%20em%20Acr%C3%ADlico&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/br-11134207-81ztc-mk3v98op1n2b93",
     "featured": false,
     "rating": 4.8,
@@ -4167,7 +4265,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Suporte-para-Headset-Gamer-com-Base-Antiderrapante-Organizador-de-Mesa-para-Fone-i.1738044188.58204359627"
+    "rawUrl": "https://shopee.com.br/Suporte-para-Headset-Gamer-com-Base-Antiderrapante-Organizador-de-Mesa-para-Fone-i.1738044188.58204359627",
+    "directUrl": "https://shopee.com.br/search?keyword=Suporte%20Headset%20de%20Mesa%20em%20Acr%C3%ADlico"
   },
   {
     "title": "Tapete de Yoga e Pilates Antiderrapante Colchonete EVA 10mm com Alça de Transporte",
@@ -4184,11 +4283,12 @@ const PRODUCTS = [
     "rating": 4.7,
     "reviewsCount": 6540,
     "couponCode": "YOGA15",
-    "affiliateUrl": "https://shopee.com.br/Colchonete-Tapete-em-EVA-para-Yoga-Gin%C3%A1stica-Pilates-180cm-x-53cm-Espessura-de-10mm-i.519871319.23193251918?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Tapete%20de%20Yoga%20e%20Pilates%20Antiderrapante&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "dateAdded": "2026-10-18",
     "expired": false,
     "id": "auto-prod-191",
-    "rawUrl": "https://shopee.com.br/Colchonete-Tapete-em-EVA-para-Yoga-Ginástica-Pilates-180cm-x-53cm-Espessura-de-10mm-i.519871319.23193251918"
+    "rawUrl": "https://shopee.com.br/Colchonete-Tapete-em-EVA-para-Yoga-Ginástica-Pilates-180cm-x-53cm-Espessura-de-10mm-i.519871319.23193251918",
+    "directUrl": "https://shopee.com.br/search?keyword=Tapete%20de%20Yoga%20e%20Pilates%20Antiderrapante"
   },
   {
     "title": "Vestido Feminino Canelado Midi com Fenda Lateral e Manga Curta Elegante",
@@ -4205,11 +4305,12 @@ const PRODUCTS = [
     "rating": 4.7,
     "reviewsCount": 6890,
     "couponCode": "MODA15",
-    "affiliateUrl": "https://shopee.com.br/Vestido-Midi-Tricot-Canelado-Fenda-Lateral-Manga-Curta-i.703704899.23097550872?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Vestido%20Feminino%20Canelado%20Midi%20com%20Fenda&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "dateAdded": "2026-10-18",
     "expired": false,
     "id": "auto-prod-192",
-    "rawUrl": "https://shopee.com.br/Vestido-Midi-Tricot-Canelado-Fenda-Lateral-Manga-Curta-i.703704899.23097550872"
+    "rawUrl": "https://shopee.com.br/Vestido-Midi-Tricot-Canelado-Fenda-Lateral-Manga-Curta-i.703704899.23097550872",
+    "directUrl": "https://shopee.com.br/search?keyword=Vestido%20Feminino%20Canelado%20Midi%20com%20Fenda"
   },
   {
     "id": "auto-prod-193",
@@ -4266,7 +4367,7 @@ const PRODUCTS = [
     "currentPrice": 39.9,
     "installment": "à vista",
     "pixDiscount": "Compatível com Alexa e Google",
-    "affiliateUrl": "https://shopee.com.br/Smart-L%C3%A2mpada-Wi-Fi-Positivo-Casa-Inteligente-Ilumina%C3%A7%C3%A3o-Branca-(Quente-e-Fria)-e-RGB-(At%C3%A9-16-Milh%C3%B5es-de-Cores)-9W-i.490943982.23498714254?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Smart%20L%C3%A2mpada%20Wi-Fi%20Positivo%20Casa%20Inteligente&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.7,
@@ -4274,7 +4375,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Smart-Lâmpada-Wi-Fi-Positivo-Casa-Inteligente-Iluminação-Branca-(Quente-e-Fria)-e-RGB-(Até-16-Milhões-de-Cores)-9W-i.490943982.23498714254"
+    "rawUrl": "https://shopee.com.br/Smart-Lâmpada-Wi-Fi-Positivo-Casa-Inteligente-Iluminação-Branca-(Quente-e-Fria)-e-RGB-(Até-16-Milhões-de-Cores)-9W-i.490943982.23498714254",
+    "directUrl": "https://shopee.com.br/search?keyword=Smart%20L%C3%A2mpada%20Wi-Fi%20Positivo%20Casa%20Inteligente"
   },
   {
     "id": "auto-prod-196",
@@ -4287,7 +4389,7 @@ const PRODUCTS = [
     "currentPrice": 79.9,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Envio Full",
-    "affiliateUrl": "https://www.mercadolivre.com.br/grill-e-sanduicheira-s-25-premium-preto-e-inox-mondial-cor-pretoinox/p/MLB23130935?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/grill-e-sanduicheira-s-25-premium-preto-e-inox-mondial-cor-pretoinox?matt_tool=23610538&matt_word=givi713407",
     "image": "https://eletroangeloni.vtexassets.com/arquivos/ids/2381436/17234849915248.jpg?v=638680290412500000",
     "featured": false,
     "rating": 4.7,
@@ -4296,7 +4398,7 @@ const PRODUCTS = [
     "dateAdded": "2026-10-17",
     "expired": false,
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-2918541960-grill-e-sanduicheira-pratic-sn-01-750w-preto-mondial-220v-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/grill-e-sanduicheira-s-25-premium-preto-e-inox-mondial-cor-pretoinox/p/MLB23130935"
+    "directUrl": "https://lista.mercadolivre.com.br/grill-e-sanduicheira-s-25-premium-preto-e-inox-mondial-cor-pretoinox"
   },
   {
     "id": "auto-prod-197",
@@ -4309,7 +4411,7 @@ const PRODUCTS = [
     "currentPrice": 49.9,
     "installment": "à vista",
     "pixDiscount": "Praticidade Total",
-    "affiliateUrl": "https://shopee.com.br/Chaleira-El%C3%A9trica-Inox-Relinx-1-8-Litros-Desligamento-autom%C3%A1tico-1500W-i.422694601.22497299116?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Chaleira%20El%C3%A9trica%20Inox%201%208%20Litros&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lqew96ss87jbe1",
     "featured": false,
     "rating": 4.7,
@@ -4317,7 +4419,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Chaleira-Elétrica-Inox-Relinx-1-8-Litros-Desligamento-automático-1500W-i.422694601.22497299116"
+    "rawUrl": "https://shopee.com.br/Chaleira-Elétrica-Inox-Relinx-1-8-Litros-Desligamento-automático-1500W-i.422694601.22497299116",
+    "directUrl": "https://shopee.com.br/search?keyword=Chaleira%20El%C3%A9trica%20Inox%201%208%20Litros"
   },
   {
     "id": "auto-prod-198",
@@ -4330,7 +4433,7 @@ const PRODUCTS = [
     "currentPrice": 79.9,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Alerta no Celular",
-    "affiliateUrl": "https://shopee.com.br/C%C3%A2mera-de-Seguran%C3%A7a-Inteligente-Wi-Fi-Full-HD-com-Giro-360%C2%B0-e-Vis%C3%A3o-Noturna-Colorida-i.1620616375.22694692344?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=C%C3%A2mera%20de%20Seguran%C3%A7a%20Inteligente%20Wi-Fi%20360&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/sg-11134201-22100-0mxdnu6kcsivb6",
     "featured": false,
     "rating": 4.7,
@@ -4338,7 +4441,8 @@ const PRODUCTS = [
     "couponCode": "CASA15",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Câmera-de-Segurança-Inteligente-Wi-Fi-Full-HD-com-Giro-360°-e-Visão-Noturna-Colorida-i.1620616375.22694692344"
+    "rawUrl": "https://shopee.com.br/Câmera-de-Segurança-Inteligente-Wi-Fi-Full-HD-com-Giro-360°-e-Visão-Noturna-Colorida-i.1620616375.22694692344",
+    "directUrl": "https://shopee.com.br/search?keyword=C%C3%A2mera%20de%20Seguran%C3%A7a%20Inteligente%20Wi-Fi%20360"
   },
   {
     "id": "auto-prod-199",
@@ -4351,7 +4455,7 @@ const PRODUCTS = [
     "currentPrice": 59.9,
     "installment": "à vista",
     "pixDiscount": "Alívio de Dores",
-    "affiliateUrl": "https://shopee.com.br/Travesseiro-Cervical-Borboleta-Ortop%C3%A9dico-com-Espuma-de-Mem%C3%B3ria-Ajust%C3%A1vel-para-Al%C3%ADvio-de-Dores-Cervicais-e-Lombares-An-i.1589417470.48506595736?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Travesseiro%20Cervical%20Ortop%C3%A9dico%20Espuma%20Viscoel%C3%A1stica%20com&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/508f4be6-bcb2-490b-ae4b-5b268b84ce24.__CR0,0,970,600_PT0_SX970_V1___.jpg",
     "featured": false,
     "rating": 4.7,
@@ -4359,7 +4463,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Travesseiro-Cervical-Borboleta-Ortopédico-com-Espuma-de-Memória-Ajustável-para-Alívio-de-Dores-Cervicais-e-Lombares-An-i.1589417470.48506595736"
+    "rawUrl": "https://shopee.com.br/Travesseiro-Cervical-Borboleta-Ortopédico-com-Espuma-de-Memória-Ajustável-para-Alívio-de-Dores-Cervicais-e-Lombares-An-i.1589417470.48506595736",
+    "directUrl": "https://shopee.com.br/search?keyword=Travesseiro%20Cervical%20Ortop%C3%A9dico%20Espuma%20Viscoel%C3%A1stica%20com"
   },
   {
     "id": "auto-prod-200",
@@ -4372,7 +4477,7 @@ const PRODUCTS = [
     "currentPrice": 24.9,
     "installment": "à vista",
     "pixDiscount": "Preço de Custo",
-    "affiliateUrl": "https://shopee.com.br/Mini-Selador-de-Embalagem-M%C3%A1quina-Port%C3%A1til-Seladora-Pl%C3%A1stico-Pilha-Para-Cozinha-i.575218903.23191290761?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Mini%20Selador%20T%C3%A9rmico%20Port%C3%A1til%20de%20Embalagens&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/br-11134201-7qukw-les0fyeksx0f1b",
     "featured": false,
     "rating": 4.7,
@@ -4380,7 +4485,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Mini-Selador-de-Embalagem-Máquina-Portátil-Seladora-Plástico-Pilha-Para-Cozinha-i.575218903.23191290761"
+    "rawUrl": "https://shopee.com.br/Mini-Selador-de-Embalagem-Máquina-Portátil-Seladora-Plástico-Pilha-Para-Cozinha-i.575218903.23191290761",
+    "directUrl": "https://shopee.com.br/search?keyword=Mini%20Selador%20T%C3%A9rmico%20Port%C3%A1til%20de%20Embalagens"
   },
   {
     "id": "auto-prod-201",
@@ -4393,7 +4499,7 @@ const PRODUCTS = [
     "currentPrice": 44.9,
     "installment": "à vista",
     "pixDiscount": "Frete Grátis",
-    "affiliateUrl": "https://shopee.com.br/Dispenser-Sabonete-L%C3%ADquido-%C3%81lcool-Gel-Autom%C3%A1tico-600ml-De-Parede-Com-Sensor-Importway-i.389215968.21299605668?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Dispenser%20Autom%C3%A1tico%20de%20Sabonete%20L%C3%ADquido%20e&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/sg-11134201-7rbm0-m62p5iy1v7u387",
     "featured": false,
     "rating": 4.7,
@@ -4401,7 +4507,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Dispenser-Sabonete-Líquido-Álcool-Gel-Automático-600ml-De-Parede-Com-Sensor-Importway-i.389215968.21299605668"
+    "rawUrl": "https://shopee.com.br/Dispenser-Sabonete-Líquido-Álcool-Gel-Automático-600ml-De-Parede-Com-Sensor-Importway-i.389215968.21299605668",
+    "directUrl": "https://shopee.com.br/search?keyword=Dispenser%20Autom%C3%A1tico%20de%20Sabonete%20L%C3%ADquido%20e"
   },
   {
     "id": "auto-prod-202",
@@ -4414,7 +4521,7 @@ const PRODUCTS = [
     "currentPrice": 49.9,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis",
-    "affiliateUrl": "https://shopee.com.br/Mini-Aspirador-Port%C3%A1til-Automotivo-Potente-Recarreg%C3%A1vel-Sem-Fio-i.409229810.19697611034?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Mini%20Aspirador%20Port%C3%A1til%20Sem%20Fio%20120W&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/sg-11134201-7qvcw-ljohh97ln6ujf3",
     "featured": false,
     "rating": 4.7,
@@ -4422,7 +4529,8 @@ const PRODUCTS = [
     "couponCode": "SHP10",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Mini-Aspirador-Portátil-Automotivo-Potente-Recarregável-Sem-Fio-i.409229810.19697611034"
+    "rawUrl": "https://shopee.com.br/Mini-Aspirador-Portátil-Automotivo-Potente-Recarregável-Sem-Fio-i.409229810.19697611034",
+    "directUrl": "https://shopee.com.br/search?keyword=Mini%20Aspirador%20Port%C3%A1til%20Sem%20Fio%20120W"
   },
   {
     "id": "auto-prod-203",
@@ -4501,7 +4609,7 @@ const PRODUCTS = [
     "currentPrice": 54.9,
     "installment": "à vista",
     "pixDiscount": "Não Cai Correndo",
-    "affiliateUrl": "https://shopee.com.br/Fone-de-Ouvido-Sem-Fio-Esportivo-Gancho-Bluetooth-Cancelamento-de-Ru%C3%ADdo-TWS-Est%C3%A9reo-com-LED-15h-i.1183719086.22899282417?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Fone%20de%20Ouvido%20Esportivo%20Bluetooth%20com&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://m.media-amazon.com/images/I/61zSC4aOp5L._AC_SL1200_.jpg",
     "featured": false,
     "rating": 4.7,
@@ -4509,7 +4617,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Fone-de-Ouvido-Sem-Fio-Esportivo-Gancho-Bluetooth-Cancelamento-de-Ruído-TWS-Estéreo-com-LED-15h-i.1183719086.22899282417"
+    "rawUrl": "https://shopee.com.br/Fone-de-Ouvido-Sem-Fio-Esportivo-Gancho-Bluetooth-Cancelamento-de-Ruído-TWS-Estéreo-com-LED-15h-i.1183719086.22899282417",
+    "directUrl": "https://shopee.com.br/search?keyword=Fone%20de%20Ouvido%20Esportivo%20Bluetooth%20com"
   },
   {
     "id": "auto-prod-207",
@@ -4522,7 +4631,7 @@ const PRODUCTS = [
     "currentPrice": 24.9,
     "installment": "à vista",
     "pixDiscount": "Música no Banho",
-    "affiliateUrl": "https://shopee.com.br/Caixa-de-Som-Bluetooth-%C3%A0-Prova-d'%C3%81gua-com-Ventosa-para-Banheiro-Chuveiro-e-Liga%C3%A7%C3%B5es-Sem-M%C3%A3os-i.280368659.22098109994?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Caixa%20de%20Som%20para%20Chuveiro%20Bluetooth&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m3rxrz9lct0b82",
     "featured": false,
     "rating": 4.7,
@@ -4530,7 +4639,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Caixa-de-Som-Bluetooth-à-Prova-d'Água-com-Ventosa-para-Banheiro-Chuveiro-e-Ligações-Sem-Mãos-i.280368659.22098109994"
+    "rawUrl": "https://shopee.com.br/Caixa-de-Som-Bluetooth-à-Prova-d'Água-com-Ventosa-para-Banheiro-Chuveiro-e-Ligações-Sem-Mãos-i.280368659.22098109994",
+    "directUrl": "https://shopee.com.br/search?keyword=Caixa%20de%20Som%20para%20Chuveiro%20Bluetooth"
   },
   {
     "id": "auto-prod-208",
@@ -4565,7 +4675,7 @@ const PRODUCTS = [
     "currentPrice": 239.9,
     "installment": "em até 6x de R$ 39,98 sem juros",
     "pixDiscount": "Cupom Shopee Ativo",
-    "affiliateUrl": "https://shopee.com.br/Smartwatch-Amazfit-Bip-5-Tela-1-91-GPS-Bluetooth-Call-Alexa-10-Dias-(Preto)-i.1747316060.58258578156?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Smartwatch%20Amazfit%20Bip%205%20Tela%201&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/br-11134207-81z1k-mg28ivykzf9j66",
     "featured": false,
     "rating": 4.7,
@@ -4573,7 +4683,8 @@ const PRODUCTS = [
     "couponCode": "SHOPEE20",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Smartwatch-Amazfit-Bip-5-Tela-1-91-GPS-Bluetooth-Call-Alexa-10-Dias-(Preto)-i.1747316060.58258578156"
+    "rawUrl": "https://shopee.com.br/Smartwatch-Amazfit-Bip-5-Tela-1-91-GPS-Bluetooth-Call-Alexa-10-Dias-(Preto)-i.1747316060.58258578156",
+    "directUrl": "https://shopee.com.br/search?keyword=Smartwatch%20Amazfit%20Bip%205%20Tela%201"
   },
   {
     "id": "auto-prod-210",
@@ -4629,7 +4740,7 @@ const PRODUCTS = [
     "currentPrice": 24.9,
     "installment": "à vista",
     "pixDiscount": "Preço de Custo",
-    "affiliateUrl": "https://shopee.com.br/Hub-Usb-3.0-4-Portas-Expansor-Rapido-5-Gbps-Alta-Velocidade-Para-Pc-Computador-Notebook-Multi-Portas-i.845415934.14695878312?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Hub%20USB%203%200%20com%204&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://http2.mlstatic.com/D_NQ_NP_936442-MLB70284579842_072023-O.webp",
     "featured": false,
     "rating": 4.7,
@@ -4637,7 +4748,8 @@ const PRODUCTS = [
     "couponCode": "",
     "dateAdded": "2026-10-17",
     "expired": false,
-    "rawUrl": "https://shopee.com.br/Hub-Usb-3.0-4-Portas-Expansor-Rapido-5-Gbps-Alta-Velocidade-Para-Pc-Computador-Notebook-Multi-Portas-i.845415934.14695878312"
+    "rawUrl": "https://shopee.com.br/Hub-Usb-3.0-4-Portas-Expansor-Rapido-5-Gbps-Alta-Velocidade-Para-Pc-Computador-Notebook-Multi-Portas-i.845415934.14695878312",
+    "directUrl": "https://shopee.com.br/search?keyword=Hub%20USB%203%200%20com%204"
   },
   {
     "id": "auto-prod-213",
@@ -4650,14 +4762,15 @@ const PRODUCTS = [
     "currentPrice": 2949,
     "installment": "em até 10x de R$ 294,90 sem juros",
     "pixDiscount": "Frete Grátis Mercado Envios Full",
-    "affiliateUrl": "https://www.mercadolivre.com.br/geladeira-frost-free-brastemp-brm44hk-inox-375l/p/MLB19572421?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/geladeira-frost-free-brastemp-brm44hk-inox-375l?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_941604-MLB74025170362_012024-O.webp",
     "featured": true,
     "rating": 4.8,
     "reviewsCount": 4210,
     "couponCode": "CASA150",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/geladeira-frost-free-brastemp-brm44hk-inox-375l"
   },
   {
     "id": "auto-prod-214",
@@ -4670,14 +4783,15 @@ const PRODUCTS = [
     "currentPrice": 2299,
     "installment": "em até 10x de R$ 229,90 sem juros",
     "pixDiscount": "Desconto extra no Pix",
-    "affiliateUrl": "https://www.mercadolivre.com.br/refrigerador-consul-crd37eb-duplex-334-litros-branco/p/MLB19573852?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/refrigerador-consul-crd37eb-duplex-334-litros-branco?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_727464-MLB46684714157_072021-O.webp",
     "featured": false,
     "rating": 4.7,
     "reviewsCount": 3120,
     "couponCode": "CONSUL100",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/refrigerador-consul-crd37eb-duplex-334-litros-branco"
   },
   {
     "id": "auto-prod-215",
@@ -4690,14 +4804,15 @@ const PRODUCTS = [
     "currentPrice": 2649,
     "installment": "em até 10x de R$ 264,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/geladeira-refrigerador-electrolux-dfn41-frost-free-382l-branco/p/MLB18873912?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/geladeira-refrigerador-electrolux-dfn41-frost-free-382l-branco?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_773347-MLA47180410712_082021-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 5120,
     "couponCode": "ELETRO100",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/geladeira-refrigerador-electrolux-dfn41-frost-free-382l-branco"
   },
   {
     "id": "auto-prod-216",
@@ -4710,14 +4825,15 @@ const PRODUCTS = [
     "currentPrice": 1299,
     "installment": "em até 10x de R$ 129,90 sem juros",
     "pixDiscount": "Frete Grátis Mercado Envios",
-    "affiliateUrl": "https://www.mercadolivre.com.br/frigobar-consul-crc12cb-117l-branco/p/MLB19574102?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/frigobar-consul-crc12cb-117l-branco?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_608102-MLB46684714159_072021-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 1840,
     "couponCode": "QUARTO50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/frigobar-consul-crc12cb-117l-branco"
   },
   {
     "id": "auto-prod-217",
@@ -4730,14 +4846,15 @@ const PRODUCTS = [
     "currentPrice": 1399,
     "installment": "em até 10x de R$ 139,90 sem juros",
     "pixDiscount": "Desconto à vista",
-    "affiliateUrl": "https://www.mercadolivre.com.br/frigobar-electrolux-re120-122l-branco/p/MLB28124982?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/frigobar-electrolux-re120-122l-branco?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_854589-MLB52125432029_102022-O.webp",
     "featured": false,
     "rating": 4.7,
     "reviewsCount": 940,
     "couponCode": "ELETRO50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/frigobar-electrolux-re120-122l-branco"
   },
   {
     "id": "auto-prod-218",
@@ -4757,7 +4874,8 @@ const PRODUCTS = [
     "reviewsCount": 2150,
     "couponCode": "RETRO80",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/frigobar-retro-brastemp-litros-vermelho"
   },
   {
     "id": "auto-prod-219",
@@ -4770,14 +4888,15 @@ const PRODUCTS = [
     "currentPrice": 659,
     "installment": "em até 10x de R$ 65,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/forno-micro-ondas-brastemp-bms46ar-32l-inox/p/MLB19574921?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/forno-micro-ondas-brastemp-bms46ar-32l-inox?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_671758-MLB74025170364_012024-O.webp",
     "featured": true,
     "rating": 4.8,
     "reviewsCount": 3820,
     "couponCode": "COZINHA40",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/forno-micro-ondas-brastemp-bms46ar-32l-inox"
   },
   {
     "id": "auto-prod-220",
@@ -4790,14 +4909,15 @@ const PRODUCTS = [
     "currentPrice": 679,
     "installment": "em até 10x de R$ 67,90 sem juros",
     "pixDiscount": "Desconto no Pix",
-    "affiliateUrl": "https://www.mercadolivre.com.br/micro-ondas-panasonic-nn-st66lbru-32l-preto/p/MLB19575102?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/micro-ondas-panasonic-nn-st66lbru-32l-preto?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_824707-MLB52125432031_102022-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 2710,
     "couponCode": "PANASONIC",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/micro-ondas-panasonic-nn-st66lbru-32l-preto"
   },
   {
     "id": "auto-prod-221",
@@ -4810,14 +4930,15 @@ const PRODUCTS = [
     "currentPrice": 539,
     "installment": "em até 10x de R$ 53,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/micro-ondas-electrolux-em23s-23l-branco/p/MLB18874102?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/micro-ondas-electrolux-em23s-23l-branco?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_979607-MLA47180410714_082021-O.webp",
     "featured": false,
     "rating": 4.7,
     "reviewsCount": 1980,
     "couponCode": "CASA30",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/micro-ondas-electrolux-em23s-23l-branco"
   },
   {
     "id": "auto-prod-222",
@@ -4830,14 +4951,15 @@ const PRODUCTS = [
     "currentPrice": 399,
     "installment": "em até 10x de R$ 39,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/fritadeira-sem-oleo-airfryer-philips-walita-serie-3000-41l-preta/p/MLB23194821?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/fritadeira-sem-oleo-airfryer-philips-walita-serie-3000-41l-preta?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_833333-MLB51483863484_092022-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 6890,
     "couponCode": "WALITA",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/fritadeira-sem-oleo-airfryer-philips-walita-serie-3000-41l-preta"
   },
   {
     "id": "auto-prod-223",
@@ -4850,14 +4972,15 @@ const PRODUCTS = [
     "currentPrice": 395,
     "installment": "em até 10x de R$ 39,50 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/fritadeira-eletrica-sem-oleo-oster-touch-digital-46l-inox/p/MLB23195102?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/fritadeira-eletrica-sem-oleo-oster-touch-digital-46l-inox?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_900667-MLB52125432033_102022-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 4320,
     "couponCode": "OSTER40",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/fritadeira-eletrica-sem-oleo-oster-touch-digital-46l-inox"
   },
   {
     "id": "auto-prod-224",
@@ -4870,14 +4993,15 @@ const PRODUCTS = [
     "currentPrice": 2249,
     "installment": "em até 10x de R$ 224,90 sem juros",
     "pixDiscount": "Frete Grátis Mercado Envios Full",
-    "affiliateUrl": "https://www.mercadolivre.com.br/smart-tv-samsung-50-crystal-uhd-4k-50du7700/p/MLB32194821?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/smart-tv-samsung-50-crystal-uhd-4k-50du7700?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_790899-MLB75276274479_032024-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 5410,
     "couponCode": "SAMSUNG100",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/smart-tv-samsung-50-crystal-uhd-4k-50du7700"
   },
   {
     "id": "auto-prod-225",
@@ -4890,14 +5014,15 @@ const PRODUCTS = [
     "currentPrice": 2189,
     "installment": "em até 10x de R$ 218,90 sem juros",
     "pixDiscount": "Desconto no Pix",
-    "affiliateUrl": "https://www.mercadolivre.com.br/smart-tv-tcl-55-4k-qled-55p755-google-tv/p/MLB32195102?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/smart-tv-tcl-55-4k-qled-55p755-google-tv?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_832128-MLB77008102377_062024-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 3210,
     "couponCode": "TCL100",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/smart-tv-tcl-55-4k-qled-55p755-google-tv"
   },
   {
     "id": "auto-prod-226",
@@ -4910,14 +5035,15 @@ const PRODUCTS = [
     "currentPrice": 2169,
     "installment": "em até 10x de R$ 216,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/smart-tv-lg-50-4k-uhd-50ut8000-thinq-ai/p/MLB32195400?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/smart-tv-lg-50-4k-uhd-50ut8000-thinq-ai?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_617260-MLB77008102379_062024-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 4120,
     "couponCode": "LGTV80",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/smart-tv-lg-50-4k-uhd-50ut8000-thinq-ai"
   },
   {
     "id": "auto-prod-227",
@@ -4930,14 +5056,15 @@ const PRODUCTS = [
     "currentPrice": 969,
     "installment": "em até 10x de R$ 96,90 sem juros",
     "pixDiscount": "Frete Promocional",
-    "affiliateUrl": "https://www.mercadolivre.com.br/guarda-roupa-casal-madesa-reno-3-portas-de-correr-com-espelho/p/MLB26194821?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/guarda-roupa-casal-madesa-reno-3-portas-de-correr-com-espelho?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_830674-MLB52125432035_102022-O.webp",
     "featured": true,
     "rating": 4.7,
     "reviewsCount": 1650,
     "couponCode": "MOVEIS50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/guarda-roupa-casal-madesa-reno-3-portas-de-correr-com-espelho"
   },
   {
     "id": "auto-prod-228",
@@ -4950,14 +5077,15 @@ const PRODUCTS = [
     "currentPrice": 649,
     "installment": "em até 10x de R$ 64,90 sem juros",
     "pixDiscount": "Desconto à vista",
-    "affiliateUrl": "https://www.mercadolivre.com.br/guarda-roupa-solteiro-kappesberg-2-portas-de-correr/p/MLB26195102?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/guarda-roupa-solteiro-kappesberg-2-portas-de-correr?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_715423-MLB52125432037_102022-O.webp",
     "featured": false,
     "rating": 4.6,
     "reviewsCount": 890,
     "couponCode": "QUARTO30",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/guarda-roupa-solteiro-kappesberg-2-portas-de-correr"
   },
   {
     "id": "auto-prod-229",
@@ -4970,14 +5098,15 @@ const PRODUCTS = [
     "currentPrice": 1259,
     "installment": "em até 10x de R$ 125,90 sem juros",
     "pixDiscount": "Frete com Desconto",
-    "affiliateUrl": "https://www.mercadolivre.com.br/guarda-roupa-casal-henn-sevilha-6-portas-com-espelho/p/MLB26195400?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/guarda-roupa-casal-henn-sevilha-6-portas-com-espelho?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_643219-MLB52125432039_102022-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 1420,
     "couponCode": "HENN80",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/guarda-roupa-casal-henn-sevilha-6-portas-com-espelho"
   },
   {
     "id": "auto-prod-230",
@@ -4990,14 +5119,15 @@ const PRODUCTS = [
     "currentPrice": 2169,
     "installment": "em até 10x de R$ 216,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/maquina-de-lavar-brastemp-bwk14ab-14kg-titanio/p/MLB19576102?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/maquina-de-lavar-brastemp-bwk14ab-14kg-titanio?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_918274-MLB74025170366_012024-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 6540,
     "couponCode": "LAVAR100",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/maquina-de-lavar-brastemp-bwk14ab-14kg-titanio"
   },
   {
     "id": "auto-prod-231",
@@ -5010,14 +5140,15 @@ const PRODUCTS = [
     "currentPrice": 2099,
     "installment": "em até 10x de R$ 209,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/lavadora-de-roupas-electrolux-led14-14kg-branca/p/MLB18875102?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/lavadora-de-roupas-electrolux-led14-14kg-branca?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_728194-MLA47180410716_082021-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 4890,
     "couponCode": "ELETRO80",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/lavadora-de-roupas-electrolux-led14-14kg-branca"
   },
   {
     "id": "auto-prod-232",
@@ -5030,14 +5161,15 @@ const PRODUCTS = [
     "currentPrice": 2199,
     "installment": "em até 10x de R$ 219,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/placa-de-video-gigabyte-geforce-rtx-4060-eagle-oc-8gb/p/MLB28194821?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/placa-de-video-gigabyte-geforce-rtx-4060-eagle-oc-8gb?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_689124-MLB71295381921_082023-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 3820,
     "couponCode": "GAMER100",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/placa-de-video-gigabyte-geforce-rtx-4060-eagle-oc-8gb"
   },
   {
     "id": "auto-prod-233",
@@ -5050,14 +5182,15 @@ const PRODUCTS = [
     "currentPrice": 1859,
     "installment": "em até 10x de R$ 185,90 sem juros",
     "pixDiscount": "Desconto no Pix",
-    "affiliateUrl": "https://www.mercadolivre.com.br/placa-de-video-msi-geforce-rtx-3060-ventus-2x-12gb/p/MLB22195102?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/placa-de-video-msi-geforce-rtx-3060-ventus-2x-12gb?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_941203-MLB46684714161_072021-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 5210,
     "couponCode": "RTX50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/placa-de-video-msi-geforce-rtx-3060-ventus-2x-12gb"
   },
   {
     "id": "auto-prod-234",
@@ -5070,14 +5203,15 @@ const PRODUCTS = [
     "currentPrice": 1349,
     "installment": "em até 10x de R$ 134,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/placa-de-video-asrock-radeon-rx-6600-challenger-d-8gb/p/MLB23195400?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/placa-de-video-asrock-radeon-rx-6600-challenger-d-8gb?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_718294-MLB52125432041_102022-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 2940,
     "couponCode": "RADEON",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/placa-de-video-asrock-radeon-rx-6600-challenger-d-8gb"
   },
   {
     "id": "auto-prod-235",
@@ -5090,14 +5224,15 @@ const PRODUCTS = [
     "currentPrice": 48.9,
     "installment": "em até 3x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Mousepad+Gamer+Havit+Speed+Extra&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Mousepad%20Gamer%20Havit%20Speed%20Extra&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 14200,
     "couponCode": "HAVIT10",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Mousepad%20Gamer%20Havit%20Speed%20Extra"
   },
   {
     "id": "auto-prod-236",
@@ -5110,14 +5245,15 @@ const PRODUCTS = [
     "currentPrice": 142,
     "installment": "em até 4x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/mousepad-gamer-hyperx-fury-s-pro-speed-xl/p/MLB19195102?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/mousepad-gamer-hyperx-fury-s-pro-speed-xl?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_891724-MLB46684714163_072021-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 8920,
     "couponCode": "HYPERX",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/mousepad-gamer-hyperx-fury-s-pro-speed-xl"
   },
   {
     "id": "auto-prod-237",
@@ -5130,14 +5266,15 @@ const PRODUCTS = [
     "currentPrice": 609,
     "installment": "em até 10x de R$ 60,90 sem juros",
     "pixDiscount": "Frete Full Grátis Oficial",
-    "affiliateUrl": "https://www.mercadolivre.com.br/oculos-de-sol-ray-ban-aviador-rb3025-dourado/p/MLB18194821?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/oculos-de-sol-ray-ban-aviador-rb3025-dourado?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_981724-MLB46684714165_072021-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 4210,
     "couponCode": "RAYBAN50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/oculos-de-sol-ray-ban-aviador-rb3025-dourado"
   },
   {
     "id": "auto-prod-238",
@@ -5150,14 +5287,15 @@ const PRODUCTS = [
     "currentPrice": 699,
     "installment": "em até 10x de R$ 69,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/oculos-de-sol-ray-ban-wayfarer-rb2140-preto/p/MLB18195102?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/oculos-de-sol-ray-ban-wayfarer-rb2140-preto?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_671294-MLB52125432043_102022-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 2840,
     "couponCode": "WAYFARER",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/oculos-de-sol-ray-ban-wayfarer-rb2140-preto"
   },
   {
     "id": "auto-prod-239",
@@ -5170,14 +5308,15 @@ const PRODUCTS = [
     "currentPrice": 609,
     "installment": "em até 10x de R$ 60,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/oculos-de-sol-oakley-holbrook-polarizado-preto/p/MLB18195400?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/oculos-de-sol-oakley-holbrook-polarizado-preto?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_891204-MLB52125432045_102022-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 3510,
     "couponCode": "OAKLEY",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/oculos-de-sol-oakley-holbrook-polarizado-preto"
   },
   {
     "id": "auto-prod-240",
@@ -5190,14 +5329,15 @@ const PRODUCTS = [
     "currentPrice": 579,
     "installment": "em até 10x de R$ 57,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/relogio-casio-g-shock-ga-2100-preto/p/MLB21194821?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/relogio-casio-g-shock-ga-2100-preto?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_824194-MLB52125432047_102022-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 5620,
     "couponCode": "GSHOCK",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/relogio-casio-g-shock-ga-2100-preto"
   },
   {
     "id": "auto-prod-241",
@@ -5210,14 +5350,15 @@ const PRODUCTS = [
     "currentPrice": 849,
     "installment": "em até 10x de R$ 84,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/relogio-invicta-pro-diver-8926ob-automatico/p/MLB21195400?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/relogio-invicta-pro-diver-8926ob-automatico?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_918234-MLB52125432049_102022-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 3890,
     "couponCode": "INVICTA",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/relogio-invicta-pro-diver-8926ob-automatico"
   },
   {
     "id": "auto-prod-242",
@@ -5230,14 +5371,15 @@ const PRODUCTS = [
     "currentPrice": 89,
     "installment": "em até 3x sem juros",
     "pixDiscount": "Certificado de Garantia",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Pulseira+Masculina+Prata+925+Italiana&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Pulseira%20Masculina%20Prata%20925%20Italiana&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 6420,
     "couponCode": "PRATA10",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Pulseira%20Masculina%20Prata%20925%20Italiana"
   },
   {
     "id": "auto-prod-243",
@@ -5250,14 +5392,15 @@ const PRODUCTS = [
     "currentPrice": 44.9,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Estilo & Elegância",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Pulseira+Masculina+Couro+Leg%C3%ADtimo+Tran%C3%A7ado&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Pulseira%20Masculina%20Couro%20Leg%C3%ADtimo%20Tran%C3%A7ado&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 3120,
     "couponCode": "COURO5",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Pulseira%20Masculina%20Couro%20Leg%C3%ADtimo%20Tran%C3%A7ado"
   },
   {
     "id": "auto-prod-244",
@@ -5270,14 +5413,15 @@ const PRODUCTS = [
     "currentPrice": 1419,
     "installment": "em até 10x de R$ 141,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/apple-airpods-3-geraco-com-estojo-de-recarga/p/MLB19197102?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-airpods-3-geraco-com-estojo-de-recarga?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/61ZRU9gnbxL._AC_SL1500_.jpg",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 8420,
     "couponCode": "AIRPODS50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/apple-airpods-3-geraco-com-estojo-de-recarga"
   },
   {
     "id": "auto-prod-245",
@@ -5290,14 +5434,15 @@ const PRODUCTS = [
     "currentPrice": 1639,
     "installment": "em até 10x de R$ 163,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/apple-airpods-4-com-cancelamento-ativo-de-ruido/p/MLB34194821?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-airpods-4-com-cancelamento-ativo-de-ruido?matt_tool=23610538&matt_word=givi713407",
     "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 1420,
     "couponCode": "APPLE100",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/apple-airpods-4-com-cancelamento-ativo-de-ruido"
   },
   {
     "id": "auto-prod-246",
@@ -5310,14 +5455,15 @@ const PRODUCTS = [
     "currentPrice": 3179,
     "installment": "em até 10x de R$ 317,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/apple-watch-series-9-gps-41mm-caixa-aluminio/p/MLB27197102?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-watch-series-9-gps-41mm-caixa-aluminio?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/71XMTLtZd5L._AC_SL1500_.jpg",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 4210,
     "couponCode": "WATCH150",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/apple-watch-series-9-gps-41mm-caixa-aluminio"
   },
   {
     "id": "auto-prod-247",
@@ -5330,14 +5476,15 @@ const PRODUCTS = [
     "currentPrice": 83.9,
     "installment": "em até 3x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/jogo-de-tabuleiro-cara-a-cara-estrela/p/MLB28196102?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/jogo-de-tabuleiro-cara-a-cara-estrela?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_718294-MLB52125432051_102022-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 7120,
     "couponCode": "BRINCAR",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/jogo-de-tabuleiro-cara-a-cara-estrela"
   },
   {
     "id": "auto-prod-248",
@@ -5350,14 +5497,15 @@ const PRODUCTS = [
     "currentPrice": 92.5,
     "installment": "em até 3x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/jogo-de-tabuleiro-perfil-7-grow/p/MLB28196400?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/jogo-de-tabuleiro-perfil-7-grow?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_824194-MLB52125432053_102022-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 4890,
     "couponCode": "GROW10",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/jogo-de-tabuleiro-perfil-7-grow"
   },
   {
     "id": "auto-prod-249",
@@ -5370,14 +5518,15 @@ const PRODUCTS = [
     "currentPrice": 679,
     "installment": "em até 10x de R$ 67,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/tenis-nike-air-zoom-pegasus-40-masculino/p/MLB28198102?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/tenis-nike-air-zoom-pegasus-40-masculino?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_671294-MLB52125432055_102022-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 6890,
     "couponCode": "PEGASUS",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/tenis-nike-air-zoom-pegasus-40-masculino"
   },
   {
     "id": "auto-prod-250",
@@ -5390,14 +5539,15 @@ const PRODUCTS = [
     "currentPrice": 629,
     "installment": "em até 10x de R$ 62,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/tenis-asics-gel-cumulus-25-masculino/p/MLB28198400?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/tenis-asics-gel-cumulus-25-masculino?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_891204-MLB52125432057_102022-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 4120,
     "couponCode": "ASICS50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/tenis-asics-gel-cumulus-25-masculino"
   },
   {
     "id": "auto-prod-251",
@@ -5410,14 +5560,15 @@ const PRODUCTS = [
     "currentPrice": 119,
     "installment": "em até 3x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/whey-protein-100-pure-max-titanium-900g/p/MLB19198102?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/whey-protein-100-pure-max-titanium-900g?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_824194-MLB52125432059_102022-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 15420,
     "couponCode": "MAXWHEY",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/whey-protein-100-pure-max-titanium-900g"
   },
   {
     "id": "auto-prod-252",
@@ -5430,14 +5581,15 @@ const PRODUCTS = [
     "currentPrice": 899,
     "installment": "em até 10x de R$ 89,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/cadeira-gamer-thunderx3-tgc12-preta-e-vermelha/p/MLB18195821?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/cadeira-gamer-thunderx3-tgc12-preta-e-vermelha?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_918204-MLB46684714167_072021-O.webp",
     "featured": true,
     "rating": 4.8,
     "reviewsCount": 3890,
     "couponCode": "CADEIRA50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/cadeira-gamer-thunderx3-tgc12-preta-e-vermelha"
   },
   {
     "id": "auto-prod-253",
@@ -5450,14 +5602,15 @@ const PRODUCTS = [
     "currentPrice": 719,
     "installment": "em até 10x de R$ 71,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/cadeira-gamer-pelegrin-reclinavel-preta/p/MLB18196102?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/cadeira-gamer-pelegrin-reclinavel-preta?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_824194-MLB52125432061_102022-O.webp",
     "featured": false,
     "rating": 4.7,
     "reviewsCount": 2410,
     "couponCode": "PELEGRIN",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/cadeira-gamer-pelegrin-reclinavel-preta"
   },
   {
     "id": "auto-prod-254",
@@ -5470,14 +5623,15 @@ const PRODUCTS = [
     "currentPrice": 279,
     "installment": "em até 9x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/mouse-gamer-logitech-g502-hero-25k/p/MLB17194821?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/mouse-gamer-logitech-g502-hero-25k?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_728194-MLA47180410718_082021-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 12450,
     "couponCode": "G502HERO",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/mouse-gamer-logitech-g502-hero-25k"
   },
   {
     "id": "auto-prod-255",
@@ -5490,14 +5644,15 @@ const PRODUCTS = [
     "currentPrice": 129,
     "installment": "em até 4x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Mouse+Gamer+Razer+DeathAdder+Essential&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Mouse%20Gamer%20Razer%20DeathAdder%20Essential&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 7890,
     "couponCode": "RAZER10",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Mouse%20Gamer%20Razer%20DeathAdder%20Essential"
   },
   {
     "id": "auto-prod-256",
@@ -5510,14 +5665,15 @@ const PRODUCTS = [
     "currentPrice": 779,
     "installment": "em até 10x de R$ 77,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/tablet-samsung-galaxy-tab-a9-kids-64gb/p/MLB28197102?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/tablet-samsung-galaxy-tab-a9-kids-64gb?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_671294-MLB52125432063_102022-O.webp",
     "featured": true,
     "rating": 4.8,
     "reviewsCount": 3120,
     "couponCode": "KIDSTAB",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/tablet-samsung-galaxy-tab-a9-kids-64gb"
   },
   {
     "id": "auto-prod-257",
@@ -5530,14 +5686,15 @@ const PRODUCTS = [
     "currentPrice": 47.9,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Vestido+Feminino+Midi+Canelado+Manga&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Vestido%20Feminino%20Midi%20Canelado%20Manga&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 8940,
     "couponCode": "VESTIDO5",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Vestido%20Feminino%20Midi%20Canelado%20Manga"
   },
   {
     "id": "auto-prod-258",
@@ -5550,14 +5707,15 @@ const PRODUCTS = [
     "currentPrice": 479,
     "installment": "em até 10x de R$ 47,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/perfume-masculino-paco-rabanne-invictus-edt-100ml/p/MLB6055146?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/perfume-masculino-paco-rabanne-invictus-edt-100ml?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_900018-MLA47180410719_082021-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 8430,
     "couponCode": "INVICTUS",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/perfume-masculino-paco-rabanne-invictus-edt-100ml"
   },
   {
     "id": "auto-prod-259",
@@ -5570,14 +5728,15 @@ const PRODUCTS = [
     "currentPrice": 149.9,
     "installment": "em até 4x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Perfume+Masculino+Ferrari+Black+Eau&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Perfume%20Masculino%20Ferrari%20Black%20Eau&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1523293182086-7651a899d37f?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 6510,
     "couponCode": "FERRARI10",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Perfume%20Masculino%20Ferrari%20Black%20Eau"
   },
   {
     "id": "auto-prod-260",
@@ -5590,14 +5749,15 @@ const PRODUCTS = [
     "currentPrice": 48.9,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Pulseira+Masculina+A%C3%A7o+Inox+Cir%C3%BArgico&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Pulseira%20Masculina%20A%C3%A7o%20Inox%20Cir%C3%BArgico&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 3420,
     "couponCode": "PULSEIRA",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Pulseira%20Masculina%20A%C3%A7o%20Inox%20Cir%C3%BArgico"
   },
   {
     "id": "auto-prod-261",
@@ -5610,14 +5770,15 @@ const PRODUCTS = [
     "currentPrice": 209,
     "installment": "em até 6x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/teclado-mecanico-gamer-redragon-kumara-rgb-abnt2/p/MLB15195844?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/teclado-mecanico-gamer-redragon-kumara-rgb-abnt2?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_918204-MLB46684714168_072021-O.webp",
     "featured": true,
     "rating": 4.8,
     "reviewsCount": 11200,
     "couponCode": "KUMARA20",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/teclado-mecanico-gamer-redragon-kumara-rgb-abnt2"
   },
   {
     "id": "auto-prod-262",
@@ -5630,14 +5791,15 @@ const PRODUCTS = [
     "currentPrice": 77,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Mousepad+Gamer+Redragon+Flick+Speed&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Mousepad%20Gamer%20Redragon%20Flick%20Speed&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 4560,
     "couponCode": "FLICK",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Mousepad%20Gamer%20Redragon%20Flick%20Speed"
   },
   {
     "id": "auto-prod-263",
@@ -5650,14 +5812,15 @@ const PRODUCTS = [
     "currentPrice": 519,
     "installment": "em até 10x de R$ 51,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/perfume-carolina-herrera-212-vip-rose-edp-80ml/p/MLB6055147?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/perfume-carolina-herrera-212-vip-rose-edp-80ml?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_900018-MLA47180410720_082021-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 7890,
     "couponCode": "VIPROSE",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/perfume-carolina-herrera-212-vip-rose-edp-80ml"
   },
   {
     "id": "auto-prod-264",
@@ -5670,14 +5833,15 @@ const PRODUCTS = [
     "currentPrice": 299,
     "installment": "em até 10x de R$ 29,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/secador-profissional-taiff-titanium-2100w/p/MLB16194721?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/secador-profissional-taiff-titanium-2100w?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_824194-MLB52125432064_102022-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 5210,
     "couponCode": "TAIFF20",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/secador-profissional-taiff-titanium-2100w"
   },
   {
     "id": "auto-prod-265",
@@ -5690,14 +5854,15 @@ const PRODUCTS = [
     "currentPrice": 129,
     "installment": "em até 4x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/pista-hot-wheels-ataque-do-tubarao-mattel/p/MLB18195822?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/pista-hot-wheels-ataque-do-tubarao-mattel?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_671294-MLB52125432065_102022-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 4120,
     "couponCode": "TUBARAO",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/pista-hot-wheels-ataque-do-tubarao-mattel"
   },
   {
     "id": "auto-prod-266",
@@ -5710,14 +5875,15 @@ const PRODUCTS = [
     "currentPrice": 2149,
     "installment": "em até 10x de R$ 214,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/apple-watch-se-2-geracao-gps-44mm-estelar/p/MLB28197103?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-watch-se-2-geracao-gps-44mm-estelar?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_900018-MLA47180410721_082021-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 4680,
     "couponCode": "WATCHSE",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/apple-watch-se-2-geracao-gps-44mm-estelar"
   },
   {
     "id": "auto-prod-267",
@@ -5737,7 +5903,8 @@ const PRODUCTS = [
     "reviewsCount": 3120,
     "couponCode": "CASA100",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/geladeira-brastemp-frost-free-duplex"
   },
   {
     "id": "auto-prod-268",
@@ -5777,7 +5944,8 @@ const PRODUCTS = [
     "reviewsCount": 2980,
     "couponCode": "CONSUL50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/geladeira-consul-frost-free-duplex"
   },
   {
     "id": "auto-prod-270",
@@ -5797,7 +5965,8 @@ const PRODUCTS = [
     "reviewsCount": 1870,
     "couponCode": "PANA100",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/geladeira-panasonic-frost-free-425l"
   },
   {
     "id": "auto-prod-271",
@@ -5837,7 +6006,8 @@ const PRODUCTS = [
     "reviewsCount": 2340,
     "couponCode": "ELECTRO50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/geladeira-electrolux-frost-free-inverse"
   },
   {
     "id": "auto-prod-273",
@@ -5857,7 +6027,8 @@ const PRODUCTS = [
     "reviewsCount": 1450,
     "couponCode": "SAM500",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/geladeira-samsung-french-door-twin"
   },
   {
     "id": "auto-prod-274",
@@ -5897,7 +6068,8 @@ const PRODUCTS = [
     "reviewsCount": 1670,
     "couponCode": "BRAS300",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/geladeira-brastemp-frost-free-side"
   },
   {
     "id": "auto-prod-276",
@@ -5917,7 +6089,8 @@ const PRODUCTS = [
     "reviewsCount": 1980,
     "couponCode": "MIDEA50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/geladeira-midea-frost-free-duplex"
   },
   {
     "id": "auto-prod-277",
@@ -5957,7 +6130,8 @@ const PRODUCTS = [
     "reviewsCount": 1890,
     "couponCode": "FRIGO30",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/frigobar-midea-71l-branco-compacto"
   },
   {
     "id": "auto-prod-279",
@@ -5997,7 +6171,8 @@ const PRODUCTS = [
     "reviewsCount": 2120,
     "couponCode": "FRIGO50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/frigobar-electrolux-80l-re80-branco"
   },
   {
     "id": "auto-prod-281",
@@ -6037,7 +6212,8 @@ const PRODUCTS = [
     "reviewsCount": 1670,
     "couponCode": "MIDEA40",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/frigobar-midea-93l-inox-mdrd142fg01"
   },
   {
     "id": "auto-prod-283",
@@ -6057,7 +6233,8 @@ const PRODUCTS = [
     "reviewsCount": 1450,
     "couponCode": "PHILCO30",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/frigobar-philco-67l-eco-pfg85b"
   },
   {
     "id": "auto-prod-284",
@@ -6077,7 +6254,8 @@ const PRODUCTS = [
     "reviewsCount": 2210,
     "couponCode": "VINTAGE",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/frigobar-brastemp-retro-76l-amarelo"
   },
   {
     "id": "auto-prod-285",
@@ -6117,7 +6295,8 @@ const PRODUCTS = [
     "reviewsCount": 1540,
     "couponCode": "OSTER30",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/frigobar-oster-47l-inox-escovado"
   },
   {
     "id": "auto-prod-287",
@@ -6137,7 +6316,8 @@ const PRODUCTS = [
     "reviewsCount": 1780,
     "couponCode": "MIDEA60",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/frigobar-midea-124l-mdrd168fgb01-preto"
   },
   {
     "id": "auto-prod-288",
@@ -6150,14 +6330,15 @@ const PRODUCTS = [
     "currentPrice": 629,
     "installment": "em até 6x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Frigobar+EOS+71L+Ice+Compact&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Frigobar%20EOS%2071L%20Ice%20Compact&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://http2.mlstatic.com/D_NQ_NP_664182-MLA47180410712_082021-O.webp",
     "featured": false,
     "rating": 4.7,
     "reviewsCount": 1940,
     "couponCode": "EOSCASA",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Frigobar%20EOS%2071L%20Ice%20Compact"
   },
   {
     "id": "auto-prod-289",
@@ -6177,7 +6358,8 @@ const PRODUCTS = [
     "reviewsCount": 4120,
     "couponCode": "MICRO50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/micro-ondas-electrolux-34l-inox"
   },
   {
     "id": "auto-prod-290",
@@ -6217,7 +6399,8 @@ const PRODUCTS = [
     "reviewsCount": 5120,
     "couponCode": "PANA20",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/micro-ondas-panasonic-21l-antibacteria"
   },
   {
     "id": "auto-prod-292",
@@ -6237,7 +6420,8 @@ const PRODUCTS = [
     "reviewsCount": 2890,
     "couponCode": "LG100",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/micro-ondas-30l-prata-smart"
   },
   {
     "id": "auto-prod-293",
@@ -6277,7 +6461,8 @@ const PRODUCTS = [
     "reviewsCount": 3200,
     "couponCode": "CONSUL30",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/micro-ondas-consul-32l-cinza"
   },
   {
     "id": "auto-prod-295",
@@ -6290,14 +6475,15 @@ const PRODUCTS = [
     "currentPrice": 384,
     "installment": "em até 5x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Micro+ondas+Philco+26L+PMO26B&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Micro%20ondas%20Philco%2026L%20PMO26B&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.7,
     "reviewsCount": 3450,
     "couponCode": "PHILCO20",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Micro%20ondas%20Philco%2026L%20PMO26B"
   },
   {
     "id": "auto-prod-296",
@@ -6317,7 +6503,8 @@ const PRODUCTS = [
     "reviewsCount": 4190,
     "couponCode": "MOND50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/micro-ondas-mondial-21l-preto"
   },
   {
     "id": "auto-prod-297",
@@ -6337,7 +6524,8 @@ const PRODUCTS = [
     "reviewsCount": 2780,
     "couponCode": "BRAS80",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/micro-ondas-brastemp-38l-ative"
   },
   {
     "id": "auto-prod-298",
@@ -6377,7 +6565,8 @@ const PRODUCTS = [
     "reviewsCount": 2940,
     "couponCode": "PANA60",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/micro-ondas-panasonic-34l-inox"
   },
   {
     "id": "auto-prod-300",
@@ -6397,7 +6586,8 @@ const PRODUCTS = [
     "reviewsCount": 14200,
     "couponCode": "AIR30",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/fritadeira-sem-oleo-airfryer-mondial"
   },
   {
     "id": "auto-prod-301",
@@ -6437,7 +6627,8 @@ const PRODUCTS = [
     "reviewsCount": 6540,
     "couponCode": "ELECTRO40",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/fritadeira-airfryer-electrolux-digital-experience"
   },
   {
     "id": "auto-prod-303",
@@ -6450,14 +6641,15 @@ const PRODUCTS = [
     "currentPrice": 233,
     "installment": "em até 4x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Fritadeira+Air+Fryer+Brit%C3%A2nia+BFR25P&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Fritadeira%20Air%20Fryer%20Brit%C3%A2nia%20BFR25P&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1585515320310-259814833e62?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 11200,
     "couponCode": "BRITANIA",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Fritadeira%20Air%20Fryer%20Brit%C3%A2nia%20BFR25P"
   },
   {
     "id": "auto-prod-304",
@@ -6477,7 +6669,8 @@ const PRODUCTS = [
     "reviewsCount": 9450,
     "couponCode": "OVEN50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/fritadeira-airfryer-oven-mondial-litros"
   },
   {
     "id": "auto-prod-305",
@@ -6497,7 +6690,8 @@ const PRODUCTS = [
     "reviewsCount": 3890,
     "couponCode": "WALITA50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/fritadeira-sem-oleo-philips-walita"
   },
   {
     "id": "auto-prod-306",
@@ -6510,14 +6704,15 @@ const PRODUCTS = [
     "currentPrice": 239,
     "installment": "em até 4x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Fritadeira+El%C3%A9trica+Airfryer+Gaabor+4.5&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Fritadeira%20El%C3%A9trica%20Airfryer%20Gaabor%204.5&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 7890,
     "couponCode": "GAABOR",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Fritadeira%20El%C3%A9trica%20Airfryer%20Gaabor%204.5"
   },
   {
     "id": "auto-prod-307",
@@ -6557,7 +6752,8 @@ const PRODUCTS = [
     "reviewsCount": 5670,
     "couponCode": "WAPCASA",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/fritadeira-airfryer-wap-grand-family"
   },
   {
     "id": "auto-prod-309",
@@ -6577,7 +6773,8 @@ const PRODUCTS = [
     "reviewsCount": 3410,
     "couponCode": "DUAL8L",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/fritadeira-air-fryer-mondial-dual"
   },
   {
     "id": "auto-prod-310",
@@ -6617,7 +6814,8 @@ const PRODUCTS = [
     "reviewsCount": 8940,
     "couponCode": "TV100",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/smart-55-samsung-crystal-uhd"
   },
   {
     "id": "auto-prod-312",
@@ -6657,7 +6855,8 @@ const PRODUCTS = [
     "reviewsCount": 4210,
     "couponCode": "TCLQLED",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/smart-50-tcl-qled-50c645"
   },
   {
     "id": "auto-prod-314",
@@ -6697,7 +6896,8 @@ const PRODUCTS = [
     "reviewsCount": 4890,
     "couponCode": "TV65POL",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/smart-65-samsung-crystal-uhd"
   },
   {
     "id": "auto-prod-316",
@@ -6717,7 +6917,8 @@ const PRODUCTS = [
     "reviewsCount": 3120,
     "couponCode": "OLED200",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/smart-55-oled-evo-120hz"
   },
   {
     "id": "auto-prod-317",
@@ -6757,7 +6958,8 @@ const PRODUCTS = [
     "reviewsCount": 3450,
     "couponCode": "AMBILIGHT",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/smart-55-philips-ambilight-55pug7908"
   },
   {
     "id": "auto-prod-319",
@@ -6777,7 +6979,8 @@ const PRODUCTS = [
     "reviewsCount": 5210,
     "couponCode": "QLED100",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/smart-50-samsung-qled-q60c"
   },
   {
     "id": "auto-prod-320",
@@ -6790,14 +6993,15 @@ const PRODUCTS = [
     "currentPrice": 961,
     "installment": "em até 6x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Smart+32%27%27+TCL+32S5400A+Android&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Smart%2032''%20TCL%2032S5400A%20Android&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.7,
     "reviewsCount": 7890,
     "couponCode": "TCL32",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Smart%2032''%20TCL%2032S5400A%20Android"
   },
   {
     "id": "auto-prod-321",
@@ -6837,7 +7041,8 @@ const PRODUCTS = [
     "reviewsCount": 2340,
     "couponCode": "MADESA50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/guarda-roupa-casal-com-espelho"
   },
   {
     "id": "auto-prod-323",
@@ -6877,7 +7082,8 @@ const PRODUCTS = [
     "reviewsCount": 1890,
     "couponCode": "LUKE30",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/guarda-roupa-solteiro-portas-correr"
   },
   {
     "id": "auto-prod-325",
@@ -6897,7 +7103,8 @@ const PRODUCTS = [
     "reviewsCount": 2780,
     "couponCode": "KAPPES50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/guarda-roupa-casal-portas-gavetas"
   },
   {
     "id": "auto-prod-326",
@@ -6910,14 +7117,15 @@ const PRODUCTS = [
     "currentPrice": 389,
     "installment": "em até 5x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Guarda+Roupa+Solteiro+Portas+Gavetas&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Guarda%20Roupa%20Solteiro%20Portas%20Gavetas&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1595428774223-ef52624120d2?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.7,
     "reviewsCount": 2340,
     "couponCode": "ARAPLAC",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Guarda%20Roupa%20Solteiro%20Portas%20Gavetas"
   },
   {
     "id": "auto-prod-327",
@@ -6937,7 +7145,8 @@ const PRODUCTS = [
     "reviewsCount": 1450,
     "couponCode": "HENN30",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/guarda-roupa-casal-modulado-canto"
   },
   {
     "id": "auto-prod-328",
@@ -6977,7 +7186,8 @@ const PRODUCTS = [
     "reviewsCount": 1720,
     "couponCode": "BEBERETRO",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/guarda-roupa-infantil-bebe-portas"
   },
   {
     "id": "auto-prod-330",
@@ -6997,7 +7207,8 @@ const PRODUCTS = [
     "reviewsCount": 2150,
     "couponCode": "DEMO50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/guarda-roupa-casal-portas-com"
   },
   {
     "id": "auto-prod-331",
@@ -7010,14 +7221,15 @@ const PRODUCTS = [
     "currentPrice": 535,
     "installment": "em até 6x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Guarda+Roupa+Solteiro+Portas+Gavetas&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Guarda%20Roupa%20Solteiro%20Portas%20Gavetas&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 3120,
     "couponCode": "DENVER20",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Guarda%20Roupa%20Solteiro%20Portas%20Gavetas"
   },
   {
     "id": "auto-prod-332",
@@ -7057,7 +7269,8 @@ const PRODUCTS = [
     "reviewsCount": 7890,
     "couponCode": "LAVABRAS",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/maquina-lavar-brastemp-13kg-branca"
   },
   {
     "id": "auto-prod-334",
@@ -7097,7 +7310,8 @@ const PRODUCTS = [
     "reviewsCount": 5410,
     "couponCode": "CONSUL40",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/maquina-lavar-consul-12kg-cwh12ab"
   },
   {
     "id": "auto-prod-336",
@@ -7117,7 +7331,8 @@ const PRODUCTS = [
     "reviewsCount": 4120,
     "couponCode": "MIDEALAVA",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/lava-seca-midea-healthguard-smart"
   },
   {
     "id": "auto-prod-337",
@@ -7157,7 +7372,8 @@ const PRODUCTS = [
     "reviewsCount": 3890,
     "couponCode": "PANALAVA",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/maquina-lavar-panasonic-12kg-aco"
   },
   {
     "id": "auto-prod-339",
@@ -7177,7 +7393,8 @@ const PRODUCTS = [
     "reviewsCount": 8120,
     "couponCode": "LGVIVACE",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/lava-seca-vivace-11kg-aco"
   },
   {
     "id": "auto-prod-340",
@@ -7217,7 +7434,8 @@ const PRODUCTS = [
     "reviewsCount": 4780,
     "couponCode": "ELEC50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/maquina-lavar-electrolux-15kg-essential"
   },
   {
     "id": "auto-prod-342",
@@ -7230,14 +7448,15 @@ const PRODUCTS = [
     "currentPrice": 454,
     "installment": "em até 6x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Lavadora+Semiautom%C3%A1tica+Mueller+10kg+SuperPop&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Lavadora%20Semiautom%C3%A1tica%20Mueller%2010kg%20SuperPop&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.7,
     "reviewsCount": 5690,
     "couponCode": "MUELLER",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Lavadora%20Semiautom%C3%A1tica%20Mueller%2010kg%20SuperPop"
   },
   {
     "id": "auto-prod-343",
@@ -7257,7 +7476,8 @@ const PRODUCTS = [
     "reviewsCount": 5120,
     "couponCode": "SAMWASH",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/lava-seca-samsung-smart-11kg"
   },
   {
     "id": "auto-prod-344",
@@ -7277,7 +7497,8 @@ const PRODUCTS = [
     "reviewsCount": 4210,
     "couponCode": "XIAOMI50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/robo-aspirador-passa-pano-xiaomi"
   },
   {
     "id": "auto-prod-345",
@@ -7310,14 +7531,15 @@ const PRODUCTS = [
     "currentPrice": 309,
     "installment": "em até 5x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Rob%C3%B4+Aspirador+Mondial+Fast+Clean&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Rob%C3%B4%20Aspirador%20Mondial%20Fast%20Clean&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1584824486509-112e4181ff6b?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.7,
     "reviewsCount": 9890,
     "couponCode": "FASTCLEAN",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Rob%C3%B4%20Aspirador%20Mondial%20Fast%20Clean"
   },
   {
     "id": "auto-prod-347",
@@ -7337,7 +7559,8 @@ const PRODUCTS = [
     "reviewsCount": 8210,
     "couponCode": "WAP20",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/aspirador-agua-wap-gtw-10l"
   },
   {
     "id": "auto-prod-348",
@@ -7357,7 +7580,8 @@ const PRODUCTS = [
     "reviewsCount": 3890,
     "couponCode": "ROOMBA100",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/robo-aspirador-irobot-roomba-694"
   },
   {
     "id": "auto-prod-349",
@@ -7397,7 +7621,8 @@ const PRODUCTS = [
     "reviewsCount": 2980,
     "couponCode": "KABUMROBO",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/robo-aspirador-kabum-smart-700"
   },
   {
     "id": "auto-prod-351",
@@ -7410,14 +7635,15 @@ const PRODUCTS = [
     "currentPrice": 135,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Aspirador+Vertical+Brit%C3%A2nia+Dust+Off&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Aspirador%20Vertical%20Brit%C3%A2nia%20Dust%20Off&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1558317374-067fb5f30001?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.7,
     "reviewsCount": 12450,
     "couponCode": "BRIT10",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Aspirador%20Vertical%20Brit%C3%A2nia%20Dust%20Off"
   },
   {
     "id": "auto-prod-352",
@@ -7457,7 +7683,8 @@ const PRODUCTS = [
     "reviewsCount": 15600,
     "couponCode": "MONDIAL20",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/aspirador-vertical-mondial-turbo-cycle"
   },
   {
     "id": "auto-prod-354",
@@ -7477,7 +7704,8 @@ const PRODUCTS = [
     "reviewsCount": 5120,
     "couponCode": "WAPROBOT",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/robo-aspirador-wap-robot-w300"
   },
   {
     "id": "auto-prod-355",
@@ -7497,7 +7725,8 @@ const PRODUCTS = [
     "reviewsCount": 4120,
     "couponCode": "NITRO100",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/notebook-gamer-acer-nitro-intel"
   },
   {
     "id": "auto-prod-356",
@@ -7537,7 +7766,8 @@ const PRODUCTS = [
     "reviewsCount": 3890,
     "couponCode": "RYZEN50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/computador-gamer-completo-amd-ryzen"
   },
   {
     "id": "auto-prod-358",
@@ -7550,14 +7780,15 @@ const PRODUCTS = [
     "currentPrice": 1889,
     "installment": "em até 6x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Notebook+ASUS+Vivobook+Intel+Core&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Notebook%20ASUS%20Vivobook%20Intel%20Core&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.7,
     "reviewsCount": 4210,
     "couponCode": "ASUSNOTE",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Notebook%20ASUS%20Vivobook%20Intel%20Core"
   },
   {
     "id": "auto-prod-359",
@@ -7577,7 +7808,8 @@ const PRODUCTS = [
     "reviewsCount": 3200,
     "couponCode": "DELLG15",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/notebook-gamer-dell-g15-intel"
   },
   {
     "id": "auto-prod-360",
@@ -7597,7 +7829,8 @@ const PRODUCTS = [
     "reviewsCount": 1980,
     "couponCode": "MINIPC",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/computador-mini-beelink-mini-s12"
   },
   {
     "id": "auto-prod-361",
@@ -7637,7 +7870,8 @@ const PRODUCTS = [
     "reviewsCount": 1670,
     "couponCode": "GPU200",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/placa-video-rtx-4070-super"
   },
   {
     "id": "auto-prod-363",
@@ -7657,7 +7891,8 @@ const PRODUCTS = [
     "reviewsCount": 2340,
     "couponCode": "GALAX50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/placa-video-rtx-4060-8gb"
   },
   {
     "id": "auto-prod-364",
@@ -7677,7 +7912,8 @@ const PRODUCTS = [
     "reviewsCount": 1890,
     "couponCode": "RX7600",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/placa-video-amd-radeon-7600"
   },
   {
     "id": "auto-prod-365",
@@ -7717,7 +7953,8 @@ const PRODUCTS = [
     "reviewsCount": 890,
     "couponCode": "RTX4080",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/placa-video-rtx-4080-super"
   },
   {
     "id": "auto-prod-367",
@@ -7737,7 +7974,8 @@ const PRODUCTS = [
     "reviewsCount": 5410,
     "couponCode": "RX6600",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/placa-video-amd-radeon-6600"
   },
   {
     "id": "auto-prod-368",
@@ -7750,14 +7988,15 @@ const PRODUCTS = [
     "currentPrice": 839,
     "installment": "em até 6x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Placa+V%C3%ADdeo+GeForce+GTX+1650&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Placa%20V%C3%ADdeo%20GeForce%20GTX%201650&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.7,
     "reviewsCount": 4210,
     "couponCode": "GTX1650",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Placa%20V%C3%ADdeo%20GeForce%20GTX%201650"
   },
   {
     "id": "auto-prod-369",
@@ -7777,7 +8016,8 @@ const PRODUCTS = [
     "reviewsCount": 1240,
     "couponCode": "ZOTAC100",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/placa-video-rtx-4070-super"
   },
   {
     "id": "auto-prod-370",
@@ -7797,7 +8037,8 @@ const PRODUCTS = [
     "reviewsCount": 2670,
     "couponCode": "RX6750",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/placa-video-amd-radeon-6750"
   },
   {
     "id": "auto-prod-371",
@@ -7837,7 +8078,8 @@ const PRODUCTS = [
     "reviewsCount": 1450,
     "couponCode": "INTELARC",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/placa-video-intel-arc-a580"
   },
   {
     "id": "auto-prod-373",
@@ -7857,7 +8099,8 @@ const PRODUCTS = [
     "reviewsCount": 3890,
     "couponCode": "ODYSSEY",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/monitor-gamer-curvo-samsung-odyssey"
   },
   {
     "id": "auto-prod-374",
@@ -7897,7 +8140,8 @@ const PRODUCTS = [
     "reviewsCount": 6120,
     "couponCode": "LGGEAR",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/monitor-gamer-ultragear-27-full"
   },
   {
     "id": "auto-prod-376",
@@ -7910,14 +8154,15 @@ const PRODUCTS = [
     "currentPrice": 559,
     "installment": "em até 5x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Monitor+Curvo+Samsung+T35F+24%27%27&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Monitor%20Curvo%20Samsung%20T35F%2024''&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1547119957-637f8679db1e?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 9410,
     "couponCode": "SAMT35",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Monitor%20Curvo%20Samsung%20T35F%2024''"
   },
   {
     "id": "auto-prod-377",
@@ -7937,7 +8182,8 @@ const PRODUCTS = [
     "reviewsCount": 2310,
     "couponCode": "EVNIA50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/monitor-gamer-philips-evnia-27"
   },
   {
     "id": "auto-prod-378",
@@ -7977,7 +8223,8 @@ const PRODUCTS = [
     "reviewsCount": 3120,
     "couponCode": "DELL4K",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/monitor-profissional-dell-27-uhd"
   },
   {
     "id": "auto-prod-380",
@@ -7990,14 +8237,15 @@ const PRODUCTS = [
     "currentPrice": 645,
     "installment": "em até 6x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Monitor+Gamer+SuperFrame+Vision+24%27%27&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Monitor%20Gamer%20SuperFrame%20Vision%2024''&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1547119957-637f8679db1e?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.7,
     "reviewsCount": 5210,
     "couponCode": "SUPERVISION",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Monitor%20Gamer%20SuperFrame%20Vision%2024''"
   },
   {
     "id": "auto-prod-381",
@@ -8017,7 +8265,8 @@ const PRODUCTS = [
     "reviewsCount": 3890,
     "couponCode": "MANCER",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/monitor-curvo-gamer-mancer-valak"
   },
   {
     "id": "auto-prod-382",
@@ -8037,7 +8286,8 @@ const PRODUCTS = [
     "reviewsCount": 4120,
     "couponCode": "FORTREK",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/cadeira-gamer-fortrek-black-hawk"
   },
   {
     "id": "auto-prod-383",
@@ -8077,7 +8327,8 @@ const PRODUCTS = [
     "reviewsCount": 7890,
     "couponCode": "MESH50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/cadeira-escritorio-ergonomica-presidente-com"
   },
   {
     "id": "auto-prod-385",
@@ -8090,14 +8341,15 @@ const PRODUCTS = [
     "currentPrice": 454,
     "installment": "em até 5x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Cadeira+Gamer+Prizi+Canvas+Preta&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Cadeira%20Gamer%20Prizi%20Canvas%20Preta&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.7,
     "reviewsCount": 11200,
     "couponCode": "PRIZI30",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Cadeira%20Gamer%20Prizi%20Canvas%20Preta"
   },
   {
     "id": "auto-prod-386",
@@ -8117,7 +8369,8 @@ const PRODUCTS = [
     "reviewsCount": 3410,
     "couponCode": "CORSAIR",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/cadeira-gamer-corsair-rush-tecido"
   },
   {
     "id": "auto-prod-387",
@@ -8157,7 +8410,8 @@ const PRODUCTS = [
     "reviewsCount": 2980,
     "couponCode": "YAMA50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/cadeira-gamer-thunderx3-yama1-ergonomica"
   },
   {
     "id": "auto-prod-389",
@@ -8177,7 +8431,8 @@ const PRODUCTS = [
     "reviewsCount": 3890,
     "couponCode": "POLARIS",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/cadeira-gamer-alpha-gamer-polaris"
   },
   {
     "id": "auto-prod-390",
@@ -8190,14 +8445,15 @@ const PRODUCTS = [
     "currentPrice": 339,
     "installment": "em até 4x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Cadeira+Escrit%C3%B3rio+Diretor+Charles+Eames&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Cadeira%20Escrit%C3%B3rio%20Diretor%20Charles%20Eames&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 8910,
     "couponCode": "EAMES20",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Cadeira%20Escrit%C3%B3rio%20Diretor%20Charles%20Eames"
   },
   {
     "id": "auto-prod-391",
@@ -8217,7 +8473,8 @@ const PRODUCTS = [
     "reviewsCount": 4120,
     "couponCode": "MOOBRUSH",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/cadeira-gamer-moob-rush-reclinavel"
   },
   {
     "id": "auto-prod-392",
@@ -8257,7 +8514,8 @@ const PRODUCTS = [
     "reviewsCount": 8940,
     "couponCode": "LOGI30",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/teclado-mecanico-gamer-logitech-g213"
   },
   {
     "id": "auto-prod-394",
@@ -8277,7 +8535,8 @@ const PRODUCTS = [
     "reviewsCount": 3120,
     "couponCode": "KEYCHRON",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/teclado-mecanico-sem-fio-keychron"
   },
   {
     "id": "auto-prod-395",
@@ -8310,14 +8569,15 @@ const PRODUCTS = [
     "currentPrice": 189,
     "installment": "em até 4x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Teclado+Sem+Fio+Logitech+K380&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Teclado%20Sem%20Fio%20Logitech%20K380&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 15400,
     "couponCode": "LOGIK380",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Teclado%20Sem%20Fio%20Logitech%20K380"
   },
   {
     "id": "auto-prod-397",
@@ -8337,7 +8597,8 @@ const PRODUCTS = [
     "reviewsCount": 4890,
     "couponCode": "HYPERX30",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/teclado-mecanico-gamer-hyperx-alloy"
   },
   {
     "id": "auto-prod-398",
@@ -8350,14 +8611,15 @@ const PRODUCTS = [
     "currentPrice": 161,
     "installment": "em até 3x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Teclado+Mec%C3%A2nico+60%25+Gamer+Redragon&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Teclado%20Mec%C3%A2nico%2060%25%20Gamer%20Redragon&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 12400,
     "couponCode": "FIZZ60",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Teclado%20Mec%C3%A2nico%2060%25%20Gamer%20Redragon"
   },
   {
     "id": "auto-prod-399",
@@ -8377,7 +8639,8 @@ const PRODUCTS = [
     "reviewsCount": 7120,
     "couponCode": "DELLCOMBO",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/teclado-mouse-sem-fio-dell"
   },
   {
     "id": "auto-prod-400",
@@ -8397,7 +8660,8 @@ const PRODUCTS = [
     "reviewsCount": 3890,
     "couponCode": "RAZER50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/teclado-mecanico-gamer-razer-blackwidow"
   },
   {
     "id": "auto-prod-401",
@@ -8410,14 +8674,15 @@ const PRODUCTS = [
     "currentPrice": 251,
     "installment": "em até 5x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Teclado+Gamer+Sem+Fio+Machenike&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Teclado%20Gamer%20Sem%20Fio%20Machenike&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 5410,
     "couponCode": "MACHENIKE",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Teclado%20Gamer%20Sem%20Fio%20Machenike"
   },
   {
     "id": "auto-prod-402",
@@ -8457,7 +8722,8 @@ const PRODUCTS = [
     "reviewsCount": 6120,
     "couponCode": "KARURA",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/teclado-gamer-membrana-redragon-karura"
   },
   {
     "id": "auto-prod-404",
@@ -8477,7 +8743,8 @@ const PRODUCTS = [
     "reviewsCount": 15400,
     "couponCode": "G305OFF",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/mouse-gamer-sem-fio-logitech"
   },
   {
     "id": "auto-prod-405",
@@ -8490,14 +8757,15 @@ const PRODUCTS = [
     "currentPrice": 161,
     "installment": "em até 3x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Mouse+Gamer+Razer+Viper+Mini&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Mouse%20Gamer%20Razer%20Viper%20Mini&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 18900,
     "couponCode": "VIPERMINI",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Mouse%20Gamer%20Razer%20Viper%20Mini"
   },
   {
     "id": "auto-prod-406",
@@ -8517,7 +8785,8 @@ const PRODUCTS = [
     "reviewsCount": 4210,
     "couponCode": "LIFT30",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/mouse-sem-fio-ergonomico-logitech"
   },
   {
     "id": "auto-prod-407",
@@ -8557,7 +8826,8 @@ const PRODUCTS = [
     "reviewsCount": 3120,
     "couponCode": "SUPERLIGHT",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/mouse-gamer-sem-fio-logitech"
   },
   {
     "id": "auto-prod-409",
@@ -8570,14 +8840,15 @@ const PRODUCTS = [
     "currentPrice": 118,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Mouse+Gamer+HyperX+Pulsefire+Core&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Mouse%20Gamer%20HyperX%20Pulsefire%20Core&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 8940,
     "couponCode": "COREHYPERX",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Mouse%20Gamer%20HyperX%20Pulsefire%20Core"
   },
   {
     "id": "auto-prod-410",
@@ -8617,7 +8888,8 @@ const PRODUCTS = [
     "reviewsCount": 3410,
     "couponCode": "SHARKX3",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/mouse-gamer-attack-shark-tri"
   },
   {
     "id": "auto-prod-412",
@@ -8637,7 +8909,8 @@ const PRODUCTS = [
     "reviewsCount": 4670,
     "couponCode": "RAZER40",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/mouse-gamer-razer-basilisk-iluminacao"
   },
   {
     "id": "auto-prod-413",
@@ -8650,14 +8923,15 @@ const PRODUCTS = [
     "currentPrice": 103,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Mouse+Sem+Fio+Vertical+Delux&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Mouse%20Sem%20Fio%20Vertical%20Delux&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.7,
     "reviewsCount": 7890,
     "couponCode": "DELUX20",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Mouse%20Sem%20Fio%20Vertical%20Delux"
   },
   {
     "id": "auto-prod-414",
@@ -8677,7 +8951,8 @@ const PRODUCTS = [
     "reviewsCount": 14200,
     "couponCode": "SPEEDPAD",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/mousepad-gamer-extra-grande-speed"
   },
   {
     "id": "auto-prod-415",
@@ -8690,14 +8965,15 @@ const PRODUCTS = [
     "currentPrice": 59.9,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Mousepad+Gamer+RGB+com+LED&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Mousepad%20Gamer%20RGB%20com%20LED&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1616440347437-b1c73416efc2?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.7,
     "reviewsCount": 18900,
     "couponCode": "LEDPAD",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Mousepad%20Gamer%20RGB%20com%20LED"
   },
   {
     "id": "auto-prod-416",
@@ -8717,7 +8993,8 @@ const PRODUCTS = [
     "reviewsCount": 5670,
     "couponCode": "RAZERPAD",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/mousepad-gamer-razer-gigantus-grande"
   },
   {
     "id": "auto-prod-417",
@@ -8737,7 +9014,8 @@ const PRODUCTS = [
     "reviewsCount": 6120,
     "couponCode": "STEELPAD",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/mousepad-gamer-steelseries-qck-heavy"
   },
   {
     "id": "auto-prod-418",
@@ -8777,7 +9055,8 @@ const PRODUCTS = [
     "reviewsCount": 3890,
     "couponCode": "FALLEN",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/mousepad-gamer-fallen-pantera-control"
   },
   {
     "id": "auto-prod-420",
@@ -8790,14 +9069,15 @@ const PRODUCTS = [
     "currentPrice": 48.9,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Mousepad+Couro+Ecol%C3%B3gico+Desk+Pad&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Mousepad%20Couro%20Ecol%C3%B3gico%20Desk%20Pad&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 16700,
     "couponCode": "DESKPAD",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Mousepad%20Couro%20Ecol%C3%B3gico%20Desk%20Pad"
   },
   {
     "id": "auto-prod-421",
@@ -8817,7 +9097,8 @@ const PRODUCTS = [
     "reviewsCount": 7890,
     "couponCode": "REDRA10",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/mousepad-gamer-redragon-archelon-medio"
   },
   {
     "id": "auto-prod-422",
@@ -8857,7 +9138,8 @@ const PRODUCTS = [
     "reviewsCount": 9450,
     "couponCode": "HAVITPAD",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/mousepad-gamer-havit-mp830-extra"
   },
   {
     "id": "auto-prod-424",
@@ -8870,14 +9152,15 @@ const PRODUCTS = [
     "currentPrice": 57.8,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Mousepad+Gamer+Husky+Gaming+Avalanche&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Mousepad%20Gamer%20Husky%20Gaming%20Avalanche&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 6510,
     "couponCode": "HUSKYPAD",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Mousepad%20Gamer%20Husky%20Gaming%20Avalanche"
   },
   {
     "id": "auto-prod-425",
@@ -8897,7 +9180,8 @@ const PRODUCTS = [
     "reviewsCount": 18900,
     "couponCode": "AIRFORCE",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/tenis-nike-air-force-07"
   },
   {
     "id": "auto-prod-426",
@@ -8937,7 +9221,8 @@ const PRODUCTS = [
     "reviewsCount": 16500,
     "couponCode": "VANS50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/tenis-vans-old-skool-preto"
   },
   {
     "id": "auto-prod-428",
@@ -8950,14 +9235,15 @@ const PRODUCTS = [
     "currentPrice": 278,
     "installment": "em até 5x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=T%C3%AAnis+Puma+Suede+Classic+XXI&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=T%C3%AAnis%20Puma%20Suede%20Classic%20XXI&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 7890,
     "couponCode": "PUMA30",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=T%C3%AAnis%20Puma%20Suede%20Classic%20XXI"
   },
   {
     "id": "auto-prod-429",
@@ -8977,7 +9263,8 @@ const PRODUCTS = [
     "reviewsCount": 5410,
     "couponCode": "ASICS20",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/tenis-asics-gel-dedicate-masculino"
   },
   {
     "id": "auto-prod-430",
@@ -9017,7 +9304,8 @@ const PRODUCTS = [
     "reviewsCount": 6890,
     "couponCode": "MIZUNO30",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/tenis-mizuno-wave-mirai-masculino"
   },
   {
     "id": "auto-prod-432",
@@ -9030,14 +9318,15 @@ const PRODUCTS = [
     "currentPrice": 161,
     "installment": "em até 3x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=T%C3%AAnis+Olympikus+Reverso+Unissex+com&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=T%C3%AAnis%20Olympikus%20Reverso%20Unissex%20com&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 14200,
     "couponCode": "OLYMPIKUS",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=T%C3%AAnis%20Olympikus%20Reverso%20Unissex%20com"
   },
   {
     "id": "auto-prod-433",
@@ -9057,7 +9346,8 @@ const PRODUCTS = [
     "reviewsCount": 5210,
     "couponCode": "RAYBAN50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/oculos-sol-ray-ban-clubmaster"
   },
   {
     "id": "auto-prod-434",
@@ -9077,7 +9367,8 @@ const PRODUCTS = [
     "reviewsCount": 3890,
     "couponCode": "OAKLEY30",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/oculos-sol-oakley-frogskins-lentes"
   },
   {
     "id": "auto-prod-435",
@@ -9090,14 +9381,15 @@ const PRODUCTS = [
     "currentPrice": 65,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=%C3%93culos+Sol+Polarizado+Masculino+Prote%C3%A7%C3%A3o&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=%C3%93culos%20Sol%20Polarizado%20Masculino%20Prote%C3%A7%C3%A3o&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 22400,
     "couponCode": "POLAR10",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=%C3%93culos%20Sol%20Polarizado%20Masculino%20Prote%C3%A7%C3%A3o"
   },
   {
     "id": "auto-prod-436",
@@ -9137,7 +9429,8 @@ const PRODUCTS = [
     "reviewsCount": 4120,
     "couponCode": "SUTRO50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/oculos-sol-oakley-sutro-lentes"
   },
   {
     "id": "auto-prod-438",
@@ -9150,14 +9443,15 @@ const PRODUCTS = [
     "currentPrice": 59.9,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=%C3%93culos+Sol+Aviador+Cl%C3%A1ssico+Masculino&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=%C3%93culos%20Sol%20Aviador%20Cl%C3%A1ssico%20Masculino&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.7,
     "reviewsCount": 16700,
     "couponCode": "AVIADOR",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=%C3%93culos%20Sol%20Aviador%20Cl%C3%A1ssico%20Masculino"
   },
   {
     "id": "auto-prod-439",
@@ -9170,14 +9464,15 @@ const PRODUCTS = [
     "currentPrice": 676,
     "installment": "em até 10x de R$ 67,60 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/oculos-de-sol-ray-ban-round-metal-rb3447/p/MLB15243200?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/oculos-de-sol-ray-ban-round-metal-rb3447?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410800_082021-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 6540,
     "couponCode": "ROUND50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/oculos-de-sol-ray-ban-round-metal-rb3447"
   },
   {
     "id": "auto-prod-440",
@@ -9210,14 +9505,15 @@ const PRODUCTS = [
     "currentPrice": 545,
     "installment": "em até 10x de R$ 54,50 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/oculos-de-sol-oakley-gascan-o-matter/p/MLB15243201?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/oculos-de-sol-oakley-gascan-o-matter?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410801_082021-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 3890,
     "couponCode": "GASCAN",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/oculos-de-sol-oakley-gascan-o-matter"
   },
   {
     "id": "auto-prod-442",
@@ -9230,14 +9526,15 @@ const PRODUCTS = [
     "currentPrice": 39.5,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=%C3%93culos+Sol+Quadrado+Retr%C3%B4+Unissex&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=%C3%93culos%20Sol%20Quadrado%20Retr%C3%B4%20Unissex&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.7,
     "reviewsCount": 13400,
     "couponCode": "RETRO10",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=%C3%93culos%20Sol%20Quadrado%20Retr%C3%B4%20Unissex"
   },
   {
     "id": "auto-prod-443",
@@ -9250,14 +9547,15 @@ const PRODUCTS = [
     "currentPrice": 317,
     "installment": "em até 6x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/oculos-de-sol-colcci-bandy-preto-brilho/p/MLB15243202?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/oculos-de-sol-colcci-bandy-preto-brilho?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410802_082021-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 2980,
     "couponCode": "COLCCI20",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/oculos-de-sol-colcci-bandy-preto-brilho"
   },
   {
     "id": "auto-prod-444",
@@ -9270,14 +9568,15 @@ const PRODUCTS = [
     "currentPrice": 164,
     "installment": "em até 3x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/relogio-casio-vintage-a158wa-prata/p/MLB15243203?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/relogio-casio-vintage-a158wa-prata?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410803_082021-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 21500,
     "couponCode": "CASIO20",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/relogio-casio-vintage-a158wa-prata"
   },
   {
     "id": "auto-prod-445",
@@ -9310,14 +9609,15 @@ const PRODUCTS = [
     "currentPrice": 369,
     "installment": "em até 7x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/relogio-technos-masculino-golf-dourado/p/MLB15243204?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/relogio-technos-masculino-golf-dourado?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410804_082021-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 6890,
     "couponCode": "TECHNOS30",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/relogio-technos-masculino-golf-dourado"
   },
   {
     "id": "auto-prod-447",
@@ -9330,14 +9630,15 @@ const PRODUCTS = [
     "currentPrice": 467,
     "installment": "em até 8x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/relogio-casio-g-shock-dw-5600e-1vdf/p/MLB15243205?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/relogio-casio-g-shock-dw-5600e-1vdf?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410805_082021-O.webp",
     "featured": true,
     "rating": 5,
     "reviewsCount": 14200,
     "couponCode": "GSHOCK30",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/relogio-casio-g-shock-dw-5600e-1vdf"
   },
   {
     "id": "auto-prod-448",
@@ -9350,14 +9651,15 @@ const PRODUCTS = [
     "currentPrice": 92.9,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Rel%C3%B3gio+Curren+Masculino+Luxo+Pulseira&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Rel%C3%B3gio%20Curren%20Masculino%20Luxo%20Pulseira&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 18900,
     "couponCode": "CURREN",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Rel%C3%B3gio%20Curren%20Masculino%20Luxo%20Pulseira"
   },
   {
     "id": "auto-prod-449",
@@ -9370,14 +9672,15 @@ const PRODUCTS = [
     "currentPrice": 899,
     "installment": "em até 10x de R$ 89,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/relogio-invicta-pro-diver-0072-ouro-18k/p/MLB15243206?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/relogio-invicta-pro-diver-0072-ouro-18k?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410806_082021-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 7120,
     "couponCode": "INVICTA50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/relogio-invicta-pro-diver-0072-ouro-18k"
   },
   {
     "id": "auto-prod-450",
@@ -9410,14 +9713,15 @@ const PRODUCTS = [
     "currentPrice": 291,
     "installment": "em até 5x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/relogio-seculus-masculino-aco-prata/p/MLB15243207?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/relogio-seculus-masculino-aco-prata?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410807_082021-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 3890,
     "couponCode": "SECULUS",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/relogio-seculus-masculino-aco-prata"
   },
   {
     "id": "auto-prod-452",
@@ -9430,14 +9734,15 @@ const PRODUCTS = [
     "currentPrice": 119,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Rel%C3%B3gio+Nibosi+Masculino+Luxo+A%C3%A7o&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Rel%C3%B3gio%20Nibosi%20Masculino%20Luxo%20A%C3%A7o&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 14200,
     "couponCode": "NIBOSI",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Rel%C3%B3gio%20Nibosi%20Masculino%20Luxo%20A%C3%A7o"
   },
   {
     "id": "auto-prod-453",
@@ -9450,14 +9755,15 @@ const PRODUCTS = [
     "currentPrice": 1519,
     "installment": "em até 10x de R$ 151,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/relogio-orient-flytech-titanio-solar/p/MLB15243208?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/relogio-orient-flytech-titanio-solar?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410808_082021-O.webp",
     "featured": true,
     "rating": 5,
     "reviewsCount": 2340,
     "couponCode": "ORIENT100",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/relogio-orient-flytech-titanio-solar"
   },
   {
     "id": "auto-prod-454",
@@ -9490,14 +9796,15 @@ const PRODUCTS = [
     "currentPrice": 219,
     "installment": "em até 4x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/pulseira-prata-925-grumet-6mm-fecho-gaveta/p/MLB15243209?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/pulseira-prata-925-grumet-6mm-fecho-gaveta?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410809_082021-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 6540,
     "couponCode": "PRATA925",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/pulseira-prata-925-grumet-6mm-fecho-gaveta"
   },
   {
     "id": "auto-prod-456",
@@ -9510,14 +9817,15 @@ const PRODUCTS = [
     "currentPrice": 53.4,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Pulseira+Masculina+Couro+Genu%C3%ADno+Tran%C3%A7ado&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Pulseira%20Masculina%20Couro%20Genu%C3%ADno%20Tran%C3%A7ado&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 15400,
     "couponCode": "COURO10",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Pulseira%20Masculina%20Couro%20Genu%C3%ADno%20Tran%C3%A7ado"
   },
   {
     "id": "auto-prod-457",
@@ -9530,14 +9838,15 @@ const PRODUCTS = [
     "currentPrice": 143,
     "installment": "em até 3x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/pulseira-aco-banhada-ouro-18k-cartier/p/MLB15243210?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/pulseira-aco-banhada-ouro-18k-cartier?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410810_082021-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 4890,
     "couponCode": "OURO18K",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/pulseira-aco-banhada-ouro-18k-cartier"
   },
   {
     "id": "auto-prod-458",
@@ -9550,14 +9859,15 @@ const PRODUCTS = [
     "currentPrice": 54.4,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Kit+Pulseiras+Masculinas+Couro+Pedra&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Kit%20Pulseiras%20Masculinas%20Couro%20Pedra&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 19800,
     "couponCode": "KITPULSEIRA",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Kit%20Pulseiras%20Masculinas%20Couro%20Pedra"
   },
   {
     "id": "auto-prod-459",
@@ -9570,14 +9880,15 @@ const PRODUCTS = [
     "currentPrice": 104,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/bracelete-masculino-viking-runas-aco-inox/p/MLB15243211?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/bracelete-masculino-viking-runas-aco-inox?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410811_082021-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 3410,
     "couponCode": "VIKING",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/bracelete-masculino-viking-runas-aco-inox"
   },
   {
     "id": "auto-prod-460",
@@ -9610,14 +9921,15 @@ const PRODUCTS = [
     "currentPrice": 141,
     "installment": "em até 3x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/pulseira-prata-925-veneziana-2-5mm/p/MLB15243212?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/pulseira-prata-925-veneziana-2-5mm?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410812_082021-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 5120,
     "couponCode": "PRATAVEN",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/pulseira-prata-925-veneziana-2-5mm"
   },
   {
     "id": "auto-prod-462",
@@ -9630,14 +9942,15 @@ const PRODUCTS = [
     "currentPrice": 61.3,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Pulseira+Masculina+A%C3%A7o+Carbono+Preto&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Pulseira%20Masculina%20A%C3%A7o%20Carbono%20Preto&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.7,
     "reviewsCount": 7890,
     "couponCode": "BLACKPULSE",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Pulseira%20Masculina%20A%C3%A7o%20Carbono%20Preto"
   },
   {
     "id": "auto-prod-463",
@@ -9650,14 +9963,15 @@ const PRODUCTS = [
     "currentPrice": 169,
     "installment": "em até 3x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/pulseira-cordao-baiano-trancado-ouro-18k/p/MLB15243213?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/pulseira-cordao-baiano-trancado-ouro-18k?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410813_082021-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 4210,
     "couponCode": "BAIANO10",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/pulseira-cordao-baiano-trancado-ouro-18k"
   },
   {
     "id": "auto-prod-464",
@@ -9690,14 +10004,15 @@ const PRODUCTS = [
     "currentPrice": 137,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/pulseira-prata-925-piastrina-navalha/p/MLB15243214?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/pulseira-prata-925-piastrina-navalha?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410814_082021-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 3120,
     "couponCode": "PIAS20",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/pulseira-prata-925-piastrina-navalha"
   },
   {
     "id": "auto-prod-466",
@@ -9710,14 +10025,15 @@ const PRODUCTS = [
     "currentPrice": 545,
     "installment": "em até 10x de R$ 54,50 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/perfume-acqua-di-gio-giorgio-armani-edt-100ml/p/MLB15243215?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/perfume-acqua-di-gio-giorgio-armani-edt-100ml?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410815_082021-O.webp",
     "featured": true,
     "rating": 5,
     "reviewsCount": 11200,
     "couponCode": "ARMANI50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/perfume-acqua-di-gio-giorgio-armani-edt-100ml"
   },
   {
     "id": "auto-prod-467",
@@ -9750,14 +10066,15 @@ const PRODUCTS = [
     "currentPrice": 819,
     "installment": "em até 10x de R$ 81,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/perfume-bleu-de-chanel-edp-100ml/p/MLB15243216?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/perfume-bleu-de-chanel-edp-100ml?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410816_082021-O.webp",
     "featured": true,
     "rating": 5,
     "reviewsCount": 7890,
     "couponCode": "BLEU100",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/perfume-bleu-de-chanel-edp-100ml"
   },
   {
     "id": "auto-prod-469",
@@ -9770,14 +10087,15 @@ const PRODUCTS = [
     "currentPrice": 159.9,
     "installment": "em até 3x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Perfume+Masculino+Botic%C3%A1rio+Malbec+Gold&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Perfume%20Masculino%20Botic%C3%A1rio%20Malbec%20Gold&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1523293182086-7651a899d37f?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 15400,
     "couponCode": "MALBEC",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Perfume%20Masculino%20Botic%C3%A1rio%20Malbec%20Gold"
   },
   {
     "id": "auto-prod-470",
@@ -9790,14 +10108,15 @@ const PRODUCTS = [
     "currentPrice": 455,
     "installment": "em até 8x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/perfume-versace-eros-masculino-edt-100ml/p/MLB15243217?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/perfume-versace-eros-masculino-edt-100ml?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410817_082021-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 9410,
     "couponCode": "EROS30",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/perfume-versace-eros-masculino-edt-100ml"
   },
   {
     "id": "auto-prod-471",
@@ -9810,14 +10129,15 @@ const PRODUCTS = [
     "currentPrice": 552,
     "installment": "em até 10x de R$ 55,20 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/perfume-jean-paul-gaultier-le-male-le-parfum-125ml/p/MLB15243218?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/perfume-jean-paul-gaultier-le-male-le-parfum-125ml?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410818_082021-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 6540,
     "couponCode": "LEMALE",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/perfume-jean-paul-gaultier-le-male-le-parfum-125ml"
   },
   {
     "id": "auto-prod-472",
@@ -9850,14 +10170,15 @@ const PRODUCTS = [
     "currentPrice": 161.8,
     "installment": "em até 3x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Perfume+Masculino+Nautica+Voyage+Eau&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Perfume%20Masculino%20Nautica%20Voyage%20Eau&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 16700,
     "couponCode": "NAUTICA",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Perfume%20Masculino%20Nautica%20Voyage%20Eau"
   },
   {
     "id": "auto-prod-474",
@@ -9870,14 +10191,15 @@ const PRODUCTS = [
     "currentPrice": 210,
     "installment": "em até 4x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/perfume-arabe-lattafa-asad-edp-100ml/p/MLB15243219?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/perfume-arabe-lattafa-asad-edp-100ml?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410819_082021-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 12400,
     "couponCode": "LATTAFA",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/perfume-arabe-lattafa-asad-edp-100ml"
   },
   {
     "id": "auto-prod-475",
@@ -9910,14 +10232,15 @@ const PRODUCTS = [
     "currentPrice": 507,
     "installment": "em até 10x de R$ 50,70 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/perfume-montblanc-explorer-edp-100ml/p/MLB15243220?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/perfume-montblanc-explorer-edp-100ml?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410820_082021-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 5410,
     "couponCode": "EXPLORER",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/perfume-montblanc-explorer-edp-100ml"
   },
   {
     "id": "auto-prod-477",
@@ -9930,14 +10253,15 @@ const PRODUCTS = [
     "currentPrice": 77.4,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Vestido+Longo+Feminino+Floral+Frente&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Vestido%20Longo%20Feminino%20Floral%20Frente&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=600&auto=format&fit=crop&q=80",
     "featured": true,
     "rating": 4.8,
     "reviewsCount": 12400,
     "couponCode": "FLORAL20",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Vestido%20Longo%20Feminino%20Floral%20Frente"
   },
   {
     "id": "auto-prod-478",
@@ -9950,14 +10274,15 @@ const PRODUCTS = [
     "currentPrice": 136,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/conjunto-feminino-alfaiataria-colete-shorts/p/MLB15243221?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/conjunto-feminino-alfaiataria-colete-shorts?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410821_082021-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 6540,
     "couponCode": "ALFAIA",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/conjunto-feminino-alfaiataria-colete-shorts"
   },
   {
     "id": "auto-prod-479",
@@ -9990,14 +10315,15 @@ const PRODUCTS = [
     "currentPrice": 65.4,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Bolsa+Feminina+Transversal+Tiracolo+Couro&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Bolsa%20Feminina%20Transversal%20Tiracolo%20Couro&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1586495777744-4413f21062fa?w=600&auto=format&fit=crop&q=80",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 16700,
     "couponCode": "BOLSA10",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Bolsa%20Feminina%20Transversal%20Tiracolo%20Couro"
   },
   {
     "id": "auto-prod-481",
@@ -10010,14 +10336,15 @@ const PRODUCTS = [
     "currentPrice": 29.5,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Cropped+Feminino+Manga+Longa+Canelado&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Cropped%20Feminino%20Manga%20Longa%20Canelado&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.7,
     "reviewsCount": 22400,
     "couponCode": "CROPPED",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Cropped%20Feminino%20Manga%20Longa%20Canelado"
   },
   {
     "id": "auto-prod-482",
@@ -10030,14 +10357,15 @@ const PRODUCTS = [
     "currentPrice": 147,
     "installment": "em até 3x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/macacao-feminino-pantalona-alfaiataria/p/MLB15243222?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/macacao-feminino-pantalona-alfaiataria?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410822_082021-O.webp",
     "featured": true,
     "rating": 4.8,
     "reviewsCount": 5120,
     "couponCode": "MACACO",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/macacao-feminino-pantalona-alfaiataria"
   },
   {
     "id": "auto-prod-483",
@@ -10070,14 +10398,15 @@ const PRODUCTS = [
     "currentPrice": 41.4,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Vestido+Curto+Feminino+Tubinho+Canelado&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Vestido%20Curto%20Feminino%20Tubinho%20Canelado&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.7,
     "reviewsCount": 18900,
     "couponCode": "TUBINHO",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Vestido%20Curto%20Feminino%20Tubinho%20Canelado"
   },
   {
     "id": "auto-prod-485",
@@ -10090,14 +10419,15 @@ const PRODUCTS = [
     "currentPrice": 171,
     "installment": "em até 3x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/blazer-feminino-slim-alfaiataria-forrado/p/MLB15243223?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/blazer-feminino-slim-alfaiataria-forrado?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410823_082021-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 6540,
     "couponCode": "BLAZER30",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/blazer-feminino-slim-alfaiataria-forrado"
   },
   {
     "id": "auto-prod-486",
@@ -10130,14 +10460,15 @@ const PRODUCTS = [
     "currentPrice": 73.7,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Cal%C3%A7a+Feminina+Alfaiataria+Cenoura+com&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Cal%C3%A7a%20Feminina%20Alfaiataria%20Cenoura%20com&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 14200,
     "couponCode": "CENOURA",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Cal%C3%A7a%20Feminina%20Alfaiataria%20Cenoura%20com"
   },
   {
     "id": "auto-prod-488",
@@ -10150,14 +10481,15 @@ const PRODUCTS = [
     "currentPrice": 49.6,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/base-liquida-boca-rosa-beauty-payot-30ml/p/MLB15243224?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/base-liquida-boca-rosa-beauty-payot-30ml?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410824_082021-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 18900,
     "couponCode": "BOCAROSA",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/base-liquida-boca-rosa-beauty-payot-30ml"
   },
   {
     "id": "auto-prod-489",
@@ -10190,14 +10522,15 @@ const PRODUCTS = [
     "currentPrice": 66.7,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/mascara-de-cilios-maybelline-sky-high/p/MLB15243225?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/mascara-de-cilios-maybelline-sky-high?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410825_082021-O.webp",
     "featured": true,
     "rating": 5,
     "reviewsCount": 24500,
     "couponCode": "SKYHIGH",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/mascara-de-cilios-maybelline-sky-high"
   },
   {
     "id": "auto-prod-491",
@@ -10210,14 +10543,15 @@ const PRODUCTS = [
     "currentPrice": 231,
     "installment": "em até 4x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/po-translucido-laura-mercier-loose-setting-29g/p/MLB15243226?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/po-translucido-laura-mercier-loose-setting-29g?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410826_082021-O.webp",
     "featured": true,
     "rating": 5,
     "reviewsCount": 6540,
     "couponCode": "LAURA30",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/po-translucido-laura-mercier-loose-setting-29g"
   },
   {
     "id": "auto-prod-492",
@@ -10230,14 +10564,15 @@ const PRODUCTS = [
     "currentPrice": 43.4,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Kit+Pinc%C3%A9is+Maquiagem+Profissional+com&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Kit%20Pinc%C3%A9is%20Maquiagem%20Profissional%20com&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1586495777744-4413f21062fa?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 26700,
     "couponCode": "PINCEIS",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Kit%20Pinc%C3%A9is%20Maquiagem%20Profissional%20com"
   },
   {
     "id": "auto-prod-493",
@@ -10270,14 +10605,15 @@ const PRODUCTS = [
     "currentPrice": 163,
     "installment": "em até 3x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/blush-liquido-rare-beauty-soft-pinch-dewy/p/MLB15243227?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/blush-liquido-rare-beauty-soft-pinch-dewy?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410827_082021-O.webp",
     "featured": true,
     "rating": 5,
     "reviewsCount": 7120,
     "couponCode": "RAREBEAUTY",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/blush-liquido-rare-beauty-soft-pinch-dewy"
   },
   {
     "id": "auto-prod-495",
@@ -10290,14 +10626,15 @@ const PRODUCTS = [
     "currentPrice": 58.4,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/batom-maybelline-superstay-matte-ink-pioneer/p/MLB15243228?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/batom-maybelline-superstay-matte-ink-pioneer?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410828_082021-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 31200,
     "couponCode": "MATTEINK",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/batom-maybelline-superstay-matte-ink-pioneer"
   },
   {
     "id": "auto-prod-496",
@@ -10310,14 +10647,15 @@ const PRODUCTS = [
     "currentPrice": 25.3,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Delineador+L%C3%ADquido+Vizzela+Cat+Lovers&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Delineador%20L%C3%ADquido%20Vizzela%20Cat%20Lovers&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 14500,
     "couponCode": "VIZZELA",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Delineador%20L%C3%ADquido%20Vizzela%20Cat%20Lovers"
   },
   {
     "id": "auto-prod-497",
@@ -10350,14 +10688,15 @@ const PRODUCTS = [
     "currentPrice": 31.5,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/esponja-maquiagem-mariana-saad-flat-blend/p/MLB15243229?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/esponja-maquiagem-mariana-saad-flat-blend?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410829_082021-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 22100,
     "couponCode": "MARISAAD",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/esponja-maquiagem-mariana-saad-flat-blend"
   },
   {
     "id": "auto-prod-499",
@@ -10370,14 +10709,15 @@ const PRODUCTS = [
     "currentPrice": 514,
     "installment": "em até 10x de R$ 51,40 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/perfume-carolina-herrera-212-vip-rose-edp-80ml/p/MLB15243230?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/perfume-carolina-herrera-212-vip-rose-edp-80ml?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410830_082021-O.webp",
     "featured": true,
     "rating": 5,
     "reviewsCount": 16700,
     "couponCode": "VIPROSE50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/perfume-carolina-herrera-212-vip-rose-edp-80ml"
   },
   {
     "id": "auto-prod-500",
@@ -10390,14 +10730,15 @@ const PRODUCTS = [
     "currentPrice": 639,
     "installment": "em até 10x de R$ 63,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/perfume-chloe-eau-de-parfum-75ml/p/MLB15243231?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/perfume-chloe-eau-de-parfum-75ml?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410831_082021-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 5410,
     "couponCode": "CHLOE50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/perfume-chloe-eau-de-parfum-75ml"
   },
   {
     "id": "auto-prod-501",
@@ -10430,14 +10771,15 @@ const PRODUCTS = [
     "currentPrice": 246,
     "installment": "em até 5x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/perfume-o-boticario-lily-le-parfum-50ml/p/MLB15243232?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/perfume-o-boticario-lily-le-parfum-50ml?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410832_082021-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 9810,
     "couponCode": "LILYLEPARFUM",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/perfume-o-boticario-lily-le-parfum-50ml"
   },
   {
     "id": "auto-prod-503",
@@ -10450,14 +10792,15 @@ const PRODUCTS = [
     "currentPrice": 552,
     "installment": "em até 10x de R$ 55,20 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/perfume-lancome-idole-edp-75ml/p/MLB15243233?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/perfume-lancome-idole-edp-75ml?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410833_082021-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 8940,
     "couponCode": "IDOLE50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/perfume-lancome-idole-edp-75ml"
   },
   {
     "id": "auto-prod-504",
@@ -10470,14 +10813,15 @@ const PRODUCTS = [
     "currentPrice": 108,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Perfume+Feminino+Eudora+Niina+Secrets&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Perfume%20Feminino%20Eudora%20Niina%20Secrets&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1541643600914-78b084683601?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 16700,
     "couponCode": "NIINA20",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Perfume%20Feminino%20Eudora%20Niina%20Secrets"
   },
   {
     "id": "auto-prod-505",
@@ -10490,14 +10834,15 @@ const PRODUCTS = [
     "currentPrice": 768,
     "installment": "em até 10x de R$ 76,80 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/perfume-miss-dior-eau-de-parfum-100ml/p/MLB15243234?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/perfume-miss-dior-eau-de-parfum-100ml?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410834_082021-O.webp",
     "featured": true,
     "rating": 5,
     "reviewsCount": 6540,
     "couponCode": "MISSDIOR",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/perfume-miss-dior-eau-de-parfum-100ml"
   },
   {
     "id": "auto-prod-506",
@@ -10530,14 +10875,15 @@ const PRODUCTS = [
     "currentPrice": 96.8,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Perfume+Feminino+Botic%C3%A1rio+Egeo+Dolce&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Perfume%20Feminino%20Botic%C3%A1rio%20Egeo%20Dolce&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1541643600914-78b084683601?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 28900,
     "couponCode": "EGEO10",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Perfume%20Feminino%20Botic%C3%A1rio%20Egeo%20Dolce"
   },
   {
     "id": "auto-prod-508",
@@ -10550,14 +10896,15 @@ const PRODUCTS = [
     "currentPrice": 584,
     "installment": "em até 10x de R$ 58,40 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/perfume-giorgio-armani-si-edp-100ml/p/MLB15243235?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/perfume-giorgio-armani-si-edp-100ml?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410835_082021-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 5120,
     "couponCode": "ARMANISI",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/perfume-giorgio-armani-si-edp-100ml"
   },
   {
     "id": "auto-prod-509",
@@ -10590,14 +10937,15 @@ const PRODUCTS = [
     "currentPrice": 59.2,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/creme-hidratante-facial-cerave-52g/p/MLB15243236?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/creme-hidratante-facial-cerave-52g?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410836_082021-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 18900,
     "couponCode": "CERAVE20",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/creme-hidratante-facial-cerave-52g"
   },
   {
     "id": "auto-prod-511",
@@ -10630,14 +10978,15 @@ const PRODUCTS = [
     "currentPrice": 52,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=S%C3%A9rum+Facial+Principia+Vitamina+10%25&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=S%C3%A9rum%20Facial%20Principia%20Vitamina%2010%25&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 26400,
     "couponCode": "PRINCIPIA",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=S%C3%A9rum%20Facial%20Principia%20Vitamina%2010%25"
   },
   {
     "id": "auto-prod-513",
@@ -10650,14 +10999,15 @@ const PRODUCTS = [
     "currentPrice": 194,
     "installment": "em até 4x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/serum-anti-idade-la-roche-posay-hyalu-b5-30ml/p/MLB15243237?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/serum-anti-idade-la-roche-posay-hyalu-b5-30ml?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410837_082021-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 14200,
     "couponCode": "HYALUB5",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/serum-anti-idade-la-roche-posay-hyalu-b5-30ml"
   },
   {
     "id": "auto-prod-514",
@@ -10690,14 +11040,15 @@ const PRODUCTS = [
     "currentPrice": 83.8,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Hidratante+Corporal+Victoria%27s+Secret+Bare&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Hidratante%20Corporal%20Victoria's%20Secret%20Bare&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&auto=format&fit=crop&q=80",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 31200,
     "couponCode": "SECRET20",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Hidratante%20Corporal%20Victoria's%20Secret%20Bare"
   },
   {
     "id": "auto-prod-516",
@@ -10710,14 +11061,15 @@ const PRODUCTS = [
     "currentPrice": 36.2,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/agua-micelar-loreal-paris-5-em-1-400ml/p/MLB15243238?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/agua-micelar-loreal-paris-5-em-1-400ml?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410838_082021-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 22400,
     "couponCode": "LOREAL10",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/agua-micelar-loreal-paris-5-em-1-400ml"
   },
   {
     "id": "auto-prod-517",
@@ -10730,14 +11082,15 @@ const PRODUCTS = [
     "currentPrice": 68.5,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/gel-de-limpeza-cerave-acne-control-237ml/p/MLB15243239?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/gel-de-limpeza-cerave-acne-control-237ml?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410839_082021-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 15400,
     "couponCode": "ACNECONTROL",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/gel-de-limpeza-cerave-acne-control-237ml"
   },
   {
     "id": "auto-prod-518",
@@ -10770,14 +11123,15 @@ const PRODUCTS = [
     "currentPrice": 48.3,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Creme+para+Olhos+Neutrogena+Hydro&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Creme%20para%20Olhos%20Neutrogena%20Hydro&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 9810,
     "couponCode": "HYDROBOOST",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Creme%20para%20Olhos%20Neutrogena%20Hydro"
   },
   {
     "id": "auto-prod-520",
@@ -10790,14 +11144,15 @@ const PRODUCTS = [
     "currentPrice": 92.8,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/locao-hidratante-cetaphil-473ml-pele-sensivel/p/MLB15243240?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/locao-hidratante-cetaphil-473ml-pele-sensivel?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410840_082021-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 16700,
     "couponCode": "CETAPHIL20",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/locao-hidratante-cetaphil-473ml-pele-sensivel"
   },
   {
     "id": "auto-prod-521",
@@ -10810,14 +11165,15 @@ const PRODUCTS = [
     "currentPrice": 174,
     "installment": "em até 3x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/kit-shampoo-condicionador-wella-oil-reflections/p/MLB15243241?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/kit-shampoo-condicionador-wella-oil-reflections?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410841_082021-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 14200,
     "couponCode": "WELLA30",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/kit-shampoo-condicionador-wella-oil-reflections"
   },
   {
     "id": "auto-prod-522",
@@ -10850,14 +11206,15 @@ const PRODUCTS = [
     "currentPrice": 38.3,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=M%C3%A1scara+Capilar+Lola+Cosm%C3%A9ticos+Morte&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=M%C3%A1scara%20Capilar%20Lola%20Cosm%C3%A9ticos%20Morte&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 35600,
     "couponCode": "LOLAMORTE",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=M%C3%A1scara%20Capilar%20Lola%20Cosm%C3%A9ticos%20Morte"
   },
   {
     "id": "auto-prod-524",
@@ -10870,14 +11227,15 @@ const PRODUCTS = [
     "currentPrice": 107,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/kit-cronograma-capilar-haskell-3-mascaras/p/MLB15243242?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/kit-cronograma-capilar-haskell-3-mascaras?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410842_082021-O.webp",
     "featured": true,
     "rating": 4.8,
     "reviewsCount": 11200,
     "couponCode": "HASKELL",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/kit-cronograma-capilar-haskell-3-mascaras"
   },
   {
     "id": "auto-prod-525",
@@ -10910,14 +11268,15 @@ const PRODUCTS = [
     "currentPrice": 48.3,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Shampoo+Condicionador+L%27Or%C3%A9al+Elseve+Glycolic&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Shampoo%20Condicionador%20L'Or%C3%A9al%20Elseve%20Glycolic&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 22100,
     "couponCode": "GLYCOLIC",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Shampoo%20Condicionador%20L'Or%C3%A9al%20Elseve%20Glycolic"
   },
   {
     "id": "auto-prod-527",
@@ -10930,14 +11289,15 @@ const PRODUCTS = [
     "currentPrice": 323,
     "installment": "em até 6x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/mascara-kerastase-nutritive-masquintense-200ml/p/MLB15243243?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/mascara-kerastase-nutritive-masquintense-200ml?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410843_082021-O.webp",
     "featured": true,
     "rating": 5,
     "reviewsCount": 7890,
     "couponCode": "KERASTASE",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/mascara-kerastase-nutritive-masquintense-200ml"
   },
   {
     "id": "auto-prod-528",
@@ -10970,14 +11330,15 @@ const PRODUCTS = [
     "currentPrice": 149,
     "installment": "em até 3x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/mascara-capilar-brae-essential-500g/p/MLB15243244?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/mascara-capilar-brae-essential-500g?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410844_082021-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 5410,
     "couponCode": "BRAE20",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/mascara-capilar-brae-essential-500g"
   },
   {
     "id": "auto-prod-530",
@@ -10990,14 +11351,15 @@ const PRODUCTS = [
     "currentPrice": 38.3,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Kit+Pantene+Bambu+Nutre+Cresce&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Kit%20Pantene%20Bambu%20Nutre%20Cresce&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 24500,
     "couponCode": "PANTENE",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Kit%20Pantene%20Bambu%20Nutre%20Cresce"
   },
   {
     "id": "auto-prod-531",
@@ -11010,14 +11372,15 @@ const PRODUCTS = [
     "currentPrice": 128,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/tonico-poderoso-gold-spell-250ml/p/MLB15243245?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/tonico-poderoso-gold-spell-250ml?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410845_082021-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 16700,
     "couponCode": "PODEROSO",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/tonico-poderoso-gold-spell-250ml"
   },
   {
     "id": "auto-prod-532",
@@ -11030,14 +11393,15 @@ const PRODUCTS = [
     "currentPrice": 139,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/escova-secadora-mondial-chrome-pink-1200w/p/MLB15243246?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/escova-secadora-mondial-chrome-pink-1200w?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410846_082021-O.webp",
     "featured": true,
     "rating": 4.8,
     "reviewsCount": 18900,
     "couponCode": "ESCOVA20",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/escova-secadora-mondial-chrome-pink-1200w"
   },
   {
     "id": "auto-prod-533",
@@ -11070,14 +11434,15 @@ const PRODUCTS = [
     "currentPrice": 155,
     "installment": "em até 3x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/prancha-chapinha-taiff-red-ion-200c/p/MLB15243247?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/prancha-chapinha-taiff-red-ion-200c?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410847_082021-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 16500,
     "couponCode": "CHAPINHA",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/prancha-chapinha-taiff-red-ion-200c"
   },
   {
     "id": "auto-prod-535",
@@ -11090,14 +11455,15 @@ const PRODUCTS = [
     "currentPrice": 148,
     "installment": "em até 3x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Escova+Rotativa+Brit%C3%A2nia+Ceramic+Spin&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Escova%20Rotativa%20Brit%C3%A2nia%20Ceramic%20Spin&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1522337094846-8a818192de1f?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.7,
     "reviewsCount": 11200,
     "couponCode": "ROTATIVA",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Escova%20Rotativa%20Brit%C3%A2nia%20Ceramic%20Spin"
   },
   {
     "id": "auto-prod-536",
@@ -11130,14 +11496,15 @@ const PRODUCTS = [
     "currentPrice": 132,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/modelador-cachos-babyliss-turmalina-25mm/p/MLB15243248?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/modelador-cachos-babyliss-turmalina-25mm?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410848_082021-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 7890,
     "couponCode": "BABYLISS",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/modelador-cachos-babyliss-turmalina-25mm"
   },
   {
     "id": "auto-prod-538",
@@ -11150,14 +11517,15 @@ const PRODUCTS = [
     "currentPrice": 71.4,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Escova+Alisadora+El%C3%A9trica+com+Aquecimento&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Escova%20Alisadora%20El%C3%A9trica%20com%20Aquecimento&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.7,
     "reviewsCount": 19800,
     "couponCode": "ALISADORA",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Escova%20Alisadora%20El%C3%A9trica%20com%20Aquecimento"
   },
   {
     "id": "auto-prod-539",
@@ -11170,14 +11538,15 @@ const PRODUCTS = [
     "currentPrice": 399,
     "installment": "em até 7x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/secador-taiff-fox-ion-3-2200w-dourado/p/MLB15243249?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/secador-taiff-fox-ion-3-2200w-dourado?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410849_082021-O.webp",
     "featured": true,
     "rating": 5,
     "reviewsCount": 6540,
     "couponCode": "FOXION",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/secador-taiff-fox-ion-3-2200w-dourado"
   },
   {
     "id": "auto-prod-540",
@@ -11210,14 +11579,15 @@ const PRODUCTS = [
     "currentPrice": 389,
     "installment": "em até 7x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/prancha-chapinha-lizze-extreme-250c-titanio/p/MLB15243250?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/prancha-chapinha-lizze-extreme-250c-titanio?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410850_082021-O.webp",
     "featured": true,
     "rating": 5,
     "reviewsCount": 14200,
     "couponCode": "LIZZE50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/prancha-chapinha-lizze-extreme-250c-titanio"
   },
   {
     "id": "auto-prod-542",
@@ -11230,14 +11600,15 @@ const PRODUCTS = [
     "currentPrice": 121,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Escova+Secadora+Volumizadora+Brit%C3%A2nia+Soft&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Escova%20Secadora%20Volumizadora%20Brit%C3%A2nia%20Soft&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 15400,
     "couponCode": "BRITANIASOFT",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Escova%20Secadora%20Volumizadora%20Brit%C3%A2nia%20Soft"
   },
   {
     "id": "auto-prod-543",
@@ -11250,14 +11621,15 @@ const PRODUCTS = [
     "currentPrice": 321,
     "installment": "em até 6x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/lego-classic-caixa-grande-pecas-10698/p/MLB15243251?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/lego-classic-caixa-grande-pecas-10698?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410851_082021-O.webp",
     "featured": true,
     "rating": 5,
     "reviewsCount": 16700,
     "couponCode": "LEGOCASA",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/lego-classic-caixa-grande-pecas-10698"
   },
   {
     "id": "auto-prod-544",
@@ -11290,14 +11662,15 @@ const PRODUCTS = [
     "currentPrice": 44.8,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Massa+Modelar+Play+Doh+Pote&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Massa%20Modelar%20Play%20Doh%20Pote&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1558060370-d644479cb6f7?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 28900,
     "couponCode": "PLAYDOH",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Massa%20Modelar%20Play%20Doh%20Pote"
   },
   {
     "id": "auto-prod-546",
@@ -11310,14 +11683,15 @@ const PRODUCTS = [
     "currentPrice": 102,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/lancador-nerf-elite-2-0-commander-rd-6/p/MLB15243252?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/lancador-nerf-elite-2-0-commander-rd-6?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410852_082021-O.webp",
     "featured": true,
     "rating": 4.8,
     "reviewsCount": 14200,
     "couponCode": "NERF20",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/lancador-nerf-elite-2-0-commander-rd-6"
   },
   {
     "id": "auto-prod-547",
@@ -11350,14 +11724,15 @@ const PRODUCTS = [
     "currentPrice": 136,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/boneca-baby-alive-hora-do-xixi-hasbro/p/MLB15243253?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/boneca-baby-alive-hora-do-xixi-hasbro?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410853_082021-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 8940,
     "couponCode": "BABYALIVE",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/boneca-baby-alive-hora-do-xixi-hasbro"
   },
   {
     "id": "auto-prod-549",
@@ -11370,14 +11745,15 @@ const PRODUCTS = [
     "currentPrice": 59.4,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Pel%C3%BAcia+Stitch+Disney+Lilo+Stitch&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Pel%C3%BAcia%20Stitch%20Disney%20Lilo%20Stitch&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?w=600&auto=format&fit=crop&q=80",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 34100,
     "couponCode": "STITCH10",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Pel%C3%BAcia%20Stitch%20Disney%20Lilo%20Stitch"
   },
   {
     "id": "auto-prod-550",
@@ -11410,14 +11786,15 @@ const PRODUCTS = [
     "currentPrice": 85.6,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/girafa-blocos-didaticos-fisher-price/p/MLB15243254?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/girafa-blocos-didaticos-fisher-price?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410854_082021-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 11200,
     "couponCode": "FISHER",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/girafa-blocos-didaticos-fisher-price"
   },
   {
     "id": "auto-prod-552",
@@ -11430,14 +11807,15 @@ const PRODUCTS = [
     "currentPrice": 51.3,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Kit+F%C3%A1brica+Slime+Slime+Mania&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Kit%20F%C3%A1brica%20Slime%20Slime%20Mania&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 16700,
     "couponCode": "SLIME",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Kit%20F%C3%A1brica%20Slime%20Slime%20Mania"
   },
   {
     "id": "auto-prod-553",
@@ -11450,14 +11828,15 @@ const PRODUCTS = [
     "currentPrice": 65.8,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/boneco-pokemon-pikachu-articulado-sunny/p/MLB15243255?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/boneco-pokemon-pikachu-articulado-sunny?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410855_082021-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 6540,
     "couponCode": "POKEMON",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/boneco-pokemon-pikachu-articulado-sunny"
   },
   {
     "id": "auto-prod-554",
@@ -11470,14 +11849,15 @@ const PRODUCTS = [
     "currentPrice": 311,
     "installment": "em até 6x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/hot-wheels-mega-lava-rapido-color-shifters/p/MLB15243256?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/hot-wheels-mega-lava-rapido-color-shifters?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410856_082021-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 5410,
     "couponCode": "HOTWHEELS",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/hot-wheels-mega-lava-rapido-color-shifters"
   },
   {
     "id": "auto-prod-555",
@@ -11510,14 +11890,15 @@ const PRODUCTS = [
     "currentPrice": 119.4,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Carrinho+Controle+Remoto+Veloz+4x4&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Carrinho%20Controle%20Remoto%20Veloz%204x4&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1594787318286-3d835c1d207f?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 22100,
     "couponCode": "OFFROAD",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Carrinho%20Controle%20Remoto%20Veloz%204x4"
   },
   {
     "id": "auto-prod-557",
@@ -11530,14 +11911,15 @@ const PRODUCTS = [
     "currentPrice": 399,
     "installment": "em até 8x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/pista-hot-wheels-mario-kart-castelo-bowser/p/MLB15243257?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/pista-hot-wheels-mario-kart-castelo-bowser?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410857_082021-O.webp",
     "featured": true,
     "rating": 5,
     "reviewsCount": 4210,
     "couponCode": "BOWSER",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/pista-hot-wheels-mario-kart-castelo-bowser"
   },
   {
     "id": "auto-prod-558",
@@ -11570,14 +11952,15 @@ const PRODUCTS = [
     "currentPrice": 65.4,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/search?keyword=Carrinho+Controle+Remoto+Giro+360&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Carrinho%20Controle%20Remoto%20Giro%20360&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1581235720704-06d3acfcb36f?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.7,
     "reviewsCount": 16700,
     "couponCode": "GIRO360",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Carrinho%20Controle%20Remoto%20Giro%20360"
   },
   {
     "id": "auto-prod-560",
@@ -11590,14 +11973,15 @@ const PRODUCTS = [
     "currentPrice": 128,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/pista-hot-wheels-loop-duplo-mattel/p/MLB15243258?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/pista-hot-wheels-loop-duplo-mattel?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410858_082021-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 7890,
     "couponCode": "LOOPDUPLO",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/pista-hot-wheels-loop-duplo-mattel"
   },
   {
     "id": "auto-prod-561",
@@ -11630,14 +12014,15 @@ const PRODUCTS = [
     "currentPrice": 57.8,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/Maleta-Porta-30-Carrinhos-Hot-Wheels-i.1053203124.23396881600?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Hot%20Wheels%20Caixa%20para%20Colecionador%20Maleta&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1594787318286-3d835c1d207f?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 14200,
     "couponCode": "MALETA",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Hot%20Wheels%20Caixa%20para%20Colecionador%20Maleta"
   },
   {
     "id": "auto-prod-563",
@@ -11650,14 +12035,15 @@ const PRODUCTS = [
     "currentPrice": 194,
     "installment": "em até 4x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/carrinho-monster-jam-megalodon-controle-remoto/p/MLB15243259?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/carrinho-monster-jam-megalodon-controle-remoto?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410859_082021-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 4890,
     "couponCode": "MEGALODON",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/carrinho-monster-jam-megalodon-controle-remoto"
   },
   {
     "id": "auto-prod-564",
@@ -11690,14 +12076,15 @@ const PRODUCTS = [
     "currentPrice": 89.9,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/kit-5-bodies-bebe-manga-curta-algodao/p/MLB15243260?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/kit-5-bodies-bebe-manga-curta-algodao?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410860_082021-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 16700,
     "couponCode": "BODIES",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/kit-5-bodies-bebe-manga-curta-algodao"
   },
   {
     "id": "auto-prod-566",
@@ -11730,14 +12117,15 @@ const PRODUCTS = [
     "currentPrice": 88,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/conjunto-infantil-menina-milon-shorts-saia/p/MLB15243261?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/conjunto-infantil-menina-milon-shorts-saia?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410861_082021-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 9410,
     "couponCode": "MILON",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/conjunto-infantil-menina-milon-shorts-saia"
   },
   {
     "id": "auto-prod-568",
@@ -11750,14 +12138,15 @@ const PRODUCTS = [
     "currentPrice": 76.4,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/Kit-4-Pijamas-Infantis-Algodao-i.1053203124.23396881601?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Kit%204%20Pijamas%20Infantis%20Manga%20Longa&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 24500,
     "couponCode": "PIJAMA",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Kit%204%20Pijamas%20Infantis%20Manga%20Longa"
   },
   {
     "id": "auto-prod-569",
@@ -11770,14 +12159,15 @@ const PRODUCTS = [
     "currentPrice": 136,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/mochila-escolar-infantil-rodinhas-personagens/p/MLB15243262?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/mochila-escolar-infantil-rodinhas-personagens?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410862_082021-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 16700,
     "couponCode": "ESCOLAR20",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/mochila-escolar-infantil-rodinhas-personagens"
   },
   {
     "id": "auto-prod-570",
@@ -11810,14 +12200,15 @@ const PRODUCTS = [
     "currentPrice": 24.5,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/Kit-6-Pares-Meias-Infantis-Antiderrapante-i.1053203124.23396881602?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Kit%206%20Pares%20de%20Meias%20Infantis&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 31200,
     "couponCode": "MEIAS",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Kit%206%20Pares%20de%20Meias%20Infantis"
   },
   {
     "id": "auto-prod-572",
@@ -11830,14 +12221,15 @@ const PRODUCTS = [
     "currentPrice": 104,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/conjunto-moletom-infantil-brandili-peluciado/p/MLB15243263?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/conjunto-moletom-infantil-brandili-peluciado?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410863_082021-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 11200,
     "couponCode": "BRANDILI",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/conjunto-moletom-infantil-brandili-peluciado"
   },
   {
     "id": "auto-prod-573",
@@ -11850,14 +12242,15 @@ const PRODUCTS = [
     "currentPrice": 59.4,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/Vestido-Infantil-Festa-Renda-Tule-Princesa-i.1053203124.23396881603?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Vestido%20Infantil%20Festa%20Menina%20Renda%20e&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 17800,
     "couponCode": "PRINCESA",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Vestido%20Infantil%20Festa%20Menina%20Renda%20e"
   },
   {
     "id": "auto-prod-574",
@@ -11890,14 +12283,15 @@ const PRODUCTS = [
     "currentPrice": 116,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/jogo-war-estrategia-grow-tabuleiro/p/MLB15243264?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/jogo-war-estrategia-grow-tabuleiro?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410864_082021-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 18900,
     "couponCode": "WARGROW",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/jogo-war-estrategia-grow-tabuleiro"
   },
   {
     "id": "auto-prod-576",
@@ -11930,14 +12324,15 @@ const PRODUCTS = [
     "currentPrice": 245,
     "installment": "em até 5x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/jogo-catan-colonizadores-tabuleiro-devir/p/MLB15243265?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/jogo-catan-colonizadores-tabuleiro-devir?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410865_082021-O.webp",
     "featured": true,
     "rating": 5,
     "reviewsCount": 8940,
     "couponCode": "CATAN",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/jogo-catan-colonizadores-tabuleiro-devir"
   },
   {
     "id": "auto-prod-578",
@@ -11950,14 +12345,15 @@ const PRODUCTS = [
     "currentPrice": 44.8,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/Jogo-Pinguim-Numa-Fria-Quebra-Gelo-Estrela-i.1053203124.23396881604?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Jogo%20Quebra-Gelo%20Pinguim%20Numa%20Fria%20Estrela&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1606167668584-78701c57f13d?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 16700,
     "couponCode": "PINGUIM",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Jogo%20Quebra-Gelo%20Pinguim%20Numa%20Fria%20Estrela"
   },
   {
     "id": "auto-prod-579",
@@ -11970,14 +12366,15 @@ const PRODUCTS = [
     "currentPrice": 183,
     "installment": "em até 3x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/jogo-dixit-galapagos-jogos-criatividade/p/MLB15243266?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/jogo-dixit-galapagos-jogos-criatividade?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410866_082021-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 7120,
     "couponCode": "DIXIT",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/jogo-dixit-galapagos-jogos-criatividade"
   },
   {
     "id": "auto-prod-580",
@@ -12010,14 +12407,15 @@ const PRODUCTS = [
     "currentPrice": 48.3,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/Jogo-Dobble-Galapagos-Reflexo-Lata-i.1053203124.23396881605?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Jogo%20Dobble%20Gal%C3%A1pagos%20Jogos%20Cartas%20de&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 19800,
     "couponCode": "DOBBLE",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Jogo%20Dobble%20Gal%C3%A1pagos%20Jogos%20Cartas%20de"
   },
   {
     "id": "auto-prod-582",
@@ -12030,14 +12428,15 @@ const PRODUCTS = [
     "currentPrice": 96.7,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/jogo-imagem-e-acao-2-grow-desenho/p/MLB15243267?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/jogo-imagem-e-acao-2-grow-desenho?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410867_082021-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 14200,
     "couponCode": "IMAGEMACAO",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/jogo-imagem-e-acao-2-grow-desenho"
   },
   {
     "id": "auto-prod-583",
@@ -12070,14 +12469,15 @@ const PRODUCTS = [
     "currentPrice": 57.8,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/Quebra-Cabeca-1000-Pecas-Romero-Britto-Grow-i.1053203124.23396881606?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Quebra-Cabe%C3%A7a%201000%20Pe%C3%A7as%20Romero%20Britto%20A&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1606167668584-78701c57f13d?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 11200,
     "couponCode": "ROMERO",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Quebra-Cabe%C3%A7a%201000%20Pe%C3%A7as%20Romero%20Britto%20A"
   },
   {
     "id": "auto-prod-585",
@@ -12090,14 +12490,15 @@ const PRODUCTS = [
     "currentPrice": 58.4,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/jogo-pula-macaco-estrela-arvore/p/MLB15243268?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/jogo-pula-macaco-estrela-arvore?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410868_082021-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 9410,
     "couponCode": "MACACO",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/jogo-pula-macaco-estrela-arvore"
   },
   {
     "id": "auto-prod-586",
@@ -12110,14 +12511,15 @@ const PRODUCTS = [
     "currentPrice": 369,
     "installment": "em até 7x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/tablet-infantil-multilaser-mickey-64gb/p/MLB15243269?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/tablet-infantil-multilaser-mickey-64gb?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410869_082021-O.webp",
     "featured": true,
     "rating": 4.7,
     "reviewsCount": 8940,
     "couponCode": "MICKEY",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/tablet-infantil-multilaser-mickey-64gb"
   },
   {
     "id": "auto-prod-587",
@@ -12130,14 +12532,15 @@ const PRODUCTS = [
     "currentPrice": 119.4,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/Patinete-Infantil-3-Rodas-LED-Regulavel-i.1053203124.23396881607?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Patinete%20Infantil%203%20Rodas%20com%20Luzes&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1558060370-d644479cb6f7?w=600&auto=format&fit=crop&q=80",
     "featured": true,
     "rating": 4.8,
     "reviewsCount": 21500,
     "couponCode": "PATINETE",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Patinete%20Infantil%203%20Rodas%20com%20Luzes"
   },
   {
     "id": "auto-prod-588",
@@ -12170,14 +12573,15 @@ const PRODUCTS = [
     "currentPrice": 87.4,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/Smartwatch-Infantil-GPS-SOS-Camera-i.1053203124.23396881608?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Smartwatch%20Infantil%20com%20GPS%20Chamada%20SOS&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.7,
     "reviewsCount": 18900,
     "couponCode": "KIDSGPS",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Smartwatch%20Infantil%20com%20GPS%20Chamada%20SOS"
   },
   {
     "id": "auto-prod-590",
@@ -12190,14 +12594,15 @@ const PRODUCTS = [
     "currentPrice": 321,
     "installment": "em até 6x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/tablet-positivo-twist-tab-kids-64gb/p/MLB15243270?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/tablet-positivo-twist-tab-kids-64gb?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410870_082021-O.webp",
     "featured": false,
     "rating": 4.7,
     "reviewsCount": 6540,
     "couponCode": "POSITIVOKIDS",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/tablet-positivo-twist-tab-kids-64gb"
   },
   {
     "id": "auto-prod-591",
@@ -12210,14 +12615,15 @@ const PRODUCTS = [
     "currentPrice": 49.5,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/Camera-Digital-Infantil-Mini-Jogos-i.1053203124.23396881609?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=C%C3%A2mera%20Fotogr%C3%A1fica%20Digital%20Infantil%20Mini%20C%C3%A2mera&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?w=600&auto=format&fit=crop&q=80",
     "featured": true,
     "rating": 4.8,
     "reviewsCount": 26700,
     "couponCode": "CAMERAKIDS",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=C%C3%A2mera%20Fotogr%C3%A1fica%20Digital%20Infantil%20Mini%20C%C3%A2mera"
   },
   {
     "id": "auto-prod-592",
@@ -12230,14 +12636,15 @@ const PRODUCTS = [
     "currentPrice": 31.8,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/lousa-magica-tablet-desenho-lcd-8-5/p/MLB15243271?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/lousa-magica-tablet-desenho-lcd-8-5?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410871_082021-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 38900,
     "couponCode": "LOUSA",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/lousa-magica-tablet-desenho-lcd-8-5"
   },
   {
     "id": "auto-prod-593",
@@ -12270,14 +12677,15 @@ const PRODUCTS = [
     "currentPrice": 379,
     "installment": "em até 7x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/tablet-multilaser-princesas-disney-64gb/p/MLB15243272?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/tablet-multilaser-princesas-disney-64gb?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410872_082021-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 5410,
     "couponCode": "DISNEYTAB",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/tablet-multilaser-princesas-disney-64gb"
   },
   {
     "id": "auto-prod-595",
@@ -12290,14 +12698,15 @@ const PRODUCTS = [
     "currentPrice": 43.4,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/Fone-Ouvido-Infantil-Orelha-de-Gato-LED-i.1053203124.23396881610?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Fone%20de%20Ouvido%20Bluetooth%20Infantil%20Orelhinha&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=600&auto=format&fit=crop&q=80",
     "featured": true,
     "rating": 4.8,
     "reviewsCount": 31200,
     "couponCode": "ORELHAGATO",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Fone%20de%20Ouvido%20Bluetooth%20Infantil%20Orelhinha"
   },
   {
     "id": "auto-prod-596",
@@ -12310,14 +12719,15 @@ const PRODUCTS = [
     "currentPrice": 62.3,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/microfone-infantil-karaoke-bluetooth/p/MLB15243273?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/microfone-infantil-karaoke-bluetooth?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410873_082021-O.webp",
     "featured": false,
     "rating": 4.7,
     "reviewsCount": 16700,
     "couponCode": "KARAOKE",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/microfone-infantil-karaoke-bluetooth"
   },
   {
     "id": "auto-prod-597",
@@ -12330,14 +12740,15 @@ const PRODUCTS = [
     "currentPrice": 1439,
     "installment": "em até 10x de R$ 143,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/apple-airpods-3-geracao-estojo-magsafe/p/MLB15243274?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-airpods-3-geracao-estojo-magsafe?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410874_082021-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 8940,
     "couponCode": "AIRPODS3",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/apple-airpods-3-geracao-estojo-magsafe"
   },
   {
     "id": "auto-prod-598",
@@ -12370,14 +12781,15 @@ const PRODUCTS = [
     "currentPrice": 5543,
     "installment": "em até 10x de R$ 554,30 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/apple-airpods-max-prateado-over-ear/p/MLB15243275?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-airpods-max-prateado-over-ear?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410875_082021-O.webp",
     "featured": true,
     "rating": 5,
     "reviewsCount": 2340,
     "couponCode": "MAXAIR",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/apple-airpods-max-prateado-over-ear"
   },
   {
     "id": "auto-prod-600",
@@ -12390,14 +12802,15 @@ const PRODUCTS = [
     "currentPrice": 5477,
     "installment": "em até 10x de R$ 547,70 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/apple-airpods-max-cinza-espacial-over-ear/p/MLB15243276?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-airpods-max-cinza-espacial-over-ear?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410876_082021-O.webp",
     "featured": false,
     "rating": 5,
     "reviewsCount": 3120,
     "couponCode": "MAXCINZA",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/apple-airpods-max-cinza-espacial-over-ear"
   },
   {
     "id": "auto-prod-601",
@@ -12430,14 +12843,15 @@ const PRODUCTS = [
     "currentPrice": 1699,
     "installment": "em até 10x de R$ 169,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/apple-airpods-4-com-cancelamento-ativo-ruido/p/MLB15243277?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-airpods-4-com-cancelamento-ativo-ruido?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410877_082021-O.webp",
     "featured": true,
     "rating": 5,
     "reviewsCount": 4210,
     "couponCode": "AIRPODS4",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/apple-airpods-4-com-cancelamento-ativo-ruido"
   },
   {
     "id": "auto-prod-603",
@@ -12450,14 +12864,15 @@ const PRODUCTS = [
     "currentPrice": 24.5,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/Capa-Silicone-com-Mosquetao-AirPods-Pro-2-i.1053203124.23396881611?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Capa%20Protetora%20de%20Silicone%20com%20Mosquet%C3%A3o&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 18900,
     "couponCode": "CASEPODS",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Capa%20Protetora%20de%20Silicone%20com%20Mosquet%C3%A3o"
   },
   {
     "id": "auto-prod-604",
@@ -12470,14 +12885,15 @@ const PRODUCTS = [
     "currentPrice": 41.4,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/Case-Couro-Vintage-AirPods-3-i.1053203124.23396881612?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Case%20de%20Prote%C3%A7%C3%A3o%20em%20Couro%20Genu%C3%ADno&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 7890,
     "couponCode": "LEATHERCASE",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Case%20de%20Prote%C3%A7%C3%A3o%20em%20Couro%20Genu%C3%ADno"
   },
   {
     "id": "auto-prod-605",
@@ -12490,14 +12906,15 @@ const PRODUCTS = [
     "currentPrice": 5543,
     "installment": "em até 10x de R$ 554,30 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/apple-airpods-max-azul-ceu-over-ear/p/MLB15243278?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-airpods-max-azul-ceu-over-ear?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410878_082021-O.webp",
     "featured": false,
     "rating": 5,
     "reviewsCount": 1890,
     "couponCode": "MAXAZUL",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/apple-airpods-max-azul-ceu-over-ear"
   },
   {
     "id": "auto-prod-606",
@@ -12510,14 +12927,15 @@ const PRODUCTS = [
     "currentPrice": 17.5,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/Kit-Limpeza-Caneta-AirPods-3-em-1-i.1053203124.23396881613?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Kit%20Limpeza%20e%20Higieniza%C3%A7%C3%A3o%20para%20AirPods&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 42100,
     "couponCode": "LIMPEZAPODS",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Kit%20Limpeza%20e%20Higieniza%C3%A7%C3%A3o%20para%20AirPods"
   },
   {
     "id": "auto-prod-607",
@@ -12530,14 +12948,15 @@ const PRODUCTS = [
     "currentPrice": 24.7,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/Capa-Transparente-AirPods-4-i.1053203124.23396881614?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Capa%20Protetora%20Transparente%20Antiamarelamento%20para%20AirPods&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 11200,
     "couponCode": "CASE4",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Capa%20Protetora%20Transparente%20Antiamarelamento%20para%20AirPods"
   },
   {
     "id": "auto-prod-608",
@@ -12550,14 +12969,15 @@ const PRODUCTS = [
     "currentPrice": 3439,
     "installment": "em até 10x de R$ 343,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/apple-watch-series-9-gps-45mm-meia-noite/p/MLB15243279?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-watch-series-9-gps-45mm-meia-noite?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410879_082021-O.webp",
     "featured": true,
     "rating": 5,
     "reviewsCount": 7890,
     "couponCode": "SERIES9",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/apple-watch-series-9-gps-45mm-meia-noite"
   },
   {
     "id": "auto-prod-609",
@@ -12590,14 +13010,15 @@ const PRODUCTS = [
     "currentPrice": 1949,
     "installment": "em até 10x de R$ 194,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/apple-watch-se-2-geracao-gps-40mm-estelar/p/MLB15243280?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-watch-se-2-geracao-gps-40mm-estelar?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410880_082021-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 8940,
     "couponCode": "WATCHSE40",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/apple-watch-se-2-geracao-gps-40mm-estelar"
   },
   {
     "id": "auto-prod-611",
@@ -12610,14 +13031,15 @@ const PRODUCTS = [
     "currentPrice": 4041,
     "installment": "em até 10x de R$ 404,10 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/apple-watch-series-10-gps-46mm-preto-brilhante/p/MLB15243281?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-watch-series-10-gps-46mm-preto-brilhante?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410881_082021-O.webp",
     "featured": true,
     "rating": 5,
     "reviewsCount": 2340,
     "couponCode": "SERIES10",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/apple-watch-series-10-gps-46mm-preto-brilhante"
   },
   {
     "id": "auto-prod-612",
@@ -12630,14 +13052,15 @@ const PRODUCTS = [
     "currentPrice": 39.5,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/Pulseira-Milanese-Aco-Apple-Watch-Ultra-i.1053203124.23396881615?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Pulseira%20Milanese%20em%20A%C3%A7o%20Inox%20Magn%C3%A9tica&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 31200,
     "couponCode": "MILANESE",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Pulseira%20Milanese%20em%20A%C3%A7o%20Inox%20Magn%C3%A9tica"
   },
   {
     "id": "auto-prod-613",
@@ -12650,14 +13073,15 @@ const PRODUCTS = [
     "currentPrice": 37.9,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/Pulseira-Oceano-Apple-Watch-Ultra-49mm-i.1053203124.23396881616?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Pulseira%20Oceano%20de%20Silicone%20Esportiva%20com&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 16700,
     "couponCode": "OCEANPULSE",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Pulseira%20Oceano%20de%20Silicone%20Esportiva%20com"
   },
   {
     "id": "auto-prod-614",
@@ -12690,14 +13114,15 @@ const PRODUCTS = [
     "currentPrice": 24.5,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/Case-Pelicula-Vidro-Apple-Watch-Protecao-360-i.1053203124.23396881617?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Case%20com%20Pel%C3%ADcula%20de%20Vidro%20Temperado&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 28900,
     "couponCode": "CASEWATCH",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Case%20com%20Pel%C3%ADcula%20de%20Vidro%20Temperado"
   },
   {
     "id": "auto-prod-616",
@@ -12710,14 +13135,15 @@ const PRODUCTS = [
     "currentPrice": 2924,
     "installment": "em até 10x de R$ 292,40 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/apple-watch-series-8-gps-41mm-prateado/p/MLB15243282?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-watch-series-8-gps-41mm-prateado?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410882_082021-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 5410,
     "couponCode": "SERIES8",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/apple-watch-series-8-gps-41mm-prateado"
   },
   {
     "id": "auto-prod-617",
@@ -12730,14 +13156,15 @@ const PRODUCTS = [
     "currentPrice": 90.3,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/pulseira-couro-legitimo-apple-watch/p/MLB15243283?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/pulseira-couro-legitimo-apple-watch?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410883_082021-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 6540,
     "couponCode": "LEATHERWATCH",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/pulseira-couro-legitimo-apple-watch"
   },
   {
     "id": "auto-prod-618",
@@ -12770,14 +13197,15 @@ const PRODUCTS = [
     "currentPrice": 96.7,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/creatina-100-pura-soldiers-nutrition-500g/p/MLB15243284?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/creatina-100-pura-soldiers-nutrition-500g?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410884_082021-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 38900,
     "couponCode": "SOLDIERS",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/creatina-100-pura-soldiers-nutrition-500g"
   },
   {
     "id": "auto-prod-620",
@@ -12810,14 +13238,15 @@ const PRODUCTS = [
     "currentPrice": 77.3,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/Pre-Treino-C4-Beta-Pump-New-Millen-225g-i.1053203124.23396881618?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Pr%C3%A9-Treino%20C4%20Beta%20Pump%20New%20Millen&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 18900,
     "couponCode": "PRETREINO",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Pr%C3%A9-Treino%20C4%20Beta%20Pump%20New%20Millen"
   },
   {
     "id": "auto-prod-622",
@@ -12830,14 +13259,15 @@ const PRODUCTS = [
     "currentPrice": 53.8,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/pasta-de-amendoim-dr-peanut-600g-brigadeiro/p/MLB15243285?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/pasta-de-amendoim-dr-peanut-600g-brigadeiro?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410885_082021-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 22400,
     "couponCode": "DRPEANUT",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/pasta-de-amendoim-dr-peanut-600g-brigadeiro"
   },
   {
     "id": "auto-prod-623",
@@ -12870,14 +13300,15 @@ const PRODUCTS = [
     "currentPrice": 159,
     "installment": "em até 3x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/creatina-darkness-creapure-350g/p/MLB15243286?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/creatina-darkness-creapure-350g?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410886_082021-O.webp",
     "featured": true,
     "rating": 5,
     "reviewsCount": 9410,
     "couponCode": "CREAPURE",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/creatina-darkness-creapure-350g"
   },
   {
     "id": "auto-prod-625",
@@ -12890,14 +13321,15 @@ const PRODUCTS = [
     "currentPrice": 38.3,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/BCAA-2400-Max-Titanium-100-Capsulas-i.1053203124.23396881619?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=BCAA%202400%20Max%20Titanium%20100%20C%C3%A1psulas&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 18900,
     "couponCode": "BCAA2400",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=BCAA%202400%20Max%20Titanium%20100%20C%C3%A1psulas"
   },
   {
     "id": "auto-prod-626",
@@ -12910,14 +13342,15 @@ const PRODUCTS = [
     "currentPrice": 90.4,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/hipercalorico-mass-titanium-17500-3kg/p/MLB15243287?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/hipercalorico-mass-titanium-17500-3kg?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410887_082021-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 12400,
     "couponCode": "MASSTITANIUM",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/hipercalorico-mass-titanium-17500-3kg"
   },
   {
     "id": "auto-prod-627",
@@ -12950,14 +13383,15 @@ const PRODUCTS = [
     "currentPrice": 134,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/multivitaminico-mega-men-gnc-120-caps/p/MLB15243288?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/multivitaminico-mega-men-gnc-120-caps?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410888_082021-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 7120,
     "couponCode": "VITAMINAS",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/multivitaminico-mega-men-gnc-120-caps"
   },
   {
     "id": "auto-prod-629",
@@ -12970,14 +13404,15 @@ const PRODUCTS = [
     "currentPrice": 62.3,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/Coqueteleira-BlenderBottle-Pro28-Inox-Ball-i.1053203124.23396881620?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Coqueteleira%20BlenderBottle%20Pro28%20828ml%20com%20Batedor&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 16700,
     "couponCode": "SHAKER",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Coqueteleira%20BlenderBottle%20Pro28%20828ml%20com%20Batedor"
   },
   {
     "id": "auto-prod-630",
@@ -12990,14 +13425,15 @@ const PRODUCTS = [
     "currentPrice": 701,
     "installment": "em até 10x de R$ 70,10 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/tenis-nike-air-zoom-pegasus-41-masculino/p/MLB15243289?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/tenis-nike-air-zoom-pegasus-41-masculino?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410889_082021-O.webp",
     "featured": true,
     "rating": 5,
     "reviewsCount": 11200,
     "couponCode": "PEGASUS41",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/tenis-nike-air-zoom-pegasus-41-masculino"
   },
   {
     "id": "auto-prod-631",
@@ -13030,14 +13466,15 @@ const PRODUCTS = [
     "currentPrice": 887,
     "installment": "em até 10x de R$ 88,70 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/tenis-adidas-ultraboost-light-masculino/p/MLB15243290?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/tenis-adidas-ultraboost-light-masculino?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410890_082021-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 9410,
     "couponCode": "ULTRABOOST",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/tenis-adidas-ultraboost-light-masculino"
   },
   {
     "id": "auto-prod-633",
@@ -13050,14 +13487,15 @@ const PRODUCTS = [
     "currentPrice": 359,
     "installment": "em até 7x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/tenis-olympikus-corre-vento-2-masculino/p/MLB15243291?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/tenis-olympikus-corre-vento-2-masculino?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410891_082021-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 6540,
     "couponCode": "CORREVENTO",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/tenis-olympikus-corre-vento-2-masculino"
   },
   {
     "id": "auto-prod-634",
@@ -13090,14 +13528,15 @@ const PRODUCTS = [
     "currentPrice": 615,
     "installment": "em até 10x de R$ 61,50 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/tenis-mizuno-wave-rider-27-masculino/p/MLB15243292?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/tenis-mizuno-wave-rider-27-masculino?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410892_082021-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 7890,
     "couponCode": "WAVERIDER",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/tenis-mizuno-wave-rider-27-masculino"
   },
   {
     "id": "auto-prod-636",
@@ -13110,14 +13549,15 @@ const PRODUCTS = [
     "currentPrice": 407,
     "installment": "em até 6x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/Tenis-Olympikus-Corre-Trilha-Michelin-i.1053203124.23396881621?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=T%C3%AAnis%20Olympikus%20Corre%20Trilha%20Masculino%20Solado&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 5410,
     "couponCode": "CORRETRILHA",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=T%C3%AAnis%20Olympikus%20Corre%20Trilha%20Masculino%20Solado"
   },
   {
     "id": "auto-prod-637",
@@ -13130,14 +13570,15 @@ const PRODUCTS = [
     "currentPrice": 1026,
     "installment": "em até 10x de R$ 102,60 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/tenis-nike-invincible-3-masculino-zoomx/p/MLB15243293?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/tenis-nike-invincible-3-masculino-zoomx?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410893_082021-O.webp",
     "featured": true,
     "rating": 5,
     "reviewsCount": 6540,
     "couponCode": "ZOOMX50",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/tenis-nike-invincible-3-masculino-zoomx"
   },
   {
     "id": "auto-prod-638",
@@ -13170,14 +13611,15 @@ const PRODUCTS = [
     "currentPrice": 1065,
     "installment": "em até 10x de R$ 106,50 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/tenis-asics-gel-nimbus-26-masculino/p/MLB15243294?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/tenis-asics-gel-nimbus-26-masculino?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410894_082021-O.webp",
     "featured": true,
     "rating": 5,
     "reviewsCount": 8940,
     "couponCode": "NIMBUS26",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/tenis-asics-gel-nimbus-26-masculino"
   },
   {
     "id": "auto-prod-640",
@@ -13190,14 +13632,15 @@ const PRODUCTS = [
     "currentPrice": 799,
     "installment": "em até 10x de R$ 79,90 sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/tenis-adidas-adizero-boston-12-masculino/p/MLB15243295?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/tenis-adidas-adizero-boston-12-masculino?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410895_082021-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 5410,
     "couponCode": "BOSTON12",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/tenis-adidas-adizero-boston-12-masculino"
   },
   {
     "id": "auto-prod-641",
@@ -13210,14 +13653,15 @@ const PRODUCTS = [
     "currentPrice": 83.4,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/Roda-Abdominal-Retorno-Automatico-Cotovelo-i.1053203124.23396881622?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Roda%20Abdominal%20com%20Retorno%20Autom%C3%A1tico%20Suporte&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=600&auto=format&fit=crop&q=80",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 16700,
     "couponCode": "RODAAB",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Roda%20Abdominal%20com%20Retorno%20Autom%C3%A1tico%20Suporte"
   },
   {
     "id": "auto-prod-642",
@@ -13230,14 +13674,15 @@ const PRODUCTS = [
     "currentPrice": 31.8,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/hand-grip-ajustavel-5-a-60kg-antebraco/p/MLB15243296?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/hand-grip-ajustavel-5-a-60kg-antebraco?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410896_082021-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 28900,
     "couponCode": "HANDGRIP",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/hand-grip-ajustavel-5-a-60kg-antebraco"
   },
   {
     "id": "auto-prod-643",
@@ -13270,14 +13715,15 @@ const PRODUCTS = [
     "currentPrice": 114,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/cinto-musculacao-couro-lombar-fivela/p/MLB15243297?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/cinto-musculacao-couro-lombar-fivela?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410897_082021-O.webp",
     "featured": true,
     "rating": 4.9,
     "reviewsCount": 9410,
     "couponCode": "CINTOLOMBAR",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/cinto-musculacao-couro-lombar-fivela"
   },
   {
     "id": "auto-prod-645",
@@ -13290,14 +13736,15 @@ const PRODUCTS = [
     "currentPrice": 178,
     "installment": "em até 3x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/par-kettlebell-emborrachado-funcional/p/MLB15243298?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/par-kettlebell-emborrachado-funcional?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410898_082021-O.webp",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 6540,
     "couponCode": "KETTLE",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/par-kettlebell-emborrachado-funcional"
   },
   {
     "id": "auto-prod-646",
@@ -13310,14 +13757,15 @@ const PRODUCTS = [
     "currentPrice": 64.3,
     "installment": "em até 2x sem juros",
     "pixDiscount": "Frete Grátis com Cupom",
-    "affiliateUrl": "https://shopee.com.br/Fita-Suspensao-Treinamento-Funcional-TRX-i.1053203124.23396881623?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Fita%20de%20Suspens%C3%A3o%20Treinamento%20Funcional%20Tipo&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
     "reviewsCount": 12400,
     "couponCode": "TRXFIT",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://shopee.com.br/search?keyword=Fita%20de%20Suspens%C3%A3o%20Treinamento%20Funcional%20Tipo"
   },
   {
     "id": "auto-prod-647",
@@ -13330,14 +13778,15 @@ const PRODUCTS = [
     "currentPrice": 48.3,
     "installment": "em até 1x sem juros",
     "pixDiscount": "Frete Full Grátis",
-    "affiliateUrl": "https://www.mercadolivre.com.br/luva-treino-musculacao-munhequeira-gel/p/MLB15243299?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/luva-treino-musculacao-munhequeira-gel?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_934182-MLA47180410899_082021-O.webp",
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 18900,
     "couponCode": "LUVATREINO",
     "expired": false,
-    "dateAdded": "2026-10-19"
+    "dateAdded": "2026-10-19",
+    "directUrl": "https://lista.mercadolivre.com.br/luva-treino-musculacao-munhequeira-gel"
   },
   {
     "id": "auto-prod-648",
@@ -13414,7 +13863,7 @@ const PRODUCTS = [
     "currentPrice": 2999,
     "installment": "Esgotou em 14 minutos",
     "pixDiscount": "Menor preço histórico registrado",
-    "affiliateUrl": "https://www.mercadolivre.com.br/apple-iphone-13-128-gb-azul/p/MLB18500846?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-iphone-13-128-gb-azul?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_795127-MLU77719747195_072024-O.webp",
     "featured": false,
     "rating": 4.9,
@@ -13422,7 +13871,8 @@ const PRODUCTS = [
     "couponCode": "BLACKFRIDAY",
     "expired": true,
     "dateAdded": "2026-10-15",
-    "rawUrl": "https://www.mercadolivre.com.br/apple-iphone-13-128-gb-azul/p/MLB18500846"
+    "rawUrl": "https://www.mercadolivre.com.br/apple-iphone-13-128-gb-azul/p/MLB18500846",
+    "directUrl": "https://lista.mercadolivre.com.br/apple-iphone-13-128-gb-azul"
   },
   {
     "id": "auto-prod-past-4",
@@ -13435,7 +13885,7 @@ const PRODUCTS = [
     "currentPrice": 169,
     "installment": "Lote promocional esgotado",
     "pixDiscount": "Cupom Shopee Relâmpago",
-    "affiliateUrl": "https://shopee.com.br/Fritadeira-El%C3%A9trica-Sem-%C3%93leo-Air-Fryer-Mondial-AFN40BI-Family-Inox-4L-Preta-Inox-127V-i.721972688.22138798611?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Fritadeira%20Sem%20%C3%93leo%20Air%20Fryer%20Mondial&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://lebiscuit.vtexassets.com/arquivos/ids/3196488/16932377480179.jpg?v=638288952888970000",
     "featured": false,
     "rating": 4.8,
@@ -13443,7 +13893,8 @@ const PRODUCTS = [
     "couponCode": "ESGOTADO",
     "expired": true,
     "dateAdded": "2026-10-15",
-    "rawUrl": "https://shopee.com.br/Fritadeira-Elétrica-Sem-Óleo-Air-Fryer-Mondial-AFN40BI-Family-Inox-4L-Preta-Inox-127V-i.721972688.22138798611"
+    "rawUrl": "https://shopee.com.br/Fritadeira-Elétrica-Sem-Óleo-Air-Fryer-Mondial-AFN40BI-Family-Inox-4L-Preta-Inox-127V-i.721972688.22138798611",
+    "directUrl": "https://shopee.com.br/search?keyword=Fritadeira%20Sem%20%C3%93leo%20Air%20Fryer%20Mondial"
   },
   {
     "id": "auto-prod-past-5",
@@ -13456,7 +13907,7 @@ const PRODUCTS = [
     "currentPrice": 29.9,
     "installment": "Bug de cupom encerrado",
     "pixDiscount": "Sucesso no grupo VIP",
-    "affiliateUrl": "https://shopee.com.br/Fone-de-Ouvido-Sem-Fio-Gamer-Lenovo-GM2-Pro-Baixa-Lat%C3%AAncia-100-Original-Bluetooth-5.3-Branco-i.269110488.22495624353?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Fone%20de%20Ouvido%20Gamer%20Lenovo%20GM2&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-ltsirrjdmtbz0b",
     "featured": false,
     "rating": 4.8,
@@ -13464,7 +13915,8 @@ const PRODUCTS = [
     "couponCode": "BUGENCERRADO",
     "expired": true,
     "dateAdded": "2026-10-15",
-    "rawUrl": "https://shopee.com.br/Fone-de-Ouvido-Sem-Fio-Gamer-Lenovo-GM2-Pro-Baixa-Latência-100-Original-Bluetooth-5.3-Branco-i.269110488.22495624353"
+    "rawUrl": "https://shopee.com.br/Fone-de-Ouvido-Sem-Fio-Gamer-Lenovo-GM2-Pro-Baixa-Latência-100-Original-Bluetooth-5.3-Branco-i.269110488.22495624353",
+    "directUrl": "https://shopee.com.br/search?keyword=Fone%20de%20Ouvido%20Gamer%20Lenovo%20GM2"
   },
   {
     "id": "auto-prod-past-6",
@@ -13477,7 +13929,7 @@ const PRODUCTS = [
     "currentPrice": 1999,
     "installment": "Lote de queima encerrado",
     "pixDiscount": "Desconto histórico no Pix",
-    "affiliateUrl": "https://www.mercadolivre.com.br/notebook-positivo-vision-c15m-intel-celeron-n4500-windows-11-home-8gb-ram-128gb-emmc-tela-15-full-hd-ips-antirreflexo-minitela-e-tecla-copilot-permite-upgrade-de-memoria-ssd-cinza/p/MLB54096680?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/notebook-positivo-vision-c15m-intel-celeron-n4500-windows-11-home-8gb-ram-128gb-emmc-tela-15-full-hd-ips-antirreflexo-minitela-e-tecla-copilot-permite-upgrade-de-memoria-ssd-cinza?matt_tool=23610538&matt_word=givi713407",
     "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.8,
@@ -13485,7 +13937,8 @@ const PRODUCTS = [
     "couponCode": "ESGOTADO",
     "expired": true,
     "dateAdded": "2026-10-15",
-    "rawUrl": "https://www.mercadolivre.com.br/notebook-positivo-vision-c15m-intel-celeron-n4500-windows-11-home-8gb-ram-128gb-emmc-tela-15-full-hd-ips-antirreflexo-minitela-e-tecla-copilot-permite-upgrade-de-memoria-ssd-cinza/p/MLB54096680"
+    "rawUrl": "https://www.mercadolivre.com.br/notebook-positivo-vision-c15m-intel-celeron-n4500-windows-11-home-8gb-ram-128gb-emmc-tela-15-full-hd-ips-antirreflexo-minitela-e-tecla-copilot-permite-upgrade-de-memoria-ssd-cinza/p/MLB54096680",
+    "directUrl": "https://lista.mercadolivre.com.br/notebook-positivo-vision-c15m-intel-celeron-n4500-windows-11-home-8gb-ram-128gb-emmc-tela-15-full-hd-ips-antirreflexo-minitela-e-tecla-copilot-permite-upgrade-de-memoria-ssd-cinza"
   },
   {
     "id": "auto-prod-past-7",
@@ -13498,7 +13951,7 @@ const PRODUCTS = [
     "currentPrice": 149,
     "installment": "Flash Day encerrado",
     "pixDiscount": "Preço promocional na época",
-    "affiliateUrl": "https://www.mercadolivre.com.br/echo-pop-smart-speaker-amazon-preto/p/MLB61265584?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/echo-pop-smart-speaker-amazon-preto?matt_tool=23610538&matt_word=givi713407",
     "image": "https://images.tcdn.com.br/img/img_prod/1289196/echo_pop_smart_speaker_compacto_com_som_envolvente_e_alexa_cor_lavanda_117_4_b191e4878f3d63b63d7b0e9c7cd05586.jpg",
     "featured": false,
     "rating": 4.8,
@@ -13507,7 +13960,7 @@ const PRODUCTS = [
     "expired": true,
     "dateAdded": "2026-10-15",
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-4131417239-echo-pop-smart-speaker-compacto-som-alexa-original-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/echo-pop-smart-speaker-amazon-preto/p/MLB61265584"
+    "directUrl": "https://lista.mercadolivre.com.br/echo-pop-smart-speaker-amazon-preto"
   },
   {
     "id": "auto-prod-past-8",
@@ -13520,7 +13973,7 @@ const PRODUCTS = [
     "currentPrice": 149.9,
     "installment": "Liquidação total encerrada",
     "pixDiscount": "10% no Pix Magalu na época",
-    "affiliateUrl": "https://www.mercadolivre.com.br/tnis-nike-revolution-7-masculino/p/MLB46191739?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/tnis-nike-revolution-7-masculino?matt_tool=23610538&matt_word=givi713407",
     "image": "https://static.netshoes.com.br/produtos/tenis-nike-revolution-6-next-nature-masculino/06/2IC-5000-006/2IC-5000-006_zoom1.jpg?ts=1634862986",
     "featured": false,
     "rating": 4.8,
@@ -13529,7 +13982,7 @@ const PRODUCTS = [
     "expired": true,
     "dateAdded": "2026-10-15",
     "rawUrl": "https://www.magazineluiza.com.br/tenis-nike-revolution-6-masculino-preto/p/ed57eb54f3/es/tnik/",
-    "directUrl": "https://www.mercadolivre.com.br/tnis-nike-revolution-7-masculino/p/MLB46191739"
+    "directUrl": "https://lista.mercadolivre.com.br/tnis-nike-revolution-7-masculino"
   },
   {
     "id": "auto-prod-past-9",
@@ -13542,7 +13995,7 @@ const PRODUCTS = [
     "currentPrice": 299,
     "installment": "Esgotado",
     "pixDiscount": "Frete Full Grátis na época",
-    "affiliateUrl": "https://www.mercadolivre.com.br/controle-joystick-sony-dualsense-sem-fio-ps5-midnight-black/p/MLB63568390?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/controle-joystick-sony-dualsense-sem-fio-ps5-midnight-black?matt_tool=23610538&matt_word=givi713407",
     "image": "https://images.unsplash.com/photo-1600080972464-8e5f35f63d08?w=600&auto=format&fit=crop&q=80",
     "featured": false,
     "rating": 4.9,
@@ -13550,7 +14003,8 @@ const PRODUCTS = [
     "couponCode": "ESGOTADO",
     "expired": true,
     "dateAdded": "2026-10-15",
-    "rawUrl": "https://www.mercadolivre.com.br/controle-joystick-sony-dualsense-sem-fio-ps5-midnight-black/p/MLB63568390"
+    "rawUrl": "https://www.mercadolivre.com.br/controle-joystick-sony-dualsense-sem-fio-ps5-midnight-black/p/MLB63568390",
+    "directUrl": "https://lista.mercadolivre.com.br/controle-joystick-sony-dualsense-sem-fio-ps5-midnight-black"
   },
   {
     "id": "auto-prod-past-10",
@@ -13585,7 +14039,7 @@ const PRODUCTS = [
     "currentPrice": 129,
     "installment": "Lote Shopee esgotado",
     "pixDiscount": "Cupom expirado",
-    "affiliateUrl": "https://shopee.com.br/Caixa-de-som-port%C3%A1til-J.BL-Go-3-com-bateria-Bluetooth-integrada-%C3%A0-prova-d'%C3%A1gua-poeira-tws-celular-iphone-Android-xiaomi-i.1399259458.23798350437?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Caixa%20de%20Som%20Bluetooth%20JBL%20Go&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lt0fpox5s2dpe5",
     "featured": false,
     "rating": 4.9,
@@ -13593,7 +14047,8 @@ const PRODUCTS = [
     "couponCode": "ESGOTADO",
     "expired": true,
     "dateAdded": "2026-10-15",
-    "rawUrl": "https://shopee.com.br/Caixa-de-som-portátil-J.BL-Go-3-com-bateria-Bluetooth-integrada-à-prova-d'água-poeira-tws-celular-iphone-Android-xiaomi-i.1399259458.23798350437"
+    "rawUrl": "https://shopee.com.br/Caixa-de-som-portátil-J.BL-Go-3-com-bateria-Bluetooth-integrada-à-prova-d'água-poeira-tws-celular-iphone-Android-xiaomi-i.1399259458.23798350437",
+    "directUrl": "https://shopee.com.br/search?keyword=Caixa%20de%20Som%20Bluetooth%20JBL%20Go"
   },
   {
     "id": "auto-prod-past-12",
@@ -13606,7 +14061,7 @@ const PRODUCTS = [
     "currentPrice": 899,
     "installment": "Queima de estoque encerrada",
     "pixDiscount": "Desconto histórico",
-    "affiliateUrl": "https://www.mercadolivre.com.br/rob-aspirador-xiaomi-mi-robot-vacuum-mop-2-pro-preto/p/MLB19688208?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/rob-aspirador-xiaomi-mi-robot-vacuum-mop-2-pro-preto?matt_tool=23610538&matt_word=givi713407",
     "image": "https://http2.mlstatic.com/D_NQ_NP_660965-MLU75808853360_042024-O.webp",
     "featured": false,
     "rating": 4.8,
@@ -13614,7 +14069,8 @@ const PRODUCTS = [
     "couponCode": "ESGOTADO",
     "expired": true,
     "dateAdded": "2026-10-15",
-    "rawUrl": "https://www.mercadolivre.com.br/rob-aspirador-xiaomi-mi-robot-vacuum-mop-2-pro-preto/p/MLB19688208"
+    "rawUrl": "https://www.mercadolivre.com.br/rob-aspirador-xiaomi-mi-robot-vacuum-mop-2-pro-preto/p/MLB19688208",
+    "directUrl": "https://lista.mercadolivre.com.br/rob-aspirador-xiaomi-mi-robot-vacuum-mop-2-pro-preto"
   },
   {
     "id": "auto-prod-past-13",
@@ -13649,7 +14105,7 @@ const PRODUCTS = [
     "currentPrice": 1399,
     "installment": "Últimas unidades esgotadas",
     "pixDiscount": "Preço na época",
-    "affiliateUrl": "https://www.mercadolivre.com.br/apple-watch-se-gps-40mm-caixa-de-aluminio-cinza-espacial-pulseira-esportiva-preto/p/MLB16205876?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-watch-se-gps-40mm-caixa-de-aluminio-cinza-espacial-pulseira-esportiva-preto?matt_tool=23610538&matt_word=givi713407",
     "image": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/240356/Apple-Watch-SE-GPS-40mm-Caixa-Cinza-espacial-De-Alum-nio-Pulseira-Esportiva-Preta_1660234142_m.jpg",
     "featured": false,
     "rating": 4.9,
@@ -13657,7 +14113,8 @@ const PRODUCTS = [
     "couponCode": "ESGOTADO",
     "expired": true,
     "dateAdded": "2026-10-15",
-    "rawUrl": "https://www.mercadolivre.com.br/apple-watch-se-gps-40mm-caixa-de-aluminio-cinza-espacial-pulseira-esportiva-preto/p/MLB16205876"
+    "rawUrl": "https://www.mercadolivre.com.br/apple-watch-se-gps-40mm-caixa-de-aluminio-cinza-espacial-pulseira-esportiva-preto/p/MLB16205876",
+    "directUrl": "https://lista.mercadolivre.com.br/apple-watch-se-gps-40mm-caixa-de-aluminio-cinza-espacial-pulseira-esportiva-preto"
   },
   {
     "id": "auto-prod-past-15",
@@ -13692,7 +14149,7 @@ const PRODUCTS = [
     "currentPrice": 99,
     "installment": "Promoção Dia dos Pais encerrada",
     "pixDiscount": "Envio Full na época",
-    "affiliateUrl": "https://www.mercadolivre.com.br/copo-termico-de-cerveja-stanley-matte-black-preto-473ml/p/MLB19609192?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/copo-termico-de-cerveja-stanley-matte-black-preto-473ml?matt_tool=23610538&matt_word=givi713407",
     "image": "https://images.tcdn.com.br/img/img_prod/1048952/copo_stanley_termico_cerveja_matte_black_473ml_c_tampa_1255_1_002573a9b0937c92cf5214fb640d72b7.jpg",
     "featured": false,
     "rating": 4.9,
@@ -13700,7 +14157,8 @@ const PRODUCTS = [
     "couponCode": "ESGOTADO",
     "expired": true,
     "dateAdded": "2026-10-15",
-    "rawUrl": "https://www.mercadolivre.com.br/copo-termico-de-cerveja-stanley-matte-black-preto-473ml/p/MLB19609192"
+    "rawUrl": "https://www.mercadolivre.com.br/copo-termico-de-cerveja-stanley-matte-black-preto-473ml/p/MLB19609192",
+    "directUrl": "https://lista.mercadolivre.com.br/copo-termico-de-cerveja-stanley-matte-black-preto-473ml"
   },
   {
     "id": "auto-prod-past-17",
@@ -13713,7 +14171,7 @@ const PRODUCTS = [
     "currentPrice": 139,
     "installment": "Cupom Shopee encerrado",
     "pixDiscount": "Preço no Pix na época",
-    "affiliateUrl": "https://shopee.com.br/Kit-Teclado-Mec%C3%A2nico-Gamer-Switch-Blue-RGB-Mouse-3200DPI-Anti-Ghosting-PC-ESCOLHA-POR-MODELO-i.1333507062.21999897032?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Kit%20Teclado%20Mec%C3%A2nico%20Gamer%20Redragon%20Kumara&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images1.kabum.com.br/produtos/fotos/128031/kit-gamer-redragon-teclado-mecanico-kumara-rgb-switch-outemu-blue-pt-branco-mouse-cobra-m711-chroma-10000dpi-branco-s118w_1600804255_gg.jpg",
     "featured": false,
     "rating": 4.8,
@@ -13721,7 +14179,8 @@ const PRODUCTS = [
     "couponCode": "ESGOTADO",
     "expired": true,
     "dateAdded": "2026-10-15",
-    "rawUrl": "https://shopee.com.br/Kit-Teclado-Mecânico-Gamer-Switch-Blue-RGB-Mouse-3200DPI-Anti-Ghosting-PC-ESCOLHA-POR-MODELO-i.1333507062.21999897032"
+    "rawUrl": "https://shopee.com.br/Kit-Teclado-Mecânico-Gamer-Switch-Blue-RGB-Mouse-3200DPI-Anti-Ghosting-PC-ESCOLHA-POR-MODELO-i.1333507062.21999897032",
+    "directUrl": "https://shopee.com.br/search?keyword=Kit%20Teclado%20Mec%C3%A2nico%20Gamer%20Redragon%20Kumara"
   },
   {
     "id": "auto-prod-past-18",
@@ -13734,7 +14193,7 @@ const PRODUCTS = [
     "currentPrice": 99,
     "installment": "Flash Shopee encerrado",
     "pixDiscount": "Preço na época",
-    "affiliateUrl": "https://shopee.com.br/SSD-Kingston-A400-480GB-SATA-3.0-6GB-s-Interno-Leitura-500MB-s-Grava%C3%A7%C3%A3o-450MB-s-Alta-Performance-e-Velocidade-i.1494297971.23593896695?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=SSD%20Kingston%20A400%20480GB%20SATA%203&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://images.tcdn.com.br/img/img_prod/1140357/ssd_kingston_a400_480gb_sata_iii_leitura_500mbs_gravacao_450mbs_sa400s37_480g_379_5_8855b440bf3d46508980cf5fecbeaef2.jpg",
     "featured": false,
     "rating": 4.9,
@@ -13742,7 +14201,8 @@ const PRODUCTS = [
     "couponCode": "ESGOTADO",
     "expired": true,
     "dateAdded": "2026-10-15",
-    "rawUrl": "https://shopee.com.br/SSD-Kingston-A400-480GB-SATA-3.0-6GB-s-Interno-Leitura-500MB-s-Gravação-450MB-s-Alta-Performance-e-Velocidade-i.1494297971.23593896695"
+    "rawUrl": "https://shopee.com.br/SSD-Kingston-A400-480GB-SATA-3.0-6GB-s-Interno-Leitura-500MB-s-Gravação-450MB-s-Alta-Performance-e-Velocidade-i.1494297971.23593896695",
+    "directUrl": "https://shopee.com.br/search?keyword=SSD%20Kingston%20A400%20480GB%20SATA%203"
   },
   {
     "id": "auto-prod-past-19",
@@ -13755,7 +14215,7 @@ const PRODUCTS = [
     "currentPrice": 119,
     "installment": "Lote promocional encerrado",
     "pixDiscount": "Frete Grátis na época",
-    "affiliateUrl": "https://shopee.com.br/Smartband-Xiaomi-Band-7-Bluetooth-120-Modos-de-Exerc%C3%ADcios-Temporizador-Monitoramento-de-Sono-i.337609236.23192643285?utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
+    "affiliateUrl": "https://shopee.com.br/search?keyword=Smartband%20Xiaomi%20Mi%20Band%207%20Tela&utm_source=an_18345170182&utm_medium=affiliates&af_siteid=18345170182",
     "image": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lw3jprjlq9x172",
     "featured": false,
     "rating": 4.8,
@@ -13763,7 +14223,8 @@ const PRODUCTS = [
     "couponCode": "ESGOTADO",
     "expired": true,
     "dateAdded": "2026-10-15",
-    "rawUrl": "https://shopee.com.br/Smartband-Xiaomi-Band-7-Bluetooth-120-Modos-de-Exercícios-Temporizador-Monitoramento-de-Sono-i.337609236.23192643285"
+    "rawUrl": "https://shopee.com.br/Smartband-Xiaomi-Band-7-Bluetooth-120-Modos-de-Exercícios-Temporizador-Monitoramento-de-Sono-i.337609236.23192643285",
+    "directUrl": "https://shopee.com.br/search?keyword=Smartband%20Xiaomi%20Mi%20Band%207%20Tela"
   },
   {
     "id": "auto-prod-past-20",
@@ -13798,7 +14259,7 @@ const PRODUCTS = [
     "currentPrice": 129,
     "installment": "Lote de queima esgotado",
     "pixDiscount": "Preço na época",
-    "affiliateUrl": "https://www.mercadolivre.com.br/perfume-masculino-ferrari-black-eau-de-toilette-125ml/p/MLB54233230?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/perfume-masculino-ferrari-black-eau-de-toilette-125ml?matt_tool=23610538&matt_word=givi713407",
     "image": "https://images.tcdn.com.br/img/img_prod/1101389/perfume_masculino_scuderia_ferrari_black_eau_de_toilette_125ml_1055_1_d1e6e2f154cae95af3ec2e0f2798dba5.jpg",
     "featured": false,
     "rating": 4.8,
@@ -13807,7 +14268,7 @@ const PRODUCTS = [
     "expired": true,
     "dateAdded": "2026-10-15",
     "rawUrl": "https://produto.mercadolivre.com.br/MLB-1845578237-perfume-ferrari-black-edp-125ml-scuderia-oriental-amadeirado-masculino-eau-de-toilette-selo-adipec-original-novo-lacrado-_JM",
-    "directUrl": "https://www.mercadolivre.com.br/perfume-masculino-ferrari-black-eau-de-toilette-125ml/p/MLB54233230"
+    "directUrl": "https://lista.mercadolivre.com.br/perfume-masculino-ferrari-black-eau-de-toilette-125ml"
   },
   {
     "id": "auto-prod-past-22",
@@ -13842,7 +14303,7 @@ const PRODUCTS = [
     "currentPrice": 1899,
     "installment": "Esgotou em 10 minutos",
     "pixDiscount": "Maior desconto registrado",
-    "affiliateUrl": "https://www.mercadolivre.com.br/apple-iphone-12-mini-64-gb-preto/p/MLB16163664?matt_tool=23610538&matt_word=givi713407",
+    "affiliateUrl": "https://lista.mercadolivre.com.br/apple-iphone-12-mini-64-gb-preto?matt_tool=23610538&matt_word=givi713407",
     "image": "https://m.media-amazon.com/images/I/71uuDYxn3XL._AC_SL1500_.jpg",
     "featured": false,
     "rating": 4.8,
@@ -13850,7 +14311,8 @@ const PRODUCTS = [
     "couponCode": "ESGOTADO",
     "expired": true,
     "dateAdded": "2026-10-15",
-    "rawUrl": "https://www.mercadolivre.com.br/apple-iphone-12-mini-64-gb-preto/p/MLB16163664"
+    "rawUrl": "https://www.mercadolivre.com.br/apple-iphone-12-mini-64-gb-preto/p/MLB16163664",
+    "directUrl": "https://lista.mercadolivre.com.br/apple-iphone-12-mini-64-gb-preto"
   }
 ];
 
@@ -13868,4 +14330,3 @@ if (typeof window !== "undefined") {
 if (typeof module !== "undefined" && module.exports) {
   module.exports = { CATEGORIES, STORES, PRODUCTS, DEFAULT_PRODUCTS };
 }
-
