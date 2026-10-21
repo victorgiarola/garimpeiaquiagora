@@ -28,6 +28,12 @@ const AFFILIATE_CONFIG = {
   aliexpress: {
     trackingId: "",
     enabled: false
+  },
+  general: {
+    siteName: "Garimpei Aqui Agora",
+    siteTagline: "Achadinhos & Cupons Verificados",
+    whatsappGroupUrl: "https://chat.whatsapp.com/G36CRa6FpZS03Gq4NSi7da",
+    whatsappGroupName: "Grupo VIP de Ofertas"
   }
 };
 

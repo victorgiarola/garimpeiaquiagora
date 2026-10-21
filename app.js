@@ -164,7 +164,11 @@ function getAffiliateConfig() {
   const officialDefaults = {
     mercadolivre: { toolId: "23610538", affiliateWord: "givi713407", enabled: true },
     shopee: { affiliateId: "18345170182", enabled: true },
-    magalu: { storeName: "magazinelugarcerto01", enabled: true }
+    magalu: { storeName: "magazinelugarcerto01", enabled: true },
+    general: {
+      whatsappGroupUrl: "https://chat.whatsapp.com/G36CRa6FpZS03Gq4NSi7da",
+      whatsappGroupName: "Grupo VIP de Ofertas"
+    }
   };
 
   const baseConfig = (typeof AFFILIATE_CONFIG !== "undefined") ? AFFILIATE_CONFIG : officialDefaults;
@@ -189,6 +193,10 @@ function getAffiliateConfig() {
         magalu: {
           storeName: cleanMagalu,
           enabled: true
+        },
+        general: {
+          whatsappGroupUrl: parsed.general?.whatsappGroupUrl || baseConfig.general?.whatsappGroupUrl || officialDefaults.general.whatsappGroupUrl,
+          whatsappGroupName: parsed.general?.whatsappGroupName || baseConfig.general?.whatsappGroupName || officialDefaults.general.whatsappGroupName
         }
       };
     }
@@ -202,8 +210,23 @@ function getAffiliateConfig() {
       ...baseConfig.magalu,
       storeName: sanitizeMagaluStore(baseConfig.magalu?.storeName || officialDefaults.magalu.storeName),
       enabled: true
+    },
+    general: {
+      whatsappGroupUrl: baseConfig.general?.whatsappGroupUrl || officialDefaults.general.whatsappGroupUrl,
+      whatsappGroupName: baseConfig.general?.whatsappGroupName || officialDefaults.general.whatsappGroupName
     }
   };
+}
+
+/**
+ * Atualiza todos os botões e links de WhatsApp do site com o link ativo configurado
+ */
+function updateWhatsAppLinks() {
+  const cfg = getAffiliateConfig();
+  const url = cfg.general?.whatsappGroupUrl || "https://chat.whatsapp.com/G36CRa6FpZS03Gq4NSi7da";
+  document.querySelectorAll('a[href*="chat.whatsapp.com"]').forEach(a => {
+    a.href = url;
+  });
 }
 
 /**
@@ -226,7 +249,7 @@ function getVerifiedAffiliateUrl(product, config) {
 }
 
 /**
- * Inicializa e preenche o modal de configuração de afiliados (Lojas ativas: Mercado Livre, Shopee, Magalu)
+ * Inicializa e preenche o modal de configuração de afiliados (Lojas ativas: Mercado Livre, Shopee, Magalu, WhatsApp)
  */
 function initAffiliateConfig() {
   const config = getAffiliateConfig();
@@ -234,11 +257,15 @@ function initAffiliateConfig() {
   const magaluInput = document.getElementById("cfgMagaluStore");
   const mlToolInput = document.getElementById("cfgMercadoLivreTool");
   const mlWordInput = document.getElementById("cfgMercadoLivreWord");
+  const wppInput = document.getElementById("cfgWhatsappGroup");
 
   if (shopeeInput && config.shopee) shopeeInput.value = config.shopee.affiliateId || "";
   if (magaluInput && config.magalu) magaluInput.value = sanitizeMagaluStore(config.magalu.storeName) || "magazinelugarcerto01";
   if (mlToolInput && config.mercadolivre) mlToolInput.value = config.mercadolivre.toolId || "";
   if (mlWordInput && config.mercadolivre) mlWordInput.value = config.mercadolivre.affiliateWord || "";
+  if (wppInput && config.general) wppInput.value = config.general.whatsappGroupUrl || "https://chat.whatsapp.com/G36CRa6FpZS03Gq4NSi7da";
+
+  updateWhatsAppLinks();
 }
 
 /**
@@ -627,7 +654,7 @@ function renderProducts() {
             ` : ''}
           </div>
 
-          <div class="card-actions">
+          <div class="card-actions-wrapper">
             <a href="${escapeHtml(activeUrl)}" 
                target="_blank" 
                rel="noopener noreferrer sponsored" 
@@ -637,11 +664,19 @@ function renderProducts() {
               <span>${isExpired ? 'Conferir Preço Atual' : `Ver no ${escapeHtml(product.storeName || storeInfo.name)}`}</span> ${isExpired ? '↗️' : '🚀'}
             </a>
             
-            <button class="btn-copy-link" 
-                    title="Copiar Link de Afiliado" 
-                    onclick="copyAffiliateLink('${escapeHtml(activeUrl)}')">
-              🔗
-            </button>
+            <div class="card-secondary-actions">
+              <button class="btn-copy-wpp" 
+                      title="Copiar texto formatado pronto para enviar no WhatsApp" 
+                      onclick="copyWhatsAppMessage('${escapeHtml(product.id)}')">
+                <span>📲 Copiar p/ WhatsApp</span>
+              </button>
+              
+              <button class="btn-copy-link" 
+                      title="Copiar Link de Afiliado" 
+                      onclick="copyAffiliateLink('${escapeHtml(activeUrl)}')">
+                <span>🔗 Link</span>
+              </button>
+            </div>
           </div>
         </div>
       </article>
@@ -891,10 +926,15 @@ function handleSaveAffiliateConfig(e) {
     magalu: {
       storeName: sanitizeMagaluStore((document.getElementById("cfgMagaluStore")?.value || "").trim()),
       enabled: true
+    },
+    general: {
+      whatsappGroupUrl: (document.getElementById("cfgWhatsappGroup")?.value || "").trim() || "https://chat.whatsapp.com/G36CRa6FpZS03Gq4NSi7da",
+      whatsappGroupName: "Grupo VIP de Ofertas"
     }
   };
 
   localStorage.setItem(AFFILIATE_CONFIG_KEY, JSON.stringify(newConfig));
+  updateWhatsAppLinks();
 
   // Re-mapeia todos os produtos ativos no catálogo
   if (typeof AutoMapper !== "undefined") {
@@ -912,7 +952,7 @@ function handleSaveAffiliateConfig(e) {
   const configModal = document.getElementById("configAffiliateModal");
   if (configModal) configModal.classList.remove("active");
 
-  showToast("✅ Tags salvas! Links do Mercado Livre agora com toolId e matt_word aplicados!");
+  showToast("✅ Tags e grupo VIP salvos! Links e botões 100% atualizados!");
 }
 
 /**
@@ -1132,6 +1172,57 @@ window.resetFilters = function() {
   renderSubcategories();
   renderStoreFilters();
   renderProducts();
+};
+
+/**
+ * Copia texto promocional completo já formatado com o link para o WhatsApp
+ */
+window.copyWhatsAppMessage = function(productId) {
+  const prod = (state.products || []).find(p => String(p.id) === String(productId));
+  if (!prod) {
+    showToast("⚠️ Oferta não encontrada.");
+    return;
+  }
+
+  const activeUrl = getVerifiedAffiliateUrl(prod);
+  const formattedOriginal = prod.originalPrice ? formatMoney(prod.originalPrice) : "";
+  const formattedCurrent = formatMoney(prod.currentPrice);
+  let discountPercent = 0;
+  if (prod.originalPrice && prod.originalPrice > prod.currentPrice) {
+    discountPercent = Math.round(((prod.originalPrice - prod.currentPrice) / prod.originalPrice) * 100);
+  }
+
+  let text = `🔥 *OFERTÃO GARIMPADO!* 🛍️\n\n`;
+  text += `*${prod.title}*\n\n`;
+  if (formattedOriginal) {
+    text += `❌ De: R$ ${formattedOriginal}\n`;
+  }
+  text += `✅ *Por: R$ ${formattedCurrent}*`;
+  if (discountPercent > 0) {
+    text += ` (-${discountPercent}% OFF)`;
+  }
+  text += `\n`;
+  if (prod.installment) {
+    text += `💳 ${prod.installment}\n`;
+  }
+  if (prod.pixDiscount) {
+    text += `🏷️ ${prod.pixDiscount}\n`;
+  }
+  if (prod.couponCode) {
+    text += `🎟️ Cupom: *${prod.couponCode}*\n`;
+  }
+  text += `\n🛒 *Compre aqui antes que acabe:*\n${activeUrl}\n\n`;
+  text += `⚡ _Garimpado no Garimpei Aqui Agora_`;
+
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(text).then(() => {
+      showToast("📲 Texto formatado para o WhatsApp copiado! Pronto para colar no grupo!");
+    }).catch(() => {
+      promptCopyFallback(text);
+    });
+  } else {
+    promptCopyFallback(text);
+  }
 };
 
 /**
