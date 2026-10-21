@@ -22,9 +22,9 @@ function executarGarimpo() {
 
     // Auto-commit e push para o site no GitHub Pages atualizar sozinho
     console.log("🚀 Publicando novas ofertas automaticamente no GitHub Pages...");
-    exec('git add products.js products-auto.json && git commit -m "🤖 [Automação 3h] Ofertas atualizadas" && git push origin main', (gitErr, gitOut) => {
+    exec('git add products.js products-auto.json && git diff --staged --quiet || (git commit -m "🤖 [Automação 3h] Ofertas atualizadas" && git push origin main)', (gitErr, gitOut) => {
       if (gitErr) {
-        console.log("ℹ️ Catálogo local atualizado (sem alterações remotas pendentes).");
+        console.log("ℹ️ Catálogo local verificado (sem alterações remotas pendentes).");
       } else {
         console.log("✅ Site online atualizado no GitHub Pages com sucesso!");
       }

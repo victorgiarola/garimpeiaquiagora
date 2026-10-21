@@ -1,7 +1,7 @@
 /**
  * GARIMPO DE OFERTAS - BASE DE PRODUTOS E CATÁLOGO
  * Sincronizado automaticamente com produtos reais, estoque e links de afiliados
- * Última sincronização: 21/10/2026, 01:07:33
+ * Última sincronização: 21/10/2026, 01:22:18
  */
 
 const CATEGORIES = [

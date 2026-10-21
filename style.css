@@ -321,6 +321,38 @@ body {
   box-shadow: 0 6px 18px rgba(37, 211, 102, 0.45);
 }
 
+/* Botão Compartilhar no Header */
+.btn-share-header {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  padding: 0.52rem 0.95rem;
+  border-radius: var(--radius-full);
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn-share-header:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--accent-gold);
+  color: var(--accent-gold);
+  transform: translateY(-1px);
+}
+
+@media (max-width: 640px) {
+  .btn-share-header .share-btn-text {
+    display: none;
+  }
+  .btn-share-header {
+    padding: 0.52rem 0.65rem;
+  }
+}
+
 /* ==========================================================================
    HERO BANNER & TRUST BAR
    ========================================================================== */
@@ -370,6 +402,58 @@ body {
   color: var(--text-secondary);
   font-size: 0.92rem;
   line-height: 1.45;
+}
+
+/* Botões de Ação do Hero */
+.hero-actions-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.85rem;
+  margin-bottom: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.btn-hero-vip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(135deg, #25d366, #128c7e);
+  color: #ffffff;
+  padding: 0.72rem 1.45rem;
+  border-radius: var(--radius-full);
+  font-size: 0.92rem;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 4px 15px rgba(37, 211, 102, 0.35);
+  transition: var(--transition);
+}
+
+.btn-hero-vip:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 22px rgba(37, 211, 102, 0.5);
+}
+
+.btn-hero-share {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  padding: 0.72rem 1.45rem;
+  border-radius: var(--radius-full);
+  font-size: 0.92rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn-hero-share:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--accent-gold);
+  color: var(--accent-gold);
+  transform: translateY(-2px);
 }
 
 /* Trust Bar */

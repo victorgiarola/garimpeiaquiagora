@@ -6,20 +6,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- SEO & Metatags -->
-  <title>Garimpei Aqui Agora | Os Melhores Achadinhos e Promoções com Desconto Real</title>
+  <title>Garimpei Aqui Agora | Achadinhos, Promoções e Cupons com Desconto Real</title>
   <meta name="description"
-    content="No Garimpei Aqui Agora você encontra as melhores promoções da Amazon, Mercado Livre, Shopee, Magalu e AliExpress. Cupons testados, descontos reais e links 100% seguros." />
+    content="Garimpei Aqui Agora: Mais de 650 ofertas selecionadas do Mercado Livre, Shopee e Magazine Luiza com descontos reais de até 70%, cupons ativos e links 100% verificados." />
   <meta name="keywords"
-    content="ofertas, promoções, achadinhos, cupons, descontos, amazon afiliados, shopee achadinhos, mercado livre desconto, garimpei aqui agora" />
+    content="ofertas, promoções, achadinhos, cupons, descontos, shopee achadinhos, mercado livre desconto, magazine você, garimpei aqui agora" />
   <meta name="author" content="Garimpei Aqui Agora" />
   <meta name="robots" content="index, follow" />
 
-  <!-- Open Graph / Redes Sociais -->
+  <!-- Metatags Mobile & PWA -->
+  <meta name="theme-color" content="#0b1120" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Garimpei" />
+  <meta name="application-name" content="Garimpei Aqui Agora" />
+
+  <!-- Open Graph / Redes Sociais & WhatsApp Preview -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Garimpei Aqui Agora | Achadinhos e Promoções Selecionadas" />
+  <meta property="og:url" content="https://victorgiarola.github.io/garimpeiaquiagora/" />
+  <meta property="og:site_name" content="Garimpei Aqui Agora" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:title" content="Garimpei Aqui Agora | Achadinhos e Promoções com Desconto Real" />
   <meta property="og:description"
-    content="Descontos de até 70% garimpados em tempo real na Amazon, Shopee, Mercado Livre e mais." />
+    content="Mais de 650 ofertas garimpadas a dedo no Mercado Livre, Shopee e Magalu. Cupons testados e descontos reais de até 70%." />
   <meta property="og:image"
+    content="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=1200&auto=format&fit=crop&q=80" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- Twitter / X Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Garimpei Aqui Agora | Melhores Achadinhos e Cupons" />
+  <meta name="twitter:description"
+    content="Descontos reais de até 70% garimpados em tempo real no Mercado Livre, Shopee e Magazine Luiza." />
+  <meta name="twitter:image"
     content="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=1200&auto=format&fit=crop&q=80" />
 
   <!-- Fontes do Google (Plus Jakarta Sans & Outfit) -->
@@ -33,7 +53,7 @@
   <link rel="icon" type="image/png" href="garimpeiro-logo.png" />
 
   <!-- Estilos com Cache Buster e CSS Crítico Injetado -->
-  <link rel="stylesheet" href="style.css?v=20261021c" />
+  <link rel="stylesheet" href="style.css?v=20261021d" />
   <style>
     /* CSS Crítico Injetado para Prevenir Cache Antigo */
     .categories-filter-section {
@@ -138,6 +158,12 @@
           <span>Nova Oferta</span>
         </button>
 
+        <!-- Botão Compartilhar Site -->
+        <button id="shareSiteBtn" class="btn-share-header" title="Compartilhar site com amigos" onclick="sharePortal()">
+          <span>📤</span>
+          <span class="share-btn-text">Compartilhar</span>
+        </button>
+
         <!-- Botão Grupo VIP no Cabeçalho (Público) -->
         <a href="https://chat.whatsapp.com/G36CRa6FpZS03Gq4NSi7da" target="_blank" rel="noopener noreferrer" class="btn-vip-header"
           title="Entrar no Grupo VIP do WhatsApp">
@@ -155,7 +181,7 @@
     <!-- Hero Banner -->
     <section class="hero-section">
       <div class="hero-pill">
-        <span>⚡ Atualizado a cada 3 Horas</span> • Links Oficiais e Seguros
+        <span>⚡ Atualizado Hoje • 670+ Ofertas</span> • Links Oficiais e Seguros
       </div>
       <h1 class="hero-title">
         As Melhores Ofertas da Internet <span>Garimpadas a Dedo</span>
@@ -164,6 +190,16 @@
         Reunimos as maiores oportunidades do Mercado Livre, Shopee e Magazine Luiza. Economize tempo e
         dinheiro com descontos reais e verificados.
       </p>
+
+      <!-- Botões de Ação Rápida do Hero -->
+      <div class="hero-actions-row">
+        <a href="https://chat.whatsapp.com/G36CRa6FpZS03Gq4NSi7da" target="_blank" rel="noopener noreferrer" class="btn-hero-vip" title="Entrar no Grupo VIP do WhatsApp">
+          <span>💬 Entrar no Grupo VIP</span>
+        </a>
+        <button class="btn-hero-share" onclick="sharePortal()" title="Compartilhar catálogo no WhatsApp">
+          <span>📤 Compartilhar com Amigos</span>
+        </button>
+      </div>
 
       <!-- Barra de Confiança / Benefícios -->
       <div class="trust-bar">
@@ -496,10 +532,10 @@
   </div>
 
   <!-- Scripts com Cache-Buster Oficial -->
-  <script src="affiliate-config.js?v=20261021c"></script>
-  <script src="auto-mapper.js?v=20261021c"></script>
-  <script src="products.js?v=20261021c"></script>
-  <script src="app.js?v=20261021c"></script>
+  <script src="affiliate-config.js?v=20261021d"></script>
+  <script src="auto-mapper.js?v=20261021d"></script>
+  <script src="products.js?v=20261021d"></script>
+  <script src="app.js?v=20261021d"></script>
 </body>
 
 </html>

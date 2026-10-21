@@ -1226,6 +1226,40 @@ window.copyWhatsAppMessage = function(productId) {
 };
 
 /**
+ * Compartilha o catálogo completo no WhatsApp ou via Compartilhamento Nativo do celular
+ */
+window.sharePortal = function() {
+  const shareData = {
+    title: "Garimpei Aqui Agora | Melhores Promoções e Cupons",
+    text: "🔥 Encontrei esse catálogo com mais de 650 ofertas com super descontos e cupons testados do Mercado Livre, Shopee e Magalu! Dá uma olhada:",
+    url: window.location.href.split("#")[0].split("?")[0]
+  };
+
+  if (navigator.share) {
+    navigator.share(shareData).catch(() => {
+      fallbackShareUrl(shareData);
+    });
+  } else {
+    fallbackShareUrl(shareData);
+  }
+};
+
+function fallbackShareUrl(shareData) {
+  const fullText = `${shareData.text}\n${shareData.url}`;
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(fullText).then(() => {
+      showToast("📲 Link do catálogo copiado! Só colar no WhatsApp!");
+    }).catch(() => {
+      const wppUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(fullText)}`;
+      window.open(wppUrl, "_blank");
+    });
+  } else {
+    const wppUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(fullText)}`;
+    window.open(wppUrl, "_blank");
+  }
+}
+
+/**
  * Copia o link de afiliado para a área de transferência
  */
 window.copyAffiliateLink = function(url) {
